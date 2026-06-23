@@ -6,10 +6,7 @@
 
 **A benchmarking harness for Vision-Language Models on driving-video QA — built to find out whether VLMs can spot AI-generation artifacts.**
 
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.8-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![vLLM](https://img.shields.io/badge/vLLM-serving-0A7BBB)](https://github.com/vllm-project/vllm)
-[![transformers](https://img.shields.io/badge/transformers-4.57.1-FFD21E?logo=huggingface&logoColor=black)](https://github.com/huggingface/transformers)
+[🤗 Dataset](https://huggingface.co/datasets/SeagullofLeman/final_dataset)
 
 </div>
 
