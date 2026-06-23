@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚗🔍 DriveJudgeBench
+# 🚗🔍 DriveJudge
 
 ### Can Vision-Language Models tell a *real* dashcam video from an *AI-generated* one?
 
