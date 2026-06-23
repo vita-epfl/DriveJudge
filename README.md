@@ -6,7 +6,7 @@
 
 **A benchmarking harness for Vision-Language Models on driving-video QA — built to find out whether VLMs can spot AI-generation artifacts.**
 
-[🤗 Dataset](https://huggingface.co/datasets/SeagullofLeman/final_dataset)
+[🤗 Dataset](https://huggingface.co/datasets/SeagullofLeman/DriveJudgeBench)
 
 </div>
 
