@@ -1,7 +1,7 @@
 # Why does bare Gemini 3 Flash beat the harness?
 
 A synthesis of six per-category investigations into Gemini 3 Flash Preview's
-behaviour on the VLM-eval-rcp benchmark (n = 7 282 (video, question) pairs,
+behaviour on the DriveJudgeBench benchmark (n = 7 282 (video, question) pairs,
 5 JPEG frames @ 1 fps per clip, no audio, no full video). Per-category
 deep-dives are in `./reports/<category>.md`.
 

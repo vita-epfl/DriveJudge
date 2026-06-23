@@ -54,7 +54,7 @@ and **Gemini-3-Flash**. See [`analysis_notebooks/`](analysis_notebooks/) for the
 ## 🧭 What's inside
 
 ```
-VLM-eval-rcp/
+DriveJudgeBench/
 ├── 📂 src/                              the pipeline code
 │   ├── data_preparation/                raw parquet + MP4s → chat-formatted (video, question) JSONs
 │   ├── evaluation/
@@ -176,6 +176,19 @@ Cleaned per-model outputs live in `results/*.parquet` (one analyzed parquet per 
 `GPT-5.4-mini_analyzed.parquet` and `Gemini_analyzed.parquet`); the LaTeX write-up, figures and
 failure dumps live in [`report/`](report/). Run the notebooks **from `analysis_notebooks/`** so
 their relative paths (`../dataset/…`, `../report/figures/…`) resolve.
+
+---
+
+## 🗂️ Data, secrets & git hygiene
+
+- **Datasets & model weights** live on a cluster filesystem (the path is hardcoded in the eval
+  scripts). Locally they sit in `dataset/` — **gitignored**, never committed.
+- **Heavy closed-source artifacts** (base64 request batches, raw results, frame caches) and bulky
+  regenerable analysis blobs are gitignored too; only the *code* and small summaries are tracked.
+- **Secrets** — `secrets.env`, `robot_secret.json`, and every `.env` are gitignored. Use the
+  `example.env` templates.
+
+---
 
 <div align="center">
 

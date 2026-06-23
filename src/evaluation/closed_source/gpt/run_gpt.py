@@ -272,7 +272,7 @@ def run_batch_submit(
             input_file_id=up.id,
             endpoint="/v1/chat/completions",
             completion_window="24h",
-            metadata={"project": "VLM-eval-rcp", "model": model,
+            metadata={"project": "DriveJudgeBench", "model": model,
                       "detail": image_detail, "part": p.name},
         )
         batches.append({

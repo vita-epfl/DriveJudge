@@ -263,7 +263,7 @@ def cmd_submit(args) -> None:
             input_file_id=up.id,
             endpoint="/v1/chat/completions",
             completion_window="24h",
-            metadata={"project": "VLM-eval-rcp", "model": model,
+            metadata={"project": "DriveJudgeBench", "model": model,
                       "detail": image_detail, "part": jsonl_path.name, "retry": "1"},
         )
         print(f"    batch_id={batch.id}  status={batch.status}")

@@ -1,5 +1,5 @@
 """
-VLMJudge Multi-Tool Agent v4 (ThreadPool)
+DriveJudgeBench Multi-Tool Agent v4 (ThreadPool)
 Tools: RAFT (optical flow), SAM (max 4 objects), FFT (anisotropy)
 Timing: per-question wall-clock time logged in results
 
@@ -362,7 +362,7 @@ def process_single_item(item: Dict[str, Any], llm_cfg: Dict) -> Dict[str, Any]:
         llm=llm_cfg,
         system_message=SYSTEM_PROMPT,
         function_list=['get_motion_info', 'get_masks', 'get_frequency_analysis', 'final_answer'],
-        name='VLMJudge v4'
+        name='DriveJudgeBench v4'
     )
     content = item["content"]
     video_item = next(c for c in content if c["type"] == "video")
@@ -442,7 +442,7 @@ def process_single_item(item: Dict[str, Any], llm_cfg: Dict) -> Dict[str, Any]:
 ##### Main
 ###############################
 def main():
-    parser = argparse.ArgumentParser(description="VLMJudge v4 — Threaded RAFT+SAM+FFT")
+    parser = argparse.ArgumentParser(description="DriveJudgeBench v4 — Threaded RAFT+SAM+FFT")
     parser.add_argument("--storage_path", type=str, default=STORAGE_PATH)
     parser.add_argument("--questions_file", type=str, default="dataset/Questions_raw.json")
     parser.add_argument("--output_file_path", type=str, default=None)
@@ -539,7 +539,7 @@ def main():
         futures = {executor.submit(process_single_item, item, llm_cfg): item
                    for item in questions}
 
-        pbar = tqdm(total=len(futures), desc="VLMJudge v4")
+        pbar = tqdm(total=len(futures), desc="DriveJudgeBench v4")
         for future in as_completed(futures):
             result = future.result()
             completed += 1
