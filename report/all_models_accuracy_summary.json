@@ -312,26 +312,14 @@
         },
         {
           "category": "Reality understanding",
-          "ground_truth": "1",
-          "vlm_answer": "(2)",
-          "n": 1
-        },
-        {
-          "category": "Reality understanding",
-          "ground_truth": "Generated",
-          "vlm_answer": "Realistic with potential generation artifacts",
-          "n": 1
-        },
-        {
-          "category": "Reality understanding",
           "ground_truth": "2",
           "vlm_answer": "1",
           "n": 1
         },
         {
           "category": "Reality understanding",
-          "ground_truth": "Generated",
-          "vlm_answer": "NO_PARSE",
+          "ground_truth": "1",
+          "vlm_answer": "::",
           "n": 1
         },
         {
@@ -342,8 +330,20 @@
         },
         {
           "category": "Reality understanding",
+          "ground_truth": "Generated",
+          "vlm_answer": "Realistic with potential generation artifacts",
+          "n": 1
+        },
+        {
+          "category": "Reality understanding",
           "ground_truth": "1",
-          "vlm_answer": "::",
+          "vlm_answer": "(2)",
+          "n": 1
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "Generated",
+          "vlm_answer": "NO_PARSE",
           "n": 1
         },
         {
@@ -408,6 +408,12 @@
         },
         {
           "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "NO_PARSE",
+          "n": 3
+        },
+        {
+          "category": "Safety understanding",
           "ground_truth": "Yes",
           "vlm_answer": "NO_PARSE",
           "n": 3
@@ -415,8 +421,8 @@
         {
           "category": "Safety understanding",
           "ground_truth": "No",
-          "vlm_answer": "NO_PARSE",
-          "n": 3
+          "vlm_answer": "Maybe",
+          "n": 2
         },
         {
           "category": "Safety understanding",
@@ -427,13 +433,13 @@
         {
           "category": "Safety understanding",
           "ground_truth": "No",
-          "vlm_answer": "Maybe",
-          "n": 2
+          "vlm_answer": ":no:",
+          "n": 1
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "Yes",
-          "vlm_answer": "The ego car is driving in a relatively safe manner under the circumstances, but the foggy conditions introduce additional risks that require heightened vigilance. Safety cannot be guaranteed in such conditions without further precautions",
+          "ground_truth": "No",
+          "vlm_answer": "The ego car's actions suggest it is driving safely by obeying traffic signals and moving cautiously, but the foggy environment introduces potential risks. Overall, the driving appears safe under the circumstances shown",
           "n": 1
         },
         {
@@ -446,12 +452,6 @@
           "category": "Safety understanding",
           "ground_truth": "Yes",
           "vlm_answer": "(no)",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "No",
-          "vlm_answer": "The ego car's actions suggest it is driving safely by obeying traffic signals and moving cautiously, but the foggy environment introduces potential risks. Overall, the driving appears safe under the circumstances shown",
           "n": 1
         },
         {
@@ -469,13 +469,7 @@
         {
           "category": "Safety understanding",
           "ground_truth": "Yes",
-          "vlm_answer": "Yes, but with caution due to sun glare when passing signs",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "2",
-          "vlm_answer": "3",
+          "vlm_answer": ":no:",
           "n": 1
         },
         {
@@ -486,8 +480,14 @@
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "No",
-          "vlm_answer": "Yes, but with caveats. The ego car is maintaining a steady speed, safe distances, and appears to be navigating moderate traffic cautiously. However, the fading light during sunset may reduce visibility over time, potentially impacting safety if not compensated by adjustments like using headlights or increased following distances. The current driving style seems appropriate for the conditions shown",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes, but with caution due to sun glare when passing signs",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "The safety of the ego car depends on its ability to navigate the glare and cones cautiously while maintaining lane discipline. With proper adjustments, it can be considered safe under these conditions",
           "n": 1
         },
         {
@@ -499,19 +499,19 @@
         {
           "category": "Safety understanding",
           "ground_truth": "Yes",
-          "vlm_answer": "The safety of the ego car depends on its ability to navigate the glare and cones cautiously while maintaining lane discipline. With proper adjustments, it can be considered safe under these conditions",
+          "vlm_answer": "The ego car is driving in a relatively safe manner under the circumstances, but the foggy conditions introduce additional risks that require heightened vigilance. Safety cannot be guaranteed in such conditions without further precautions",
           "n": 1
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "Yes",
-          "vlm_answer": ":no:",
+          "ground_truth": "2",
+          "vlm_answer": "3",
           "n": 1
         },
         {
           "category": "Safety understanding",
           "ground_truth": "No",
-          "vlm_answer": ":no:",
+          "vlm_answer": "Yes, but with caveats. The ego car is maintaining a steady speed, safe distances, and appears to be navigating moderate traffic cautiously. However, the fading light during sunset may reduce visibility over time, potentially impacting safety if not compensated by adjustments like using headlights or increased following distances. The current driving style seems appropriate for the conditions shown",
           "n": 1
         },
         {
@@ -744,14 +744,24 @@
           "n": 5
         },
         {
+          "ground_truth": "Yes",
+          "vlm_answer": "NO_PARSE",
+          "n": 3
+        },
+        {
           "ground_truth": "1",
           "vlm_answer": "(3)",
           "n": 3
         },
         {
-          "ground_truth": "Yes",
-          "vlm_answer": "NO_PARSE",
-          "n": 3
+          "ground_truth": "No",
+          "vlm_answer": "::",
+          "n": 2
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "Maybe",
+          "n": 2
         },
         {
           "ground_truth": "2",
@@ -764,88 +774,33 @@
           "n": 2
         },
         {
-          "ground_truth": "No",
-          "vlm_answer": "Maybe",
-          "n": 2
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "::",
-          "n": 2
-        },
-        {
           "ground_truth": "Yes",
-          "vlm_answer": "Yes, the traffic lights change from red to green, and vehicles may start or stop based on the signals. Although the objects remain the same, their functional states alter, which could be interpreted as changes in appearance or behavior",
-          "n": 1
-        },
-        {
-          "ground_truth": "1",
-          "vlm_answer": "::",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
           "vlm_answer": "(no)",
           "n": 1
         },
         {
           "ground_truth": "No",
-          "vlm_answer": ":(",
-          "n": 1
-        },
-        {
-          "ground_truth": "Left",
-          "vlm_answer": "Right",
+          "vlm_answer": "(no)",
           "n": 1
         },
         {
           "ground_truth": "Generated",
-          "vlm_answer": "Real with a minor visual glitch",
-          "n": 1
-        },
-        {
-          "ground_truth": "Yes",
-          "vlm_answer": "(no)",
+          "vlm_answer": "Realistic with potential generation artifacts",
           "n": 1
         },
         {
           "ground_truth": "No",
-          "vlm_answer": "The driving conditions have both safe aspects (steady speed, lane centering) and hazards (sun glare reducing visibility). While the ego car's behavior is generally cautious, the sun glare introduces a risk that could compromise safety under extreme lighting conditions. **No**, it is not entirely a safe way of driving without mitigating the glare's impact",
-          "n": 1
-        },
-        {
-          "ground_truth": "1",
-          "vlm_answer": "(2)",
-          "n": 1
-        },
-        {
-          "ground_truth": "Yes",
           "vlm_answer": ":no:",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "Yes, but with caveats. The ego car is maintaining a steady speed, safe distances, and appears to be navigating moderate traffic cautiously. However, the fading light during sunset may reduce visibility over time, potentially impacting safety if not compensated by adjustments like using headlights or increased following distances. The current driving style seems appropriate for the conditions shown",
           "n": 1
         },
         {
           "ground_truth": "No",
           "vlm_answer": "The ego car's actions suggest it is driving safely by obeying traffic signals and moving cautiously, but the foggy environment introduces potential risks. Overall, the driving appears safe under the circumstances shown",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "Unknown",
-          "n": 1
-        },
-        {
-          "ground_truth": "Yes",
-          "vlm_answer": "The safety of the ego car depends on its ability to navigate the glare and cones cautiously while maintaining lane discipline. With proper adjustments, it can be considered safe under these conditions",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "是的",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": ":no:",
           "n": 1
         },
         {
@@ -859,13 +814,43 @@
           "n": 1
         },
         {
-          "ground_truth": "Generated",
-          "vlm_answer": "Realistic with potential generation artifacts",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes, the traffic lights change from red to green, and vehicles may start or stop based on the signals. Although the objects remain the same, their functional states alter, which could be interpreted as changes in appearance or behavior",
+          "n": 1
+        },
+        {
+          "ground_truth": "2",
+          "vlm_answer": "1",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "Unknown",
           "n": 1
         },
         {
           "ground_truth": "3",
           "vlm_answer": "(2)",
+          "n": 1
+        },
+        {
+          "ground_truth": "Generated",
+          "vlm_answer": "Real with a minor visual glitch",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "是的",
+          "n": 1
+        },
+        {
+          "ground_truth": "1",
+          "vlm_answer": "::",
+          "n": 1
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": ":no:",
           "n": 1
         },
         {
@@ -879,13 +864,13 @@
           "n": 1
         },
         {
-          "ground_truth": "No",
-          "vlm_answer": "Yes, but with caveats. The ego car is maintaining a steady speed, safe distances, and appears to be navigating moderate traffic cautiously. However, the fading light during sunset may reduce visibility over time, potentially impacting safety if not compensated by adjustments like using headlights or increased following distances. The current driving style seems appropriate for the conditions shown",
+          "ground_truth": "Yes",
+          "vlm_answer": "The ego car is driving in a relatively safe manner under the circumstances, but the foggy conditions introduce additional risks that require heightened vigilance. Safety cannot be guaranteed in such conditions without further precautions",
           "n": 1
         },
         {
-          "ground_truth": "2",
-          "vlm_answer": "1",
+          "ground_truth": "No",
+          "vlm_answer": "The driving conditions have both safe aspects (steady speed, lane centering) and hazards (sun glare reducing visibility). While the ego car's behavior is generally cautious, the sun glare introduces a risk that could compromise safety under extreme lighting conditions. **No**, it is not entirely a safe way of driving without mitigating the glare's impact",
           "n": 1
         },
         {
@@ -895,7 +880,22 @@
         },
         {
           "ground_truth": "Yes",
-          "vlm_answer": "The ego car is driving in a relatively safe manner under the circumstances, but the foggy conditions introduce additional risks that require heightened vigilance. Safety cannot be guaranteed in such conditions without further precautions",
+          "vlm_answer": "The safety of the ego car depends on its ability to navigate the glare and cones cautiously while maintaining lane discipline. With proper adjustments, it can be considered safe under these conditions",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": ":(",
+          "n": 1
+        },
+        {
+          "ground_truth": "1",
+          "vlm_answer": "(2)",
+          "n": 1
+        },
+        {
+          "ground_truth": "Left",
+          "vlm_answer": "Right",
           "n": 1
         }
       ]
@@ -1248,15 +1248,33 @@
         },
         {
           "category": "Safety understanding",
+          "ground_truth": "3",
+          "vlm_answer": "1",
+          "n": 6
+        },
+        {
+          "category": "Safety understanding",
           "ground_truth": "1",
           "vlm_answer": "1",
           "n": 6
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "3",
-          "vlm_answer": "1",
-          "n": 6
+          "ground_truth": "No",
+          "vlm_answer": "No, it is not a completely safe way of driving for the ego car due to the limited visibility caused by the fog. The driver needs to exercise extra caution",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No, it is not entirely safe; extra precautions are needed due to the foggy conditions",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes, it appears to be a safe way of driving given the conditions, but extra caution is advised due to the snowy environment",
+          "n": 1
         },
         {
           "category": "Safety understanding",
@@ -1266,8 +1284,26 @@
         },
         {
           "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No, it is not completely safe due to the hazardous driving conditions caused by snow and ice",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes, it appears to be a relatively safe way of driving for the ego car, given the cautious speed and clear road, but extra caution is necessary due to the weather and roadwork",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
           "ground_truth": "Yes",
-          "vlm_answer": "No, it is not entirely safe as the conditions are challenging and require extra caution",
+          "vlm_answer": "Yes, it is a relatively safe way of driving, but extra caution is needed due to the wet road conditions",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes, in this specific moment, it is safe for the ego car to be stopped at the traffic light. However, caution should be exercised when visibility resumes",
           "n": 1
         },
         {
@@ -1279,19 +1315,25 @@
         {
           "category": "Safety understanding",
           "ground_truth": "Yes",
-          "vlm_answer": "Yes, it appears to be a safe way of driving as the car is approaching the stop sign and seems to be slowing down appropriately. However, complete safety would depend on stopping fully at the sign and checking for any other traffic before proceeding",
+          "vlm_answer": "No, it is not entirely safe as the conditions are hazardous and require extra precautions",
           "n": 1
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "No",
-          "vlm_answer": "No, it is not a completely safe way of driving due to the rainy conditions and associated hazards",
+          "ground_truth": "Yes",
+          "vlm_answer": "No, it is not a safe way of driving for the ego car due to the reduced visibility caused by the fog. The driver should take extra precautions such as reducing speed and increasing following distance",
           "n": 1
         },
         {
           "category": "Safety understanding",
           "ground_truth": "No",
           "vlm_answer": "No, it is not entirely safe due to the weather conditions and traffic, requiring extra caution",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No, it is not a safe way of driving for the ego car as it is following too closely behind another vehicle",
           "n": 1
         },
         {
@@ -1303,7 +1345,25 @@
         {
           "category": "Safety understanding",
           "ground_truth": "Yes",
-          "vlm_answer": "Yes, in this specific moment, it is safe for the ego car to be stopped at the traffic light. However, caution should be exercised when visibility resumes",
+          "vlm_answer": "Yes, it appears to be a safe way of driving as the car is approaching the stop sign and seems to be slowing down appropriately. However, complete safety would depend on stopping fully at the sign and checking for any other traffic before proceeding",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No, it is not entirely safe as the conditions are challenging and require extra caution",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No, it is not a safe way of driving for the ego car due to the heavy fog reducing visibility",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes, assuming the driver is cautious and follows traffic rules, it can be a safe way of driving",
           "n": 1
         },
         {
@@ -1320,80 +1380,20 @@
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "No",
-          "vlm_answer": "No, it is not completely safe due to the hazardous driving conditions caused by snow and ice",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "No",
-          "vlm_answer": "Yes, it appears to be a safe way of driving given the conditions, but extra caution is advised due to the snowy environment",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
           "ground_truth": "Yes",
-          "vlm_answer": "Yes, it is a relatively safe way of driving, but extra caution is needed due to the wet road conditions",
+          "vlm_answer": "No, it is not a safe way of driving for the ego car under these conditions without taking additional precautions such as reducing speed, increasing following distance, and being prepared for sudden changes in road conditions",
           "n": 1
         },
         {
           "category": "Safety understanding",
           "ground_truth": "No",
-          "vlm_answer": "No, it is not entirely safe; extra precautions are needed due to the foggy conditions",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "Yes",
-          "vlm_answer": "No, it is not a safe way of driving for the ego car due to the reduced visibility caused by the fog. The driver should take extra precautions such as reducing speed and increasing following distance",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "Yes",
-          "vlm_answer": "No, it is not entirely safe as the conditions are hazardous and require extra precautions",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "No",
-          "vlm_answer": "Yes, it appears to be a relatively safe way of driving for the ego car, given the cautious speed and clear road, but extra caution is necessary due to the weather and roadwork",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "No",
-          "vlm_answer": "Yes, assuming the driver is cautious and follows traffic rules, it can be a safe way of driving",
+          "vlm_answer": "No, it is not a completely safe way of driving due to the rainy conditions and associated hazards",
           "n": 1
         },
         {
           "category": "Safety understanding",
           "ground_truth": "No",
           "vlm_answer": "No, it is not a safe way of driving for the ego car due to reduced visibility and potential hazards associated with foggy conditions. Extra caution and reduced speed are necessary",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "No",
-          "vlm_answer": "No, it is not a safe way of driving for the ego car due to the heavy fog reducing visibility",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "Yes",
-          "vlm_answer": "No, it is not a safe way of driving for the ego car as it is following too closely behind another vehicle",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "No",
-          "vlm_answer": "No, it is not a completely safe way of driving for the ego car due to the limited visibility caused by the fog. The driver needs to exercise extra caution",
-          "n": 1
-        },
-        {
-          "category": "Safety understanding",
-          "ground_truth": "Yes",
-          "vlm_answer": "No, it is not a safe way of driving for the ego car under these conditions without taking additional precautions such as reducing speed, increasing following distance, and being prepared for sudden changes in road conditions",
           "n": 1
         },
         {
@@ -1441,13 +1441,13 @@
         {
           "category": "Spatial-temporal understanding",
           "ground_truth": "Left",
-          "vlm_answer": "It's not overtaking",
+          "vlm_answer": "Right",
           "n": 2
         },
         {
           "category": "Spatial-temporal understanding",
           "ground_truth": "Left",
-          "vlm_answer": "Right",
+          "vlm_answer": "It's not overtaking",
           "n": 2
         },
         {
@@ -1581,11 +1581,6 @@
         },
         {
           "ground_truth": "Left",
-          "vlm_answer": "It's not overtaking",
-          "n": 2
-        },
-        {
-          "ground_truth": "Left",
           "vlm_answer": "Right",
           "n": 2
         },
@@ -1595,68 +1590,13 @@
           "n": 2
         },
         {
-          "ground_truth": "Yes",
-          "vlm_answer": "Yes, it is a relatively safe way of driving, but extra caution is needed due to the wet road conditions",
-          "n": 1
+          "ground_truth": "Left",
+          "vlm_answer": "It's not overtaking",
+          "n": 2
         },
         {
           "ground_truth": "Yes",
-          "vlm_answer": "No, it is not a safe way of driving for the ego car as it is following too closely behind another vehicle",
-          "n": 1
-        },
-        {
-          "ground_truth": "Yes",
-          "vlm_answer": "No, it is not a safe way of driving for the ego car under these conditions without taking additional precautions such as reducing speed, increasing following distance, and being prepared for sudden changes in road conditions",
-          "n": 1
-        },
-        {
-          "ground_truth": "Yes",
-          "vlm_answer": "No, it is not entirely safe as the conditions are challenging and require extra caution",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "Yes, it appears to be a safe way of driving for the ego car given the cautious adherence to traffic signals and the speed maintained in response to the foggy conditions. However, extra caution is always advised in such visibility conditions",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "No, it is not a safe way of driving for the ego car. The driver needs to exercise extra caution due to the weather and road conditions. The car should maintain a greater distance from the vehicle ahead and reduce speed to ensure safety",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "No, it is not entirely safe; extra precautions are needed due to the foggy conditions",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "No, it is not entirely safe due to the weather conditions and traffic, requiring extra caution",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "Yes, it appears to be a safe way of driving given the conditions, but extra caution is advised due to the snowy environment",
-          "n": 1
-        },
-        {
-          "ground_truth": "Yes",
-          "vlm_answer": ":: No",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "No, it is not a completely safe way of driving for the ego car due to the limited visibility caused by the fog. The driver needs to exercise extra caution",
-          "n": 1
-        },
-        {
-          "ground_truth": "Yes",
-          "vlm_answer": "Yes, in this specific moment, it is safe for the ego car to be stopped at the traffic light. However, caution should be exercised when visibility resumes",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "Yes, it appears to be a relatively safe way of driving for the ego car, given the cautious speed and clear road, but extra caution is necessary due to the weather and roadwork",
+          "vlm_answer": "No, it is not a safe way of driving for the ego car due to the reduced visibility caused by the fog. The driver should take extra precautions such as reducing speed and increasing following distance",
           "n": 1
         },
         {
@@ -1666,27 +1606,27 @@
         },
         {
           "ground_truth": "No",
-          "vlm_answer": "No, it is not completely safe due to the hazardous driving conditions caused by snow and ice",
-          "n": 1
-        },
-        {
-          "ground_truth": "Yes",
-          "vlm_answer": "Yes, it appears to be a safe way of driving as the car is approaching the stop sign and seems to be slowing down appropriately. However, complete safety would depend on stopping fully at the sign and checking for any other traffic before proceeding",
-          "n": 1
-        },
-        {
-          "ground_truth": "No",
-          "vlm_answer": "No, it is not a safe way of driving for the ego car due to the heavy fog reducing visibility",
-          "n": 1
-        },
-        {
-          "ground_truth": "Yes",
-          "vlm_answer": "No, it is not entirely safe due to the hazardous driving conditions caused by snow and ice, despite the ego car's cautious behavior",
+          "vlm_answer": "Yes, it appears to be a relatively safe way of driving for the ego car, given the cautious speed and clear road, but extra caution is necessary due to the weather and roadwork",
           "n": 1
         },
         {
           "ground_truth": "No",
           "vlm_answer": "No, it is not a safe way of driving for the ego car due to reduced visibility and potential hazards associated with foggy conditions. Extra caution and reduced speed are necessary",
+          "n": 1
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes, it is a relatively safe way of driving, but extra caution is needed due to the wet road conditions",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "Yes, it appears to be a safe way of driving for the ego car given the cautious adherence to traffic signals and the speed maintained in response to the foggy conditions. However, extra caution is always advised in such visibility conditions",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "Yes, assuming the driver is cautious and follows traffic rules, it can be a safe way of driving",
           "n": 1
         },
         {
@@ -1696,12 +1636,62 @@
         },
         {
           "ground_truth": "Yes",
-          "vlm_answer": "No, it is not a safe way of driving for the ego car due to the reduced visibility caused by the fog. The driver should take extra precautions such as reducing speed and increasing following distance",
+          "vlm_answer": "No, it is not entirely safe as the conditions are hazardous and require extra precautions",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "No, it is not a safe way of driving for the ego car. The driver needs to exercise extra caution due to the weather and road conditions. The car should maintain a greater distance from the vehicle ahead and reduce speed to ensure safety",
           "n": 1
         },
         {
           "ground_truth": "Yes",
-          "vlm_answer": "No, it is not entirely safe as the conditions are hazardous and require extra precautions",
+          "vlm_answer": "Yes, it appears to be a safe way of driving as the car is approaching the stop sign and seems to be slowing down appropriately. However, complete safety would depend on stopping fully at the sign and checking for any other traffic before proceeding",
+          "n": 1
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "No, it is not entirely safe due to the hazardous driving conditions caused by snow and ice, despite the ego car's cautious behavior",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "No, it is not a completely safe way of driving for the ego car due to the limited visibility caused by the fog. The driver needs to exercise extra caution",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "No, it is not a safe way of driving for the ego car due to the heavy fog reducing visibility",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "No, it is not entirely safe due to the weather conditions and traffic, requiring extra caution",
+          "n": 1
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "No, it is not entirely safe as the conditions are challenging and require extra caution",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "Yes, it appears to be a safe way of driving given the conditions, but extra caution is advised due to the snowy environment",
+          "n": 1
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "No, it is not a safe way of driving for the ego car under these conditions without taking additional precautions such as reducing speed, increasing following distance, and being prepared for sudden changes in road conditions",
+          "n": 1
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes, in this specific moment, it is safe for the ego car to be stopped at the traffic light. However, caution should be exercised when visibility resumes",
+          "n": 1
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "No, it is not a safe way of driving for the ego car as it is following too closely behind another vehicle",
           "n": 1
         },
         {
@@ -1711,7 +1701,17 @@
         },
         {
           "ground_truth": "No",
-          "vlm_answer": "Yes, assuming the driver is cautious and follows traffic rules, it can be a safe way of driving",
+          "vlm_answer": "No, it is not entirely safe; extra precautions are needed due to the foggy conditions",
+          "n": 1
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "No, it is not completely safe due to the hazardous driving conditions caused by snow and ice",
+          "n": 1
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": ":: No",
           "n": 1
         }
       ]
@@ -2760,7 +2760,7 @@
         }
       ]
     },
-    "Qwen2.5-Omni": {
+    "Qwen3-Omni": {
       "file": "Qwen_omni_analyzed.parquet",
       "n": 7371,
       "n_correct": 2022,
@@ -3703,14 +3703,14 @@
         },
         {
           "category": "Spatial-temporal understanding",
-          "ground_truth": "Left",
-          "vlm_answer": "Right",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
           "n": 4
         },
         {
           "category": "Spatial-temporal understanding",
-          "ground_truth": "Yes",
-          "vlm_answer": "Yes",
+          "ground_truth": "Left",
+          "vlm_answer": "Right",
           "n": 4
         },
         {
@@ -3871,13 +3871,13 @@
           "n": 2
         },
         {
-          "ground_truth": "Right",
-          "vlm_answer": "Right It's not overtaking",
+          "ground_truth": "Yes",
+          "vlm_answer": "NO_PARSE",
           "n": 1
         },
         {
-          "ground_truth": "Yes",
-          "vlm_answer": "NO_PARSE",
+          "ground_truth": "Right",
+          "vlm_answer": "Right It's not overtaking",
           "n": 1
         }
       ]
@@ -4260,13 +4260,13 @@
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "Yes",
+          "ground_truth": "No",
           "vlm_answer": "NO MATCH !",
           "n": 10
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "No",
+          "ground_truth": "Yes",
           "vlm_answer": "NO MATCH !",
           "n": 10
         },
@@ -4278,14 +4278,14 @@
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "3",
-          "vlm_answer": "NO MATCH !",
+          "ground_truth": "2",
+          "vlm_answer": "1",
           "n": 2
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "2",
-          "vlm_answer": "1",
+          "ground_truth": "3",
+          "vlm_answer": "NO MATCH !",
           "n": 2
         },
         {
@@ -4545,8 +4545,8 @@
           "n": 3
         },
         {
-          "ground_truth": "Left",
-          "vlm_answer": "It's not overtaking",
+          "ground_truth": "3",
+          "vlm_answer": "NO MATCH !",
           "n": 2
         },
         {
@@ -4555,8 +4555,8 @@
           "n": 2
         },
         {
-          "ground_truth": "3",
-          "vlm_answer": "NO MATCH !",
+          "ground_truth": "Left",
+          "vlm_answer": "It's not overtaking",
           "n": 2
         },
         {
@@ -4566,12 +4566,12 @@
         },
         {
           "ground_truth": "Right",
-          "vlm_answer": "It",
+          "vlm_answer": "Yes",
           "n": 1
         },
         {
           "ground_truth": "Right",
-          "vlm_answer": "Yes",
+          "vlm_answer": "It",
           "n": 1
         }
       ]
@@ -4978,14 +4978,14 @@
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "2",
-          "vlm_answer": "1",
+          "ground_truth": "3",
+          "vlm_answer": "NO MATCH !",
           "n": 1
         },
         {
           "category": "Safety understanding",
-          "ground_truth": "3",
-          "vlm_answer": "NO MATCH !",
+          "ground_truth": "2",
+          "vlm_answer": "1",
           "n": 1
         },
         {
@@ -5002,21 +5002,15 @@
         },
         {
           "category": "Spatial-temporal understanding",
-          "ground_truth": "Right",
-          "vlm_answer": "It's not overtaking",
-          "n": 5
-        },
-        {
-          "category": "Spatial-temporal understanding",
           "ground_truth": "Left",
           "vlm_answer": "Left",
           "n": 5
         },
         {
           "category": "Spatial-temporal understanding",
-          "ground_truth": "No",
-          "vlm_answer": "Yes",
-          "n": 4
+          "ground_truth": "Right",
+          "vlm_answer": "It's not overtaking",
+          "n": 5
         },
         {
           "category": "Spatial-temporal understanding",
@@ -5028,6 +5022,12 @@
           "category": "Spatial-temporal understanding",
           "ground_truth": "Yes",
           "vlm_answer": "No",
+          "n": 4
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
           "n": 4
         },
         {
@@ -5202,13 +5202,13 @@
           "n": 15
         },
         {
-          "ground_truth": "Right",
-          "vlm_answer": "It's not overtaking",
+          "ground_truth": "Left",
+          "vlm_answer": "Left",
           "n": 5
         },
         {
-          "ground_truth": "Left",
-          "vlm_answer": "Left",
+          "ground_truth": "Right",
+          "vlm_answer": "It's not overtaking",
           "n": 5
         },
         {
@@ -5233,6 +5233,11 @@
         },
         {
           "ground_truth": "3",
+          "vlm_answer": "1",
+          "n": 1
+        },
+        {
+          "ground_truth": "3",
           "vlm_answer": "NO MATCH !",
           "n": 1
         },
@@ -5240,16 +5245,1118 @@
           "ground_truth": "Left",
           "vlm_answer": "It's not overtaking",
           "n": 1
+        }
+      ]
+    },
+    "GPT-5.4-mini": {
+      "file": "GPT-5.4-mini_analyzed.parquet",
+      "n": 7282,
+      "n_correct": 2849,
+      "overall_accuracy": 0.39123867069486407,
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5568,
+          "n_correct": 2316,
+          "accuracy": 0.41594827586206895
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_correct": 533,
+          "accuracy": 0.31096849474912486
+        }
+      ],
+      "per_category": [
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_correct": 370,
+          "accuracy": 0.5089408528198074
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3125,
+          "n_correct": 1046,
+          "accuracy": 0.33472
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2122,
+          "n_correct": 770,
+          "accuracy": 0.36286522148916117
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_correct": 234,
+          "accuracy": 0.6902654867256637
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_correct": 138,
+          "accuracy": 0.2075187969924812
+        },
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_correct": 291,
+          "accuracy": 0.9572368421052632
+        }
+      ],
+      "per_source_category": [
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Reality understanding",
+          "n": 2139,
+          "n_correct": 884,
+          "accuracy": 0.41327723235156616
+        },
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Safety understanding",
+          "n": 2122,
+          "n_correct": 770,
+          "accuracy": 0.36286522148916117
+        },
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_correct": 234,
+          "accuracy": 0.6902654867256637
+        },
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_correct": 138,
+          "accuracy": 0.2075187969924812
+        },
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Visual understanding",
+          "n": 303,
+          "n_correct": 290,
+          "accuracy": 0.9570957095709571
+        },
+        {
+          "source": "cosmos-predict1",
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_correct": 370,
+          "accuracy": 0.5089408528198074
+        },
+        {
+          "source": "cosmos-predict1",
+          "category": "Reality understanding",
+          "n": 986,
+          "n_correct": 162,
+          "accuracy": 0.1643002028397566
+        },
+        {
+          "source": "cosmos-predict1",
+          "category": "Visual understanding",
+          "n": 1,
+          "n_correct": 1,
+          "accuracy": 1.0
+        }
+      ],
+      "per_question": [
+        {
+          "question": "Are the traffic lights red ?",
+          "n": 144,
+          "n_correct": 137,
+          "accuracy": 0.9513888888888888
+        },
+        {
+          "question": "Are the traffic signs consistent with ego movement? For example, after turning.",
+          "n": 1,
+          "n_correct": 0,
+          "accuracy": 0.0
+        },
+        {
+          "question": "Do some objects change shape or appearance ?",
+          "n": 402,
+          "n_correct": 260,
+          "accuracy": 0.6467661691542289
+        },
+        {
+          "question": "Does any object appear or disappear without continuous motion ?",
+          "n": 325,
+          "n_correct": 110,
+          "accuracy": 0.3384615384615385
+        },
+        {
+          "question": "Has the ego car stopped ?",
+          "n": 201,
+          "n_correct": 185,
+          "accuracy": 0.9203980099502488
+        },
+        {
+          "question": "Has the ego car stopped after the sign ?",
+          "n": 3,
+          "n_correct": 1,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "question": "Has the ego car stopped after the stop ?",
+          "n": 1,
+          "n_correct": 0,
+          "accuracy": 0.0
+        },
+        {
+          "question": "Has the ego car stopped after the stop sign ?",
+          "n": 1,
+          "n_correct": 1,
+          "accuracy": 1.0
+        },
+        {
+          "question": "Is it a real video or generated ?",
+          "n": 1571,
+          "n_correct": 174,
+          "accuracy": 0.11075747931253978
+        },
+        {
+          "question": "Is it a safe way of driving for the ego car ?",
+          "n": 1061,
+          "n_correct": 663,
+          "accuracy": 0.6248821866163996
+        },
+        {
+          "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+          "n": 153,
+          "n_correct": 47,
+          "accuracy": 0.30718954248366015
+        },
+        {
+          "question": "Is the ego car following the traffic rules ?",
+          "n": 512,
+          "n_correct": 91,
+          "accuracy": 0.177734375
+        },
+        {
+          "question": "Is the ego car on a highway ?",
+          "n": 159,
+          "n_correct": 153,
+          "accuracy": 0.9622641509433962
+        },
+        {
+          "question": "Is the lighting changing ?",
+          "n": 1,
+          "n_correct": 1,
+          "accuracy": 1.0
+        },
+        {
+          "question": "On which side is the ego car overtaking ?",
+          "n": 133,
+          "n_correct": 47,
+          "accuracy": 0.3533834586466165
+        },
+        {
+          "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+          "n": 1553,
+          "n_correct": 872,
+          "accuracy": 0.5614938828074694
+        },
+        {
+          "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+          "n": 1061,
+          "n_correct": 107,
+          "accuracy": 0.10084825636192271
+        }
+      ],
+      "confusion_per_category": [
+        {
+          "category": "Artifacts understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 338
+        },
+        {
+          "category": "Artifacts understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 305
+        },
+        {
+          "category": "Artifacts understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 65
+        },
+        {
+          "category": "Artifacts understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 19
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "Generated",
+          "vlm_answer": "Real",
+          "n": 1397
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "2",
+          "vlm_answer": "2",
+          "n": 872
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "1",
+          "vlm_answer": "2",
+          "n": 590
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "Generated",
+          "vlm_answer": "Generated",
+          "n": 174
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "2",
+          "vlm_answer": "3",
+          "n": 72
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "1",
+          "vlm_answer": "3",
+          "n": 19
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 520
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "1",
+          "vlm_answer": "2",
+          "n": 470
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "3",
+          "vlm_answer": "2",
+          "n": 466
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 342
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 143
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "3",
+          "vlm_answer": "3",
+          "n": 79
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 56
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "2",
+          "vlm_answer": "2",
+          "n": 28
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "1",
+          "vlm_answer": "3",
+          "n": 15
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "2",
+          "vlm_answer": "3",
+          "n": 3
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 186
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Right",
+          "vlm_answer": "Left",
+          "n": 77
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Right",
+          "vlm_answer": "Right",
+          "n": 43
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 16
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Right",
+          "vlm_answer": "It's not overtaking",
+          "n": 7
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Left",
+          "vlm_answer": "Left",
+          "n": 4
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 3
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Left",
+          "vlm_answer": "Right",
+          "n": 2
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 1
+        },
+        {
+          "category": "Traffic laws understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 525
+        },
+        {
+          "category": "Traffic laws understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 130
+        },
+        {
+          "category": "Traffic laws understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 8
+        },
+        {
+          "category": "Traffic laws understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 2
+        },
+        {
+          "category": "Visual understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 276
+        },
+        {
+          "category": "Visual understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 15
+        },
+        {
+          "category": "Visual understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 12
+        },
+        {
+          "category": "Visual understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 1
+        }
+      ],
+      "confusion_overall": [
+        {
+          "ground_truth": "Generated",
+          "vlm_answer": "Real",
+          "n": 1397
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 1110
+        },
+        {
+          "ground_truth": "1",
+          "vlm_answer": "2",
+          "n": 1060
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 915
+        },
+        {
+          "ground_truth": "2",
+          "vlm_answer": "2",
+          "n": 900
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 539
+        },
+        {
+          "ground_truth": "3",
+          "vlm_answer": "2",
+          "n": 466
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 400
+        },
+        {
+          "ground_truth": "Generated",
+          "vlm_answer": "Generated",
+          "n": 174
+        },
+        {
+          "ground_truth": "3",
+          "vlm_answer": "3",
+          "n": 79
+        },
+        {
+          "ground_truth": "Right",
+          "vlm_answer": "Left",
+          "n": 77
+        },
+        {
+          "ground_truth": "2",
+          "vlm_answer": "3",
+          "n": 75
+        },
+        {
+          "ground_truth": "Right",
+          "vlm_answer": "Right",
+          "n": 43
+        },
+        {
+          "ground_truth": "1",
+          "vlm_answer": "3",
+          "n": 34
+        },
+        {
+          "ground_truth": "Right",
+          "vlm_answer": "It's not overtaking",
+          "n": 7
+        },
+        {
+          "ground_truth": "Left",
+          "vlm_answer": "Left",
+          "n": 4
+        },
+        {
+          "ground_truth": "Left",
+          "vlm_answer": "Right",
+          "n": 2
+        }
+      ]
+    },
+    "Gemini-3-Flash": {
+      "file": "Gemini_analyzed.parquet",
+      "n": 7282,
+      "n_correct": 4662,
+      "overall_accuracy": 0.640208733864323,
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5568,
+          "n_correct": 3446,
+          "accuracy": 0.6188936781609196
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_correct": 1216,
+          "accuracy": 0.7094515752625438
+        }
+      ],
+      "per_category": [
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_correct": 610,
+          "accuracy": 0.8390646492434664
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3125,
+          "n_correct": 1597,
+          "accuracy": 0.51104
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2122,
+          "n_correct": 1506,
+          "accuracy": 0.7097078228086711
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_correct": 263,
+          "accuracy": 0.775811209439528
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_correct": 395,
+          "accuracy": 0.5939849624060151
+        },
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_correct": 291,
+          "accuracy": 0.9572368421052632
+        }
+      ],
+      "per_source_category": [
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Reality understanding",
+          "n": 2139,
+          "n_correct": 992,
+          "accuracy": 0.463768115942029
+        },
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Safety understanding",
+          "n": 2122,
+          "n_correct": 1506,
+          "accuracy": 0.7097078228086711
+        },
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_correct": 263,
+          "accuracy": 0.775811209439528
+        },
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_correct": 395,
+          "accuracy": 0.5939849624060151
+        },
+        {
+          "source": "cosmos-drive-dreams",
+          "category": "Visual understanding",
+          "n": 303,
+          "n_correct": 290,
+          "accuracy": 0.9570957095709571
+        },
+        {
+          "source": "cosmos-predict1",
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_correct": 610,
+          "accuracy": 0.8390646492434664
+        },
+        {
+          "source": "cosmos-predict1",
+          "category": "Reality understanding",
+          "n": 986,
+          "n_correct": 605,
+          "accuracy": 0.6135902636916836
+        },
+        {
+          "source": "cosmos-predict1",
+          "category": "Visual understanding",
+          "n": 1,
+          "n_correct": 1,
+          "accuracy": 1.0
+        }
+      ],
+      "per_question": [
+        {
+          "question": "Are the traffic lights red ?",
+          "n": 144,
+          "n_correct": 136,
+          "accuracy": 0.9444444444444444
+        },
+        {
+          "question": "Are the traffic signs consistent with ego movement? For example, after turning.",
+          "n": 1,
+          "n_correct": 1,
+          "accuracy": 1.0
+        },
+        {
+          "question": "Do some objects change shape or appearance ?",
+          "n": 402,
+          "n_correct": 363,
+          "accuracy": 0.9029850746268657
+        },
+        {
+          "question": "Does any object appear or disappear without continuous motion ?",
+          "n": 325,
+          "n_correct": 247,
+          "accuracy": 0.76
+        },
+        {
+          "question": "Has the ego car stopped ?",
+          "n": 201,
+          "n_correct": 184,
+          "accuracy": 0.9154228855721394
+        },
+        {
+          "question": "Has the ego car stopped after the sign ?",
+          "n": 3,
+          "n_correct": 1,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "question": "Has the ego car stopped after the stop ?",
+          "n": 1,
+          "n_correct": 0,
+          "accuracy": 0.0
+        },
+        {
+          "question": "Has the ego car stopped after the stop sign ?",
+          "n": 1,
+          "n_correct": 0,
+          "accuracy": 0.0
+        },
+        {
+          "question": "Is it a real video or generated ?",
+          "n": 1571,
+          "n_correct": 870,
+          "accuracy": 0.5537873965626989
+        },
+        {
+          "question": "Is it a safe way of driving for the ego car ?",
+          "n": 1061,
+          "n_correct": 779,
+          "accuracy": 0.7342130065975495
+        },
+        {
+          "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+          "n": 153,
+          "n_correct": 92,
+          "accuracy": 0.6013071895424836
+        },
+        {
+          "question": "Is the ego car following the traffic rules ?",
+          "n": 512,
+          "n_correct": 303,
+          "accuracy": 0.591796875
+        },
+        {
+          "question": "Is the ego car on a highway ?",
+          "n": 159,
+          "n_correct": 154,
+          "accuracy": 0.9685534591194969
+        },
+        {
+          "question": "Is the lighting changing ?",
+          "n": 1,
+          "n_correct": 1,
+          "accuracy": 1.0
+        },
+        {
+          "question": "On which side is the ego car overtaking ?",
+          "n": 133,
+          "n_correct": 78,
+          "accuracy": 0.5864661654135338
+        },
+        {
+          "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+          "n": 1553,
+          "n_correct": 726,
+          "accuracy": 0.46748229233741145
+        },
+        {
+          "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+          "n": 1061,
+          "n_correct": 727,
+          "accuracy": 0.6852026390197926
+        }
+      ],
+      "confusion_per_category": [
+        {
+          "category": "Artifacts understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 599
+        },
+        {
+          "category": "Artifacts understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 73
+        },
+        {
+          "category": "Artifacts understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 44
+        },
+        {
+          "category": "Artifacts understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 11
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "Generated",
+          "vlm_answer": "Generated",
+          "n": 870
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "Generated",
+          "vlm_answer": "Real",
+          "n": 701
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "2",
+          "vlm_answer": "2",
+          "n": 494
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "2",
+          "vlm_answer": "3",
+          "n": 359
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "1",
+          "vlm_answer": "2",
+          "n": 277
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "1",
+          "vlm_answer": "1",
+          "n": 232
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "1",
+          "vlm_answer": "3",
+          "n": 100
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "2",
+          "vlm_answer": "1",
+          "n": 91
+        },
+        {
+          "category": "Reality understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 1
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "3",
+          "vlm_answer": "3",
+          "n": 524
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 444
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 335
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "1",
+          "vlm_answer": "3",
+          "n": 245
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "1",
+          "vlm_answer": "1",
+          "n": 200
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 150
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 132
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "1",
+          "vlm_answer": "2",
+          "n": 40
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "2",
+          "vlm_answer": "3",
+          "n": 16
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "3",
+          "vlm_answer": "1",
+          "n": 14
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "2",
+          "vlm_answer": "1",
+          "n": 12
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "3",
+          "vlm_answer": "2",
+          "n": 7
+        },
+        {
+          "category": "Safety understanding",
+          "ground_truth": "2",
+          "vlm_answer": "2",
+          "n": 3
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 185
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Right",
+          "vlm_answer": "Right",
+          "n": 72
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Right",
+          "vlm_answer": "Left",
+          "n": 45
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 17
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Right",
+          "vlm_answer": "It's not overtaking",
+          "n": 10
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Left",
+          "vlm_answer": "Left",
+          "n": 6
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 4
+        },
+        {
+          "category": "Traffic laws understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 388
+        },
+        {
+          "category": "Traffic laws understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 267
+        },
+        {
+          "category": "Traffic laws understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 7
+        },
+        {
+          "category": "Traffic laws understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 3
+        },
+        {
+          "category": "Visual understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 275
+        },
+        {
+          "category": "Visual understanding",
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 16
+        },
+        {
+          "category": "Visual understanding",
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 11
+        },
+        {
+          "category": "Visual understanding",
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 2
+        }
+      ],
+      "confusion_overall": [
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "Yes",
+          "n": 1325
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "No",
+          "n": 936
+        },
+        {
+          "ground_truth": "Generated",
+          "vlm_answer": "Generated",
+          "n": 870
+        },
+        {
+          "ground_truth": "Generated",
+          "vlm_answer": "Real",
+          "n": 701
+        },
+        {
+          "ground_truth": "3",
+          "vlm_answer": "3",
+          "n": 524
+        },
+        {
+          "ground_truth": "No",
+          "vlm_answer": "Yes",
+          "n": 518
+        },
+        {
+          "ground_truth": "2",
+          "vlm_answer": "2",
+          "n": 497
+        },
+        {
+          "ground_truth": "1",
+          "vlm_answer": "1",
+          "n": 432
+        },
+        {
+          "ground_truth": "2",
+          "vlm_answer": "3",
+          "n": 375
+        },
+        {
+          "ground_truth": "1",
+          "vlm_answer": "3",
+          "n": 345
+        },
+        {
+          "ground_truth": "1",
+          "vlm_answer": "2",
+          "n": 317
+        },
+        {
+          "ground_truth": "Yes",
+          "vlm_answer": "No",
+          "n": 185
+        },
+        {
+          "ground_truth": "2",
+          "vlm_answer": "1",
+          "n": 103
+        },
+        {
+          "ground_truth": "Right",
+          "vlm_answer": "Right",
+          "n": 72
+        },
+        {
+          "ground_truth": "Right",
+          "vlm_answer": "Left",
+          "n": 45
         },
         {
           "ground_truth": "3",
           "vlm_answer": "1",
-          "n": 1
+          "n": 14
+        },
+        {
+          "ground_truth": "Right",
+          "vlm_answer": "It's not overtaking",
+          "n": 10
+        },
+        {
+          "ground_truth": "3",
+          "vlm_answer": "2",
+          "n": 7
+        },
+        {
+          "ground_truth": "Left",
+          "vlm_answer": "Left",
+          "n": 6
         }
       ]
     }
   },
   "models_overall": [
+    {
+      "model": "Gemini-3-Flash",
+      "n": 7282,
+      "accuracy": 0.640208733864323
+    },
     {
       "model": "Qwen3-VL+agent",
       "n": 7371,
@@ -5261,12 +6368,17 @@
       "accuracy": 0.5092931759598426
     },
     {
+      "model": "GPT-5.4-mini",
+      "n": 7282,
+      "accuracy": 0.39123867069486407
+    },
+    {
       "model": "InternVL3.5-30B",
       "n": 7371,
       "accuracy": 0.3093203093203093
     },
     {
-      "model": "Qwen2.5-Omni",
+      "model": "Qwen3-Omni",
       "n": 7371,
       "accuracy": 0.2743182743182743
     },

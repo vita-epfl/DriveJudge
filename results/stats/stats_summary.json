@@ -1,0 +1,1334 @@
+{
+  "config": {
+    "results_dir": "results",
+    "n_boot": 2000,
+    "seed": 0,
+    "cluster": "scenario_id",
+    "n_scenario_clusters": 435,
+    "n_video_clusters": 1597,
+    "category_order": [
+      "Visual understanding",
+      "Spatial-temporal understanding",
+      "Artifacts understanding",
+      "Safety understanding",
+      "Reality understanding",
+      "Traffic laws understanding"
+    ]
+  },
+  "models": {
+    "Gemini-3-Flash": {
+      "kind": "closed",
+      "n": 7282,
+      "n_correct": 4662,
+      "acc": 0.640208733864323,
+      "lo": 0.6201098218661634,
+      "hi": 0.6597322729699586,
+      "ci_width": 0.03962245110379525,
+      "n_clusters_scenario": 413,
+      "macro_acc": 0.7311409143338238,
+      "macro_lo": 0.7065869583545177,
+      "macro_hi": 0.7541667685034239,
+      "lo_video": 0.6271604250663902,
+      "hi_video": 0.6538149267110867,
+      "ci_width_video": 0.026654501644696404,
+      "n_clusters_video": 1571,
+      "lo_iid": 0.6293600659159572,
+      "hi_iid": 0.6506488602032408,
+      "ci_width_iid": 0.021288794287283586,
+      "lo_wilson": 0.6291142375136529,
+      "hi_wilson": 0.651155380147026,
+      "ci_width_wilson": 0.02204114263337309,
+      "deff_scenario": 3.4640212332725384,
+      "deff_video": 1.5676135298320633,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.9572368421052632,
+          "lo": 0.9323927777189452,
+          "hi": 0.9793399079833006
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.775811209439528,
+          "lo": 0.7048937661777395,
+          "hi": 0.835403920323415
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.8390646492434664,
+          "lo": 0.8073745636516283,
+          "hi": 0.8701967592592592
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2122,
+          "n_clusters": 209,
+          "acc": 0.7097078228086711,
+          "lo": 0.6641238510753334,
+          "hi": 0.7520978063020008
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3125,
+          "n_clusters": 413,
+          "acc": 0.51104,
+          "lo": 0.4813165345616453,
+          "hi": 0.5415731301377466
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.5939849624060151,
+          "lo": 0.5248516511867906,
+          "hi": 0.6531940923326018
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5568,
+          "n_clusters": 211,
+          "acc": 0.6188936781609196,
+          "lo": 0.5947906607035771,
+          "hi": 0.6424320630806073
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.7094515752625438,
+          "lo": 0.6807136032424298,
+          "hi": 0.7369934905398637
+        }
+      ]
+    },
+    "Qwen3-VL+agent": {
+      "kind": "agent",
+      "n": 7371,
+      "n_correct": 4428,
+      "acc": 0.6007326007326007,
+      "lo": 0.5755491265352671,
+      "hi": 0.6240598473088674,
+      "ci_width": 0.0485107207736003,
+      "n_clusters_scenario": 435,
+      "macro_acc": 0.6522548634944193,
+      "macro_lo": 0.6211151844486678,
+      "macro_hi": 0.6830697001680267,
+      "lo_video": 0.5864027668092731,
+      "hi_video": 0.615405884496089,
+      "ci_width_video": 0.02900311768681596,
+      "n_clusters_video": 1597,
+      "lo_iid": 0.5894722561389228,
+      "hi_iid": 0.6111823361823362,
+      "ci_width_iid": 0.02171008004341335,
+      "lo_wilson": 0.5895025177231201,
+      "hi_wilson": 0.6118577431437575,
+      "ci_width_wilson": 0.022355225420637392,
+      "deff_scenario": 4.992896983633163,
+      "deff_video": 1.7847053287265582,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.9013157894736842,
+          "lo": 0.8637871182744824,
+          "hi": 0.9353998478778203
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.6194690265486725,
+          "lo": 0.5120639394037275,
+          "hi": 0.7203439764880443
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.5845942228335625,
+          "lo": 0.5489386681694374,
+          "hi": 0.6218890889714412
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2164,
+          "n_clusters": 227,
+          "acc": 0.5831792975970426,
+          "lo": 0.5262905642294767,
+          "hi": 0.6361997209233944
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3172,
+          "n_clusters": 435,
+          "acc": 0.5753467843631778,
+          "lo": 0.5510001994629173,
+          "hi": 0.5995128596637971
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.649624060150376,
+          "lo": 0.5741861939541489,
+          "hi": 0.7147278162916963
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5657,
+          "n_clusters": 233,
+          "acc": 0.6248895174120559,
+          "lo": 0.5944132713792776,
+          "hi": 0.6543207151025112
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.5210035005834306,
+          "lo": 0.48988246903601634,
+          "hi": 0.5520524192528271
+        }
+      ]
+    },
+    "Qwen3-VL+agent+hints": {
+      "kind": "agent",
+      "n": 7371,
+      "n_correct": 3754,
+      "acc": 0.5092931759598426,
+      "lo": 0.4907541274119203,
+      "hi": 0.5276313663958883,
+      "ci_width": 0.03687723898396794,
+      "n_clusters_scenario": 435,
+      "macro_acc": 0.6084358724616357,
+      "macro_lo": 0.5863011549125196,
+      "macro_hi": 0.6308529100117793,
+      "lo_video": 0.49779849616900584,
+      "hi_video": 0.5209581043392667,
+      "ci_width_video": 0.02315960817026086,
+      "n_clusters_video": 1597,
+      "lo_iid": 0.49776149776149775,
+      "hi_iid": 0.5197429114095781,
+      "ci_width_iid": 0.021981413648080317,
+      "lo_wilson": 0.4978788313116741,
+      "hi_wilson": 0.5206978392194789,
+      "ci_width_wilson": 0.022819007907804778,
+      "deff_scenario": 2.814527897228136,
+      "deff_video": 1.1100720733309,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.9144736842105263,
+          "lo": 0.8801460674157304,
+          "hi": 0.9468756913716815
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.6076696165191741,
+          "lo": 0.48748697916666667,
+          "hi": 0.7159512796793093
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.4676753782668501,
+          "lo": 0.4323895917880162,
+          "hi": 0.502982430875576
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2164,
+          "n_clusters": 227,
+          "acc": 0.5018484288354899,
+          "lo": 0.4332082840306156,
+          "hi": 0.5646694033631824
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3172,
+          "n_clusters": 435,
+          "acc": 0.4281210592686003,
+          "lo": 0.4051873818534654,
+          "hi": 0.45090832904499656
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.7308270676691729,
+          "lo": 0.6898059116809117,
+          "hi": 0.7729370099447055
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5657,
+          "n_clusters": 233,
+          "acc": 0.5426904719816157,
+          "lo": 0.5203649526055465,
+          "hi": 0.5648247365976414
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.3990665110851809,
+          "lo": 0.37435502614758864,
+          "hi": 0.4232773595830921
+        }
+      ]
+    },
+    "GPT-5.4-mini": {
+      "kind": "closed",
+      "n": 7282,
+      "n_correct": 2849,
+      "acc": 0.39123867069486407,
+      "lo": 0.3771608865978888,
+      "hi": 0.40533704880178295,
+      "ci_width": 0.02817616220389413,
+      "n_clusters_scenario": 413,
+      "macro_acc": 0.5102578666887293,
+      "macro_lo": 0.48931717248380774,
+      "macro_hi": 0.5306403768491151,
+      "lo_video": 0.3816893414501007,
+      "hi_video": 0.40055277106618836,
+      "ci_width_video": 0.018863429616087668,
+      "n_clusters_video": 1571,
+      "lo_iid": 0.3807985443559462,
+      "hi_iid": 0.4024993133754463,
+      "ci_width_iid": 0.021700769019500132,
+      "lo_wilson": 0.3800898159817252,
+      "hi_wilson": 0.4025022141972584,
+      "ci_width_wilson": 0.022412398215533202,
+      "deff_scenario": 1.6858286441839359,
+      "deff_video": 0.7555984582354004,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.9572368421052632,
+          "lo": 0.9335545544387905,
+          "hi": 0.9783407429692027
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.6902654867256637,
+          "lo": 0.5994397759103641,
+          "hi": 0.773016919095092
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.5089408528198074,
+          "lo": 0.47322225291387193,
+          "hi": 0.544739110707804
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2122,
+          "n_clusters": 209,
+          "acc": 0.36286522148916117,
+          "lo": 0.32642195774572486,
+          "hi": 0.3965133221888925
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3125,
+          "n_clusters": 413,
+          "acc": 0.33472,
+          "lo": 0.3155697064532601,
+          "hi": 0.3518576385123599
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.2075187969924812,
+          "lo": 0.15867956224350208,
+          "hi": 0.26021520716607865
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5568,
+          "n_clusters": 211,
+          "acc": 0.41594827586206895,
+          "lo": 0.3997728534252999,
+          "hi": 0.4325837086502823
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.31096849474912486,
+          "lo": 0.28615,
+          "hi": 0.336144578313253
+        }
+      ]
+    },
+    "InternVL3.5-30B": {
+      "kind": "baseline",
+      "n": 7371,
+      "n_correct": 2280,
+      "acc": 0.3093203093203093,
+      "lo": 0.2942613182994148,
+      "hi": 0.3235388470461608,
+      "ci_width": 0.029277528746745995,
+      "n_clusters_scenario": 435,
+      "macro_acc": 0.3877619145980542,
+      "macro_lo": 0.36830664577699695,
+      "macro_hi": 0.4065938906103019,
+      "lo_video": 0.2999453055910676,
+      "hi_video": 0.31833744078616144,
+      "ci_width_video": 0.01839213519509386,
+      "n_clusters_video": 1597,
+      "lo_iid": 0.2994166327499661,
+      "hi_iid": 0.3199023199023199,
+      "ci_width_iid": 0.02048568715235377,
+      "lo_wilson": 0.29887009108050827,
+      "hi_wilson": 0.3199691726926949,
+      "ci_width_wilson": 0.021099081612186654,
+      "deff_scenario": 2.042526782748925,
+      "deff_video": 0.8060523140303425,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.9506578947368421,
+          "lo": 0.9255588570638842,
+          "hi": 0.9746063262850266
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.5486725663716814,
+          "lo": 0.4505560535486898,
+          "hi": 0.6368939892960065
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.1361760660247593,
+          "lo": 0.10727886056971515,
+          "hi": 0.16714401341273052
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2164,
+          "n_clusters": 227,
+          "acc": 0.30268022181146026,
+          "lo": 0.27144104867216373,
+          "hi": 0.332106187338164
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3172,
+          "n_clusters": 435,
+          "acc": 0.3162042875157629,
+          "lo": 0.29460847240051347,
+          "hi": 0.33722508505439225
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.07218045112781955,
+          "lo": 0.051481772506194366,
+          "hi": 0.09402991822083075
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5657,
+          "n_clusters": 233,
+          "acc": 0.37228212833657415,
+          "lo": 0.3573683653911309,
+          "hi": 0.3872674815189786
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.10151691948658109,
+          "lo": 0.08417634461333719,
+          "hi": 0.12019566345231851
+        }
+      ]
+    },
+    "Qwen3-Omni": {
+      "kind": "baseline",
+      "n": 7371,
+      "n_correct": 2022,
+      "acc": 0.2743182743182743,
+      "lo": 0.257324575479704,
+      "hi": 0.2896179736875631,
+      "ci_width": 0.03229339820785909,
+      "n_clusters_scenario": 435,
+      "macro_acc": 0.38100760510135157,
+      "macro_lo": 0.3579736123499837,
+      "macro_hi": 0.4028178852408801,
+      "lo_video": 0.26480333656918986,
+      "hi_video": 0.2841471950225074,
+      "ci_width_video": 0.01934385845331754,
+      "n_clusters_video": 1597,
+      "lo_iid": 0.2648182064848732,
+      "hi_iid": 0.2844932844932845,
+      "ci_width_iid": 0.019675078008411284,
+      "lo_wilson": 0.2642522333208089,
+      "hi_wilson": 0.28461942465622675,
+      "ci_width_wilson": 0.020367191335417867,
+      "deff_scenario": 2.693981257096499,
+      "deff_video": 0.966614454921501,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.9407894736842105,
+          "lo": 0.9125823949464433,
+          "hi": 0.9675748069498069
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.5663716814159292,
+          "lo": 0.44593436894838767,
+          "hi": 0.6724889086069209
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.13067400275103164,
+          "lo": 0.10211286013282277,
+          "hi": 0.16010885561207966
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2164,
+          "n_clusters": 227,
+          "acc": 0.4265249537892791,
+          "lo": 0.3785103716025581,
+          "hi": 0.47036956714209577
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3172,
+          "n_clusters": 435,
+          "acc": 0.15100882723833545,
+          "lo": 0.13709035876430187,
+          "hi": 0.16451359232217477
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.07067669172932331,
+          "lo": 0.04638354776019267,
+          "hi": 0.09636698452578085
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5657,
+          "n_clusters": 233,
+          "acc": 0.33480643450592185,
+          "lo": 0.31734638079609057,
+          "hi": 0.35215303037332146
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.07467911318553092,
+          "lo": 0.06055518018018018,
+          "hi": 0.09105915017511287
+        }
+      ]
+    },
+    "Cosmos-Reason": {
+      "kind": "baseline",
+      "n": 7371,
+      "n_correct": 1956,
+      "acc": 0.2653642653642654,
+      "lo": 0.25436899673882774,
+      "hi": 0.2757719531447242,
+      "ci_width": 0.021402956405896456,
+      "n_clusters_scenario": 435,
+      "macro_acc": 0.3778035362649992,
+      "macro_lo": 0.36109061186410346,
+      "macro_hi": 0.3933821835837228,
+      "lo_video": 0.2558520398900301,
+      "hi_video": 0.2742896761292132,
+      "ci_width_video": 0.018437636239183097,
+      "n_clusters_video": 1597,
+      "lo_iid": 0.256003256003256,
+      "hi_iid": 0.2754036087369421,
+      "ci_width_iid": 0.019400352733686066,
+      "lo_wilson": 0.25540879552865564,
+      "hi_wilson": 0.27556417259354643,
+      "ci_width_wilson": 0.02015537706489079,
+      "deff_scenario": 1.217105657805474,
+      "deff_video": 0.9032151889479488,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.9407894736842105,
+          "lo": 0.911846866406137,
+          "hi": 0.9673255665902725
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.4247787610619469,
+          "lo": 0.3545671306848066,
+          "hi": 0.4917189248725373
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.1746905089408528,
+          "lo": 0.14304635761589404,
+          "hi": 0.20555197353666735
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2164,
+          "n_clusters": 227,
+          "acc": 0.32624768946395566,
+          "lo": 0.30652863860100704,
+          "hi": 0.3456389789508346
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3172,
+          "n_clusters": 435,
+          "acc": 0.17023959646910466,
+          "lo": 0.1570466366028688,
+          "hi": 0.18344202346425018
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.23007518796992482,
+          "lo": 0.19503435085448942,
+          "hi": 0.2645173990347981
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5657,
+          "n_clusters": 233,
+          "acc": 0.3008661834894821,
+          "lo": 0.2905213958360456,
+          "hi": 0.3114515322052771
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.14819136522753792,
+          "lo": 0.13032694807521059,
+          "hi": 0.16547699891706524
+        }
+      ]
+    },
+    "InternVL3.5-8B": {
+      "kind": "baseline",
+      "n": 7371,
+      "n_correct": 1888,
+      "acc": 0.2561389228055895,
+      "lo": 0.24172375341499927,
+      "hi": 0.26905390980368166,
+      "ci_width": 0.027330156388682386,
+      "n_clusters_scenario": 435,
+      "macro_acc": 0.3669489116972717,
+      "macro_lo": 0.3446597377644945,
+      "macro_hi": 0.3866353276114552,
+      "lo_video": 0.24764382939766766,
+      "hi_video": 0.2647789459350992,
+      "ci_width_video": 0.01713511653743155,
+      "n_clusters_video": 1597,
+      "lo_iid": 0.24677452177452178,
+      "hi_iid": 0.2660425993759327,
+      "ci_width_iid": 0.019268077601410943,
+      "lo_wilson": 0.24630293255679847,
+      "hi_wilson": 0.26622896116951444,
+      "ci_width_wilson": 0.019926028612715974,
+      "deff_scenario": 2.0119049545755527,
+      "deff_video": 0.7908558862990827,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.9046052631578947,
+          "lo": 0.8693004152015416,
+          "hi": 0.9380363688983213
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.5663716814159292,
+          "lo": 0.4494047788365809,
+          "hi": 0.6679180119926198
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.20082530949105915,
+          "lo": 0.1682225606364041,
+          "hi": 0.2348581608916975
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2164,
+          "n_clusters": 227,
+          "acc": 0.3539741219963031,
+          "lo": 0.3126870217692069,
+          "hi": 0.3927619827783945
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3172,
+          "n_clusters": 435,
+          "acc": 0.15636822194199243,
+          "lo": 0.14000480772056897,
+          "hi": 0.173018018018018
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.019548872180451128,
+          "lo": 0.009204829448098903,
+          "hi": 0.03207467318724722
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5657,
+          "n_clusters": 233,
+          "acc": 0.3040480820222733,
+          "lo": 0.28818634804084886,
+          "hi": 0.3194150725806287
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.09801633605600933,
+          "lo": 0.08338393593220304,
+          "hi": 0.1132491021188743
+        }
+      ]
+    },
+    "LLaVA-OneVision": {
+      "kind": "baseline",
+      "n": 7371,
+      "n_correct": 1758,
+      "acc": 0.2385022385022385,
+      "lo": 0.21840167688801995,
+      "hi": 0.2587141429320909,
+      "ci_width": 0.04031246604407093,
+      "n_clusters_scenario": 435,
+      "macro_acc": 0.24252175267364243,
+      "macro_lo": 0.22075289236246176,
+      "macro_hi": 0.2650378571516149,
+      "lo_video": 0.22859608061619482,
+      "hi_video": 0.24792250536663485,
+      "ci_width_video": 0.019326424750440024,
+      "n_clusters_video": 1597,
+      "lo_iid": 0.22940917107583775,
+      "hi_iid": 0.2481345814679148,
+      "ci_width_iid": 0.018725410392077063,
+      "lo_wilson": 0.2289110918440127,
+      "hi_wilson": 0.24836580671368857,
+      "ci_width_wilson": 0.01945471486967587,
+      "deff_scenario": 4.634640400672413,
+      "deff_video": 1.065222548564227,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.5230263157894737,
+          "lo": 0.4090909090909091,
+          "hi": 0.634099272856256
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.12979351032448377,
+          "lo": 0.08849448805201017,
+          "hi": 0.17616971848448856
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.2517193947730399,
+          "lo": 0.21468733070195806,
+          "hi": 0.28744980639609924
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2164,
+          "n_clusters": 227,
+          "acc": 0.33410351201478744,
+          "lo": 0.2905276692212692,
+          "hi": 0.3755155818441982
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3172,
+          "n_clusters": 435,
+          "acc": 0.20145018915510718,
+          "lo": 0.18181746328284426,
+          "hi": 0.2205896779176506
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.015037593984962405,
+          "lo": 0.005804469577510741,
+          "hi": 0.026881946326917865
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5657,
+          "n_clusters": 233,
+          "acc": 0.2782393494785222,
+          "lo": 0.254235620224612,
+          "hi": 0.3022845066843372
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.1073512252042007,
+          "lo": 0.09191637283021517,
+          "hi": 0.12295129512000304
+        }
+      ]
+    },
+    "Qwen3-VL": {
+      "kind": "baseline",
+      "n": 7371,
+      "n_correct": 1616,
+      "acc": 0.2192375525708859,
+      "lo": 0.20573163824560303,
+      "hi": 0.23201662218149946,
+      "ci_width": 0.026284983935896428,
+      "n_clusters_scenario": 435,
+      "macro_acc": 0.360049425930736,
+      "macro_lo": 0.3388300475615228,
+      "macro_hi": 0.38102963723185385,
+      "lo_video": 0.21058277268863015,
+      "hi_video": 0.22746292466062853,
+      "ci_width_video": 0.01688015197199838,
+      "n_clusters_video": 1597,
+      "lo_iid": 0.2104192104192104,
+      "hi_iid": 0.22859856193189526,
+      "ci_width_iid": 0.01817935151268485,
+      "lo_wilson": 0.2099401289979676,
+      "hi_wilson": 0.2288274671447887,
+      "ci_width_wilson": 0.018887338146821087,
+      "deff_scenario": 2.0905408465499447,
+      "deff_video": 0.8621760015118094,
+      "per_category": [
+        {
+          "category": "Visual understanding",
+          "n": 304,
+          "n_clusters": 77,
+          "acc": 0.9046052631578947,
+          "lo": 0.8680464743589744,
+          "hi": 0.938358798735511
+        },
+        {
+          "category": "Spatial-temporal understanding",
+          "n": 339,
+          "n_clusters": 87,
+          "acc": 0.5722713864306784,
+          "lo": 0.45405190905190906,
+          "hi": 0.6775260756192959
+        },
+        {
+          "category": "Artifacts understanding",
+          "n": 727,
+          "n_clusters": 199,
+          "acc": 0.15268225584594222,
+          "lo": 0.12305516265912306,
+          "hi": 0.18509736634303978
+        },
+        {
+          "category": "Safety understanding",
+          "n": 2164,
+          "n_clusters": 227,
+          "acc": 0.39926062846580407,
+          "lo": 0.3508102955195424,
+          "hi": 0.4435996530860916
+        },
+        {
+          "category": "Reality understanding",
+          "n": 3172,
+          "n_clusters": 435,
+          "acc": 0.03373266078184111,
+          "lo": 0.02730362040328082,
+          "hi": 0.04087973729605821
+        },
+        {
+          "category": "Traffic laws understanding",
+          "n": 665,
+          "n_clusters": 126,
+          "acc": 0.09774436090225563,
+          "lo": 0.06915304960893034,
+          "hi": 0.13020877206794068
+        }
+      ],
+      "per_source": [
+        {
+          "source": "cosmos-drive-dreams",
+          "n": 5657,
+          "n_clusters": 233,
+          "acc": 0.2640975782216723,
+          "lo": 0.2495853259360335,
+          "hi": 0.27848458944142646
+        },
+        {
+          "source": "cosmos-predict1",
+          "n": 1714,
+          "n_clusters": 202,
+          "acc": 0.07117852975495916,
+          "lo": 0.05757521255722695,
+          "hi": 0.08614341932814641
+        }
+      ]
+    }
+  },
+  "pairwise_vs_reference": {
+    "Qwen3-VL+agent": [
+      {
+        "A": "Qwen3-VL",
+        "B": "Qwen3-VL+agent",
+        "n_shared": 7371,
+        "acc_A": 0.2192375525708859,
+        "acc_B": 0.6007326007326007,
+        "diff": -0.3814950481617148,
+        "lo": -0.40478995854502675,
+        "hi": -0.35767418974874654,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3378,
+        "n_A_only": 283,
+        "n_B_only": 3095,
+        "mcnemar_p": 0.0,
+        "n_clusters": 435,
+        "is_vs_v4o": true,
+        "is_vs_gemini": false,
+        "significant": true
+      },
+      {
+        "A": "LLaVA-OneVision",
+        "B": "Qwen3-VL+agent",
+        "n_shared": 7371,
+        "acc_A": 0.2385022385022385,
+        "acc_B": 0.6007326007326007,
+        "diff": -0.36223036223036226,
+        "lo": -0.3885202571699088,
+        "hi": -0.3355588178077426,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3656,
+        "n_A_only": 493,
+        "n_B_only": 3163,
+        "mcnemar_p": 0.0,
+        "n_clusters": 435,
+        "is_vs_v4o": true,
+        "is_vs_gemini": false,
+        "significant": true
+      },
+      {
+        "A": "InternVL3.5-8B",
+        "B": "Qwen3-VL+agent",
+        "n_shared": 7371,
+        "acc_A": 0.2561389228055895,
+        "acc_B": 0.6007326007326007,
+        "diff": -0.34459367792701123,
+        "lo": -0.3686213421548128,
+        "hi": -0.3205750586942303,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3474,
+        "n_A_only": 467,
+        "n_B_only": 3007,
+        "mcnemar_p": 0.0,
+        "n_clusters": 435,
+        "is_vs_v4o": true,
+        "is_vs_gemini": false,
+        "significant": true
+      },
+      {
+        "A": "Cosmos-Reason",
+        "B": "Qwen3-VL+agent",
+        "n_shared": 7371,
+        "acc_A": 0.2653642653642654,
+        "acc_B": 0.6007326007326007,
+        "diff": -0.3353683353683354,
+        "lo": -0.35915271158708406,
+        "hi": -0.31145920945203953,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3574,
+        "n_A_only": 551,
+        "n_B_only": 3023,
+        "mcnemar_p": 0.0,
+        "n_clusters": 435,
+        "is_vs_v4o": true,
+        "is_vs_gemini": false,
+        "significant": true
+      },
+      {
+        "A": "Qwen3-Omni",
+        "B": "Qwen3-VL+agent",
+        "n_shared": 7371,
+        "acc_A": 0.2743182743182743,
+        "acc_B": 0.6007326007326007,
+        "diff": -0.32641432641432644,
+        "lo": -0.34853564618458244,
+        "hi": -0.3040260318240057,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3288,
+        "n_A_only": 441,
+        "n_B_only": 2847,
+        "mcnemar_p": 0.0,
+        "n_clusters": 435,
+        "is_vs_v4o": true,
+        "is_vs_gemini": false,
+        "significant": true
+      },
+      {
+        "A": "InternVL3.5-30B",
+        "B": "Qwen3-VL+agent",
+        "n_shared": 7371,
+        "acc_A": 0.3093203093203093,
+        "acc_B": 0.6007326007326007,
+        "diff": -0.2914122914122914,
+        "lo": -0.3152703912212042,
+        "hi": -0.26817750785639227,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3544,
+        "n_A_only": 698,
+        "n_B_only": 2846,
+        "mcnemar_p": 2.763590007361627e-305,
+        "n_clusters": 435,
+        "is_vs_v4o": true,
+        "is_vs_gemini": false,
+        "significant": true
+      },
+      {
+        "A": "GPT-5.4-mini",
+        "B": "Qwen3-VL+agent",
+        "n_shared": 7282,
+        "acc_A": 0.39123867069486407,
+        "acc_B": 0.5992859104641582,
+        "diff": -0.20804723976929415,
+        "lo": -0.22910921632884249,
+        "hi": -0.1864394193706239,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3157,
+        "n_A_only": 821,
+        "n_B_only": 2336,
+        "mcnemar_p": 1.341986200191004e-166,
+        "n_clusters": 413,
+        "is_vs_v4o": true,
+        "is_vs_gemini": false,
+        "significant": true
+      },
+      {
+        "A": "Qwen3-VL+agent+hints",
+        "B": "Qwen3-VL+agent",
+        "n_shared": 7371,
+        "acc_A": 0.5092931759598426,
+        "acc_B": 0.6007326007326007,
+        "diff": -0.09143942477275811,
+        "lo": -0.10911947974375506,
+        "hi": -0.07354125525296289,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 1866,
+        "n_A_only": 596,
+        "n_B_only": 1270,
+        "mcnemar_p": 6.215390756461147e-56,
+        "n_clusters": 435,
+        "is_vs_v4o": true,
+        "is_vs_gemini": false,
+        "significant": true
+      },
+      {
+        "A": "Gemini-3-Flash",
+        "B": "Qwen3-VL+agent",
+        "n_shared": 7282,
+        "acc_A": 0.640208733864323,
+        "acc_B": 0.5992859104641582,
+        "diff": 0.04092282340016479,
+        "lo": 0.01840254289012803,
+        "hi": 0.06395200174024908,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 2590,
+        "n_A_only": 1444,
+        "n_B_only": 1146,
+        "mcnemar_p": 5.154073880095817e-09,
+        "n_clusters": 413,
+        "is_vs_v4o": true,
+        "is_vs_gemini": false,
+        "significant": true
+      }
+    ],
+    "Gemini-3-Flash": [
+      {
+        "A": "Qwen3-VL",
+        "B": "Gemini-3-Flash",
+        "n_shared": 7282,
+        "acc_A": 0.21834660807470474,
+        "acc_B": 0.640208733864323,
+        "diff": -0.42186212578961824,
+        "lo": -0.4468290278036317,
+        "hi": -0.3961953149788225,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3628,
+        "n_A_only": 278,
+        "n_B_only": 3350,
+        "mcnemar_p": 0.0,
+        "n_clusters": 413,
+        "is_vs_v4o": false,
+        "is_vs_gemini": true,
+        "significant": true
+      },
+      {
+        "A": "LLaVA-OneVision",
+        "B": "Gemini-3-Flash",
+        "n_shared": 7282,
+        "acc_A": 0.23564954682779457,
+        "acc_B": 0.640208733864323,
+        "diff": -0.40455918703652843,
+        "lo": -0.43645518341246814,
+        "hi": -0.37469392480975844,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 4006,
+        "n_A_only": 530,
+        "n_B_only": 3476,
+        "mcnemar_p": 0.0,
+        "n_clusters": 413,
+        "is_vs_v4o": false,
+        "is_vs_gemini": true,
+        "significant": true
+      },
+      {
+        "A": "InternVL3.5-8B",
+        "B": "Gemini-3-Flash",
+        "n_shared": 7282,
+        "acc_A": 0.2535017852238396,
+        "acc_B": 0.640208733864323,
+        "diff": -0.3867069486404834,
+        "lo": -0.41013486476551564,
+        "hi": -0.3617285108917369,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3732,
+        "n_A_only": 458,
+        "n_B_only": 3274,
+        "mcnemar_p": 0.0,
+        "n_clusters": 413,
+        "is_vs_v4o": false,
+        "is_vs_gemini": true,
+        "significant": true
+      },
+      {
+        "A": "Cosmos-Reason",
+        "B": "Gemini-3-Flash",
+        "n_shared": 7282,
+        "acc_A": 0.26476242790442184,
+        "acc_B": 0.640208733864323,
+        "diff": -0.37544630595990114,
+        "lo": -0.3973782192075461,
+        "hi": -0.35223921703340316,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3738,
+        "n_A_only": 502,
+        "n_B_only": 3236,
+        "mcnemar_p": 0.0,
+        "n_clusters": 413,
+        "is_vs_v4o": false,
+        "is_vs_gemini": true,
+        "significant": true
+      },
+      {
+        "A": "Qwen3-Omni",
+        "B": "Gemini-3-Flash",
+        "n_shared": 7282,
+        "acc_A": 0.2721779730843175,
+        "acc_B": 0.640208733864323,
+        "diff": -0.3680307607800055,
+        "lo": -0.39422901366198915,
+        "hi": -0.3419360887116106,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3498,
+        "n_A_only": 409,
+        "n_B_only": 3089,
+        "mcnemar_p": 0.0,
+        "n_clusters": 413,
+        "is_vs_v4o": false,
+        "is_vs_gemini": true,
+        "significant": true
+      },
+      {
+        "A": "InternVL3.5-30B",
+        "B": "Gemini-3-Flash",
+        "n_shared": 7282,
+        "acc_A": 0.30692117550123593,
+        "acc_B": 0.640208733864323,
+        "diff": -0.33328755836308704,
+        "lo": -0.3591854872955823,
+        "hi": -0.3069375091320865,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3755,
+        "n_A_only": 664,
+        "n_B_only": 3091,
+        "mcnemar_p": 0.0,
+        "n_clusters": 413,
+        "is_vs_v4o": false,
+        "is_vs_gemini": true,
+        "significant": true
+      },
+      {
+        "A": "GPT-5.4-mini",
+        "B": "Gemini-3-Flash",
+        "n_shared": 7282,
+        "acc_A": 0.39123867069486407,
+        "acc_B": 0.640208733864323,
+        "diff": -0.24897006316945894,
+        "lo": -0.26843593138866345,
+        "hi": -0.22869980044067106,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3175,
+        "n_A_only": 681,
+        "n_B_only": 2494,
+        "mcnemar_p": 5.119540959921024e-241,
+        "n_clusters": 413,
+        "is_vs_v4o": false,
+        "is_vs_gemini": true,
+        "significant": true
+      },
+      {
+        "A": "Qwen3-VL+agent+hints",
+        "B": "Gemini-3-Flash",
+        "n_shared": 7282,
+        "acc_A": 0.5083768195550673,
+        "acc_B": 0.640208733864323,
+        "diff": -0.1318319143092557,
+        "lo": -0.15849694255708388,
+        "hi": -0.10538872598816239,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 3034,
+        "n_A_only": 1037,
+        "n_B_only": 1997,
+        "mcnemar_p": 4.950538355171584e-69,
+        "n_clusters": 413,
+        "is_vs_v4o": false,
+        "is_vs_gemini": true,
+        "significant": true
+      },
+      {
+        "A": "Qwen3-VL+agent",
+        "B": "Gemini-3-Flash",
+        "n_shared": 7282,
+        "acc_A": 0.5992859104641582,
+        "acc_B": 0.640208733864323,
+        "diff": -0.04092282340016479,
+        "lo": -0.06395200174024912,
+        "hi": -0.018402542890128062,
+        "p_boot": 0.0,
+        "p_boot_adj": 0.0009995002498750624,
+        "n_boot": 2000,
+        "n_discordant": 2590,
+        "n_A_only": 1146,
+        "n_B_only": 1444,
+        "mcnemar_p": 5.154073880095817e-09,
+        "n_clusters": 413,
+        "is_vs_v4o": false,
+        "is_vs_gemini": true,
+        "significant": true
+      }
+    ]
+  }
+}

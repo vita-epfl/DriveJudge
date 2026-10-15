@@ -37,6 +37,15 @@ from utils.sam import process_video_sam
 
 from fft.compute_fft import process_video_fft
 
+# SURGICAL PATCH (v2 study): provenance-safe video resolution.  `agentic/` is
+# already on sys.path above, so this picks up `agentic/video_resolve.py`.
+from video_resolve import (  # noqa: E402  (stdlib-only, no qwen-agent dependency)
+    clear_current_item,
+    configure_resolver,
+    get_absolute_path,
+    set_current_item,
+)
+
 ################################
 ##### Global Configuration #####
 ################################
@@ -50,26 +59,16 @@ MAX_SAM_OBJECTS = 4
 _gpu_lock = threading.Lock()
 
 print("Building video cache...")
-_VIDEO_CACHE: dict[str, Path] = {}
-for ext in ("*.mp4", "*.MP4"):
-    for video_path in ROOT_DIR.rglob(ext):
-        if video_path.is_file():
-            _VIDEO_CACHE[video_path.name] = video_path
-print(f"Video cache built: {len(_VIDEO_CACHE)} videos")
-
-
-def get_absolute_path(identifier):
-    # SURGICAL PATCH: legacy strip-of-`scratch` removed — this cluster mounts at
-    # /mnt/vita/scratch/vita-students.
-    if Path(identifier).exists() and Path(identifier).is_file():
-        return Path(identifier)
-    if '/' in identifier or '\\' in identifier:
-        video_path = ROOT_DIR / identifier
-        if video_path.is_file():
-            return video_path
-    if identifier in _VIDEO_CACHE:
-        return _VIDEO_CACHE[identifier]
-    raise FileNotFoundError(f"Video '{identifier}' not found in {ROOT_DIR}")
+# SURGICAL PATCH (v2 study): the old cache was `basename -> single Path`, last
+# writer wins.  190 mp4 basenames exist in more than one pool of final_dataset
+# (dd / p1 / p2), and the VLM hands the tools a *bare filename*, so RAFT / SAM /
+# FFT could silently run on a different clip than the question was about.
+# `configure_resolver` maps a basename to *every* match and
+# `video_resolve.get_absolute_path` disambiguates against the item the calling
+# worker thread is pinned to (see `set_current_item` below).
+_VIDEO_CACHE = configure_resolver(ROOT_DIR)
+_n_ambiguous = sum(1 for v in _VIDEO_CACHE.values() if len(v) > 1)
+print(f"Video cache built: {len(_VIDEO_CACHE)} videos ({_n_ambiguous} ambiguous basenames)")
 
 
 ###############################
@@ -371,6 +370,11 @@ def process_single_item(item: Dict[str, Any], llm_cfg: Dict) -> Dict[str, Any]:
     # SURGICAL PATCH: legacy path strip removed — mount is /mnt/vita/scratch/vita-students.
     question = text_item["text"]
 
+    # Provenance: pin this worker thread to the item's own clip so that the bare
+    # filename the VLM hands to the tools can never resolve to a same-named clip
+    # in another dataset pool (see video_resolve.py).
+    set_current_item(video_path)
+
     # Inject hint questions (INS paradigm)
     question_with_hints = _inject_hints(question)
 
@@ -395,12 +399,14 @@ def process_single_item(item: Dict[str, Any], llm_cfg: Dict) -> Dict[str, Any]:
         import traceback
         err_msg = f"ERROR: {str(e)}\n{traceback.format_exc()}"
         print(f"[ERROR] {video_path}: {err_msg[:200]}", flush=True)
+        clear_current_item()
         return {
             "video": video_path, "question": question,
             "evaluation": err_msg[:500], "answer": "ERROR",
             "time_seconds": round(time.time() - t_start, 2)
         }
 
+    clear_current_item()
     t_elapsed = time.time() - t_start
 
     # Read answer from temp file

@@ -1,0 +1,125 @@
+item_id,consistent,false_claim,missed_event,note
+197177890fda,Y,N,N,
+c2f8f28ca67e,Y,N,N,
+fd8b5e83e1c7,Y,N,N,
+2757ca2e3b93,N,N,N,"reasoning fully positive (no issues) but scored 2 not 3"
+5fc297d405ad,Y,N,N,
+4376df745eaa,Y,N,N,
+d0245d5fe1a4,Y,N,N,
+92669c22a25b,Y,Y,N,"white car placed left of ego but frames show it right"
+45c5450a245f,Y,N,N,
+d7a4d41e273d,Y,N,N,
+6db755346e9c,Y,N,N,
+a03e96dd6720,Y,N,N,
+68130db22282,Y,N,N,
+deeb3c57f72c,Y,Y,N,"other vehicle claimed left of ego but frames show it on right edge"
+1b7e6087f358,Y,N,N,
+4054f9e3819c,Y,N,N,
+e2f7fdc95fa4,Y,N,N,
+eecae3ca4df6,Y,Y,N,"claims no unsafe lane changes but silver car visibly cuts in close nearby"
+facb9fe89bfe,Y,N,N,
+571038a615b1,Y,N,N,
+37acf967461d,Y,Y,N,"reasoning invents an intersection/stop line; frames show highway, none present"
+379bc59edb85,Y,N,N,
+164540897b35,Y,Y,N,"claims no apparent violations but silver car visibly cuts in close nearby"
+99584eb918a1,Y,N,N,
+8113425fa052,Y,N,N,
+ef4b4947e15b,N,N,N,"reasoning finds no obvious artifacts yet scores 1 (clearly impossible) not 2"
+4c1239a9238c,Y,N,N,
+7025228c8ef7,Y,N,N,
+725f6dcef7de,Y,N,N,
+3dbd39f3ffbd,Y,N,N,
+bdbb45cdf206,Y,Y,N,"claims stable lane position but truck is closely overtaken on narrow two-lane road"
+11139e98d672,Y,N,N,
+e3590bbd10fa,Y,N,N,
+f77342d006cd,Y,Y,N,"claims multi-lane road with concrete barrier; frames show two-lane road, double yellow line, guardrail"
+825d67846173,Y,N,N,
+07e724c73ffe,Y,Y,N,"claims no rule violation but truck overtaken on narrow two-lane double-yellow road"
+beb6eb6e3334,Y,Y,N,"claims safe driving but frames show very close truck-passing maneuver on narrow road"
+7c9e4685cea2,Y,N,N,
+f054c8c8a5d2,Y,N,N,
+6f3fa32295e9,Y,Y,N,"claims no lateral motion/no overtaking, but frames clearly show truck being overtaken"
+298d40e34d70,Y,Y,N,"claims no lateral motion, but frames clearly show truck being overtaken"
+eb09a792ea10,Y,N,N,
+e915d696c610,Y,Y,N,"claims steady lane position, but frames clearly show truck being overtaken"
+c4e34a74bcfe,Y,N,N,
+fed0cdacf327,Y,N,N,
+d3c77e5804a3,Y,N,N,
+7468c39a79dd,Y,N,N,
+4384e2b09dc0,Y,N,N,
+2f8ef5a91b7d,Y,N,N,
+1cfe50002371,Y,Y,N,"claims concrete barriers but no barrier is visible in the frames, just open desert shoulder"
+81d02e6d7652,Y,N,N,
+6534c4884e96,Y,N,N,
+fb299aff6260,Y,N,N,
+cbcb709dca0d,Y,N,N,
+c8087f2102ce,Y,N,N,
+8f5036978663,Y,Y,N,"reasoning invents an intersection; frames show foggy highway, no intersection present"
+08e48984371e,Y,N,N,
+820b536285ee,Y,N,N,
+c6c84210b195,Y,N,N,
+2129266e765a,Y,N,N,
+7d34c23aa59d,Y,N,N,
+1d6ab257e07f,Y,N,N,
+e97ffd971ad7,Y,N,N,
+1c5e236bdb94,Y,N,N,
+cb0547ee906e,Y,N,N,
+123cf732b35e,Y,N,N,
+4dbf00ec2a1c,Y,N,N,
+e4c3bbb2e3a8,Y,N,N,
+b2c4aa8bde5a,Y,N,N,
+2dc5349bd47e,Y,N,N,
+863df8ad6088,Y,N,N,
+ec1b50f9bbd4,Y,Y,N,"claims overtaking on the right, but the passed vehicles appear at the ego's left edge in every frame"
+182436e3943f,Y,N,N,
+c7ead86ff80a,Y,Y,N,"claims stable lane position but frames show a close, fast-moving minivan cutting laterally near ego"
+840b13e75ffc,Y,N,N,
+36cfb3190ab8,Y,N,N,
+e6a9b4deb137,Y,Y,N,"claims no lateral motion but frames show a close, fast-moving minivan cutting laterally near ego"
+54e2717f5567,Y,Y,N,"claims not overtaking / no lateral movement but frames show a close, fast-moving minivan cutting laterally near ego"
+f67cee41015f,Y,Y,N,"claims no erratic lateral movement but frames show a close, fast-moving minivan cutting laterally near ego"
+ff5b513545d8,Y,N,N,
+bc3a0639be04,N,N,N,"reasoning finds no obvious artifacts, bases verdict solely on FFT, yet scores 1 not 2"
+5d791d60d469,Y,N,N,
+a92748d150e9,Y,N,N,
+c028caa592ef,Y,N,N,
+1b3967dce771,Y,N,N,
+6c76d93a7933,Y,N,N,
+7d7f700d48cd,Y,N,N,
+41c7a371e21a,Y,Y,N,"claims steady trajectory on a clear road; frames show heavy snow/night, low visibility, and own text later admits it"
+43a47110baa2,Y,N,N,
+ce959966ee1b,Y,N,N,
+b49f6e3ce676,Y,Y,N,"claims steady lane position but frames show a very close truck being overtaken on the left"
+bbb02cf7dbb2,Y,N,N,
+673d6eb75a51,Y,N,N,
+75eea100e8fe,Y,Y,N,"claims steady lane/no unsafe overtaking but frames show a very close truck-passing maneuver"
+d6b78c1a0bce,Y,Y,N,"claims stable lane position but frames show vehicles being overtaken on the left"
+0ce242329508,Y,N,N,
+f6b067c3536d,Y,N,N,
+a6e45121170b,Y,N,N,
+8586a3af55cd,Y,N,N,
+d76a5b3d9fe8,Y,N,N,
+0efb9cfe65e4,Y,N,N,
+b37b3de65d74,Y,Y,N,"claims no rule violation but frames show the ego closing to an extremely tight distance behind the truck"
+41dd16896cee,Y,N,N,
+9745abadc2e4,Y,Y,N,"claims safe following distance but frames show the truck filling almost the entire windshield"
+ce5bad4f261c,Y,N,N,
+0630f3a74790,Y,N,N,
+a5457ccfd921,Y,Y,N,"claims safe driving but frames show extremely tight proximity to the truck ahead"
+68551a41eb3e,Y,N,N,
+4cfba9ba3ef3,Y,N,N,
+f5981cb73704,Y,Y,N,"claims no lateral motion but frames show a close-passing vehicle event"
+a7cd6c149184,Y,N,N,
+362bab4d7448,Y,N,N,
+0d99c02b1601,Y,Y,N,"claims not overtaking / no lateral movement but frames show a close-passing vehicle event"
+e71335043450,Y,Y,N,"claims no lane deviations but frames show a close-passing vehicle event"
+be88596367ba,Y,Y,N,"claims a red traffic light ahead; frames show only vehicle taillights on an open highway, no traffic light present"
+3c33ae1999db,Y,N,N,
+551bb8548f34,Y,N,N,
+0a5628ab2699,Y,N,N,
+c2078c2e8936,Y,N,N,
+c6a96d017d9b,Y,N,N,
+d47339010ca4,Y,Y,N,"claims safe following distance but frames show the truck trailer filling almost the entire windshield"
+6a29a7d0f8f6,Y,N,N,
+ea2d45d279a8,Y,N,N,
+f435839f1b8f,Y,Y,N,"claims stable lane position but frames show the white car being overtaken on the left"

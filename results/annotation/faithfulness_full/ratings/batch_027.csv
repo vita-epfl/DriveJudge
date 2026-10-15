@@ -1,0 +1,81 @@
+item_id,consistent,false_claim,missed_event,note
+c30590842930,Y,N,N,
+ad2665651a60,Y,N,N,
+886e5e042eef,Y,N,N,
+a8d732a1f623,Y,N,N,
+2a67a9a13480,Y,N,N,
+682d19377a3c,Y,N,N,
+090e58feb7f0,Y,N,N,
+e450c5d79660,Y,N,N,
+4f54282d1f4d,Y,Y,N,"FFT quoted 0.0595 vs actual 0.0457 (REAL), not GENERATED"
+d91e06d1cb8d,Y,Y,N,"claims queue moving slowly; frames show static stopped traffic, brake lights on"
+8391b198042c,Y,Y,N,"FFT quoted 0.0595 vs actual 0.0457 (REAL), not GENERATED"
+423db9736d45,Y,Y,N,"claims car proceeding through intersection; frames show it stopped, brake lights on"
+0d968f38add9,Y,N,N,
+c8ac8ab98d75,Y,N,N,
+d6fba40e1fd8,Y,N,N,
+9b183411c759,Y,N,N,
+17c8413ace40,Y,Y,N,claims sustained forward motion through intersection; frames show static stopped queue behind bus
+0657ff7dbdc3,Y,N,N,
+a06aaea6fab0,Y,N,N,
+ebd489b3f57a,Y,N,N,
+1009055a21ad,Y,N,N,
+5f2c9282d428,Y,Y,N,claims car moving through intersection; frames show it stopped behind van/bus
+090b2eac8165,Y,N,N,
+454d0629b8db,Y,N,N,
+26393bc82166,Y,N,N,
+679bffeeeb13,Y,N,N,
+99ab69f15aa1,Y,Y,N,"claims car moving through green light; frames show stopped queue, brake lights on"
+a0661e0fa496,Y,N,N,
+608d42cc6343,Y,N,N,
+003a7ce5f1c2,Y,N,N,
+d91073f9dadb,Y,N,N,
+356b3b99aed1,Y,N,N,
+b693cf565c98,Y,Y,N,"claims red-to-green transition and proceeding; frames show constant green light, car stopped throughout"
+2632c42eb7bb,Y,N,N,
+09a637b34828,Y,N,N,
+78a8a2a740db,Y,Y,N,"claims car not stopped; frames show it stationary in queue, brake lights on"
+80db5aea9fea,Y,N,N,
+809f18be0fa6,Y,N,N,
+56068f79a9d1,Y,N,N,
+b9cb9f857f7e,Y,Y,N,"no-match; claims car moving forward not stopped; frames show stopped queue, brake lights"
+3be5bd405892,Y,N,N,
+32fa94811939,Y,N,N,
+3a6c498703bb,Y,Y,N,claims red light; frames show the light is green
+9fed9bbedb4a,Y,Y,N,claims car stopped at red light; frames clearly show green light
+8012fbccefed,Y,N,N,
+e3a2494051ee,Y,N,N,
+999bdc325786,Y,N,N,
+0ab625583cee,Y,N,N,
+58b59de11032,Y,N,N,
+f6287ea90310,Y,Y,N,"claims car proceeding/moving through intersection; frames show stopped queue, brake lights on"
+48e2be7e0d08,Y,N,N,
+243112b40960,Y,Y,N,"claims car proceeding through intersection; frames show stopped queue, brake lights on"
+932cfe40fcbb,Y,N,N,
+e842019b7491,Y,Y,N,"claims stop-at-red then proceed on green; frames show constant green light, car stopped throughout"
+e9132ad234b6,Y,Y,N,claims car stopped at red light; frames show light is green
+ad9d9aac20c9,Y,N,N,
+9cd8bf55c588,Y,N,N,
+f6cfd83f5704,Y,N,N,
+5f01049733e5,Y,N,N,
+d4ce25b2c74a,Y,N,N,
+5f4eeedc618a,Y,N,N,
+cdf268bafc73,Y,N,N,
+3ebae3183c44,Y,N,N,
+493d952c7fa2,Y,N,N,
+f92406f3c1b9,Y,Y,N,claims car stopped at red light; frames show light is green
+b8fbc1e3984b,Y,N,N,
+b59c8ccd347e,Y,N,N,
+f54ab4ca3f80,Y,Y,N,"claims car moving through green light; frames show it stopped in queue, brake lights on"
+3c96b08151cd,Y,N,N,
+154c1bdd4ed5,Y,N,N,
+406c983a47b9,Y,N,N,
+081aaccdf3c7,Y,N,N,
+ce7a312d4434,Y,N,N,
+d5d199a68be4,Y,N,N,
+c23468ab01d7,Y,N,N,
+fa5668bff64f,Y,N,N,
+0b428a9772ab,Y,N,Y,"garbled illegible highway sign visible (classic AI artifact), unmentioned; would push toward answer 1"
+c656928946f5,Y,N,N,
+60ffce3137d6,Y,N,N,
+4dd83fdb7ad2,Y,N,N,

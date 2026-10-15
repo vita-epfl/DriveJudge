@@ -1,0 +1,73 @@
+item_id,consistent,false_claim,missed_event,note
+96fa67cde006,Y,N,N,
+12bdf4873683,Y,N,N,
+5b5361dc2f4e,Y,N,N,
+e3bb185d056e,Y,N,N,
+f569c370bf63,Y,N,N,
+225f9d558d63,Y,N,N,
+0035f184dc6b,Y,N,N,
+5b45b49798f0,Y,Y,N,claims car disintegrates into floating pieces; no such fragmentation visible in any frame
+8803f92abe3a,Y,N,N,
+0d4cfcace8d7,Y,N,N,
+bba7d1724fdd,Y,N,N,
+f5c3ac2f0f5c,Y,N,N,
+a52b00babd66,Y,N,N,
+2ae7382d4412,Y,N,N,
+78e00db371ad,Y,N,N,
+dcc85dd55356,Y,N,N,
+e9801770b7bd,Y,N,N,
+79d3abb52ea6,Y,Y,N,"claims no morphing/physically consistent; frame 2 shows a warped, melted-looking object roadside"
+f172a6b97769,Y,N,N,
+96c2388bc2a6,Y,N,N,
+12e4a9bed78d,Y,N,N,
+6caa663b633e,Y,N,N,
+b543b88171ba,Y,N,N,
+43717ded1789,Y,N,N,
+e05ac0acd74a,Y,N,N,
+6b77eed4a83b,Y,N,N,
+79a781967843,N,N,N,reasoning admits scene 'appears realistic' yet answers 1 (clearly impossible); self-contradictory
+96abc6b7e265,Y,N,N,
+daa16a5d29f5,Y,N,N,
+555176d2cdca,Y,N,N,
+6af580b508d7,Y,N,N,no-match; concluded 'Yes' used; plate-morph claim matches visible plate-number change across frames
+0952c72b9cef,Y,N,N,
+b7f33d797d57,Y,N,N,
+1bd1178a25c4,Y,N,N,
+2da2c4daf841,Y,N,N,
+6bab7f7d7754,Y,N,N,
+f5f58502a1c7,Y,N,N,
+b4fd4c6c3770,Y,Y,N,quotes anisotropy 0.0568; actual is 0.0652
+9041f32a2182,Y,Y,N,quotes anisotropy 0.0568; actual is 0.0652
+bc046c5bb3d3,Y,Y,N,quotes anisotropy 0.0568; actual is 0.0652
+2c8c62234dca,Y,Y,N,quotes anisotropy 0.0568; actual is 0.0652
+0446e169e05b,Y,N,N,
+57c52d1eb004,Y,N,N,
+06b71363cad0,Y,N,N,
+b6ab8d014f30,Y,N,N,
+054807dd6549,Y,N,N,
+ce9061c023bd,Y,N,N,
+39c059e43a55,Y,N,N,
+54e461a750d1,Y,N,N,
+e7f5baf056b4,Y,N,N,
+f5b3d0cbcb06,N,Y,N,no-match; loops without concluding; claims clean segments but sign panel shows gibberish text
+5d0b8a671603,Y,N,N,
+ae83221f174d,Y,N,N,
+594c3daffc6d,Y,N,N,
+7a92ced10266,Y,Y,N,"quotes anisotropy 0.0357/'real'; actual is 0.0583, GENERATED (high confidence)"
+f1085ab793b2,Y,Y,N,"quotes anisotropy 0.0357; actual is 0.0583, GENERATED (high confidence)"
+36f1f94a2c10,Y,Y,N,"quotes 0.0357/'real'; actual 0.0583 is GENERATED (high confidence), contradicts 'Real'"
+a7ab84c6902a,Y,Y,N,"quotes anisotropy 0.0357; actual is 0.0583, GENERATED (high confidence)"
+4ed03cb53ee0,Y,Y,N,"claims no rigidity violations/indistinguishable from real; frame 4 shows a warped, melted wheel"
+212469aa8cde,Y,Y,N,"claims no rigidity violations; frame 4 shows a warped, melted-looking wheel on parked car"
+a8f5b50e0b53,Y,Y,N,"answers No shape change; frame 4 shows a warped, melted-looking wheel on parked car"
+3f00dac48c95,Y,Y,N,"claims no rigidity violations supporting 'Real'; frame 4 shows a warped, melted wheel"
+a7d68d45bddb,Y,N,N,
+7880e98fcc72,Y,N,N,
+d42de2253f13,Y,N,N,
+0593a61392bb,Y,N,N,
+7a0f8fc21489,Y,Y,N,"quotes anisotropy 0.0433; actual is 0.0531, GENERATED (moderate confidence)"
+0b726f7d9561,Y,Y,N,"quotes 0.0433/'real'; actual 0.0531 is GENERATED (moderate confidence), contradicts 'Real'"
+ffe847b4a068,Y,Y,N,"quotes anisotropy 0.0433; actual is 0.0531, GENERATED (moderate confidence)"
+6024178be363,Y,Y,N,"quotes anisotropy 0.0433; actual is 0.0531, GENERATED (moderate confidence)"
+866004df8192,Y,N,N,
+75eee56d409f,Y,N,N,

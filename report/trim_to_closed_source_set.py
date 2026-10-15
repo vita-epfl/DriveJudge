@@ -15,21 +15,22 @@ import json
 import os
 import re
 from collections import Counter
+from pathlib import Path
 
 import polars as pl
 
-ROOT = "/home/matthieu/Documents/Projet de master/VLM-eval-rcp"
-OUT_DIR = f"{ROOT}/baseline_analysis"
+ROOT = Path(__file__).resolve().parents[1]
+OUT_DIR = ROOT / "report"
 
-GEMINI_JSON = f"{ROOT}/closed_source_evaluation/gemini/results/gemini_batch_results.json"
-GPT_JSON = f"{ROOT}/closed_source_evaluation/gpt/results/gpt_all_results.json"
+GEMINI_JSON = ROOT / "src/evaluation/closed_source/gemini/results/gemini_batch_results.json"
+GPT_JSON = ROOT / "src/evaluation/closed_source/gpt/results/gpt_all_results.json"
 
 ENRICHED = {
     "Cosmos-Reason":          "cosmos_reason_enriched.parquet",
     "InternVL3.5-30B":        "internvl3_5_30b_enriched.parquet",
     "InternVL3.5-8B":         "internvl3_5_8b_enriched.parquet",
     "LLaVA-OneVision":        "llava_onevision_enriched.parquet",
-    "Qwen2.5-Omni":           "qwen2_5_omni_enriched.parquet",
+    "Qwen3-Omni":             "qwen3_omni_enriched.parquet",
     "Qwen3-VL":               "qwen3_vl_enriched.parquet",
     "Qwen3-VL+agent":         "qwen3_vl_agent_enriched.parquet",
     "Qwen3-VL+agent+hints":   "qwen3_vl_agent_hints_enriched.parquet",

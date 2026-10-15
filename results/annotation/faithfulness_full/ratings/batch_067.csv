@@ -1,0 +1,74 @@
+item_id,consistent,false_claim,missed_event,note
+23dfd90f906a,Y,N,N,
+f15483d36685,Y,N,N,
+3eb86ee25175,N,N,N,"reasoning says shape/appearance unchanged, yet answers Yes"
+2743646ee425,Y,N,N,
+921a92a16114,Y,N,N,
+f4deaf0a6585,Y,N,Y,"misses tree that abruptly appears/grows across frames, a realism-breaking artifact"
+7fa9330514f0,Y,Y,N,"claims tree appears and stays stable, but it pops in and grows rapidly across frames"
+e3e44ce86111,Y,N,N,
+62250234df00,Y,N,N,
+f283640bb99d,Y,N,N,
+424f78e855de,Y,N,Y,"misses garbled/gibberish STOP road text and sign lettering, a clear realism artifact"
+fd79eb14f950,Y,N,N,
+1d43a7a37523,Y,N,N,
+f1f0734830c6,Y,N,N,
+393382536d28,Y,N,N,
+abd8b6188482,Y,N,N,
+0d3591669068,Y,N,N,
+0de302a4a52c,Y,N,N,
+c68a22909cf6,Y,N,Y,misses odd swirling scribble-like tire-track texture across whole road surface
+8a0a9130b815,Y,N,N,
+1883f0930a5d,Y,Y,N,"claims white car melts/reappears, but frames show smooth continuous approach"
+ba7157b24f9a,Y,Y,N,claims car body morphing/warping/texture swimming not visible in any frame
+f1c50cc7837b,Y,N,N,
+178a4ec65de6,Y,N,N,
+5d5610956180,Y,N,N,
+e0747e2d4d2c,Y,N,N,
+4ad8065d0c5c,Y,N,Y,"misses odd concentric swirl pattern on wet road surface, unlike natural rain reflections"
+c04c67ec3d4d,Y,N,N,
+2abc02026c11,Y,Y,N,"claims wobbling roof/windows, flickering lights, melting wheels not visible on the stable car in frames"
+a99906ef46b1,Y,N,N,
+4997a97786c3,Y,N,N,
+43ba8522f81b,Y,N,N,
+37be8d304770,Y,N,N,
+ce52aab2bd56,Y,N,N,
+991cf344ea75,Y,N,Y,misses gibberish road sign ('IRELT') with melted/warped base that pops up and vanishes
+9daa4b3517c9,Y,N,N,
+5f819e85b5c2,N,Y,N,text says no object appears/disappears abruptly yet answers Yes; gibberish sign abruptly pops in/out
+69451874496f,Y,N,N,
+d4863ee10477,Y,N,N,
+a5312d3e3b61,Y,N,Y,misses garbled/gibberish shield-shaped stop sign and abrupt steering-wheel view change
+47eb4e1aa69d,Y,N,N,
+edc629c87e07,Y,N,N,
+3eed4f384e99,Y,N,N,
+2862022fa82a,Y,Y,N,"quotes anisotropy 0.0416/real, actual is 0.0530 GENERATED"
+64ab5bdfd1a7,Y,Y,N,"quotes anisotropy 0.0416/real, actual is 0.0530 GENERATED"
+e2f9370efb13,Y,Y,N,"quotes anisotropy 0.0416/real, actual is 0.0530 GENERATED"
+3d5437a0cdc3,Y,Y,N,"quotes anisotropy 0.0416/real, actual is 0.0530 GENERATED"
+c5f3757bb3af,Y,N,N,
+b80280c035ad,Y,N,N,
+1bdb4745178e,Y,N,N,
+31c46818218e,Y,N,N,
+359a78d3ef29,Y,N,N,
+ce7ed1d1b938,Y,N,N,
+45411fdb3889,Y,N,N,
+24f020c740bb,Y,N,N,
+b8bbe9c2b214,Y,N,N,
+c57bdbff4e14,Y,N,N,
+7e6201978aab,Y,N,N,
+7ba3fa97bef0,Y,N,N,
+4e43263e8832,Y,N,N,
+31c601c08b97,Y,N,N,
+cdabf3d5a32b,Y,Y,N,anisotropy 0.0370 vs actual 0.0548 GENERATED; road text warps to 'CTOP' and car gets red blotch by frame 8
+02ba34d76ac6,Y,Y,N,anisotropy mismatch (0.0370 vs 0.0548); claims physical integrity maintained but car develops red blotch/gibberish road text
+80809c48e0ce,Y,Y,N,anisotropy 0.0370 vs actual 0.0548 GENERATED; claims no morphing but car/road text visibly distort by frame 8
+ffcfa41fdf4b,Y,Y,N,anisotropy mismatch (0.0370 vs 0.0548); claims structural integrity maintained but car gets red blotch/road text garbles to 'CTOP'
+85c829923017,Y,N,N,
+d091145cb139,Y,N,N,
+029861115c7f,Y,N,N,
+0ae7205a9f50,Y,N,N,
+67863ed4b779,Y,N,N,
+53cb38d26a63,Y,N,N,
+3c2be4a0907d,Y,N,N,
+56887ae5b895,Y,N,N,

@@ -1,0 +1,122 @@
+[
+ {
+  "item_id": "0be58d4db797",
+  "conclusion_follows": "3",
+  "hallucination": "Y",
+  "note": "For the first question, I hesitated between 3 and 2 because the text gives two different directions. The first one, the correct one, leverages the optical flow analysis while the second one is based on the biased interpretation of the VLM. The system prompt is written to incite the VLM to use the optical flow over its own interpretation. Here it does not do so."
+ },
+ {
+  "item_id": "5411eab9c1d0",
+  "conclusion_follows": "3",
+  "hallucination": "Y",
+  "note": "The ego car goes forwards in an intersection where the traffic lights have a problem. The green and red lights are lit. It dangerously proceeds forwards without stopping while cars are also coming from the side."
+ },
+ {
+  "item_id": "5742666860f6",
+  "conclusion_follows": "2",
+  "hallucination": "Y",
+  "note": "It gets that the ego car is going forwards and that the traffic light is red. However, due to its strong bias, it says that because the traffic light is red, the ego car stops. It is not true. The ego car does not even slow down. It goes straight into the intersection despite a traffic light being red."
+ },
+ {
+  "item_id": "ba2fd7bccf19",
+  "conclusion_follows": "3",
+  "hallucination": "N",
+  "note": ""
+ },
+ {
+  "item_id": "bea90b452eea",
+  "conclusion_follows": "3",
+  "hallucination": "Y",
+  "note": "The ego car is going straight into the intersection despite a red ligth. The VLM has a strong bias red light = ego car stopped. It does despite having the optical flow saying the truth."
+ },
+ {
+  "item_id": "2f52ab2a7f27",
+  "conclusion_follows": "3",
+  "hallucination": "Y",
+  "note": "Same as video 6."
+ },
+ {
+  "item_id": "356d45aeca9a",
+  "conclusion_follows": "2",
+  "hallucination": "Y",
+  "note": "There is no traffic light in the video. The VLM clearly understands that the ego car didn't stop at the stop line but still imagined the presence of a green traffic light out of nowhere that justified the fact that the ego car didn't stop."
+ },
+ {
+  "item_id": "bba53cb444bb",
+  "conclusion_follows": "3",
+  "hallucination": "Y",
+  "note": "The ego car goes forwards all along. It never stops. It even runs over a car which disappears due to artifacts. And at the stop line, it does not even bother stopping."
+ },
+ {
+  "item_id": "b0340b61222e",
+  "conclusion_follows": "3",
+  "hallucination": "Y",
+  "note": "The writing looks pretty bad. You can straight up see that is it an artifact from the generation."
+ },
+ {
+  "item_id": "91925d09b4bc",
+  "conclusion_follows": "2",
+  "hallucination": "Y",
+  "note": "It may not be wrong on the contradiction of the tools. SAM brings nothing really to detect if a video is real or not. It may segment objects that do not bring any informations on the matter. FFT is clearly the best judge. It didn't rely on it and got biased towards SAM. We can't erally blame it, as the agent wrote, the score is only slightly above."
+ },
+ {
+  "item_id": "f72c35527de4",
+  "conclusion_follows": "3",
+  "hallucination": "Y",
+  "note": "If you look at the footage, you can clearly see cars morphing. SAM is not alaways a good tool for this but it is the best that I found. When you have too much car, I had to put a limit on the ones the VLM sees because then it would just saturate the context and would prevent the VLM to draw any meaningful conclusion."
+ },
+ {
+  "item_id": "68c2af616fe1",
+  "conclusion_follows": "3",
+  "hallucination": "N",
+  "note": "It made an inference from the FFT score about the plausibility of an object appearing. It got it right but I think it was a bit by chance more than by something really grounded."
+ },
+ {
+  "item_id": "6db403f64708",
+  "conclusion_follows": "3",
+  "hallucination": "N",
+  "note": "Here again, I have the same note as question 12."
+ },
+ {
+  "item_id": "311d2896e72c",
+  "conclusion_follows": "3",
+  "hallucination": "N",
+  "note": "The same note as before"
+ },
+ {
+  "item_id": "cb04fdb470f7",
+  "conclusion_follows": "3",
+  "hallucination": "Y",
+  "note": "The white car in front of the ego car in the video changes shape at the end."
+ },
+ {
+  "item_id": "6e60eadedaec",
+  "conclusion_follows": "3",
+  "hallucination": "N",
+  "note": "Here, it got a correct reasoning thanks to SAM working properly."
+ },
+ {
+  "item_id": "3878d9d641dd",
+  "conclusion_follows": "3",
+  "hallucination": "N",
+  "note": ""
+ },
+ {
+  "item_id": "5a339d965dfc",
+  "conclusion_follows": "3",
+  "hallucination": "Y",
+  "note": "The ego car overtakes from the right side and the agent is blind to that."
+ },
+ {
+  "item_id": "5fa6c4a9d96a",
+  "conclusion_follows": "3",
+  "hallucination": "N",
+  "note": "The answer of the agent is incorrect. The video is pretty awful to watch because of the poor quality of the generation. It's obvious that it is AI generated and that there are plenty of problems in the generation. The answer of the agent should have been one here not 2. It is blind to the very high amount of artifacts."
+ },
+ {
+  "item_id": "df91a92abe60",
+  "conclusion_follows": "3",
+  "hallucination": "N",
+  "note": ""
+ }
+]

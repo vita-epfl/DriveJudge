@@ -1,0 +1,121 @@
+item_id,consistent,false_claim,missed_event,note
+cacd073c03bc,Y,Y,N,car does not visibly stop; frames show continuous motion through intersection
+c1de54f37f99,Y,N,N,
+3ec494a89e17,Y,N,N,
+71d5b6c50071,Y,N,N,
+c38ca15a64e1,Y,Y,N,"claims car stops at line; frames show continuous motion, no stop"
+43f386b6f0c4,Y,N,N,
+c496a5a24b7f,Y,Y,N,frames near-static overall; 'proceeds safely' after stop unsupported
+8054b4ad77e6,Y,Y,N,"frames near-static consistent with a stop, not continuous motion"
+a300f60a80d4,N,N,N,cites clean visuals yet picks 1=clearly impossible not 2
+bd3c87012ffb,Y,Y,N,"frames near-static consistent with a stop, not proceeding through"
+1c334a69e6c6,Y,N,N,
+33d8f4ca9a0c,Y,Y,N,"frames near-static consistent with a stop, not proceeding through"
+a91b441aad2c,N,N,N,cites clean visuals yet picks 1=clearly impossible not 2
+271014f7e91f,N,Y,N,claims crossing stop line w/o stopping; frames show near-static/stopped scene
+c4cce71d10f9,Y,Y,N,"frames near-static, not proceeding through intersection"
+27d92916785b,Y,Y,N,"frames near-static consistent with a stop, contradicts 'not stopped'"
+57735580baa5,Y,N,N,
+18c81f0a2f7c,Y,N,N,
+6eab344fc362,N,N,N,cites stable objects yet picks 1=clearly impossible not 2
+03e2b4563912,Y,Y,N,"frames static throughout, no evidence car proceeds through intersection"
+0ae78e99717c,N,Y,N,no-match; reasoning argues not-stopped/moving away but concludes Yes; frames static
+ef117253c7e0,Y,Y,N,"claims traffic light is red; frames show a stop sign, not a signal light"
+69df6d2c6cf8,Y,N,N,no-match
+9cca1ba6c786,Y,N,N,
+d1379da5cf2f,Y,N,N,
+b080a6ed1499,Y,Y,N,"frames static, car appears stopped; contradicts 'does not stop'"
+4cc6859ea03a,Y,Y,N,"frames static, car appears stopped; contradicts 'car is moving'"
+de7cbcba12ae,Y,Y,N,asserts car not stopped at line; frames show static/stopped scene
+5d47c6283633,Y,N,N,
+8a1d1dff254a,Y,Y,N,no-match; claims car not stopping; frames show static/stopped scene
+4220945b3e44,Y,N,N,
+0b23c045f203,Y,N,N,
+089352487603,Y,N,N,
+15e4473b3988,Y,Y,N,"frames static, car appears stopped; contradicts 'proceeds without stopping'"
+de72418ab5aa,Y,Y,N,"frames static, car appears stopped; contradicts 'has not stopped'"
+6ed6711ff56f,Y,N,N,
+72b0b286ff73,Y,Y,N,"frames static, car appears stopped; contradicts 'continues without stopping'"
+26b28c632ed8,N,N,N,cites clean visuals yet picks 1=clearly impossible not 2
+70719b87be6f,Y,Y,N,"admits overriding visual appearance; frames show static/stopped car, not passing sign"
+887673fde72f,Y,Y,N,"frames static, car appears stopped; contradicts 'moving through intersection'"
+00d1e9d3d84f,Y,N,N,
+1b1402a961df,Y,Y,N,"frames static, car appears stopped; contradicts 'passes the stop sign'"
+8ed6ef2f5e42,Y,Y,N,"frames near-totally static, car appears stopped; contradicts 'passing without stopping'"
+0329b084945d,Y,Y,N,"frames near-totally static, car appears stopped; contradicts 'passing without stopping'"
+d11bfad7fa62,N,N,N,cites no clear artifacts yet picks 1=clearly impossible not 2
+44848bd7a3bb,Y,Y,N,"stop-at-line claim matches frames, but 'proceeds through safely' unsupported; frames static throughout"
+38d220306123,Y,N,N,
+8951b737bbc6,Y,Y,N,"frames near-totally static, car appears stopped; contradicts 'passes the stop sign'"
+d215849194bb,Y,N,N,
+975dc1c9b8f6,Y,N,N,
+1481b459390d,Y,N,N,
+10fdb8533646,Y,N,N,
+70e20640c79b,Y,N,N,
+5789919ba21c,Y,N,Y,crossing SUV in frame 3 not mentioned; salient for safety judgment
+3fce4e4ba213,Y,Y,N,"frames static, car appears stopped; contradicts continuous forward motion through intersection"
+89c9448757e0,Y,Y,N,claims texture swimming/morphing in headlights/body; no such artifact visible in frames
+4e20273e2c48,Y,Y,N,"frames static, car appears stopped; contradicts 'has not stopped'"
+74dcab1076e0,Y,Y,N,"frames static, car appears stopped; contradicts 'moving through without stopping'"
+be088e651f77,Y,N,N,
+09baf7ba0b62,Y,Y,N,"stop-at-line claim matches, but 'proceeding' after unsupported by static frames"
+bf72dd1b72a6,N,N,N,cites clean visuals yet picks 1=clearly impossible not 2
+b04e48a91c42,Y,Y,N,stop claim matches frames but 'then proceeds' unsupported; frames static throughout
+335b75f48968,Y,N,N,
+b93307aa1c9b,Y,Y,N,"frames static, car appears stopped; contradicts 'advancing, has not stopped'"
+25f8d2657a19,Y,N,N,
+97e3cdd90814,Y,Y,N,claims video does not show stopping; frames show static/stopped car
+187006259086,Y,Y,N,STOP sign/marking passed with no visible stop; contradicts 'no violation of traffic rules'
+2085bc6ccd84,Y,Y,N,"claims passing a traffic light; frames show a stop sign/marking, no traffic light visible"
+0a6fc70a1f64,Y,N,N,
+b09bddc1ab63,Y,N,N,
+aaa4ed1a2a45,Y,N,N,
+e874109989fb,Y,N,Y,STOP sign/marking clearly visible and car appears to not stop; not addressed for safety judgment
+8af4bc7b98ca,Y,Y,N,"frames show continuous progression through the marked stop, no static stop observed"
+63991eacf089,Y,N,N,
+892515c8b6be,Y,N,N,
+2a4d3ef6c3cf,Y,N,N,
+a7c341cee06a,Y,N,N,
+41fb616065e9,Y,Y,N,"frames show continuous progression, no static stop observed at the marked stop"
+3247ee075277,Y,N,N,
+acefbcacedb7,Y,N,N,
+aa37f5e7e6e0,Y,N,Y,"STOP pavement marking/sign visible in frames, not addressed; only green light discussed"
+452a8e8ca93e,Y,N,N,
+c8fac52cdeee,Y,N,N,
+bbf5728f4638,Y,Y,N,"claims traffic light is red; frames show green light(s), not red"
+2a5aff53a80d,Y,N,Y,STOP sign/pavement marking not addressed at all for the safety judgment
+216346047a69,Y,Y,N,"frames show continuous progression toward the marked stop, no static stop observed"
+b3fd0e79d9ff,N,N,N,cites no visual distortions yet picks 1=clearly impossible not 2
+d5885ecd8dbd,Y,N,N,
+423c126cf9a1,Y,N,N,
+925cf83fa2fd,Y,N,N,
+02c5ab2890f0,Y,Y,N,"frames show continuous progression, no static stop observed"
+19506ad3c2a3,Y,N,N,
+be3b604b7e6f,Y,N,N,
+64255912decb,Y,N,N,
+4cf4e526803f,Y,Y,N,claims proceeding after cross-traffic cleared; no cross-traffic visible in frames
+691c1df653ea,Y,N,N,
+22b9566245af,N,N,N,cites no obvious artifacts yet picks 1=clearly impossible not 2
+fbc5a2da11b5,Y,Y,N,"frames show continuous progression, no static stop observed"
+3c3a6b8e61fe,Y,N,N,
+94cc2183d49b,Y,N,N,
+62a3e51c2e02,Y,N,N,
+542b57bced73,Y,N,N,
+ca7b93913b8c,Y,N,N,
+45a10997d012,N,N,N,cites no obvious artifacts yet picks 1=clearly impossible not 2
+a37c72cd56f5,Y,Y,N,"frames show continuous progression, no static stop observed"
+3c23f45e0879,Y,N,N,
+3757f94152e3,Y,N,N,
+12fc8a1bc10c,Y,Y,N,"frames show continuous progression, no static stop observed"
+f1f8b8c440c1,N,N,N,admits scene appears visually plausible yet picks 1=clearly impossible not 2
+03fcbd277aad,Y,N,N,
+3d4b9225fccd,Y,N,N,
+3d82acbc0562,Y,N,N,
+df06ae8d7b91,Y,N,Y,STOP sign visible (requires stop regardless of light) not addressed in safety judgment
+66aa3604e4b7,Y,N,N,
+969323494d6a,Y,N,N,
+0c768d935c55,Y,N,N,
+87dd64e51441,Y,N,N,
+fd7098ac4b34,Y,Y,N,"frames show continuous smooth motion throughout, no stop at the stop line observed"
+0d5bb3772a9a,Y,N,N,
+5c5b89267ff2,Y,Y,N,"frames show continuous smooth motion, no stop at the stop line observed"

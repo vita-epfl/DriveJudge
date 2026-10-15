@@ -1,0 +1,12 @@
+# InternVL3.5 (src/evaluation/open_source/eval_InternVL3_5.py) runs on lmdeploy.
+# Installed on top of the GPU environment (same venv); these pins resolve with
+# torch 2.8 / transformers 4.57.1 without moving them.
+#
+#   pip install -r requirements-internvl.txt
+#
+# docker/Dockerfile installs it.
+
+-r requirements-gpu.txt
+
+lmdeploy==0.10.2
+timm==1.0.21

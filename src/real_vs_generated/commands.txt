@@ -44,7 +44,7 @@ python code/real_vs_generated/scripts/eval_qwen_3_VL.py \
 
 
 # ---------------------------------------------------------------------------
-# 2. Qwen2.5-Omni
+# 2. Qwen3-Omni
 # ---------------------------------------------------------------------------
 python code/real_vs_generated/scripts/eval_qwen_omni.py \
     --batch_size 50 --max_new_tokens 2048 \
@@ -104,3 +104,159 @@ python code/real_vs_generated/scripts/main_multi_tools_multithreaded.py \
     --num_workers 15 \
     --questions_file $Q_HINT \
     --output_file_path $OUT/v4p_realgen.json
+
+
+###############################################################################
+# v2 — BALANCED 1000 real / 1000 generated extension (paper revision E6)
+###############################################################################
+#
+# What changed vs. v1
+#   * 2000 clips: 1000 real (CarCrash Normal) + 1000 generated
+#     (cosmos-drive-dreams 566 + cosmos-predict1 434 — see NOTE below), so
+#     "always Generated" scores exactly 50 % and no longer wins by default.
+#   * <= 3 clips per `scenario_id` (the weather / model-size re-renderings of
+#     one scene), so the cluster bootstrap has 1416 small clusters.
+#   * stratified: dd over category x weather, p1 over weather x gen_size.
+#   * the message lists are ordered **pilot first** — the first 1000 entries
+#     are the 500 real + 283 dd + 217 p1 pilot subset.  None of the eval
+#     scripts has a --limit flag, so a `*_pilot*.json` copy of every question
+#     file is shipped as well; run those first if GPU time is tight.
+#
+# NOTE on 566/434: cosmos-predict1 has only 494 benchmark clips in total, and
+# only 434 of them survive the <=3-per-scenario cap, so an exact 500/500 split
+# is impossible.  The builder keeps the cluster cap and moves the 66-clip
+# deficit to cosmos-drive-dreams.  Pass --shortfall relax to trade the cap for
+# the source balance instead.
+#
+# BUILD (run locally, needs results/fft/manifest.parquet — NOT on the pod, the
+# manifest is built from the local dataset copy):
+#   .venv/bin/python src/real_vs_generated/build_realgen_v2.py \
+#       --n-real 1000 --n-gen 1000 --pilot 500 --seed 42 \
+#       --max-per-cluster 3 --out src/real_vs_generated/v2/
+#
+# UPLOAD (once): the 1000 CarCrash clips listed in
+#   src/real_vs_generated/v2/realgen_v2_real_clips.txt
+# must be copied to the PVC as  <final_dataset>/real/NNNNNN.mp4  (keep the
+# CarCrash numbering — 000001..003000 do not collide with any generated
+# basename, which matters for the agent's basename lookup).  The generated
+# clips are already on the PVC.  See HANDOFF_v2.md.
+
+ABL2=/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/code/real_vs_generated/v2
+Q2_NOHINT=$ABL2/questions_realgen_v2.json
+Q2_HINT=$ABL2/questions_realgen_v2_hints.json
+Q2_AGENT=$ABL2/questions_realgen_v2_agent.json
+Q2_AGENT_HINT=$ABL2/questions_realgen_v2_agent_hints.json
+OUT2=$ABL2/results
+mkdir -p $OUT2
+
+# Pilot-only variants (1000 messages instead of 2000) — same flags otherwise:
+#   Q2P_NOHINT=$ABL2/questions_realgen_v2_pilot.json
+#   Q2P_HINT=$ABL2/questions_realgen_v2_pilot_hints.json
+#   Q2P_AGENT=$ABL2/questions_realgen_v2_pilot_agent.json
+#   Q2P_AGENT_HINT=$ABL2/questions_realgen_v2_pilot_agent_hints.json
+# and write to $OUT2/<Model>_realgen_v2_pilot.json
+
+
+# ---------------------------------------------------------------------------
+# 1. Qwen3-VL  (no hints + with hints)   — same flags as the v1 section
+# ---------------------------------------------------------------------------
+python code/real_vs_generated/scripts/eval_qwen_3_VL.py \
+    --batch_size 100 --max_new_tokens 2048 --tensor_parallel_size 4 --num_frames 15 \
+    --questions_file $Q2_NOHINT \
+    --output_file_path $OUT2/Qwen3VL_realgen_v2.json
+
+python code/real_vs_generated/scripts/eval_qwen_3_VL.py \
+    --batch_size 100 --max_new_tokens 2048 --tensor_parallel_size 4 --num_frames 15 \
+    --questions_file $Q2_HINT \
+    --output_file_path $OUT2/Qwen3VL_hints_realgen_v2.json
+
+
+# ---------------------------------------------------------------------------
+# 2. Qwen3-Omni
+# ---------------------------------------------------------------------------
+python code/real_vs_generated/scripts/eval_qwen_omni.py \
+    --batch_size 50 --max_new_tokens 2048 \
+    --questions_file $Q2_NOHINT \
+    --output_file_path $OUT2/Qwen_omni_realgen_v2.json
+
+
+# ---------------------------------------------------------------------------
+# 3. Cosmos-Reason
+# ---------------------------------------------------------------------------
+python code/real_vs_generated/scripts/eval_cosmos_reason.py \
+    --batch_size 10 --max_tokens 4096 --tensor_parallel_size 2 \
+    --questions_file $Q2_NOHINT \
+    --output_file_path $OUT2/Cosmos_Reason_realgen_v2.json
+
+
+# ---------------------------------------------------------------------------
+# 4. LLaVA-OneVision (canonical script already takes an absolute --dataset_json)
+# ---------------------------------------------------------------------------
+python code/eval_LLaVa.py \
+    --batch_size 5 --max_new_tokens 1024 --tensor_parallel_size 4 \
+    --dataset_json $Q2_NOHINT \
+    --output_file $OUT2/llava_onevision_realgen_v2.json
+
+
+# ---------------------------------------------------------------------------
+# 5. InternVL3.5 30B + 8B
+# ---------------------------------------------------------------------------
+pip install decord && pip install lmdeploy>=0.9.1 && pip install timm
+
+python code/real_vs_generated/scripts/eval_InternVL3_5.py \
+    --batch_size 100 --max_new_tokens 1024 --num_segments 15 --tp 8 \
+    --pytorch_backend True \
+    --questions_file $Q2_NOHINT \
+    --output_file_path $OUT2/InternVL3_5-30B_realgen_v2.json
+
+# 8B: same invocation with the model path inside eval_InternVL3_5.py (line 162)
+# switched to InternVL3_5-8B, exactly as in the v1 section.
+python code/real_vs_generated/scripts/eval_InternVL3_5.py \
+    --batch_size 100 --max_new_tokens 1024 --num_segments 15 --tp 8 \
+    --pytorch_backend True \
+    --questions_file $Q2_NOHINT \
+    --output_file_path $OUT2/InternVL3_5-8B_realgen_v2.json
+
+
+# ---------------------------------------------------------------------------
+# 6. Qwen3-VL + agent  (v4o = bare, v4p = bare + hints)
+#    vLLM must already be serving on :8000 — startup_realgen_agent.sh does the
+#    serve + venv + copy dance; for v2 just point it at the v2 question files.
+#
+#    !! BASENAME BUG — FIXED, but check it !! the v4 agent used to key its
+#    video cache on the *basename* (last writer wins); 190 generated basenames
+#    exist in more than one pool (dd / p1 / p2), so a tool could be handed the
+#    wrong file.  scripts/main_multi_tools_v4.py now imports
+#    agentic/video_resolve.py, which disambiguates against the clip the worker
+#    thread is on.  REFRESH THE PVC COPY OF agentic/ so video_resolve.py ships
+#    with it; start-up must print
+#        Video cache built: N videos (190 ambiguous basenames)
+#    — if the "(… ambiguous …)" part is missing you are on the old script.
+#    The v2 sample additionally hard-excludes the 31 ambiguous
+#    cosmos-drive-dreams clips; 120 cosmos-predict1 clips remain ambiguous
+#    (`basename_collides` in groundtruth_realgen_v2.json) — there was no way to
+#    reach the target count without them.
+# ---------------------------------------------------------------------------
+bash code/real_vs_generated/scripts/startup_realgen_agent.sh \
+    $Q2_AGENT $OUT2/v4o_realgen_v2.json
+
+# with the server already up, the second variant is just the python call:
+python code/real_vs_generated/scripts/main_multi_tools_v4.py \
+    --num_workers 15 \
+    --questions_file $Q2_AGENT_HINT \
+    --output_file_path $OUT2/v4p_realgen_v2.json
+
+
+# ---------------------------------------------------------------------------
+# 7. Analysis (local, after copying $OUT2/*.json back into
+#    src/real_vs_generated/v2/results/)
+# ---------------------------------------------------------------------------
+# .venv/bin/python src/real_vs_generated/analyze_realgen.py --mode v2 \
+#     --gt src/real_vs_generated/v2/groundtruth_realgen_v2.json \
+#     --results-dir src/real_vs_generated/v2/results \
+#     --out results/realgen
+#
+# .venv/bin/python src/real_vs_generated/analyze_realgen.py --mode v2 \
+#     --gt src/real_vs_generated/v2/groundtruth_realgen_v2.json \
+#     --results-dir src/real_vs_generated/v2/results \
+#     --out results/realgen --pilot-only

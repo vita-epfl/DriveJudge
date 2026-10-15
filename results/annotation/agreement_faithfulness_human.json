@@ -1,0 +1,34 @@
+{
+  "Opus/conclusion_follows": {
+    "agreement": 0.45,
+    "kappa": 0.037,
+    "ci": [
+      -0.123,
+      0.224
+    ]
+  },
+  "Opus/hallucination": {
+    "agreement": 0.75,
+    "kappa": 0.528,
+    "ci": [
+      0.237,
+      0.802
+    ]
+  },
+  "Sonnet/conclusion_follows": {
+    "agreement": 0.65,
+    "kappa": 0.216,
+    "ci": [
+      -0.112,
+      0.474
+    ]
+  },
+  "Sonnet/hallucination": {
+    "agreement": 0.65,
+    "kappa": 0.364,
+    "ci": [
+      0.113,
+      0.7
+    ]
+  }
+}

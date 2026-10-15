@@ -1,0 +1,116 @@
+item_id,consistent,false_claim,missed_event,note
+eb0e6d3bc870,Y,N,N,
+caad181169a7,Y,N,N,
+bf6463e51f20,Y,N,N,
+3f63a24205fa,Y,N,N,
+73646ae5b709,Y,N,N,
+dd0798c5f1d7,Y,N,Y,omits car running stop sign without stopping
+940015709c33,Y,Y,N,"fabricates traffic light; claims car stops (frames show only stop sign, no stop)"
+77261755bfc0,Y,N,N,
+f5db56b0d539,Y,N,N,
+12277af417f2,Y,N,N,
+08a9daa9c6ef,Y,N,N,
+482506743f15,Y,N,N,
+a40cb09c04cf,Y,N,N,
+9d71010c0e04,Y,Y,N,"claims car makes complete stop; frames show continuous forward motion, no stop"
+b637bb01fa87,Y,Y,N,claims visual evidence shows car stopped; frames show continuous motion
+84cfe2dedf14,Y,N,N,
+446802743f82,Y,N,N,
+476bc87b385a,Y,Y,N,claims car stops at stop line appropriately; frames show continuous motion
+ee17234975c0,N,N,N,states car crosses stop line unstopped yet concludes full compliance/perfectly safe
+e7f3b7c6c0bf,Y,N,N,
+76289b9e0be8,Y,N,N,
+bedf9e6d409d,Y,N,N,
+f6f58f5dfc34,Y,N,N,
+c32e5c23ac7f,Y,N,N,
+c46d5270dc92,Y,N,N,
+68792337cf2c,Y,Y,N,claims smooth stop at stop line; frames show continuous unstopped forward motion
+ed66bf9f2f74,Y,N,N,
+6a1cb26bf191,Y,Y,N,claims car comes to complete stop; frames show continuous unstopped motion
+333523ef880e,Y,N,N,
+c73ac25ce18d,Y,Y,N,claims car stops at stop line; frames show continuous unstopped motion
+99fbf9a76586,Y,N,N,
+459e0e92ac43,Y,N,N,
+d9e5bab91d34,Y,Y,N,claims markings/stop sign realistic; frame8 shows garbled gibberish stop-sign text
+5d075ff33c65,Y,Y,N,claims car comes to complete stop; frames show continuous unstopped approach
+9f99651c4986,Y,Y,N,claims car stops before stop line; frames show continuous unstopped approach
+53e4fec16462,Y,N,N,
+fc85503ede8e,Y,N,N,
+122ad0fd2fa6,Y,Y,N,"claims forward motion ceases at stop line; frames show continuous approach, no stop"
+c2eafb6e6ae3,Y,N,N,
+3412e1b0a43c,Y,Y,N,claims plausible markings; frame8 shows garbled gibberish stop-sign/road text
+148bc11266c5,Y,N,N,
+41d9bd9b7693,Y,Y,N,claims visual appearance shows car stationary; frames show continuous approach
+99c8a3991a8f,Y,N,N,
+96e89732d7b4,Y,Y,N,"claims car stops, remains stationary at stop line; frames show continuous approach"
+24f5c509b5e0,Y,N,N,
+774c1118a397,Y,N,N,
+476a2549a00f,Y,N,N,
+c0db1b5aed09,Y,N,N,
+65d489de132c,Y,N,N,
+8e97dfb9c727,Y,N,N,
+cabfa10c923f,N,N,N,"reasoning says scene looks realistic at first glance, yet answer is clearly impossible (1)"
+767be82ced37,Y,N,N,
+337551e990ba,Y,N,N,
+fd76e26d747b,Y,Y,N,claims car stops completely at stop sign; frames show continuous unstopped approach
+099c10ddcbde,Y,N,N,
+871da7e8211e,N,N,Y,"no-match: repetitive bare assertion, no reasoning; omits car failing to stop at stop sign"
+d5823f080139,Y,Y,N,claims markings consistent/realistic; frame8 shows garbled stop-sign text and odd artifact
+ec6301735eae,Y,Y,N,claims car comes to complete stop at stop line; frames show continuous approach
+b2638d9be961,Y,N,N,
+8341ca3e197e,Y,Y,N,claims visual evidence aligns with real footage; frame8 shows garbled stop-sign artifact
+8782866ff563,Y,Y,N,claims car stops completely before stop line; frames show continuous approach
+1ea2741759cd,Y,N,Y,"omits garbled/gibberish STOP road text visible in frames, relevant to markings realism"
+5f8132d968f0,Y,Y,N,claims car stops completely before stop line; frames show continuous unstopped approach
+2494a83aac7d,N,Y,N,text claims car comes to a stop yet concludes not stationary/No; frames show no stop
+24371cc9a673,Y,Y,N,claims car stops before stop line; frames show continuous unstopped approach
+b67693839603,Y,N,N,
+93edde5726bc,Y,Y,N,"claims car stops completely, compliant; frames show continuous unstopped approach"
+ab651337c47e,Y,N,N,
+a567ff15843a,Y,Y,N,"claims smooth complete stop before stop line; frames show continuous forward displacement, no plateau"
+bd6cca215eb2,Y,N,N,
+81f047fe8802,Y,N,N,
+945429c5b0c9,Y,N,N,
+f236abbaa86c,Y,N,N,
+9ffd63af895f,Y,N,N,
+97666cbe9aa8,Y,N,N,
+b8363e52b235,Y,N,Y,omits car running stop sign (established by sibling item); only discusses smoothness
+82e5a6691c06,Y,N,N,
+29be3100f52b,Y,N,N,
+356d45aeca9a,Y,Y,N,"fabricates green traffic light; frames show only a stop sign, no traffic light"
+e15d4b8eb7a2,Y,Y,N,"claims car stops at stop sign, adheres to rules; frames show continuous unstopped approach"
+29080579ea43,Y,N,Y,"omits visibly bent/impossible stop-sign pole shape, relevant to object realism"
+16bad8480258,Y,N,N,
+a6e52e51821b,Y,N,N,
+c2ced3142370,Y,N,N,
+3666c3ec87ab,Y,N,N,
+4688ee1fa555,Y,N,N,
+54340ea36cc8,Y,N,N,
+d74e8d221a65,Y,N,N,
+8ccd7ff6d34e,Y,Y,N,"claims car stops at line before light turns green; frames show light already green throughout, no stop evident"
+d879b6d4facb,Y,N,N,
+c4efab00f629,Y,N,N,
+131986343bf9,Y,N,N,
+0deae60caf24,Y,Y,N,"claims car stops at stop sign; frames show continuous approach, sibling items confirm no stop"
+f39853c80ebe,Y,N,N,
+e314bf7840fd,Y,N,N,
+0f837999d84b,Y,N,N,
+0b2f300936f4,Y,Y,N,"claims car stops at stop sign; frames show continuous approach, sibling items confirm no stop"
+adc7ff615660,Y,N,N,
+1e0111e99e0c,Y,N,N,
+c781c84ddbc2,Y,Y,N,"claims car stops at stop sign, checks traffic; frames show continuous unstopped approach"
+1670d2f1b0bc,Y,N,N,
+179dd9eb72de,Y,N,N,
+a6b038b0e39f,Y,Y,N,claims car appears to stop at stop line; frames show continuous unstopped approach
+f7bd1be7c32b,Y,N,N,
+23ebdeea35de,Y,N,N,
+5e32e7fc04a8,Y,N,Y,"ignores visible ego-lane stop sign; treats intersection as light-only, claims full compliance"
+5b4c34a060ec,Y,N,N,
+9d41bf92778f,Y,N,N,
+c8edbeb5be25,Y,N,Y,ignores visible ego-lane stop sign; claims no traffic rules violated based on light alone
+5b549cdba07b,Y,N,Y,"omits garbled/reversed STOP road text visible in frame1, relevant to markings realism"
+c87689a32061,Y,N,N,
+d44846f20636,Y,Y,N,claims car moves through intersection after stopping; frames show continuous unstopped approach
+ceb2ab54bea8,Y,Y,N,claims car stops completely at stop sign; frames show continuous unstopped approach
+e030b8de5c49,Y,N,N,
+bc7478834c85,Y,Y,N,claims car moves through after stopping at stop sign; frames show continuous unstopped approach

@@ -1,0 +1,74 @@
+item_id,consistent,false_claim,missed_event,note
+4dbc50331fe0,Y,N,N,
+ffb70251707e,Y,N,N,
+de839195e71d,Y,N,N,
+865f7bd081f6,Y,N,N,
+2ac7c490e0b7,Y,N,N,
+18c1b1ec0350,Y,N,N,
+1fb4d058e4a5,Y,N,N,
+9bd8f83933ef,Y,N,N,
+beb85809e85e,Y,N,N,
+65cb70d69c64,Y,Y,N,claims roofline/body panels wobble and melt; car looks stable across frames
+35978a8582ad,Y,N,N,
+d160b93d3c0d,Y,Y,N,quotes anisotropy 0.0391 vs actual 0.0607
+e0ae0c6ba5a2,Y,Y,N,quotes anisotropy 0.0391 vs actual 0.0607
+f36526144033,Y,Y,N,quotes anisotropy 0.0391 vs actual 0.0607
+6593f62fea60,Y,Y,N,quotes anisotropy 0.0391 vs actual 0.0607
+f6a686bdc4d4,Y,N,N,
+68c2af616fe1,Y,N,N,
+8286cea056ab,Y,Y,N,claims roofs/bodies melt and breathe unnaturally; truck looks stable across frames
+246caca188f5,Y,N,N,
+e0594ac0b829,Y,N,Y,"stop sign lettering visibly morphs STOP to P to gibberish; not mentioned, relevant to realism score"
+8d32562463af,Y,N,N,
+b3ee8471099e,Y,N,N,
+df3ef0a56c92,Y,Y,Y,claims no object changes shape but stop sign lettering visibly morphs STOP to P to gibberish
+aa368122ef2e,Y,Y,N,quotes anisotropy 0.0361 vs actual 0.0602
+3bd29c25d8ff,Y,Y,N,quotes anisotropy 0.0361 vs actual 0.0602
+faced8f740b8,Y,Y,N,quotes anisotropy 0.0361 vs actual 0.0602
+4cfa14ddb951,Y,Y,N,quotes anisotropy 0.0361 vs actual 0.0602
+7fb118497389,Y,N,N,
+5c05dbb84855,Y,N,N,
+538986800b62,Y,N,N,
+85042f257fec,Y,N,N,
+da0bfbd33e59,N,N,N,"reasoning describes clean realistic scene but scores realism=1 (clearly impossible), unsupported"
+96dccf5f6f46,Y,N,N,
+1519abfd8e1f,Y,N,N,
+6a73e8b4b993,Y,Y,N,quotes anisotropy 0.0325 vs actual 0.0549
+bb5480da77fb,Y,Y,N,quotes anisotropy 0.0325 vs actual 0.0549
+47630010143a,Y,Y,N,quotes anisotropy 0.0325 vs actual 0.0549
+142c3fb7be9e,Y,N,N,
+3fe7863f87b1,Y,N,N,
+ba458a861072,Y,Y,N,claims rear wheel merges into body and roof rigidity violation; car looks normal across frames
+8ea5c96d62a7,N,N,N,"no-match; raw output loops without reaching a conclusion, no answer stated"
+933ffb4d1cac,Y,N,N,
+6cd05479a298,Y,N,N,
+0dde66acf050,Y,Y,N,claims wobbling roofs/morphing taillights/swimming textures; cars look stable across frames
+381e6a2776d1,Y,Y,N,claims wobbling rooflines/breathing windows/morphing taillights; cars look stable across frames
+a2276682050e,Y,N,N,
+aa56b824cf64,Y,N,N,
+62f37b30b551,Y,N,N,
+387916e0caf8,Y,Y,N,quotes anisotropy 0.0397 vs actual 0.0588
+7d9c90945f8c,Y,Y,N,quotes anisotropy 0.0397 vs actual 0.0588
+cc13aee5ff7e,Y,Y,N,quotes anisotropy 0.0397 vs actual 0.0588
+4c963be8759c,Y,Y,N,quotes anisotropy 0.0397 vs actual 0.0588
+0fecc12ffb7f,Y,N,N,
+4418ca659e38,Y,N,N,
+49290a5ddba4,Y,N,N,
+cb32611798cd,Y,Y,N,quotes anisotropy 0.0371 vs actual 0.0591
+5b415cab1d08,Y,Y,N,quotes anisotropy 0.0371 vs actual 0.0591
+1e4d0aff3d5d,Y,Y,N,quotes anisotropy 0.0371 vs actual 0.0591
+650da6a2c2dc,Y,Y,N,quotes anisotropy 0.0371 vs actual 0.0591
+82d414af65bd,Y,N,N,
+2d4fe8cada45,Y,Y,N,claims warped rear window/roofline on specific cars; not visible in frames
+453b086fb0ee,Y,N,N,
+817477f552b8,Y,N,N,
+273c9b8d4a31,Y,Y,N,claims silver car roofline/rear window wobbling and morphing; car looks stable across frames
+64b6ddd95c9d,Y,Y,N,claims abrupt position change without continuous motion; motion looks smooth across frames
+4915dfaeaf0e,Y,Y,N,claims wobbling roofline/window frame and texture swimming; car looks stable across frames
+e6c124f101f5,Y,Y,N,quotes anisotropy 0.0420 vs actual 0.0626
+2a2e13449ee9,Y,Y,N,quotes anisotropy 0.0420 vs actual 0.0626
+8e657c65bd98,Y,Y,N,quotes anisotropy 0.0420 vs actual 0.0626
+56ff9272a71e,Y,Y,N,quotes anisotropy 0.0420 vs actual 0.0626
+0eba14d600ca,Y,N,N,
+83093ae9c59e,Y,N,N,
+f2d11f04802a,Y,N,N,

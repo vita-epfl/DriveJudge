@@ -1,0 +1,11 @@
+Landing dir for the E10 counterfactual runs.
+
+Copy the pod's $STORAGE/results/counterfactual/*.json here (the agent result
+shape plus `cf_modes` / `cf_tool_text`), then run
+
+    .venv/bin/python src/agentic/counterfactual/analyze_cf.py \
+        --runs-dir results/counterfactual --n-boot 2000 --seed 0
+
+which writes cf_metrics.parquet, cf_summary.json, cf_table.tex here and
+report/figures/fig_counterfactual_flips.{pdf,png}.
+See src/agentic/counterfactual/HANDOFF.md.

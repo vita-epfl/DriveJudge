@@ -40,6 +40,7 @@ from typing import Any
 from dotenv import load_dotenv
 
 from frame_extractor import extract_frames
+from naming import output_stem
 from path_fix import QuestionItem, load_questions
 from prompt_builder import build_messages
 from schemas import schema_for
@@ -47,6 +48,7 @@ from schemas import schema_for
 _HERE = Path(__file__).resolve().parent
 DEFAULT_QUESTIONS = Path("./dataset/dataset_final/Questions_raw.json")
 DEFAULT_MODEL = "gpt-5.4-mini"
+DEFAULT_STEM = "gpt"
 
 
 def _load_env() -> None:
@@ -68,12 +70,53 @@ def _custom_id(item: QuestionItem, idx: int) -> str:
     return f"q{idx:06d}_{Path(item.relative_path).stem[:40]}"
 
 
-def _iter_jobs(items: list[QuestionItem], image_detail: str):
+def _load_round1(path: Path) -> dict[str, dict[str, Any]]:
+    """custom_id -> round-1 record (successful answers only), for --reflect."""
+    with open(path, "r", encoding="utf-8") as f:
+        items = json.load(f)
+    return {
+        it["custom_id"]: it
+        for it in items
+        if it.get("custom_id") and it.get("answer") and not it.get("error")
+    }
+
+
+def _iter_jobs(items: list[QuestionItem], image_detail: str,
+               round1: dict[str, dict[str, Any]] | None = None):
+    """Yield (custom_id, item, schema, messages, round1_record | None).
+
+    With `round1` set this is the self-reflection pass: items without a
+    successful round-1 answer are skipped and the custom_id gains a `_r2`
+    suffix so round 1 and round 2 can live in the same results file.
+    """
+    missing = 0
     for idx, item in enumerate(items):
+        base_cid = _custom_id(item, idx)
+        prev = None
+        if round1 is not None:
+            prev = round1.get(base_cid)
+            if prev is None:
+                missing += 1
+                continue
+        cid = f"{base_cid}_r2" if round1 is not None else base_cid
         frames = extract_frames(item.local_path)
         schema = schema_for(item.question)
-        messages = build_messages(frames, item.question, schema, image_detail=image_detail)
-        yield idx, item, schema, messages
+        messages = build_messages(frames, item.question, schema,
+                                  image_detail=image_detail, reflection=prev)
+        yield cid, item, schema, messages, prev
+    if missing:
+        print(f"Skipped {missing} item(s) with no successful round-1 answer.")
+
+
+def _reflection_fields(prev: dict[str, Any] | None, answer: str) -> dict[str, Any]:
+    if prev is None:
+        return {"history": []}
+    return {
+        "history": [prev],
+        "evaluation_r1": prev.get("evaluation", ""),
+        "answer_r1": prev.get("answer", ""),
+        "changed": answer != prev.get("answer", ""),
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -86,13 +129,15 @@ def run_live(
     model: str,
     image_detail: str,
     output_path: Path,
+    round1: dict[str, Any] | None = None,
 ) -> None:
     from openai import OpenAI
 
     client = OpenAI()
     results: list[dict[str, Any]] = []
 
-    for idx, item, schema, messages in _iter_jobs(items, image_detail):
+    for n, (cid, item, schema, messages, prev) in enumerate(
+            _iter_jobs(items, image_detail, round1)):
         t0 = time.perf_counter()
         resp = client.chat.completions.parse(
             model=model,
@@ -109,7 +154,6 @@ def run_live(
             "question": item.question,
             "evaluation": parsed.evaluation,
             "answer": parsed.answer,
-            "history": [],
             "latency_s": round(dt, 3),
             "usage": {
                 "input_tokens": usage.prompt_tokens,
@@ -118,11 +162,12 @@ def run_live(
             },
             "model": model,
             "image_detail": image_detail,
-            "custom_id": _custom_id(item, idx),
+            "custom_id": cid,
+            **_reflection_fields(prev, parsed.answer),
         }
         results.append(out)
         print(
-            f"[{idx + 1:>4}/{len(items)}] {dt:5.2f}s  "
+            f"[{n + 1:>4}/{len(items)}] {dt:5.2f}s  "
             f"in={usage.prompt_tokens} (cached={cached})  "
             f"out={usage.completion_tokens}  → {parsed.answer}"
         )
@@ -174,6 +219,7 @@ def _write_jsonl_chunks(
     model: str,
     jsonl_dir: Path,
     max_bytes_per_file: int,
+    round1: dict[str, dict[str, Any]] | None = None,
 ) -> tuple[list[Path], dict[str, dict[str, Any]]]:
     """Serialise requests to `requests_000.jsonl`, `requests_001.jsonl`, …
 
@@ -204,8 +250,7 @@ def _write_jsonl_chunks(
 
     _rotate()
     try:
-        for idx, item, schema, messages in _iter_jobs(items, image_detail):
-            cid = _custom_id(item, idx)
+        for cid, item, schema, messages, prev in _iter_jobs(items, image_detail, round1):
             req = _batch_request(cid, model, messages, schema)
             line = json.dumps(req, ensure_ascii=False) + "\n"
             line_bytes = len(line.encode("utf-8"))
@@ -229,6 +274,10 @@ def _write_jsonl_chunks(
                 "model": model,
                 "image_detail": image_detail,
             }
+            if prev is not None:
+                mapping[cid]["evaluation_r1"] = prev.get("evaluation", "")
+                mapping[cid]["answer_r1"] = prev.get("answer", "")
+                mapping[cid]["round1"] = prev
     finally:
         if fh is not None:
             fh.close()
@@ -250,6 +299,7 @@ def run_batch_submit(
     state_path: Path,
     jsonl_dir: Path,
     max_bytes_per_file: int = MAX_BYTES_PER_BATCH_FILE,
+    round1: dict[str, dict[str, Any]] | None = None,
 ) -> None:
     from openai import OpenAI
 
@@ -260,6 +310,7 @@ def run_batch_submit(
         model=model,
         jsonl_dir=jsonl_dir,
         max_bytes_per_file=max_bytes_per_file,
+        round1=round1,
     )
     print(f"Wrote {len(mapping)} requests across {len(paths)} JSONL part(s):")
     for p in paths:
@@ -310,14 +361,21 @@ def main() -> None:
                     help="Only process the first N questions (useful for pilots).")
     ap.add_argument("--model", default=os.environ.get("OPENAI_MODEL", DEFAULT_MODEL))
     ap.add_argument("--image-detail", choices=("low", "high", "auto"), default="low")
-    ap.add_argument("--output", type=Path,
-                    default=_HERE / "results" / "gpt_live_results.json",
-                    help="[live mode only] Where to save the results JSON.")
-    ap.add_argument("--state", type=Path,
-                    default=_HERE / "batches" / "batch_state.json",
-                    help="[batch mode only] Where to save the submission state.")
-    ap.add_argument("--jsonl-dir", type=Path,
-                    default=_HERE / "batches" / "jsonl",
+    ap.add_argument("--out-name", default=None,
+                    help="Filename stem for the run's artifacts. Defaults to "
+                         "`gpt` for the default model and to the sanitised "
+                         "model id for any other, so two models never collide.")
+    ap.add_argument("--reflect", action="store_true",
+                    help="Round-2 self-reflection pass; requires --from.")
+    ap.add_argument("--from", dest="from_results", type=Path, default=None,
+                    help="[--reflect] Round-1 results JSON to re-examine.")
+    ap.add_argument("--output", type=Path, default=None,
+                    help="[live mode only] Where to save the results JSON "
+                         "(default results/<out-name>_live_results.json).")
+    ap.add_argument("--state", type=Path, default=None,
+                    help="[batch mode only] Where to save the submission state "
+                         "(default batches/batch_state.json for the default model).")
+    ap.add_argument("--jsonl-dir", type=Path, default=None,
                     help="[batch mode only] Directory for batch input JSONL parts "
                          "(auto-chunked to stay under OpenAI's 200 MB file limit).")
     ap.add_argument("--max-bytes-per-file", type=int,
@@ -325,20 +383,42 @@ def main() -> None:
                     help="[batch mode only] Per-part JSONL size cap in bytes.")
     args = ap.parse_args()
 
+    if args.reflect and args.from_results is None:
+        sys.exit("--reflect needs --from <round-1 results json>.")
+    if args.from_results is not None and not args.reflect:
+        sys.exit("--from only makes sense together with --reflect.")
+
+    stem = args.out_name or output_stem(
+        args.model, default_model=DEFAULT_MODEL, default_stem=DEFAULT_STEM)
+    suffix = "_r2" if args.reflect else ""
+    if args.output is None:
+        args.output = _HERE / "results" / f"{stem}_live_results{suffix}.json"
+    if args.state is None:
+        name = "batch_state" if stem == DEFAULT_STEM else f"batch_state_{stem}"
+        args.state = _HERE / "batches" / f"{name}{suffix}.json"
+    if args.jsonl_dir is None:
+        name = "jsonl" if stem == DEFAULT_STEM else f"jsonl_{stem}"
+        args.jsonl_dir = _HERE / "batches" / f"{name}{suffix}"
+
     _load_env()
     items = load_questions(args.questions)
     if args.limit:
         items = items[: args.limit]
+    round1 = _load_round1(args.from_results) if args.reflect else None
+    if round1 is not None:
+        print(f"Loaded {len(round1)} round-1 answer(s) from {args.from_results}.")
     print(f"Processing {len(items)} (video, question) pairs "
-          f"with model={args.model}, detail={args.image_detail}.")
+          f"with model={args.model}, detail={args.image_detail}"
+          f"{', reflect' if args.reflect else ''}.")
 
     if args.mode == "live":
         run_live(items, model=args.model, image_detail=args.image_detail,
-                 output_path=args.output)
+                 output_path=args.output, round1=round1)
     else:
         run_batch_submit(items, model=args.model, image_detail=args.image_detail,
                          state_path=args.state, jsonl_dir=args.jsonl_dir,
-                         max_bytes_per_file=args.max_bytes_per_file)
+                         max_bytes_per_file=args.max_bytes_per_file,
+                         round1=round1)
 
 
 if __name__ == "__main__":

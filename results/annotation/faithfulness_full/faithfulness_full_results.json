@@ -1,0 +1,895 @@
+{
+ "n_items_total": 7371,
+ "n_graded": 7371,
+ "n_invalid_rows": 0,
+ "n_unknown_ids": 0,
+ "batches_done": [
+  "batch_000",
+  "batch_001",
+  "batch_002",
+  "batch_003",
+  "batch_004",
+  "batch_005",
+  "batch_006",
+  "batch_007",
+  "batch_008",
+  "batch_009",
+  "batch_010",
+  "batch_011",
+  "batch_012",
+  "batch_013",
+  "batch_014",
+  "batch_015",
+  "batch_016",
+  "batch_017",
+  "batch_018",
+  "batch_019",
+  "batch_020",
+  "batch_021",
+  "batch_022",
+  "batch_023",
+  "batch_024",
+  "batch_025",
+  "batch_026",
+  "batch_027",
+  "batch_028",
+  "batch_029",
+  "batch_030",
+  "batch_031",
+  "batch_032",
+  "batch_033",
+  "batch_034",
+  "batch_035",
+  "batch_036",
+  "batch_037",
+  "batch_038",
+  "batch_039",
+  "batch_040",
+  "batch_041",
+  "batch_042",
+  "batch_043",
+  "batch_044",
+  "batch_045",
+  "batch_046",
+  "batch_047",
+  "batch_048",
+  "batch_049",
+  "batch_050",
+  "batch_051",
+  "batch_052",
+  "batch_053",
+  "batch_054",
+  "batch_055",
+  "batch_056",
+  "batch_057",
+  "batch_058",
+  "batch_059",
+  "batch_060",
+  "batch_061",
+  "batch_062",
+  "batch_063",
+  "batch_064",
+  "batch_065",
+  "batch_066",
+  "batch_067",
+  "batch_068",
+  "batch_069",
+  "batch_070",
+  "batch_071",
+  "batch_072",
+  "batch_073",
+  "batch_074",
+  "batch_075",
+  "batch_076",
+  "batch_077",
+  "batch_078",
+  "batch_079",
+  "batch_cal"
+ ],
+ "overall": [
+  {
+   "group": "all",
+   "n": 7371,
+   "hallucination": [
+    18.4,
+    16.7,
+    20.1
+   ],
+   "false_claim": [
+    16.2,
+    14.6,
+    18.0
+   ],
+   "missed_event": [
+    2.4,
+    1.8,
+    3.0
+   ],
+   "inconsistent": [
+    1.8,
+    1.4,
+    2.1
+   ]
+  }
+ ],
+ "by_category": [
+  {
+   "group": "Reality understanding",
+   "n": 3172,
+   "hallucination": [
+    11.9,
+    10.3,
+    13.8
+   ],
+   "false_claim": [
+    10.2,
+    8.7,
+    11.7
+   ],
+   "missed_event": [
+    1.9,
+    1.3,
+    2.6
+   ],
+   "inconsistent": [
+    1.3,
+    0.8,
+    1.7
+   ]
+  },
+  {
+   "group": "Safety understanding",
+   "n": 2164,
+   "hallucination": [
+    23.0,
+    19.1,
+    26.9
+   ],
+   "false_claim": [
+    18.8,
+    15.5,
+    22.3
+   ],
+   "missed_event": [
+    4.5,
+    2.9,
+    6.5
+   ],
+   "inconsistent": [
+    1.1,
+    0.7,
+    1.6
+   ]
+  },
+  {
+   "group": "Artifacts understanding",
+   "n": 727,
+   "hallucination": [
+    29.3,
+    25.8,
+    32.8
+   ],
+   "false_claim": [
+    28.6,
+    25.0,
+    32.0
+   ],
+   "missed_event": [
+    1.4,
+    0.5,
+    2.3
+   ],
+   "inconsistent": [
+    6.6,
+    4.7,
+    8.6
+   ]
+  },
+  {
+   "group": "Traffic laws understanding",
+   "n": 665,
+   "hallucination": [
+    20.6,
+    15.6,
+    26.3
+   ],
+   "false_claim": [
+    19.5,
+    14.3,
+    25.2
+   ],
+   "missed_event": [
+    1.1,
+    0.3,
+    2.0
+   ],
+   "inconsistent": [
+    1.5,
+    0.6,
+    2.5
+   ]
+  },
+  {
+   "group": "Spatial-temporal understanding",
+   "n": 339,
+   "hallucination": [
+    25.7,
+    18.8,
+    33.4
+   ],
+   "false_claim": [
+    25.7,
+    18.5,
+    33.6
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    1.8,
+    0.6,
+    3.2
+   ]
+  },
+  {
+   "group": "Visual understanding",
+   "n": 304,
+   "hallucination": [
+    13.5,
+    9.2,
+    18.1
+   ],
+   "false_claim": [
+    13.5,
+    9.3,
+    18.2
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    1.0,
+    0.0,
+    2.2
+   ]
+  }
+ ],
+ "by_question": [
+  {
+   "group": "Is it a real video or generated ?",
+   "n": 1597,
+   "hallucination": [
+    10.1,
+    8.5,
+    11.7
+   ],
+   "false_claim": [
+    9.3,
+    7.9,
+    10.9
+   ],
+   "missed_event": [
+    0.9,
+    0.4,
+    1.6
+   ],
+   "inconsistent": [
+    0.1,
+    0.0,
+    0.3
+   ]
+  },
+  {
+   "group": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+   "n": 1574,
+   "hallucination": [
+    13.7,
+    11.6,
+    15.8
+   ],
+   "false_claim": [
+    11.0,
+    9.4,
+    12.7
+   ],
+   "missed_event": [
+    2.9,
+    2.0,
+    4.0
+   ],
+   "inconsistent": [
+    2.4,
+    1.5,
+    3.3
+   ]
+  },
+  {
+   "group": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+   "n": 1082,
+   "hallucination": [
+    23.4,
+    19.2,
+    28.0
+   ],
+   "false_claim": [
+    19.5,
+    15.6,
+    23.5
+   ],
+   "missed_event": [
+    4.3,
+    2.5,
+    6.4
+   ],
+   "inconsistent": [
+    1.1,
+    0.6,
+    1.8
+   ]
+  },
+  {
+   "group": "Is it a safe way of driving for the ego car ?",
+   "n": 1082,
+   "hallucination": [
+    22.6,
+    18.6,
+    26.6
+   ],
+   "false_claim": [
+    18.1,
+    14.7,
+    21.9
+   ],
+   "missed_event": [
+    4.8,
+    2.9,
+    7.2
+   ],
+   "inconsistent": [
+    1.1,
+    0.5,
+    1.8
+   ]
+  },
+  {
+   "group": "Is the ego car following the traffic rules ?",
+   "n": 512,
+   "hallucination": [
+    20.9,
+    15.4,
+    26.6
+   ],
+   "false_claim": [
+    19.9,
+    14.7,
+    25.5
+   ],
+   "missed_event": [
+    1.0,
+    0.2,
+    2.1
+   ],
+   "inconsistent": [
+    0.8,
+    0.2,
+    1.6
+   ]
+  },
+  {
+   "group": "Do some objects change shape or appearance ?",
+   "n": 402,
+   "hallucination": [
+    29.6,
+    25.5,
+    34.0
+   ],
+   "false_claim": [
+    28.9,
+    24.7,
+    33.0
+   ],
+   "missed_event": [
+    2.0,
+    0.8,
+    3.4
+   ],
+   "inconsistent": [
+    6.0,
+    3.7,
+    8.5
+   ]
+  },
+  {
+   "group": "Does any object appear or disappear without continuous motion ?",
+   "n": 325,
+   "hallucination": [
+    28.9,
+    24.3,
+    33.4
+   ],
+   "false_claim": [
+    28.3,
+    23.8,
+    32.9
+   ],
+   "missed_event": [
+    0.6,
+    0.0,
+    1.6
+   ],
+   "inconsistent": [
+    7.4,
+    4.7,
+    10.2
+   ]
+  },
+  {
+   "group": "Has the ego car stopped ?",
+   "n": 201,
+   "hallucination": [
+    25.4,
+    15.3,
+    36.0
+   ],
+   "false_claim": [
+    25.4,
+    15.3,
+    36.7
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    2.0,
+    0.4,
+    4.2
+   ]
+  },
+  {
+   "group": "Is the ego car on a highway ?",
+   "n": 159,
+   "hallucination": [
+    3.1,
+    0.7,
+    5.7
+   ],
+   "false_claim": [
+    3.1,
+    0.7,
+    6.0
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    1.9,
+    0.0,
+    4.2
+   ]
+  },
+  {
+   "group": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+   "n": 153,
+   "hallucination": [
+    19.6,
+    11.8,
+    29.1
+   ],
+   "false_claim": [
+    18.3,
+    10.7,
+    27.0
+   ],
+   "missed_event": [
+    1.3,
+    0.0,
+    3.3
+   ],
+   "inconsistent": [
+    3.9,
+    0.7,
+    7.5
+   ]
+  },
+  {
+   "group": "Are the traffic lights red ?",
+   "n": 144,
+   "hallucination": [
+    25.0,
+    17.9,
+    32.3
+   ],
+   "false_claim": [
+    25.0,
+    17.9,
+    31.9
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "group": "On which side is the ego car overtaking ?",
+   "n": 133,
+   "hallucination": [
+    27.1,
+    17.6,
+    38.3
+   ],
+   "false_claim": [
+    27.1,
+    17.5,
+    38.3
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    1.5,
+    0.0,
+    3.8
+   ]
+  },
+  {
+   "group": "Has the ego car stopped after the sign ?",
+   "n": 3,
+   "hallucination": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_claim": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "group": "Is the lighting changing ?",
+   "n": 1,
+   "hallucination": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_claim": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "group": "Has the ego car stopped after the stop sign ?",
+   "n": 1,
+   "hallucination": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_claim": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "group": "Are the traffic signs consistent with ego movement? For example, after turning.",
+   "n": 1,
+   "hallucination": [
+    100.0,
+    100.0,
+    100.0
+   ],
+   "false_claim": [
+    100.0,
+    100.0,
+    100.0
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "group": "Has the ego car stopped after the stop ?",
+   "n": 1,
+   "hallucination": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_claim": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "missed_event": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "inconsistent": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "by_source": [
+  {
+   "group": "cosmos-drive-dreams",
+   "n": 5657,
+   "hallucination": [
+    15.8,
+    13.7,
+    18.0
+   ],
+   "false_claim": [
+    13.6,
+    11.7,
+    15.7
+   ],
+   "missed_event": [
+    2.3,
+    1.6,
+    3.1
+   ],
+   "inconsistent": [
+    1.2,
+    0.9,
+    1.6
+   ]
+  },
+  {
+   "group": "cosmos-predict1",
+   "n": 1714,
+   "hallucination": [
+    26.7,
+    23.7,
+    29.7
+   ],
+   "false_claim": [
+    24.8,
+    21.9,
+    27.6
+   ],
+   "missed_event": [
+    2.6,
+    1.6,
+    3.9
+   ],
+   "inconsistent": [
+    3.6,
+    2.6,
+    4.5
+   ]
+  }
+ ],
+ "by_correctness": [
+  {
+   "group": "answer correct",
+   "n": 4428,
+   "hallucination": [
+    13.5,
+    11.5,
+    15.9
+   ],
+   "false_claim": [
+    12.2,
+    10.3,
+    14.3
+   ],
+   "missed_event": [
+    1.3,
+    0.6,
+    2.2
+   ],
+   "inconsistent": [
+    1.5,
+    1.1,
+    2.0
+   ]
+  },
+  {
+   "group": "answer wrong",
+   "n": 2943,
+   "hallucination": [
+    25.7,
+    22.9,
+    28.8
+   ],
+   "false_claim": [
+    22.3,
+    19.5,
+    25.0
+   ],
+   "missed_event": [
+    4.0,
+    2.9,
+    5.1
+   ],
+   "inconsistent": [
+    2.1,
+    1.5,
+    2.8
+   ]
+  }
+ ],
+ "by_provenance": [
+  {
+   "group": "clean clip",
+   "n": 6635,
+   "hallucination": [
+    14.0,
+    12.4,
+    15.8
+   ],
+   "false_claim": [
+    12.1,
+    10.5,
+    13.8
+   ],
+   "missed_event": [
+    2.2,
+    1.5,
+    2.9
+   ],
+   "inconsistent": [
+    1.8,
+    1.4,
+    2.2
+   ]
+  },
+  {
+   "group": "collision clip",
+   "n": 736,
+   "hallucination": [
+    57.2,
+    51.0,
+    63.9
+   ],
+   "false_claim": [
+    53.5,
+    47.4,
+    60.7
+   ],
+   "missed_event": [
+    4.5,
+    2.4,
+    7.1
+   ],
+   "inconsistent": [
+    1.8,
+    1.0,
+    2.6
+   ]
+  }
+ ],
+ "claim_type_counts": {
+  "motion": 710,
+  "fft_misquote": 352,
+  "static_content": 291,
+  "none": 6018
+ },
+ "claim_type_rates": {
+  "fft_misquote": [
+   0.047754714421381086,
+   0.039242290715690124,
+   0.05752993612725984
+  ],
+  "motion": [
+   0.096323429656763,
+   0.0806939547975936,
+   0.11299866000523352
+  ],
+  "static_content": [
+   0.03947903947903948,
+   0.032361872228731166,
+   0.04707066663791722
+  ]
+ },
+ "claim_type_by_provenance": {
+  "collision clip": {
+   "fft_misquote": 47.28,
+   "motion": 4.35,
+   "static_content": 5.57
+  },
+  "clean clip": {
+   "fft_misquote": 0.06,
+   "motion": 10.22,
+   "static_content": 3.77
+  }
+ },
+ "replicate_graders": {
+  "batch_005": {
+   "n": 138,
+   "agreement": 0.775,
+   "kappa": 0.3783783783783787,
+   "rate_main": 0.261,
+   "rate_rep": 0.21
+  },
+  "batch_049": {
+   "n": 80,
+   "agreement": 0.863,
+   "kappa": 0.2334494773519169,
+   "rate_main": 0.025,
+   "rate_rep": 0.163
+  },
+  "batch_053": {
+   "n": 80,
+   "agreement": 0.9,
+   "kappa": 0.5000000000000002,
+   "rate_main": 0.125,
+   "rate_rep": 0.1
+  }
+ },
+ "stability_vs_100_item_study": {
+  "rater_sonnet_v2": {
+   "n": 100,
+   "agreement": 0.81,
+   "kappa_hallucination": 0.311594202898551,
+   "rate_new": 0.15,
+   "rate_old": 0.18
+  },
+  "rater_opus_v2": {
+   "n": 100,
+   "agreement": 0.78,
+   "kappa_hallucination": 0.2926045016077169,
+   "rate_new": 0.15,
+   "rate_old": 0.23
+  }
+ }
+}

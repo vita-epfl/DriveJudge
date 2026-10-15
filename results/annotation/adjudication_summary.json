@@ -1,0 +1,43 @@
+{
+  "n_items_scored": 432,
+  "n_disagreements": 119,
+  "n_realism_bulk_convention": 70,
+  "reasons_all": {
+    "convention": 72,
+    "ambiguous_clip": 4,
+    "annotator_slip": 40,
+    "label_error": 3
+  },
+  "reasons_non_realism": {
+    "ambiguous_clip": 4,
+    "annotator_slip": 40,
+    "label_error": 3,
+    "convention": 2
+  },
+  "gt_label_errors": 3,
+  "gt_label_error_rate": {
+    "point": 0.006944444444444444,
+    "wilson95": [
+      0.0023644485394878206,
+      0.020216232148174848
+    ]
+  },
+  "gt_label_error_rate_non_realism": {
+    "point": 0.006944444444444444
+  },
+  "annotator2_errors_vs_final": 116,
+  "annotator2_error_rate": {
+    "point": 0.26851851851851855,
+    "wilson95": [
+      0.2289004975307756,
+      0.31221719293291583
+    ]
+  },
+  "ambiguous_clips": [
+    "cosmos-drive-dreams/aggressive_takeover/agg_tk_012_Golden hour.mp4 | On which side is the ego car overtaking ?",
+    "cosmos-drive-dreams/crossing_stop/cross_stop_018_Foggy.mp4 | Overall, how safe is the driving of the ego car ? ",
+    "cosmos-drive-dreams/negative/07b2e448-3e55-41f5-ba38-e859bbdfcc42_685230399000_685250399000_1_Snowy.mp4 | Overall, how safe is the driving of the ego car ? ",
+    "cosmos-predict1/artifacts/pedestrians_003.mp4 | Does any object appear or disappear without contin"
+  ],
+  "inconsistent_rows_final_ne_gt_but_reason_ne_label_error": []
+}

@@ -1,0 +1,74 @@
+item_id,consistent,false_claim,missed_event,note
+15bc03ea78fa,Y,N,N,
+849265fbf084,Y,N,N,
+5fb8bf7d8c30,Y,N,N,
+54c378e17c07,Y,N,N,
+1678aba7ee46,Y,N,N,
+680876dcf446,Y,N,N,
+f7fe357c75b6,Y,N,N,
+d125451b3a4f,Y,N,N,
+4271f09b2169,Y,N,N,
+e920eb582125,Y,N,N,
+07d827dee76d,Y,N,N,
+b56f317eb0db,Y,N,N,
+3ad66621a330,Y,N,N,
+48da8f1e2501,Y,N,N,
+b9287036c157,Y,N,N,
+600b0d084c14,Y,N,N,
+95e679de9cf2,Y,N,N,
+d9b2dc82b550,Y,N,N,
+029ddb06c776,Y,N,N,
+1a673f3efd4c,Y,N,N,
+3cdb57d5474d,Y,N,N,
+ea5ce730973f,Y,N,N,
+d0fa200b1776,Y,N,N,
+a542fcb6335a,Y,N,N,
+7b6f954cd699,Y,N,N,
+a95d546cbdf1,Y,N,N,
+4fdb4a9d4ed0,Y,N,N,
+3f64cd88bb62,Y,N,N,
+7463ae4b75cd,Y,N,N,
+90b225da05b5,Y,N,N,
+9ab659acd5d1,Y,N,N,
+d658bcd1f8a3,Y,N,N,
+c7d14318f739,Y,N,N,
+ada60298bc5d,Y,N,N,
+b6dd7ad95cae,Y,Y,Y,left-lane car swaps silver sedan/black car frame to frame; claim of no artifacts wrong
+6f0e2048b536,Y,N,N,
+0221b2eb0846,Y,Y,N,claims SAM shows no artifacts but car identity visibly swaps frame to frame
+50054562c175,Y,Y,N,claims no visible artifacts but left-lane car visibly changes identity/shape
+baeb0ea9c775,Y,N,N,
+4a88e731d874,Y,N,N,
+0d9f97e296f5,Y,N,N,
+9a7087bbb49b,Y,N,N,
+bed7eb472bf5,Y,N,N,
+ba0dd1cf30d5,Y,N,N,
+ccfed8ab691c,Y,N,N,
+6a86ff036617,Y,N,N,
+4e53cdf3484b,Y,Y,N,claims melting/texture swimming on car but it looks structurally intact across frames
+84083317467d,Y,Y,N,claims wobbling panels/morphed wheels-fenders; car shape stable and normal in frames
+f598e1d3e4f1,Y,Y,N,claims no artifacts but taxi is a distorted blob shape in early frames
+bf13e11dc817,Y,Y,N,claims no obvious artifacts but taxi shown as distorted blob in early frames
+a940be90fcb8,Y,Y,N,claims taxi moves continuously; it is a garbled blob shape before resolving into a car
+e1e699c05415,Y,N,N,
+b9b13df24a34,Y,N,N,
+e0833b912adc,Y,N,N,
+5eb68a64bdfc,Y,Y,N,claims van roof/panels wobble/deform; van shape looks stable across frames
+9a7b0a968fe8,Y,Y,N,claims no artifacts; van/car/scooter pop in and out inconsistently across frames
+f6ae0ef1c0d3,Y,Y,N,claims no obvious artifacts; scene shows objects flashing in/out between frames
+15990cd7854e,Y,Y,N,claims no appear/disappear; gray car and scooter rider flash in for one frame only
+5b83232c26e4,Y,N,N,
+6dad2aee5f31,Y,N,N,
+08441e7c7105,Y,N,N,
+3da644092a0a,Y,N,N,
+9ab33fdade90,Y,N,N,
+0d338b96a6f7,Y,N,N,
+3759ad5198e9,Y,N,N,
+833769332d22,Y,N,N,
+c4a9b4b98928,Y,N,N,
+288bd69499f3,Y,N,N,
+3abd446a92ee,Y,N,N,
+21feaf2647cd,Y,N,N,
+cb67b327bbdb,Y,N,N,
+d147deff423b,Y,N,N,
+08395a43013f,Y,Y,N,claims wobbling roof/merging into background; parked sedan looks stable and unchanged across frames

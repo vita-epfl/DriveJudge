@@ -1,0 +1,81 @@
+item_id,consistent,false_claim,missed_event,note
+eeedb8891502,Y,N,N,
+446bc49100dc,Y,Y,N,claims markings consistent with real; road text is gibberish (SNTAIND)
+ff8e40770039,Y,Y,N,claims no visual artifacts; road text is gibberish (SNTAIND)
+f5368b911d8f,Y,Y,N,no traffic light visible in frames
+68dc4d8c80e3,Y,N,N,
+4e9f3a30149a,Y,N,N,
+e1ed081a5178,Y,N,N,
+dce3481648e2,Y,N,N,
+38b3aa3df552,Y,N,N,
+515b532b4ded,Y,N,N,
+cfd451cd16cc,Y,N,N,
+b74889162fa8,Y,N,N,
+89b5930d0fcf,Y,N,N,
+e4581b802d6d,Y,Y,N,claims road markings consistent with real; gibberish text SNTAGD visible
+7108a8e1ad1e,Y,N,N,
+9796e1b6873f,Y,N,N,
+e1e131a9094b,Y,N,N,
+29defde74f74,Y,N,N,
+58e4c0680ec6,Y,N,N,
+7c16b0fd11ac,Y,N,N,
+e12ec7e9aad9,Y,N,N,
+d05238d83467,Y,N,N,
+0232e80383aa,Y,N,N,
+7111d91f26de,Y,N,N,"no-match; extracted answer 2, matches own reasoning"
+090258a89176,Y,N,N,
+26286268e31e,Y,Y,N,claims no AI artifacts; glowing gibberish plate on SUV rear (LREP53/SPPY-242)
+6ad67b1a903d,Y,Y,N,claims no AI artifacts; glowing gibberish plate on SUV rear (LREP53/SPPY-242)
+c458700d7cc9,Y,N,N,
+3e31e15f75e5,Y,N,N,
+d292c5518a09,Y,Y,N,"claims no AI artifacts, consistent shapes/textures; gibberish tailgate text 'SPP-Y' on truck"
+2769b2a74511,Y,N,N,
+15eeea8f7719,Y,Y,N,claims no artifacts confirming vehicle consistency; gibberish tailgate text 'SPP-Y'
+d06465291bff,Y,N,N,
+ab87b5216d07,Y,N,N,
+0b56bd2ade98,Y,N,N,
+3dc5464fa516,Y,N,N,
+49815bd69710,Y,Y,N,"claims car structure consistent, no AI artifacts; gibberish tailgate text 'S/PP-*-24Y'"
+445be3b0d4fd,Y,N,N,
+bd54d76fcafd,Y,Y,N,"claims consistent shapes/textures, no AI artifacts; gibberish tailgate text 'S/PP-*-24Y'"
+a73d25624d9f,Y,N,N,
+779b5c92427e,Y,N,N,
+4702e3867cbf,Y,Y,N,"claims no artifacts, markings consistent with real; gibberish tailgate text 'SPY-24781'"
+7d68bfb7632e,Y,Y,N,"claims no AI artifacts, consistent structure; gibberish tailgate text 'SPY-24781'"
+abc5347d2256,Y,N,N,
+0274fa55cb2a,Y,N,N,
+02207b0b96a5,Y,N,N,
+819ccbb03933,Y,N,N,
+3de342531b89,Y,N,N,
+0534a06d0858,Y,N,N,
+c931e4bd63af,Y,N,N,
+3254f2be578c,Y,Y,N,claims safe distance from truck; frames show truck immediately adjacent to ego
+40c4e5c4179a,Y,Y,N,claims safe following distance from large trucks; truck is immediately adjacent in frames
+3064b0025915,Y,N,N,
+62845606c264,Y,N,N,
+69c217af6640,Y,N,N,
+9e259fa7ae02,Y,N,N,
+bc8b6ba23b0d,Y,N,N,
+1d8422265501,Y,N,N,
+de5ed6afccb3,Y,N,N,
+6de2510e6531,Y,N,N,
+4ede95d72f4d,Y,N,N,
+f96ead1d47e5,Y,N,N,
+61de40086bc4,Y,N,N,
+43d1db639d82,Y,N,N,
+d0af991ec7a2,Y,N,N,
+cf8c00cf4e61,Y,N,N,
+f7e42d19474d,Y,N,N,
+f38e6f154011,Y,N,N,
+2774e5416a6b,Y,N,N,
+e44d72714880,Y,N,N,
+6d723f813807,Y,N,N,
+3962062049f9,Y,N,N,
+7eab67697bf9,Y,Y,N,claims safe distance from other vehicles; truck cab immediately adjacent to ego
+5812c1120da6,Y,N,N,
+372fba9678f4,Y,N,N,
+3c89f08d5652,Y,Y,N,claims overtakes truck safely; truck cab immediately adjacent to ego in frames
+c3ffc835e970,Y,N,N,
+55867dedfeac,Y,N,N,
+9b64c1d2b20d,Y,N,N,
+8f97c1c6b5e1,Y,N,N,

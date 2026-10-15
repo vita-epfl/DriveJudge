@@ -1,0 +1,101 @@
+item_id,cites_tool,citation_matches_output,conclusion_follows,hallucination,note
+9c1694c1f788,Y,NA,3,N,frames show calm highway; aggressive event not in sampled frames
+c3b3b1b46566,Y,NA,3,N,snowy highway frames show no erratic behavior visible
+f1f051d51342,Y,NA,3,N,night highway frames consistent with steady-motion claim
+bbd47e308efe,Y,NA,3,N,distant signal too blurry to confirm green-light claim
+54754ddb5982,Y,NA,3,N,matches GT; frames consistent with normal highway driving
+952750777abb,Y,NA,3,N,clear highway frames show no erratic driving
+bba863cabc35,Y,NA,3,N,static frames cannot confirm/deny lane-change claim
+15ebe23c9aa7,Y,NA,3,N,dark SUV overtake not clearly visible in foggy frames
+152c2ad91c78,Y,NA,3,N,freeway frames confirm no visible traffic signal
+beb6eb6e3334,Y,NA,3,N,snowy frames consistent with steady-motion claim
+ba58849ed6c7,Y,NA,3,N,frames show normal sunny highway; no visible unsafe maneuver
+5a339d965dfc,Y,NA,3,N,underpass frame shows no traffic light to check claim
+e0354245e881,Y,NA,3,N,snowy night frames show no erratic driving visible
+66de8228fb77,Y,NA,3,N,night highway frames consistent with steady-motion claim
+012df2dc6a06,Y,NA,3,N,golden-hour highway frames show no erratic driving
+b5a845414132,Y,NA,3,N,night highway frames consistent with steady-motion claim
+67a8aa8204db,Y,Y,3,N,frames clearly show red lights as car enters intersection
+bd8932cec76a,Y,Y,3,N,frames clearly show red lights as car crosses intersection
+0be58d4db797,Y,N,3,Y,frame at 90pct shows car already past intersection not stopped
+ff7114196baa,Y,Y,3,N,frames show red lights as car proceeds through intersection
+507f635eee17,Y,Y,3,N,frames confirm red lights as car proceeds through intersection
+752bd8ab6fe8,Y,Y,3,N,frames show red light matching claim despite near-static view
+7e66bc21aa5c,Y,Y,3,N,frames clearly show red light as car passes through fog
+df40704a52bf,Y,Y,3,N,frames show red lights consistent with running-red-light claim
+237b7fa68b3e,Y,Y,3,N,frames confirm red light matching claim; answer matches GT
+5411eab9c1d0,Y,N,3,Y,mid frame shows clearly lit red light contradicting no-red-light claim
+5742666860f6,Y,N,3,Y,frame at 90pct shows car already past intersection not stopped
+ba2fd7bccf19,Y,Y,1,N,explanation text concludes consistent but recorded answer is No
+df91a92abe60,Y,Y,3,N,frames confirm red light as car proceeds through fog
+a80d873b5863,Y,Y,3,N,frames confirm red light as car proceeds through snowy intersection
+064d9ca176a4,Y,Y,3,N,frames confirm red light as car moves through intersection
+bea90b452eea,Y,Y,3,N,frames show ego appears stopped near the line as claimed
+2f52ab2a7f27,Y,N,3,Y,three distinct frames show continuous progress not a stop
+06a46a736257,Y,NA,3,N,signal color unclear in bright sun; car crossing visible
+d46760bf92d4,Y,Y,3,N,frames show car passing stop sign location without stopping
+56710399814b,Y,NA,3,N,sparse frames cannot confirm or deny a full stop
+cc9e57cf5d01,Y,NA,3,N,car still approaching stop line at 90pct frame; inconclusive
+be0fa34583b8,Y,Y,3,N,frames show car has moved past the stop sign location
+749a2cb4f5e8,Y,Y,3,N,frames show car progressed well past stop sign by 90pct
+f99d831d9d3c,Y,Y,3,N,frames show car moved past stop sign without visible pause
+2494a83aac7d,Y,NA,2,N,explanation self-contradicts: says car stops then says not stationary
+356d45aeca9a,Y,N,1,Y,frames show only a stop sign not a traffic light as claimed
+bbadb31e5d35,Y,Y,3,N,near-identical early frames support a stop before proceeding
+e6b0268ba9c3,Y,NA,3,N,frames look very similar throughout; hard to confirm motion
+bba53cb444bb,Y,NA,3,N,no stop sign visible in any sampled frame to confirm claim
+a243d95f8d23,Y,Y,3,N,changing scenes across frames support continuous-movement claim
+9777c9f55568,Y,Y,3,N,near-identical frames throughout support the stated full stop
+f20c038d0b41,Y,Y,3,N,frames show progression consistent with not-stopped claim
+7244e4ef7ec3,Y,NA,3,N,frames near stop sign inconclusive on a true full stop
+3878d9d641dd,Y,Y,3,N,frames show car has passed the stop sign location
+1df94daaa60d,Y,Y,3,N,fft number and verdict match exactly
+18a9776812ce,Y,Y,3,N,fft number and verdict match exactly
+673d6eb75a51,Y,Y,3,N,fft number and verdict match exactly
+24d9581e5c46,Y,Y,3,N,fft matches; melting-car claim on unseen SAM crops unverifiable
+dcbddc716a43,Y,Y,3,N,quoted 0.0508 vs actual 0.0506 within tolerance; verdict matches
+e88745be3662,Y,Y,3,N,fft number and verdict match exactly
+f7e66283ffef,Y,Y,3,N,fft number and verdict match exactly
+1af19f6cee47,Y,Y,3,N,fft number and verdict match exactly
+fe2061b24c9a,Y,Y,3,N,fft number and verdict match exactly
+07bc4674be57,Y,Y,3,N,fft number and verdict match exactly
+bccc4aa6e8dc,Y,Y,3,N,fft number and verdict match exactly
+4df30600ec75,Y,Y,3,N,fft number and verdict match exactly
+9afd1df0efeb,Y,Y,3,N,fft number and verdict match exactly
+0d5bb3772a9a,Y,Y,3,N,fft number and verdict match exactly
+84f18ce364fe,Y,Y,3,N,fft number and verdict match exactly
+89a40ff422a3,Y,Y,3,N,fft number and verdict match exactly
+8568ace0fad0,Y,Y,3,N,fft number and verdict match exactly
+b0340b61222e,Y,Y,3,N,fft number and verdict match exactly
+2a6030d65479,Y,Y,3,N,fft number and verdict match exactly; answer wrong vs GT but faithful
+91925d09b4bc,Y,Y,1,N,fft correctly reported as leaning generated yet answer picks Real
+b4fed0ea2cc4,Y,Y,3,N,fft number and verdict match exactly
+6e5878697549,Y,Y,3,N,fft number and verdict match exactly
+b8b70102deb2,Y,Y,3,N,fft matches exactly; answer wrong vs GT but faithful
+1b324ca65468,Y,Y,3,N,fft number and verdict match exactly
+e44f7a94b5b7,Y,Y,3,N,fft number and verdict match exactly
+e26414e94f78,Y,Y,3,N,fft number and verdict match exactly
+b7013a42e72f,Y,Y,3,N,fft matches; melting-facade claim on unseen crops unverifiable
+6e60eadedaec,Y,Y,3,N,fft matches; van-melting detail not clearly visible in full frames
+d5be56fb619c,Y,Y,3,N,fft number and verdict match exactly
+037d6286ba68,Y,Y,3,N,fft matches; sparse frames cannot confirm or refute appear/disappear claim
+69fb26cadb4b,Y,Y,3,N,fft number and verdict match; no clear deformity visible in frames
+f72c35527de4,Y,NA,3,N,ambiguous car overlap in frame not clearly a shape-change artifact
+5268ca8660bf,Y,Y,3,N,fft number and verdict match exactly
+98830bc54c57,Y,Y,3,N,fft number and verdict match exactly
+fe9fb63a1285,Y,Y,3,N,fft number and verdict match exactly
+e3e44ce86111,Y,Y,3,N,fft number and verdict match exactly
+68c2af616fe1,Y,Y,2,N,answer inferred from generic fft-based statistics not observed evidence
+6db403f64708,Y,Y,2,N,answer inferred from generic fft-based statistics not observed evidence
+1a40bf67d642,Y,Y,3,N,fft number and verdict match exactly
+cb04fdb470f7,Y,NA,3,N,frames do not clearly confirm or refute shape-change claim
+44142f04b2ec,Y,Y,3,N,fft matches; wobbling-roof claim not visible in static frames but not contradicted
+96fa67cde006,Y,Y,3,N,fft number and verdict match exactly
+5fa6c4a9d96a,Y,Y,3,N,fft number and verdict match exactly
+fc927a25197e,Y,Y,3,N,fft number and verdict match exactly
+ba66a4850834,Y,Y,3,N,fft number and verdict match exactly
+26a84d311702,Y,Y,3,N,fft matches; frames show no obvious appear/disappear artifact
+23b5dd7bedcc,Y,Y,3,N,fft matches; near-identical frames show no obvious artifact
+2286b87c4d51,Y,Y,3,N,fft number and verdict match exactly
+311d2896e72c,Y,Y,2,N,answer hedges on subtle unseen changes rather than observed evidence
+d218a7063cc7,Y,Y,3,N,fft number and verdict match exactly

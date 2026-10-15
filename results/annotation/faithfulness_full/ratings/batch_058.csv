@@ -1,0 +1,70 @@
+item_id,consistent,false_claim,missed_event,note
+436397c8f526,Y,N,N,
+2452cce83d0f,Y,N,N,
+14e333d195c8,Y,N,N,
+c6e6ed9895c1,Y,N,N,
+44c646ca6df7,Y,N,Y,"misses SUV suddenly close then gone (frame2), inconsistent with mostly-realistic call"
+95fd1aa2960e,Y,N,N,
+33541dab112d,Y,N,Y,"misses abrupt SUV appear/vanish (frame2) supporting generated, not real"
+191d6d2f5684,Y,N,N,
+ad2187f55f87,Y,Y,N,claims no clear artifacts despite visibly melted car (frame2) and warped signage
+80408c4726ed,Y,N,N,
+df043164a103,Y,N,N,
+6e60eadedaec,Y,Y,N,"melted blob is a dark car, not the white van (van intact)"
+500dfc30ded6,Y,N,N,
+c0c295e5f2cd,Y,N,N,
+3ef7ca8fc59a,Y,N,N,
+95d16d5e32eb,Y,N,N,
+cab449a16379,Y,Y,N,no car in scene; cites car rigidity-violation evidence that doesn't exist
+e9c54e0c58dd,Y,N,N,
+0afb256c1142,Y,Y,N,no car visible in frames; cites nonexistent car SAM analysis
+447e24256523,Y,Y,N,no car in frames; cites car clips that don't exist in this scene
+487417f9ca49,Y,N,N,
+2de0743aadc0,Y,N,N,
+c020592fe33c,Y,N,N,
+d5be56fb619c,Y,N,N,
+c6e91187c418,Y,N,N,
+5595415c070c,Y,N,N,
+b111cb128ce8,Y,N,N,
+2ea2f9531583,Y,Y,N,"claims no obvious artifacts, but car visibly melts with floating wheel (frame7-8)"
+25891602364b,Y,Y,N,claims no component morphing despite car clearly melting (frame7-8)
+bba81885ddc6,Y,N,N,
+23560e9f4cd3,Y,N,N,
+7918065def2c,Y,N,N,
+d60066277478,Y,N,N,
+e785ed82513d,Y,N,N,
+4275656f5a6e,Y,Y,N,claims no obvious artifacts; white car balloons to huge size (frame3) then reverts
+98538a3359b5,Y,Y,N,claims no obvious artifacts; white car balloons huge (frame3) then reverts (frame4)
+56e3c50cbf9d,Y,N,N,
+9168bdb1bc69,Y,N,N,
+00866030653d,Y,Y,N,"bollard is visible in every frame, doesn't disappear/reappear as claimed"
+df717384dd11,Y,N,N,
+af34505d3fdc,Y,N,N,
+e8427378ef1f,Y,N,N,
+717dc39c0666,Y,N,N,
+03642b0eafb0,Y,N,N,
+356564b3be3b,Y,N,N,
+a377ce1c1234,Y,N,N,
+cc7db421d92e,Y,N,N,
+7b91023cba6d,Y,N,N,
+b7ba7fafb3ed,Y,N,N,
+e0ab588c4ffc,Y,N,N,
+4fd7091f9b80,Y,N,N,
+f6f0b015a6c4,Y,Y,N,"claims ducks show consistent tracking, but ducks (frames1-2) vanish entirely after"
+31c8415e7b65,Y,N,N,
+f85145b7afd8,Y,N,N,
+34454a95b804,Y,N,N,
+9b001cb08003,Y,N,N,
+6195148fc419,Y,N,N,
+4a37802d8981,Y,N,N,
+b593f0896467,Y,N,N,
+22beaf02557d,Y,N,N,
+037d6286ba68,Y,N,N,
+ca6ea108b582,Y,N,N,
+797571fc3568,Y,N,N,
+f142597e3b16,Y,N,N,
+c658d9f51aa5,Y,N,N,
+ad841436d7b7,Y,N,N,
+5060c9345392,Y,N,N,
+9d8a5ec8ea5d,Y,N,N,
+14d5988cd3ba,Y,N,N,

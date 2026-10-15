@@ -1,0 +1,72 @@
+item_id,consistent,false_claim,missed_event,note
+31dc247b5243,Y,Y,N,FFT quoted 0.0371 vs actual 0.0575 (diff 0.0204)
+5f56879b0686,Y,Y,N,FFT quoted 0.0371 vs actual 0.0575 (diff 0.0204)
+064a454c661f,Y,Y,N,FFT quoted 0.0371 vs actual 0.0575 (diff 0.0204)
+0e6035847cbb,Y,Y,N,FFT quoted 0.0371 vs actual 0.0575 (diff 0.0204)
+2ff7e7c96702,Y,N,N,
+4375e7442c46,Y,N,N,
+d9457bd4909b,Y,N,N,
+e3f27a5c6127,Y,N,N,
+6b46ec6d8e68,Y,N,N,
+720ac40d4471,Y,N,N,
+e7bbcf648876,Y,N,N,
+c665f1ae100c,Y,Y,N,FFT quoted 0.0431 vs actual 0.0595 (diff 0.0164)
+7b9edf4dc7aa,Y,Y,N,FFT quoted 0.0431 vs actual 0.0595 (diff 0.0164)
+19690ecc7130,Y,Y,N,FFT quoted 0.0431 vs actual 0.0595 (diff 0.0164)
+654375f9c47b,Y,Y,N,FFT quoted 0.0431 vs actual 0.0595 (diff 0.0164)
+8ca4844c5155,Y,N,N,
+f2099e59e26e,Y,N,N,
+c578dd46e65e,Y,N,N,
+aeb91f2fd4bc,Y,N,N,
+2cfa74ecc022,Y,N,N,
+b548f0a2090e,Y,N,N,
+9f865385c727,Y,N,N,
+6fd1a4b016ba,Y,Y,N,FFT quoted 0.0389 vs actual 0.0655 (diff 0.0266)
+f2fe00371bcb,Y,Y,N,FFT quoted 0.0389 vs actual 0.0655 (diff 0.0266)
+94afbbf94e90,Y,Y,N,FFT quoted 0.0389 vs actual 0.0655 (diff 0.0266)
+52188f514152,Y,N,N,
+240cacaf66df,Y,N,N,
+cf8cc69b55db,Y,N,N,
+df6d6bf30103,Y,N,N,
+3dec9ea3b8a0,Y,N,N,
+7be432cfa9fe,Y,N,N,
+67eff65c2e75,Y,N,N,
+4b988191a70f,Y,Y,N,FFT quoted 0.0289 vs actual 0.0513 (diff 0.0224)
+a2d1ae7695b7,Y,Y,N,FFT quoted 0.0289 vs actual 0.0513 (diff 0.0224)
+50438bddb526,Y,Y,N,FFT quoted 0.0289 vs actual 0.0513 (diff 0.0224)
+92c924715e87,Y,N,N,
+a013c2d77d22,Y,N,N,
+67973139b195,Y,N,N,
+a833d1fd4e6b,Y,N,N,
+a34e85a44481,Y,N,N,
+993773e70f6a,Y,N,N,
+cf9dd75ea9f0,Y,N,N,
+b20ea3d8ebd9,Y,N,N,
+3305a76a5836,Y,N,N,"no-match; explanation concludes shape/appearance not supported (No), graded against that"
+ca6bdeebd16f,Y,N,N,
+fa7813e454e6,Y,N,N,
+1b78d45a7e17,Y,N,N,
+2caae382da2e,Y,Y,N,FFT quoted 0.0394 vs actual 0.0562 (diff 0.0168)
+e8f883cac7f5,Y,Y,N,FFT quoted 0.0394 vs actual 0.0562 (diff 0.0168)
+3dc929a0de98,Y,Y,N,FFT quoted 0.0394 vs actual 0.0562 (diff 0.0168)
+45ace2204415,Y,Y,N,FFT quoted 0.0394 vs actual 0.0562 (diff 0.0168)
+21c0aefdb737,Y,N,N,
+3e3e8b4097d0,Y,N,N,
+3f16ecad4903,Y,N,N,
+ba66a4850834,Y,N,N,
+48e449297e6b,Y,N,N,
+a60110febebd,Y,N,N,
+658b85f136e3,Y,N,N,
+587cbabadcec,Y,N,N,
+224d13d86dfb,Y,N,N,
+9fd8c2e54999,Y,N,N,
+0ef3082032e4,Y,N,N,
+414141b133ee,Y,N,N,
+38fee1d7d62a,Y,N,N,
+e7be9229cc7e,Y,Y,N,FFT quoted 0.0389 vs actual 0.0563 (diff 0.0174)
+39d4095eb8ff,Y,Y,N,FFT quoted 0.0389 vs actual 0.0563 (diff 0.0174)
+701615745fbc,Y,Y,N,FFT quoted 0.0389 vs actual 0.0563 (diff 0.0174)
+85103ffa0825,Y,N,N,
+ae025e446865,Y,N,N,
+0e28e5080e16,Y,N,N,
+3f14b6c82ee4,Y,N,N,

@@ -1,0 +1,22 @@
+# Closed-source evaluation extras (src/evaluation/closed_source/).
+#
+# These are *not* needed on the RCP cluster — the closed-source runs happen from
+# the local machine, which talks to the OpenAI / Google / Anthropic APIs. Pins
+# are the versions installed in this repo's `.venv` (2026-09), so a fresh
+# checkout reproduces the runs byte-for-byte where the APIs allow it.
+#
+#   uv pip install --python .venv/bin/python -r requirements-closed-source.txt
+#
+# SDKs, one per backend
+anthropic==1.4.0            # claude/  (Messages + Message Batches API)
+openai==2.9.0               # gpt/     (Chat Completions + Batch API)
+google-genai==1.73.1        # gemini/  (GenerateContent + Batch API)
+
+# Shared plumbing
+pydantic==2.12.5            # structured-output schemas (schemas.py)
+python-dotenv==1.2.1        # .env / secrets.env loading
+
+# Frame extraction, size estimates and the analysis join
+opencv-python==4.13.0.92    # frame_extractor.py (1 fps sampling -> cached JPEGs)
+pillow==11.3.0              # image dimensions for the `--mode dry-run` estimate
+polars==1.33.1              # analysis/run_analysis.py

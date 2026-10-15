@@ -1,0 +1,121 @@
+item_id,consistent,false_claim,missed_event,note
+a7b19a7bfbec,Y,N,N,
+a243d95f8d23,Y,N,N,
+47f2cfd6b80d,Y,N,N,
+37515a77e47d,Y,N,N,
+27e1b50a3c5f,Y,N,N,
+5e60f3f740b3,Y,N,N,
+0ad3301f1630,Y,N,N,
+6e41413d5711,Y,Y,N,"claims car stops completely at stop line; frames show continuous motion, no stop"
+9a3a368de070,Y,N,N,
+9326e83844a0,Y,N,N,
+20321c8419a6,Y,N,N,
+fbec0511e0df,Y,N,N,
+825c47ae39ea,Y,Y,N,"claims car makes complete stop at stop sign; frames show continuous motion, no stop"
+f5698bb44293,Y,N,N,
+a3d8e90ec3d6,Y,N,N,
+6be70e92e163,Y,N,N,
+37a3746b715e,Y,N,N,
+a2b5cb5f8e72,Y,N,N,
+bbb990604f3c,Y,N,N,
+ac33ac2cda65,Y,Y,N,"claims car stops at stop line; frames show continuous motion, no stop"
+572342512607,Y,N,N,
+cb28cb98cac4,Y,N,N,
+3d65e1321b94,Y,N,N,
+e2517678e740,Y,N,N,
+e0ff68c668d3,Y,Y,N,"claims car stops at stop line; frames show continuous motion, no stop"
+d7ea2634eb2c,Y,N,N,
+7643dfc2af05,Y,N,N,
+e26fd7bd4b19,Y,N,N,
+786a2cb0c62b,Y,Y,N,"claims car stops fully and turns right; frames show continuous straight motion, no stop/turn"
+8bebdc25a366,Y,N,N,
+890d27bf3efc,Y,N,N,
+df6122888257,Y,N,N,
+03bb54dc941d,Y,N,N,
+b3b23d621694,Y,Y,N,"claims car stops completely at stop line; frames show continuous motion, no stop"
+a06b1a2f83e5,Y,Y,N,"claims car stops completely before stop line; frames show continuous motion, no stop"
+25dc60f7c963,Y,N,N,
+3a451a2a49ac,Y,N,N,
+0ae96fd4e0ae,Y,Y,N,"claims car stops completely before stop line; frames show continuous motion, no stop"
+68330aca650c,Y,N,N,
+5d3aaa49536a,Y,N,N,
+13f96dd7f8a0,Y,N,N,
+2aa57ad16ec4,Y,Y,N,"claims car comes to complete stop at stop sign; frames show continuous motion, no stop"
+379454c55404,Y,N,N,
+ad9e901325e2,Y,Y,N,"claims car stops completely at stop line; frames show continuous motion, no stop"
+070564d1bb27,Y,N,N,
+b25d0b8dfafe,Y,N,N,
+30091c8870c0,Y,N,N,
+cabc197138ab,Y,N,N,
+4df30600ec75,Y,N,N,
+451000fec6e8,Y,N,Y,"omits car not stopping at stop sign, relevant to safety score"
+ad739c1bc374,Y,Y,N,"claims car stops at stop line; frames show continuous motion, no stop"
+610ad54f85ea,Y,N,N,
+87cd4796ec2a,Y,N,N,
+a984a1ec07d1,Y,N,Y,"omits car not stopping at stop sign, relevant to safe-driving question"
+57ba69fa697e,Y,Y,N,"claims car stops at stop line and a traffic light; frames show stop sign, continuous motion, no stop/light"
+60a3d095cafa,Y,N,N,
+f7301906e228,Y,N,N,
+ceec49a80dda,Y,N,N,
+7446ab713dbb,Y,N,N,
+449f7e420f19,Y,N,N,
+4c70f28b103c,Y,N,N,
+5ef420fd4850,Y,Y,N,"claims car stops and a traffic light turns green; frames show stop sign, continuous motion, no stop/light"
+80cfc0ba15f8,Y,Y,N,"claims car stops completely at stop line; frames show continuous motion, no stop"
+dc76179f2833,Y,N,N,
+c19e7e32268d,Y,N,N,
+0fba8f3f7d65,Y,Y,N,"claims car stops at stop line; frames show continuous motion, no stop"
+7c34566c6b52,Y,N,N,
+62adbde55eb6,Y,N,N,
+80f0c554044d,Y,Y,N,"claims car stops at stop line; frames show continuous motion, no stop"
+2bd9240a67c7,Y,Y,N,"claims car comes to complete stop at stop sign; frames show continuous motion, no stop"
+db65a225bca4,Y,N,N,
+3f6fcdaa9666,Y,Y,N,"claims car stops completely at stop sign; frames show continuous motion, no stop"
+c0543af9ed5d,Y,N,N,
+df29579e3a24,Y,N,N,
+0ee9afa7a883,Y,Y,N,"claims car stops completely at stop line; frames show continuous motion, no stop"
+14eb9d05f606,Y,Y,N,"claims car stops completely before stop sign; frames show continuous motion, no stop"
+8272094e9009,Y,N,N,
+eaa51dbccf0c,Y,Y,N,"claims car decelerates and stops before stop line; frames show continuous motion, no stop"
+b6e19d4007fc,Y,N,N,
+06c9cd622f95,Y,N,N,
+afb089719c4c,Y,Y,N,"claims car makes complete stop and yields to cross traffic; frames show continuous forward motion, no stop"
+da7003079809,Y,N,N,
+301cf0484edf,Y,N,N,
+9c1c5333bafa,Y,N,N,
+a5f75010dfd5,Y,Y,N,claims no traffic violations; frames show car passing stop sign without stopping
+f2842c7c0d48,Y,N,N,
+0ef154534421,Y,N,N,
+9afd1df0efeb,Y,N,N,
+46d04d0f9182,Y,Y,N,"claims car stops completely at stop line; frames show continuous motion, no stop"
+4e8ba28775a5,Y,N,N,
+daa611c6cdb4,Y,N,N,
+4b1ebbad88a8,Y,Y,N,"claims car makes complete stop before stop line; frames show continuous motion, no stop"
+1af1ba1a1051,Y,N,N,
+4f99019d785c,Y,N,N,
+bc7f106bc23d,Y,N,N,
+368bd08bf38e,Y,Y,N,"claims car comes to complete stop at stop line; frames show continuous motion, no stop"
+85ad0e71b279,Y,N,N,
+03c3e566a2f4,Y,Y,N,"claims car comes to complete stop at stop sign; frames show continuous motion, no stop"
+ca166a822576,Y,Y,N,"claims car comes to complete stop at stop line; frames show continuous motion, no stop"
+f9b77cb20ebf,Y,N,N,
+78048c50d1c7,Y,N,N,
+68c9b8d2224d,Y,Y,N,"claims car slows and stops at stop line; frames show continuous motion, no stop"
+a757e23aff66,Y,Y,N,"claims car stops completely before proceeding; frames show continuous motion, no stop"
+f3f60d5d14b6,Y,Y,N,"claims car stops at stop sign; frames show continuous motion, no stop"
+9ae121f82309,Y,N,N,
+76b7bf70de17,Y,N,N,
+82db76949056,Y,Y,N,claims car stops and no other vehicles present; frames show continuous motion and a crossing car
+5208fdb6e2ea,Y,N,N,
+11d27e10d032,Y,N,N,
+a6b091e2f42f,Y,Y,N,"claims car stops at stop line/stop sign; frames show continuous motion, no stop"
+66620c049c92,Y,N,N,
+211180120b6e,Y,Y,N,"claims car comes to complete stop at stop sign; frames show continuous motion, no stop"
+034613c4f609,Y,N,N,
+afb445780946,Y,Y,N,"claims car slows/stops at stop sign; frames show continuous motion, no stop"
+8d05a9630bc4,Y,N,N,
+b027654d9787,Y,N,N,
+9777c9f55568,Y,Y,N,"claims car comes to complete stop at stop line; frames show continuous motion, no stop"
+a821850cad77,Y,N,N,
+eeebcb8d1793,Y,N,N,
+27b47f7afe9b,Y,N,N,

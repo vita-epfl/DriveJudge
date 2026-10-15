@@ -1,0 +1,81 @@
+item_id,consistent,false_claim,missed_event,note
+be0060db9bb2,Y,N,N,
+f0c462e2ff5a,Y,N,N,
+fc0546c1d7b9,Y,N,N,
+67dea99db9aa,Y,N,N,
+d7660bd63269,Y,N,N,
+69f6111c299b,Y,Y,N,claims green light; frames show red for ego lane
+7b3ca15753cc,Y,N,N,
+7c15b10651fd,Y,N,N,
+46fbef189783,Y,N,N,
+3b361cdfc993,Y,Y,N,claims natural/indistinguishable from real; building sign text is gibberish
+40b4e609c5cb,Y,N,Y,"omits gibberish building sign text, generation artifact relevant to reality Q"
+25dea28f2c1e,Y,N,N,
+704fb4ddfb5f,Y,N,N,
+3895766424f6,Y,N,N,
+674088c17732,Y,N,N,
+1f7117e21634,Y,N,N,
+c8f06b5f38a1,Y,Y,N,claims green light; frames show red for ego lane
+4a86a8361867,Y,N,N,
+c7f70f72307b,Y,N,N,
+e7ab5299ca5e,Y,Y,N,claims green light; frames show red for ego lane
+4de12f9daa98,Y,Y,N,claims green light; frames show red for ego lane
+44fdc0af80e8,Y,N,N,
+bf5142289125,Y,N,N,
+895d5a3aaaac,Y,Y,N,claims green light; frames show red for ego lane
+afe6f2415311,Y,N,N,
+13897ebab99e,Y,N,N,
+beacbaf13b16,Y,N,N,
+09e3a8605f1b,Y,N,N,
+1df48e949907,Y,Y,N,claims car seen crossing stop line; frames show ego essentially stationary
+169619c12a3e,Y,N,N,
+5df1e11da0c6,Y,N,N,
+21a6bb788224,Y,N,N,
+e66258da327b,Y,N,N,
+8689add0f5c6,Y,Y,N,claims ego moving through red light; frames show ego stationary at crosswalk
+7386b3833a51,Y,Y,N,claims ego moving through red light; frames show ego stationary at crosswalk
+0b43132dfd7c,Y,N,N,
+91fe5a0cc4d2,Y,N,N,
+aff67c0f48ab,Y,Y,N,claims ego moving through red light; frames show ego stationary at crosswalk
+2aa30c2b84b5,Y,N,N,
+572815b2a4bf,Y,Y,N,"claims green light & car proceeding; frames show red light, ego stationary"
+8a2ebd7b83d7,Y,N,N,
+b71b4e6c46b3,Y,N,N,
+3972a85d4587,Y,Y,N,claims visual evidence of car proceeding through intersection; frames show ego stationary
+0e1f078ef828,Y,N,N,
+b69ed79d5f5c,Y,N,N,
+96aaba6f98d9,Y,Y,N,claims car moving through red light; frames show ego stationary (bollard fixed)
+c5fa6ae718f7,Y,N,N,
+f43db91330a6,Y,N,N,
+bb7db962b5c0,Y,Y,N,"claims green light & car proceeding; frames show red light, ego stationary"
+e946a7ad7576,Y,N,N,
+c23639605344,Y,Y,N,"claims green light & car moving through; frames show red light, ego stationary"
+40dc6d5d2781,Y,N,N,
+4a9c5c40cafd,Y,Y,N,claims car moving through intersection at red; frames show ego stationary at stop line
+2e396ed1a3e6,Y,N,N,
+6741e7289b73,Y,N,N,
+2498641d5d3d,Y,Y,N,claims car is in the intersection during red; frames show ego stationary
+596f6f9ba806,Y,Y,N,claims car moving forward through green light; frames show ego stationary at crosswalk
+7ada77590871,Y,N,N,
+c493eebb4fcd,Y,Y,N,claims car moving through green light; frames show ego stationary at crosswalk
+47ee75ab360d,Y,N,N,
+702bb851ca0b,Y,Y,N,claims car moving forward through red light; frames show ego stationary at crosswalk
+3e162fa7e123,Y,N,N,
+45fdb6c798cb,Y,N,N,
+68d8692559c8,Y,Y,N,claims car proceeding through red light; frames show ego stationary at crosswalk
+82b4ca9ed8aa,Y,Y,N,claims car moving through red light; frames show ego stationary at crosswalk
+92ca7173732d,Y,N,N,
+479cc611b553,Y,N,N,
+a2258d65828b,Y,Y,N,claims car moving through intersection; frames show ego stationary at crosswalk
+5cfc258c03e1,Y,Y,N,"claims green light & car crossing intersection; frames show red light, ego stationary"
+8478c8b69f9c,Y,N,N,
+5fbcf2c57b5e,Y,N,N,
+c5175f3bcbef,Y,Y,N,claims car proceeding through red light; frames show ego stationary at crosswalk
+d7f165c3ec06,Y,Y,N,"claims green light & car proceeding through intersection; frames show red light, ego stationary"
+59216e70a6a7,Y,N,N,
+3bd585fd9f00,Y,N,N,
+2eb876b0eb0a,Y,Y,N,"claims green light & car moving through intersection; frames show red light, ego stationary"
+fc43a2a149d3,Y,N,N,
+73071147f208,Y,N,N,
+c023f15e37b2,Y,N,N,
+e0bce552547b,Y,Y,N,claims car proceeds through the red light; frames show ego stationary (bollard fixed)

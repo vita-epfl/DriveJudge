@@ -1,0 +1,34 @@
+{
+  "consistency: human(3 vs <3) vs Opus v2": {
+    "agreement": 0.8,
+    "kappa": -0.081,
+    "ci": [
+      -0.207,
+      0.0
+    ]
+  },
+  "consistency: human vs Opus v1 (3 vs <3)": {
+    "agreement": 0.5,
+    "kappa": 0.065,
+    "ci": [
+      -0.207,
+      0.368
+    ]
+  },
+  "hallucination: human vs Opus v2 (false_claim|missed_event)": {
+    "agreement": 0.85,
+    "kappa": 0.706,
+    "ci": [
+      0.4,
+      1.0
+    ]
+  },
+  "hallucination: human vs Opus v1": {
+    "agreement": 0.75,
+    "kappa": 0.528,
+    "ci": [
+      0.237,
+      0.802
+    ]
+  }
+}

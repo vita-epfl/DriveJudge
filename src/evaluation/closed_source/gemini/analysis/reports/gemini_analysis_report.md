@@ -17,7 +17,7 @@ deep-dives are in `./reports/<category>.md`.
 | GPT-5.4-mini *(prior best non-agent)* | 39.1 % |
 | InternVL3.5-30B *(best open-source baseline)* | 30.8 % |
 | Cosmos-Reason / InternVL3.5-8B / LLaVA-OneVision | 23–26 % |
-| Qwen3-VL / Qwen2.5-Omni | 10–22 % |
+| Qwen3-VL / Qwen3-Omni | 10–22 % |
 
 The surprising finding is not just that Gemini wins, but that it wins
 **without** the FFT / SAM / RAFT / SSIM agentic toolchain that closed the gap

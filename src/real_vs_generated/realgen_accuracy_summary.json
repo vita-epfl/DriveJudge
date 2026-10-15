@@ -153,7 +153,7 @@
       }
     }
   },
-  "Qwen2.5-Omni": {
+  "Qwen3-Omni": {
     "file": "Qwen_omni_realgen.json",
     "n": 100,
     "correct": 51,

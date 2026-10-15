@@ -31,6 +31,35 @@ SYSTEM_PROMPT = (
     "(which must match one of the allowed options exactly)."
 )
 
+# Round-2 user turn of the self-reflection variant. Shared verbatim by the GPT,
+# Gemini and Claude backends so the three arms stay comparable.
+REFLECTION_PROMPT = (
+    "Re-examine the frames. Check each claim of your previous rationale "
+    "against what is visible, consider the opposite answer, then return a "
+    "revised structured answer in the same schema (it may be unchanged)."
+)
+
+
+def build_question_text(question: str, schema: type[_Base]) -> str:
+    """The variable suffix of the prompt — identical across all three backends."""
+    return (
+        f"Question: {question}\n"
+        f"Allowed answers: {allowed_answers(schema)}\n"
+        "Respond using the structured schema."
+    )
+
+
+def round1_assistant_text(evaluation: str, answer: str) -> str:
+    """Serialise a round-1 answer back into the exact JSON the model emitted.
+
+    Key order is fixed (`evaluation`, then `answer`) so the round-2 prompt is
+    byte-stable across reruns — a varying prefix would kill prompt caching.
+    """
+    import json
+
+    return json.dumps({"evaluation": evaluation, "answer": answer},
+                      ensure_ascii=False)
+
 
 def build_messages(
     frames: list[Frame],
@@ -38,8 +67,17 @@ def build_messages(
     schema: type[_Base],
     *,
     image_detail: ImageDetail = "low",
+    reflection: dict | None = None,
 ) -> list[dict]:
-    options = allowed_answers(schema)
+    """Build the chat messages.
+
+    `reflection` (optional) turns this into the round-2 self-reflection prompt:
+    pass the round-1 result record (needs `evaluation` and `answer`) and the
+    returned message list becomes
+        system, user(images + question), assistant(round-1 JSON), user(re-examine)
+    Everything before the assistant turn is byte-identical to round 1, so the
+    cached image prefix is reused.
+    """
     image_parts = [
         {
             "type": "image_url",
@@ -47,12 +85,8 @@ def build_messages(
         }
         for f in frames
     ]
-    question_text = (
-        f"Question: {question}\n"
-        f"Allowed answers: {options}\n"
-        "Respond using the structured schema."
-    )
-    return [
+    question_text = build_question_text(question, schema)
+    messages: list[dict] = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {
             "role": "user",
@@ -62,3 +96,12 @@ def build_messages(
             ],
         },
     ]
+    if reflection is not None:
+        messages.append({
+            "role": "assistant",
+            "content": round1_assistant_text(
+                reflection.get("evaluation", ""), reflection.get("answer", "")
+            ),
+        })
+        messages.append({"role": "user", "content": REFLECTION_PROMPT})
+    return messages

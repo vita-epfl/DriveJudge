@@ -1,0 +1,121 @@
+item_id,consistent,false_claim,missed_event,note
+23618de6984f,Y,N,N,
+efdd812550de,Y,N,N,
+d9d22604f850,Y,N,N,
+058a91064550,Y,N,N,
+9b574883cf72,Y,N,N,
+f63a383ea7d9,Y,N,N,
+c04fc0a1171c,Y,N,N,
+1cd579ce5284,Y,N,N,
+546e2286b1f8,Y,N,N,
+7fbe732a3247,Y,N,N,
+7a78675b6c0a,Y,N,N,
+c2a60c8438ff,Y,N,N,
+edc1c186a264,Y,Y,N,"claims light turns green; only a stop sign visible, no traffic light in frames"
+099b385573a3,Y,N,N,
+ba8ebb75a81f,Y,Y,N,claims moved through without stopping; frames show ego stationary at stop line throughout
+79f42314e1f2,Y,N,N,
+694df39f096d,Y,Y,N,claims car did not stop; frames show consistent stationary framing at stop line across all 8 frames
+dfc91ee7d649,Y,N,N,
+69057970d42c,Y,N,N,
+93d2825d2eac,Y,N,N,
+092c6dc3e57a,Y,N,N,
+75edaae1a949,Y,N,N,
+2faa4dcfae45,Y,N,N,
+2e3c53320ecb,Y,N,N,
+35168e9a331c,Y,N,N,
+9813645078f2,Y,N,N,
+b74130aeec86,Y,N,N,
+be45de87beae,Y,N,N,
+f671bc472f88,Y,N,N,
+106551fe7ee9,Y,N,N,
+5561275f6108,Y,N,N,
+feb4855f69a8,Y,N,N,
+5d8fc69f2280,Y,N,N,
+8ddb27c91971,Y,N,N,
+755f5edde4af,Y,N,N,
+10f826e594da,Y,N,N,
+706677450dcb,Y,N,N,
+ac09debfede7,Y,N,N,
+ca47f5df9d41,Y,N,N,
+852272025deb,Y,N,N,
+a3a9ac5880d8,Y,N,N,
+fedf7f762231,Y,N,N,
+f0e9fb81c29e,Y,N,N,
+11d2a284ee09,Y,N,N,
+939631d91f49,Y,N,N,
+5cbc85f1bc95,Y,N,N,
+5efbf315210a,Y,N,N,
+1735bb6fc093,Y,N,N,
+530257bf8534,Y,N,N,
+995256ce6b02,Y,N,N,
+79a5abf1350d,Y,N,N,
+043e056591d5,Y,N,N,
+06929acc54a0,Y,N,N,
+6ad3063b804c,Y,N,N,
+7ae60406719d,Y,N,N,
+cccc043c4fd1,Y,N,N,
+9b6c6f21dbb6,Y,Y,N,"claims car passed through without stopping; frames near-identical/stationary, ego waits while cross traffic passes"
+e75190eb60a2,Y,Y,N,"claims car moved without stopping; text itself admits frames show it stopped, overrides with flow priority"
+e24990b82648,Y,N,N,
+b44a311bffef,Y,N,N,
+684686378c58,Y,Y,N,claims car moved through without stopping; frames show near-identical stationary framing at stop line throughout
+0b3cfef3995c,Y,Y,N,claims frames confirm vehicle moving through; frames show near-identical stationary framing at stop line
+d3e3fc0faabc,Y,N,N,
+00f2076e9de4,Y,N,N,
+24c002689dd8,Y,N,N,
+63e4192d4359,Y,N,N,
+b8070e607ddf,Y,N,N,
+cc1cf77ee342,Y,Y,N,"claims car passed through stop line; frames show near-identical stationary framing throughout, ego waits for crossing traffic"
+a5a33b0b369b,Y,Y,N,claims vehicle moved through without stopping; frames show stationary framing at stop line throughout
+6a730bab8076,Y,N,N,
+87f3db6e9995,Y,N,N,
+35af9481f31a,Y,N,N,
+ea8b22e4e432,Y,N,N,
+b42b83fdaa5f,Y,N,N,
+06f39328c00e,Y,Y,N,claims vehicle moved through without stopping; frames show near-identical stationary framing at stop line throughout
+181e506a5677,Y,Y,N,claims car advancing through intersection; frames show near-identical stationary framing at stop line throughout
+62209fa86f61,Y,N,N,
+70e508920e0f,Y,N,N,
+0adc6db85754,Y,Y,N,claims car moved through without stopping; frames show near-identical stationary framing at stop line throughout
+328a0a6a8e5b,Y,Y,N,claims vehicle not stationary/moves through; frames show near-identical stationary framing throughout
+c21487b9de10,Y,N,N,
+113b9845e729,Y,N,N,
+398859b9edb7,Y,N,N,
+8adfc032bcc6,Y,Y,N,claims car proceeded without stopping; frames show near-identical stationary framing at stop line throughout
+b3a0e2a023da,Y,N,N,
+052c5eff3ac5,Y,N,Y,"gibberish/scrambled text on building signage visible, not mentioned, would push toward score 1"
+1105e866c491,Y,Y,N,claims car moved past stop line; frames show near-identical stationary framing at stop line throughout
+8bae3481fc55,Y,Y,N,claims car proceeded without stopping; frames show near-identical stationary framing at stop line throughout
+959f59e714f0,Y,N,N,
+b8283dc616c3,Y,N,N,
+5a903f36140d,Y,N,N,
+c72e3f522198,Y,N,N,
+fe127f52461c,Y,Y,N,claims car moved past stop line; frames show near-identical stationary framing at stop line throughout
+2b980c4c8210,Y,Y,N,claims car passed stop sign without stopping; frames show near-identical stationary framing at stop line throughout
+4ae4cb547d2b,Y,N,N,
+a88d9f2cef7e,Y,N,N,
+3c78c7f3d58d,Y,N,N,
+b1d78c8953e1,Y,N,N,
+d3acf05e80cd,Y,Y,N,claims car moved past stop line without stopping; frames show near-identical stationary framing throughout
+324bc671288e,Y,N,N,
+b1deb1382986,Y,N,N,
+fcad7120fc5d,Y,Y,N,claims car failed to stop; frames show near-identical stationary framing at stop line throughout
+fa66cb583d24,Y,N,N,
+83b59e64a6e0,Y,Y,N,"claims a green traffic light exists; scene is a stop-sign intersection only, no traffic light visible"
+f1943d1564f9,Y,Y,N,claims car moved past stop line; frames show near-identical stationary framing at stop line throughout
+008267114ddd,Y,Y,N,claims car passed stop line without stopping; frames show near-identical stationary framing throughout
+cf6ec6c841cd,Y,N,N,
+e423f22c1bc0,N,N,N,"reasoning describes safe controlled driving, no unsafe indications, but model_answer is No"
+0dba8a512721,Y,N,N,
+8ec1a745c3d5,Y,N,N,
+18dc4f93fdae,Y,Y,N,claims car proceeded without stopping; frames show near-identical stationary framing at stop line throughout
+5b21414104b7,Y,Y,N,claims vehicle in motion/not stopped; frames show near-identical stationary framing at stop line throughout
+b7c70d82a0ac,Y,N,N,
+169263282f8b,Y,Y,N,claims car crossed the stop line at steady pace; frames show near-identical stationary framing throughout
+1e53ad797ac5,Y,N,N,
+f99d831d9d3c,Y,Y,N,claims car moved through without stopping; frames show near-identical stationary framing at stop line throughout
+6f7a8eb6ebfc,Y,Y,N,claims car passed the stop line; frames show near-identical stationary framing at stop line throughout
+c18de8302e4b,Y,Y,N,claims car crosses stop line and proceeds; frames show near-identical stationary framing at stop line throughout
+cb230d8ab4c9,Y,N,N,
+c281ca6c20d0,Y,N,N,

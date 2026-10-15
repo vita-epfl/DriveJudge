@@ -6,8 +6,10 @@ import re
 import json
 from pathlib import Path
 
-RESULTS_DIR = Path("/home/ubuntu/.openclaw/workspace/VLM-eval-rcp/results")
-OUT_DIR = Path("/tmp/cue_analysis")
+ROOT = Path(__file__).resolve().parents[2]
+RESULTS_DIR = ROOT / "results"
+OUT_DIR = ROOT / "results" / "cue_analysis"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 BASE_MODELS = {
     "Cosmos_Reason": "Cosmos_Reason_analyzed.parquet",
@@ -279,4 +281,4 @@ report += """
 
 with open(OUT_DIR / "cue_report_v2.md", "w") as f:
     f.write(report)
-print("\nReport saved to /tmp/cue_analysis/cue_report_v2.md")
+print(f"\nReport saved to {OUT_DIR / 'cue_report_v2.md'}")

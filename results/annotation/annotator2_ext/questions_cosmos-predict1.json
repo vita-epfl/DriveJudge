@@ -1,0 +1,1867 @@
+[
+  {
+    "video": "artifacts/pedestrians_030.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_022.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_015_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_008_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_012_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_008_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_021_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_brake_003_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/94EDSmtNCxM_10032_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_003_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_010_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_023_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_014.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/uvRaCzWpFrQ_50448_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/KvclGPxsBdU_49488_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_012.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_004.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_005.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_003.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/lT4AML9VU2Q_72480_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/FZBnbeFXjEs_27024_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_011_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_brake_001.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_010_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/scB_bYG27yI_54480_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_012_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/Qb5UT3pSxjI_79680_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_016_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/giViRewuugA_44352_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/MXxot9M4-iE_76320_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_001_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/scB_bYG27yI_83616_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_004.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_010_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/JS0gJxhFFJ8_5904_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_014_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_009_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/JS0gJxhFFJ8_42912_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_005_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_029_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/9Y9PlE7b1S8_13392_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_001_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/Xy_FYVEFVnk_28704_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_033_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/animals_001.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_028_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_024.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_011_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_014_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/Qb5UT3pSxjI_35184_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_009_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_010_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/uvRaCzWpFrQ_50160_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/JS0gJxhFFJ8_75168_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_006_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_023_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/KvclGPxsBdU_47088_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_002_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_007_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_009_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/jKrJezTsVUk_59952_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cyclists_002.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_018_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/Qb5UT3pSxjI_29328_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/uvRaCzWpFrQ_69264_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_002.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/nOP1blfMCTg_25392_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_011_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/KvclGPxsBdU_41376_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_015_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/j4qcANjnLxc_13824_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_brake_009_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/bqiM7F6TDfo_38832_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cyclists_001.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_002_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,3134 @@
+{
+  "task": "reliability",
+  "seed": 1,
+  "n_requested": 200,
+  "n_videos": 200,
+  "n_qa_pairs": 916,
+  "excluded": {
+    "files": [
+      "src/annotation/manifests/reliability_videos_available.json"
+    ],
+    "n_clips_listed": 100,
+    "n_scenarios_excluded": 100,
+    "n_clips_removed_from_pool": 500
+  },
+  "n_qa_pairs_reduced_set": 653,
+  "videos": [
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_001_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_001_Morning.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_001",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_003_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_003_Original.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_003",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_005_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_005_Night.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_005",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_007_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_007_Morning.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_007",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_010_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_010_Rainy.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_010",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_011_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_011_Foggy.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_011",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_016_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_016_Golden hour.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_016",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_018_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_018_Sunny.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_018",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_019_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_019_Night.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_019",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_020_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_020_Morning.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_020",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_025_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_025_Snowy.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_025",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_026_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_026_Snowy.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_026",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_028_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_028_Original.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_028",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_031_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_031_Golden hour.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_031",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_032_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_032_Snowy.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_032",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_033_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_033_Foggy.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_033",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_034_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_034_Night.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_034",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_035_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_035_Golden hour.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_035",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_036_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_036_Sunny.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_036",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_037_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_037_Sunny.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_037",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Is the ego car on a highway ?",
+        "On which side is the ego car overtaking ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/aggressive_takeover/agg_tk_040_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "aggressive_takeover/agg_tk_040_Rainy.mp4",
+      "folder": "aggressive_takeover",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/aggressive_takeover/agg_tk_040",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_001_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_001_Rainy.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_001",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_002_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_002_Original.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_002",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_006_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_006_Snowy.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_006",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_010_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_010_Golden hour.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_010",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_011_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_011_Snowy.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_011",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_014_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_014_Night.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_014",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_015_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_015_Golden hour.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_015",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_017_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_017_Rainy.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_017",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_019_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_019_Night.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_019",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_021_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_021_Morning.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_021",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_022_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_022_Foggy.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_022",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_025_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_025_Morning.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_025",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_027_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_027_Morning.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_027",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_031_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_031_Sunny.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_031",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_034_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_034_Foggy.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_034",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_038_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_038_Original.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_038",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_039_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_039_Sunny.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_039",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_040_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_040_Original.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_040",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_red_lights/cross_red_041_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_red_lights/cross_red_041_Sunny.mp4",
+      "folder": "crossing_red_lights",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/crossing_red_lights/cross_red_041",
+      "stratum": "both_models_err",
+      "questions": [
+        "Are the traffic lights red ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_001_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_001_Foggy.mp4",
+      "folder": "crossing_stop",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_001",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_002_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_002_Golden hour.mp4",
+      "folder": "crossing_stop",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_002",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_003_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_003_Foggy.mp4",
+      "folder": "crossing_stop",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_003",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_007_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_007_Morning.mp4",
+      "folder": "crossing_stop",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_007",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped after the sign ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_011_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_011_Sunny.mp4",
+      "folder": "crossing_stop",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_011",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_012_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_012_Golden hour.mp4",
+      "folder": "crossing_stop",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_012",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_015_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_015_Night.mp4",
+      "folder": "crossing_stop",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_015",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_017_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_017_Sunny.mp4",
+      "folder": "crossing_stop",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_017",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_020_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_020_Rainy.mp4",
+      "folder": "crossing_stop",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_020",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_021_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_021_Rainy.mp4",
+      "folder": "crossing_stop",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_021",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_022_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_022_Foggy.mp4",
+      "folder": "crossing_stop",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_022",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_027_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_027_Sunny.mp4",
+      "folder": "crossing_stop",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_027",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_028_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_028_Golden hour.mp4",
+      "folder": "crossing_stop",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_028",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_030_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_030_Snowy.mp4",
+      "folder": "crossing_stop",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_030",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_034_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_034_Original.mp4",
+      "folder": "crossing_stop",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_034",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_038_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_038_Night.mp4",
+      "folder": "crossing_stop",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_038",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_040_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_040_Sunny.mp4",
+      "folder": "crossing_stop",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_040",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_042_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_042_Morning.mp4",
+      "folder": "crossing_stop",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_042",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_043_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_043_Morning.mp4",
+      "folder": "crossing_stop",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_043",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_045_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_045_Night.mp4",
+      "folder": "crossing_stop",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_045",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_047_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_047_Original.mp4",
+      "folder": "crossing_stop",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_047",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_051_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_051_Snowy.mp4",
+      "folder": "crossing_stop",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_051",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_052_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_052_Original.mp4",
+      "folder": "crossing_stop",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_052",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_053_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_053_Snowy.mp4",
+      "folder": "crossing_stop",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_053",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_054_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_054_Night.mp4",
+      "folder": "crossing_stop",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_054",
+      "stratum": "both_models_err",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_057_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_057_Morning.mp4",
+      "folder": "crossing_stop",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_057",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/crossing_stop/cross_stop_058_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "crossing_stop/cross_stop_058_Rainy.mp4",
+      "folder": "crossing_stop",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/crossing_stop/cross_stop_058",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Has the ego car stopped ?",
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Is the ego car following the traffic rules ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/07b2e448-3e55-41f5-ba38-e859bbdfcc42_685230399000_685250399000_0_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/07b2e448-3e55-41f5-ba38-e859bbdfcc42_685230399000_685250399000_0_Night.mp4",
+      "folder": "negative",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/negative/07b2e448-3e55-41f5-ba38-e859bbdfcc42_685230399000_685250399000_0",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/08bc010a-2a60-472c-adaa-cb81727e0c42_3859383799000_3859403799000_0_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/08bc010a-2a60-472c-adaa-cb81727e0c42_3859383799000_3859403799000_0_Night.mp4",
+      "folder": "negative",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/negative/08bc010a-2a60-472c-adaa-cb81727e0c42_3859383799000_3859403799000_0",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3728325300000_3728345300000_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3728325300000_3728345300000_Golden hour.mp4",
+      "folder": "negative",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3728325300000_3728345300000",
+      "stratum": "both_correct",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3729045300000_3729065300000_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3729045300000_3729065300000_Original.mp4",
+      "folder": "negative",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3729045300000_3729065300000",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3729825300000_3729845300000_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3729825300000_3729845300000_Rainy.mp4",
+      "folder": "negative",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3729825300000_3729845300000",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/16e9e3c2-c0c2-419d-ad79-7a1e612f0e97_1984906600000_1984926600000_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/16e9e3c2-c0c2-419d-ad79-7a1e612f0e97_1984906600000_1984926600000_Night.mp4",
+      "folder": "negative",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/negative/16e9e3c2-c0c2-419d-ad79-7a1e612f0e97_1984906600000_1984926600000",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/1e695821-48a9-453b-b384-fb6d7f4d6140_2202013900000_2202033900000_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/1e695821-48a9-453b-b384-fb6d7f4d6140_2202013900000_2202033900000_Foggy.mp4",
+      "folder": "negative",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/negative/1e695821-48a9-453b-b384-fb6d7f4d6140_2202013900000_2202033900000",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/247dbf88-97e0-4dec-bbcb-c962556a41e5_7442014899000_7442034899000_0_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/247dbf88-97e0-4dec-bbcb-c962556a41e5_7442014899000_7442034899000_0_Original.mp4",
+      "folder": "negative",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/negative/247dbf88-97e0-4dec-bbcb-c962556a41e5_7442014899000_7442034899000_0",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/247dbf88-97e0-4dec-bbcb-c962556a41e5_7442014899000_7442034899000_1_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/247dbf88-97e0-4dec-bbcb-c962556a41e5_7442014899000_7442034899000_1_Rainy.mp4",
+      "folder": "negative",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/negative/247dbf88-97e0-4dec-bbcb-c962556a41e5_7442014899000_7442034899000_1",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/3d656470-754a-493f-87e1-0b4b887e648d_4051491299000_4051511299000_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/3d656470-754a-493f-87e1-0b4b887e648d_4051491299000_4051511299000_Night.mp4",
+      "folder": "negative",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/negative/3d656470-754a-493f-87e1-0b4b887e648d_4051491299000_4051511299000",
+      "stratum": "both_correct",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/42df02a9-00cd-4e6f-a12f-a21e630f42fe_2141428800000_2141448800000_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/42df02a9-00cd-4e6f-a12f-a21e630f42fe_2141428800000_2141448800000_Golden hour.mp4",
+      "folder": "negative",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/negative/42df02a9-00cd-4e6f-a12f-a21e630f42fe_2141428800000_2141448800000",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/46c2da3a-2a4a-402e-aed1-f9ac85a00953_37923399000_37943399000_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/46c2da3a-2a4a-402e-aed1-f9ac85a00953_37923399000_37943399000_Morning.mp4",
+      "folder": "negative",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/negative/46c2da3a-2a4a-402e-aed1-f9ac85a00953_37923399000_37943399000",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/481bc71f-417c-46c2-be50-e6cc3ee5ec54_582246400000_582266400000_0_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/481bc71f-417c-46c2-be50-e6cc3ee5ec54_582246400000_582266400000_0_Night.mp4",
+      "folder": "negative",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/negative/481bc71f-417c-46c2-be50-e6cc3ee5ec54_582246400000_582266400000_0",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/481bc71f-417c-46c2-be50-e6cc3ee5ec54_582246400000_582266400000_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/481bc71f-417c-46c2-be50-e6cc3ee5ec54_582246400000_582266400000_Golden hour.mp4",
+      "folder": "negative",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/negative/481bc71f-417c-46c2-be50-e6cc3ee5ec54_582246400000_582266400000",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/4a653b9b-56fd-4d59-a85e-42191ec60edb_12530180400000_12530200400000_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/4a653b9b-56fd-4d59-a85e-42191ec60edb_12530180400000_12530200400000_Morning.mp4",
+      "folder": "negative",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/negative/4a653b9b-56fd-4d59-a85e-42191ec60edb_12530180400000_12530200400000",
+      "stratum": "both_correct",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/4d1bb8f2-6d74-4714-acc9-162a22053d7c_934074100000_934094100000_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/4d1bb8f2-6d74-4714-acc9-162a22053d7c_934074100000_934094100000_Foggy.mp4",
+      "folder": "negative",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/negative/4d1bb8f2-6d74-4714-acc9-162a22053d7c_934074100000_934094100000",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/4d1bb8f2-6d74-4714-acc9-162a22053d7c_934694100000_934714100000_0_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/4d1bb8f2-6d74-4714-acc9-162a22053d7c_934694100000_934714100000_0_Night.mp4",
+      "folder": "negative",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/negative/4d1bb8f2-6d74-4714-acc9-162a22053d7c_934694100000_934714100000_0",
+      "stratum": "both_correct",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/524703b8-453d-4d24-af1d-44bc468cbc09_2228953500000_2228973500000_1_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/524703b8-453d-4d24-af1d-44bc468cbc09_2228953500000_2228973500000_1_Morning.mp4",
+      "folder": "negative",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/negative/524703b8-453d-4d24-af1d-44bc468cbc09_2228953500000_2228973500000_1",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/5b8ec29a-169e-4423-b193-295480226ee2_692247500000_692267500000_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/5b8ec29a-169e-4423-b193-295480226ee2_692247500000_692267500000_Morning.mp4",
+      "folder": "negative",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/negative/5b8ec29a-169e-4423-b193-295480226ee2_692247500000_692267500000",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/6aff32ca-122f-4344-a17c-e613b771e21b_13395201899000_13395221899000_0_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/6aff32ca-122f-4344-a17c-e613b771e21b_13395201899000_13395221899000_0_Golden hour.mp4",
+      "folder": "negative",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/negative/6aff32ca-122f-4344-a17c-e613b771e21b_13395201899000_13395221899000_0",
+      "stratum": "both_correct",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/6aff32ca-122f-4344-a17c-e613b771e21b_13395201899000_13395221899000_1_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/6aff32ca-122f-4344-a17c-e613b771e21b_13395201899000_13395221899000_1_Snowy.mp4",
+      "folder": "negative",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/negative/6aff32ca-122f-4344-a17c-e613b771e21b_13395201899000_13395221899000_1",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/6aff32ca-122f-4344-a17c-e613b771e21b_13395201899000_13395221899000_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/6aff32ca-122f-4344-a17c-e613b771e21b_13395201899000_13395221899000_Rainy.mp4",
+      "folder": "negative",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/negative/6aff32ca-122f-4344-a17c-e613b771e21b_13395201899000_13395221899000",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/70005997-9c36-452a-bfb6-98c1be0bef72_2893553499000_2893573499000_0_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/70005997-9c36-452a-bfb6-98c1be0bef72_2893553499000_2893573499000_0_Golden hour.mp4",
+      "folder": "negative",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/negative/70005997-9c36-452a-bfb6-98c1be0bef72_2893553499000_2893573499000_0",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/70dab13a-88fc-480f-aabb-ddf572b67d0a_13742810899000_13742830899000_0_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/70dab13a-88fc-480f-aabb-ddf572b67d0a_13742810899000_13742830899000_0_Original.mp4",
+      "folder": "negative",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/negative/70dab13a-88fc-480f-aabb-ddf572b67d0a_13742810899000_13742830899000_0",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/71ae0d63-ba64-4517-b3f1-90d446abc67d_1869020100000_1869040100000_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/71ae0d63-ba64-4517-b3f1-90d446abc67d_1869020100000_1869040100000_Rainy.mp4",
+      "folder": "negative",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/negative/71ae0d63-ba64-4517-b3f1-90d446abc67d_1869020100000_1869040100000",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/7a69e535-7ed0-4f1f-adc5-4cbda118a057_633646999000_633666999000_0_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/7a69e535-7ed0-4f1f-adc5-4cbda118a057_633646999000_633666999000_0_Snowy.mp4",
+      "folder": "negative",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/negative/7a69e535-7ed0-4f1f-adc5-4cbda118a057_633646999000_633666999000_0",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/7f3bbe35-9158-44fe-bde6-86ade170f52e_4000091799000_4000111799000_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/7f3bbe35-9158-44fe-bde6-86ade170f52e_4000091799000_4000111799000_Original.mp4",
+      "folder": "negative",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/negative/7f3bbe35-9158-44fe-bde6-86ade170f52e_4000091799000_4000111799000",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/801b0126-9d37-40c5-9885-84c299319fb0_2553777400000_2553797400000_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/801b0126-9d37-40c5-9885-84c299319fb0_2553777400000_2553797400000_Original.mp4",
+      "folder": "negative",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/negative/801b0126-9d37-40c5-9885-84c299319fb0_2553777400000_2553797400000",
+      "stratum": "both_correct",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/8625b5bb-fa35-46e2-ac5a-f7a3dc93f4c3_639109199000_639129199000_0_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/8625b5bb-fa35-46e2-ac5a-f7a3dc93f4c3_639109199000_639129199000_0_Morning.mp4",
+      "folder": "negative",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/negative/8625b5bb-fa35-46e2-ac5a-f7a3dc93f4c3_639109199000_639129199000_0",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/9ebdb422-8e2a-45ae-9ffd-9beb7eb87714_5450421100000_5450441100000_0_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/9ebdb422-8e2a-45ae-9ffd-9beb7eb87714_5450421100000_5450441100000_0_Snowy.mp4",
+      "folder": "negative",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/negative/9ebdb422-8e2a-45ae-9ffd-9beb7eb87714_5450421100000_5450441100000_0",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/9ebdb422-8e2a-45ae-9ffd-9beb7eb87714_5450421100000_5450441100000_1_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/9ebdb422-8e2a-45ae-9ffd-9beb7eb87714_5450421100000_5450441100000_1_Golden hour.mp4",
+      "folder": "negative",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/negative/9ebdb422-8e2a-45ae-9ffd-9beb7eb87714_5450421100000_5450441100000_1",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/a9da9164-4532-4bc0-849d-172acea649a4_705384599000_705404599000_0_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/a9da9164-4532-4bc0-849d-172acea649a4_705384599000_705404599000_0_Foggy.mp4",
+      "folder": "negative",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/negative/a9da9164-4532-4bc0-849d-172acea649a4_705384599000_705404599000_0",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/a9da9164-4532-4bc0-849d-172acea649a4_705384599000_705404599000_1_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/a9da9164-4532-4bc0-849d-172acea649a4_705384599000_705404599000_1_Rainy.mp4",
+      "folder": "negative",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/negative/a9da9164-4532-4bc0-849d-172acea649a4_705384599000_705404599000_1",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/ab0259ec-2530-40bc-9694-2835a18c0cb4_863581200000_863601200000_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/ab0259ec-2530-40bc-9694-2835a18c0cb4_863581200000_863601200000_Golden hour.mp4",
+      "folder": "negative",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/negative/ab0259ec-2530-40bc-9694-2835a18c0cb4_863581200000_863601200000",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/ae0cc11a-b71e-42d6-9906-d29116b7e47d_2223762700000_2223782700000_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/ae0cc11a-b71e-42d6-9906-d29116b7e47d_2223762700000_2223782700000_Foggy.mp4",
+      "folder": "negative",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/negative/ae0cc11a-b71e-42d6-9906-d29116b7e47d_2223762700000_2223782700000",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/agg_tk_038_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/agg_tk_038_Foggy.mp4",
+      "folder": "negative",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/negative/agg_tk_038",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/agg_tk_039_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/agg_tk_039_Snowy.mp4",
+      "folder": "negative",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/negative/agg_tk_039",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/bae0f34e-6703-4ce7-b4e1-0cebcd4df7c7_2058302100000_2058322100000_1_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/bae0f34e-6703-4ce7-b4e1-0cebcd4df7c7_2058302100000_2058322100000_1_Foggy.mp4",
+      "folder": "negative",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/negative/bae0f34e-6703-4ce7-b4e1-0cebcd4df7c7_2058302100000_2058322100000_1",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/c40b6c19-2eb6-4042-a777-49554d5d5f02_1751010600000_1751030600000_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/c40b6c19-2eb6-4042-a777-49554d5d5f02_1751010600000_1751030600000_Morning.mp4",
+      "folder": "negative",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/negative/c40b6c19-2eb6-4042-a777-49554d5d5f02_1751010600000_1751030600000",
+      "stratum": "both_correct",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/c42a7f94-229d-426f-b6bc-4e750c925a31_645293299000_645313299000_1_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/c42a7f94-229d-426f-b6bc-4e750c925a31_645293299000_645313299000_1_Morning.mp4",
+      "folder": "negative",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/negative/c42a7f94-229d-426f-b6bc-4e750c925a31_645293299000_645313299000_1",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/c_drunk_driving_001.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/c_drunk_driving_001.mp4",
+      "folder": "negative",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/negative/c_drunk_driving_001",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_red_026_Snowy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_red_026_Snowy.mp4",
+      "folder": "negative",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_red_026",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_red_029_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_red_029_Golden hour.mp4",
+      "folder": "negative",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_red_029",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_stop_012_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_stop_012_Sunny.mp4",
+      "folder": "negative",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_stop_012",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_stop_015_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_stop_015_Rainy.mp4",
+      "folder": "negative",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_stop_015",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_stop_024_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_stop_024_Sunny.mp4",
+      "folder": "negative",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_stop_024",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_stop_028_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_stop_028_Rainy.mp4",
+      "folder": "negative",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_stop_028",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_stop_030_Morning.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_stop_030_Morning.mp4",
+      "folder": "negative",
+      "weather": "Morning",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_stop_030",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_stop_034_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_stop_034_Foggy.mp4",
+      "folder": "negative",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_stop_034",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_stop_049_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_stop_049_Night.mp4",
+      "folder": "negative",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_stop_049",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/cross_stop_060_Sunny.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/cross_stop_060_Sunny.mp4",
+      "folder": "negative",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-drive-dreams/negative/cross_stop_060",
+      "stratum": "unknown",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/df66af93-16e2-4950-9df7-15c5b0fdc187_477212600000_477232600000_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/df66af93-16e2-4950-9df7-15c5b0fdc187_477212600000_477232600000_Night.mp4",
+      "folder": "negative",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/negative/df66af93-16e2-4950-9df7-15c5b0fdc187_477212600000_477232600000",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/e0dd616e-41bd-4c25-9456-636cbd9bba06_2290066099000_2290086099000_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/e0dd616e-41bd-4c25-9456-636cbd9bba06_2290066099000_2290086099000_Original.mp4",
+      "folder": "negative",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/negative/e0dd616e-41bd-4c25-9456-636cbd9bba06_2290066099000_2290086099000",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/ea5bf423-b4ec-4913-8b74-a333380f2910_629979600000_629999600000_Golden hour.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/ea5bf423-b4ec-4913-8b74-a333380f2910_629979600000_629999600000_Golden hour.mp4",
+      "folder": "negative",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-drive-dreams/negative/ea5bf423-b4ec-4913-8b74-a333380f2910_629979600000_629999600000",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/ebe1f268-9ad8-4f3e-80e8-234630efe50f_517848799000_517868799000_Rainy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/ebe1f268-9ad8-4f3e-80e8-234630efe50f_517848799000_517868799000_Rainy.mp4",
+      "folder": "negative",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-drive-dreams/negative/ebe1f268-9ad8-4f3e-80e8-234630efe50f_517848799000_517868799000",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/ebe1f268-9ad8-4f3e-80e8-234630efe50f_518768799000_518788799000_0_Original.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/ebe1f268-9ad8-4f3e-80e8-234630efe50f_518768799000_518788799000_0_Original.mp4",
+      "folder": "negative",
+      "weather": "Original",
+      "scenario_id": "cosmos-drive-dreams/negative/ebe1f268-9ad8-4f3e-80e8-234630efe50f_518768799000_518788799000_0",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/f2c5f738-4edc-4392-8e19-c71224277ba4_964520500000_964540500000_0_Night.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/f2c5f738-4edc-4392-8e19-c71224277ba4_964520500000_964540500000_0_Night.mp4",
+      "folder": "negative",
+      "weather": "Night",
+      "scenario_id": "cosmos-drive-dreams/negative/f2c5f738-4edc-4392-8e19-c71224277ba4_964520500000_964540500000_0",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-drive-dreams/negative/f2c5f738-4edc-4392-8e19-c71224277ba4_964520500000_964540500000_1_Foggy.mp4",
+      "dataset": "cosmos-drive-dreams",
+      "path": "negative/f2c5f738-4edc-4392-8e19-c71224277ba4_964520500000_964540500000_1_Foggy.mp4",
+      "folder": "negative",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-drive-dreams/negative/f2c5f738-4edc-4392-8e19-c71224277ba4_964520500000_964540500000_1",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Is it a safe way of driving for the ego car ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/94EDSmtNCxM_10032_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/94EDSmtNCxM_10032_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/94EDSmtNCxM_10032",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/9Y9PlE7b1S8_13392_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/9Y9PlE7b1S8_13392_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/9Y9PlE7b1S8_13392",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/FZBnbeFXjEs_27024_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/FZBnbeFXjEs_27024_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/FZBnbeFXjEs_27024",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/JS0gJxhFFJ8_42912_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/JS0gJxhFFJ8_42912_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/JS0gJxhFFJ8_42912",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/JS0gJxhFFJ8_5904_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/JS0gJxhFFJ8_5904_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/JS0gJxhFFJ8_5904",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/JS0gJxhFFJ8_75168_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/JS0gJxhFFJ8_75168_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/JS0gJxhFFJ8_75168",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/KvclGPxsBdU_41376_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/KvclGPxsBdU_41376_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/KvclGPxsBdU_41376",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/KvclGPxsBdU_47088_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/KvclGPxsBdU_47088_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/KvclGPxsBdU_47088",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/KvclGPxsBdU_49488_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/KvclGPxsBdU_49488_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/KvclGPxsBdU_49488",
+      "stratum": "both_correct",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/MXxot9M4-iE_76320_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/MXxot9M4-iE_76320_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/MXxot9M4-iE_76320",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/Qb5UT3pSxjI_29328_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/Qb5UT3pSxjI_29328_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/Qb5UT3pSxjI_29328",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/Qb5UT3pSxjI_35184_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/Qb5UT3pSxjI_35184_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/Qb5UT3pSxjI_35184",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/Qb5UT3pSxjI_79680_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/Qb5UT3pSxjI_79680_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/Qb5UT3pSxjI_79680",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/Xy_FYVEFVnk_28704_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/Xy_FYVEFVnk_28704_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/Xy_FYVEFVnk_28704",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/animals_001.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/animals_001.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/animals_001",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/bqiM7F6TDfo_38832_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/bqiM7F6TDfo_38832_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/bqiM7F6TDfo_38832",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_brake_001.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_brake_001.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/car_brake_001",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_brake_003_Foggy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_brake_003_Foggy.mp4",
+      "folder": "artifacts",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-predict1/artifacts/car_brake_003",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_brake_009_Rainy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_brake_009_Rainy.mp4",
+      "folder": "artifacts",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-predict1/artifacts/car_brake_009",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_001_Morning.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_001_Morning.mp4",
+      "folder": "artifacts",
+      "weather": "Morning",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_001",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_002_Sunny.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_002_Sunny.mp4",
+      "folder": "artifacts",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_002",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_004.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_004.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_004",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_005_Snowy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_005_Snowy.mp4",
+      "folder": "artifacts",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_005",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_007_Rainy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_007_Rainy.mp4",
+      "folder": "artifacts",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_007",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_009_Snowy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_009_Snowy.mp4",
+      "folder": "artifacts",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_009",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_010_Foggy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_010_Foggy.mp4",
+      "folder": "artifacts",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_010",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_011_Foggy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_011_Foggy.mp4",
+      "folder": "artifacts",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_011",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_012_Sunny.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_012_Sunny.mp4",
+      "folder": "artifacts",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_012",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_015_Morning.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_015_Morning.mp4",
+      "folder": "artifacts",
+      "weather": "Morning",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_015",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_018_Snowy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_018_Snowy.mp4",
+      "folder": "artifacts",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_018",
+      "stratum": "both_correct",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_021_Foggy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_021_Foggy.mp4",
+      "folder": "artifacts",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_021",
+      "stratum": "both_correct",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/car_crash_023_Rainy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/car_crash_023_Rainy.mp4",
+      "folder": "artifacts",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-predict1/artifacts/car_crash_023",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_red_004.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_red_004.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/cross_red_004",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_red_005.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_red_005.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/cross_red_005",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_red_006_Golden hour.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_red_006_Golden hour.mp4",
+      "folder": "artifacts",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-predict1/artifacts/cross_red_006",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_red_008_Golden hour.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_red_008_Golden hour.mp4",
+      "folder": "artifacts",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-predict1/artifacts/cross_red_008",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_red_010_Golden hour.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_red_010_Golden hour.mp4",
+      "folder": "artifacts",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-predict1/artifacts/cross_red_010",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_red_011_Snowy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_red_011_Snowy.mp4",
+      "folder": "artifacts",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-predict1/artifacts/cross_red_011",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_red_014.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_red_014.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/cross_red_014",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_red_022.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_red_022.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/cross_red_022",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_red_024.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_red_024.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/cross_red_024",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_stop_002.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_stop_002.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/cross_stop_002",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_stop_003_Night.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_stop_003_Night.mp4",
+      "folder": "artifacts",
+      "weather": "Night",
+      "scenario_id": "cosmos-predict1/artifacts/cross_stop_003",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_stop_009_Morning.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_stop_009_Morning.mp4",
+      "folder": "artifacts",
+      "weather": "Morning",
+      "scenario_id": "cosmos-predict1/artifacts/cross_stop_009",
+      "stratum": "both_models_err",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_stop_010_Golden hour.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_stop_010_Golden hour.mp4",
+      "folder": "artifacts",
+      "weather": "Golden hour",
+      "scenario_id": "cosmos-predict1/artifacts/cross_stop_010",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_stop_012_Sunny.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_stop_012_Sunny.mp4",
+      "folder": "artifacts",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-predict1/artifacts/cross_stop_012",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_stop_014_Night.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_stop_014_Night.mp4",
+      "folder": "artifacts",
+      "weather": "Night",
+      "scenario_id": "cosmos-predict1/artifacts/cross_stop_014",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_stop_015_Rainy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_stop_015_Rainy.mp4",
+      "folder": "artifacts",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-predict1/artifacts/cross_stop_015",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cross_stop_016_Morning.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cross_stop_016_Morning.mp4",
+      "folder": "artifacts",
+      "weather": "Morning",
+      "scenario_id": "cosmos-predict1/artifacts/cross_stop_016",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cyclists_001.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cyclists_001.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/cyclists_001",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/cyclists_002.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/cyclists_002.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/cyclists_002",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/giViRewuugA_44352_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/giViRewuugA_44352_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/giViRewuugA_44352",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/j4qcANjnLxc_13824_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/j4qcANjnLxc_13824_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/j4qcANjnLxc_13824",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/jKrJezTsVUk_59952_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/jKrJezTsVUk_59952_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/jKrJezTsVUk_59952",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/lT4AML9VU2Q_72480_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/lT4AML9VU2Q_72480_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/lT4AML9VU2Q_72480",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/nOP1blfMCTg_25392_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/nOP1blfMCTg_25392_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/nOP1blfMCTg_25392",
+      "stratum": "both_correct",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_001_Night.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_001_Night.mp4",
+      "folder": "artifacts",
+      "weather": "Night",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_001",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_002_Foggy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_002_Foggy.mp4",
+      "folder": "artifacts",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_002",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_003.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_003.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_003",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_008_Foggy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_008_Foggy.mp4",
+      "folder": "artifacts",
+      "weather": "Foggy",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_008",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_009_Rainy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_009_Rainy.mp4",
+      "folder": "artifacts",
+      "weather": "Rainy",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_009",
+      "stratum": "both_correct",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_010_Snowy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_010_Snowy.mp4",
+      "folder": "artifacts",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_010",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_011_Sunny.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_011_Sunny.mp4",
+      "folder": "artifacts",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_011",
+      "stratum": "both_correct",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_012.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_012.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_012",
+      "stratum": "both_models_err",
+      "questions": [
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_014_Morning.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_014_Morning.mp4",
+      "folder": "artifacts",
+      "weather": "Morning",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_014",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_023_Night.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_023_Night.mp4",
+      "folder": "artifacts",
+      "weather": "Night",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_023",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_028_Snowy.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_028_Snowy.mp4",
+      "folder": "artifacts",
+      "weather": "Snowy",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_028",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_029_Sunny.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_029_Sunny.mp4",
+      "folder": "artifacts",
+      "weather": "Sunny",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_029",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_030.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_030.mp4",
+      "folder": "artifacts",
+      "weather": "Original",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_030",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/pedestrians_033_Night.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/pedestrians_033_Night.mp4",
+      "folder": "artifacts",
+      "weather": "Night",
+      "scenario_id": "cosmos-predict1/artifacts/pedestrians_033",
+      "stratum": "both_correct",
+      "questions": [
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/scB_bYG27yI_54480_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/scB_bYG27yI_54480_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/scB_bYG27yI_54480",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/scB_bYG27yI_83616_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/scB_bYG27yI_83616_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/scB_bYG27yI_83616",
+      "stratum": "one_model_errs",
+      "questions": [
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/uvRaCzWpFrQ_50160_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/uvRaCzWpFrQ_50160_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/uvRaCzWpFrQ_50160",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/uvRaCzWpFrQ_50448_14b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/uvRaCzWpFrQ_50448_14b.mp4",
+      "folder": "artifacts",
+      "weather": "14b",
+      "scenario_id": "cosmos-predict1/artifacts/uvRaCzWpFrQ_50448",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    },
+    {
+      "video_rel": "cosmos-predict1/artifacts/uvRaCzWpFrQ_69264_7b.mp4",
+      "dataset": "cosmos-predict1",
+      "path": "artifacts/uvRaCzWpFrQ_69264_7b.mp4",
+      "folder": "artifacts",
+      "weather": "7b",
+      "scenario_id": "cosmos-predict1/artifacts/uvRaCzWpFrQ_69264",
+      "stratum": "both_models_err",
+      "questions": [
+        "Do some objects change shape or appearance ?",
+        "Does any object appear or disappear without continuous motion ?",
+        "Is it a real video or generated ?",
+        "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real"
+      ]
+    }
+  ]
+}

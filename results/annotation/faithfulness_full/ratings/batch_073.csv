@@ -1,0 +1,71 @@
+item_id,consistent,false_claim,missed_event,note
+0ca46813393b,Y,N,N,
+44f7d992c17f,Y,N,N,
+9abafaf448cd,N,N,N,"concludes generated, not that shape changes; SAM shows no morphing"
+22adc4b53d7d,Y,N,N,
+f993f58c8d3f,Y,N,N,
+2f7040386c89,Y,N,N,
+bdc724d046de,Y,N,N,
+d3c9f8b3d6f6,Y,N,N,
+4eb55386ed17,Y,N,N,
+e5feb5a73eac,Y,N,N,
+2ca597ccf75b,Y,N,N,
+5827d948a8b7,Y,N,N,
+28e74783b119,N,N,N,"concludes only generated, no link to appear/disappear claim"
+6a11930108e5,Y,N,N,
+2c3e2c91bca2,Y,N,N,
+de90a37e8ae0,N,N,N,"text says objects appear stable, contradicts Yes"
+5fa6c4a9d96a,Y,N,N,
+133522529b28,Y,N,N,
+8e4faf7490ca,Y,N,N,
+eea3f6f4332c,N,N,N,SAM shows no shape change; concludes only generated
+b44000bcd330,Y,N,N,
+3887a3f6a4cd,Y,N,N,
+ca85fcfc52bd,Y,N,N,
+622059257cfb,Y,N,N,
+a54000ffb01e,Y,Y,N,quotes anisotropy 0.0541 vs actual 0.0714
+fdf6f50c0259,Y,Y,N,quotes 0.0541 vs actual 0.0714; no car visible in frames to warp
+42c0c20bd494,Y,Y,N,quotes anisotropy 0.0541 vs actual 0.0714
+7a907dde76de,Y,N,N,
+3c0c16db6c93,Y,N,N,
+aa8111644d3f,N,N,N,own SAM shows no appear/disappear; concludes only generated
+51b7783a2c87,Y,N,N,
+014cfde83450,Y,N,N,
+ca84ec864695,Y,N,N,
+85f2f711a7af,Y,N,N,
+4414f5399a3a,Y,Y,N,describes a car warping/reflections but no car visible in frames
+af133f1961fd,Y,Y,N,quotes anisotropy 0.0388 vs actual 0.0608
+d32ae575d83c,Y,Y,N,quotes anisotropy 0.0388 vs actual 0.0608
+88623c5d69a7,Y,Y,N,quotes anisotropy 0.0388 vs actual 0.0608
+c7c22d819232,Y,Y,N,quotes anisotropy 0.0388 vs actual 0.0608
+51cae7c6515f,Y,N,N,
+a2c7cbf84c48,Y,N,N,
+3c331bf9a13c,Y,N,N,
+1821be0d8ff1,Y,N,N,
+ab2c6163cc02,Y,N,N,
+3b7ee4f4c332,Y,N,N,
+511088aa8e07,Y,N,N,
+c8d5d79319af,Y,N,N,
+c4d66a22b915,Y,N,N,
+bd63c6c7627e,Y,Y,N,quotes anisotropy 0.0414 vs actual 0.0606
+8d983b5eb016,Y,Y,N,quotes anisotropy 0.0414 vs actual 0.0606
+734bc44580d7,Y,Y,N,quotes anisotropy 0.0414 vs actual 0.0606
+1aeea382176f,Y,N,N,
+2d5e3a5127b0,Y,N,N,
+f835e12a7b0d,Y,Y,N,claims van/taxi melting-warping; frames show intact vehicles
+9c83b5f239a0,Y,N,N,
+55dea837c35a,Y,N,N,
+6c04d3eb5ca0,Y,N,N,
+e6069e0b8186,Y,N,N,
+0e0e20a7f4ad,Y,N,N,
+38e39ab3f429,Y,N,N,
+0400a79c9722,N,N,N,own text says visually plausible yet scores 1=clearly impossible
+0742715e882d,Y,Y,N,claims melting rooflines/breathing windows; vehicles look intact in frames
+65feb4ed2d95,Y,N,N,
+eec3c3c48670,Y,Y,N,"claims van melting, taxi distorted/wobbly; vehicles look normal in frames"
+52c9cb633831,Y,N,N,
+82fc5ae64414,Y,N,N,
+fc927a25197e,Y,N,N,
+bf3cae830b02,Y,N,N,
+411db9554357,Y,Y,N,claims cars abruptly appear/disappear; frames show continuous normal traffic
+b259d7e9fee1,Y,Y,N,claims van roof/window wobbling; van looks structurally normal in frames

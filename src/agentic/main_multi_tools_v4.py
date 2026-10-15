@@ -32,6 +32,15 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from fft.compute_fft import process_video_fft
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from fft_lattice_tool import lattice_block, LATTICE_PROMPT_NOTE, LATTICE_DESC_NOTE  # noqa: E402
+from video_resolve import (  # noqa: E402  (stdlib-only, no qwen-agent dependency)
+    clear_current_item,
+    configure_resolver,
+    get_absolute_path,
+    set_current_item,
+)
+
 ################################
 ##### Global Configuration #####
 ################################
@@ -42,27 +51,51 @@ MAX_SAM_OBJECTS = 4
 # GPU lock: SAM and RAFT load models on GPU 4, must not run concurrently or they OOM
 _gpu_lock = threading.Lock()
 
+# Whether to store the tool-call history in each result record (--save-history).
+_SAVE_HISTORY = True
+# --fft-lattice: append the lattice score + combined verdict to the FFT tool text (default off = published behaviour)
+_FFT_LATTICE = False
+_LATTICE_INTERCEPT = None
+
 print("Building video cache...")
-_VIDEO_CACHE: dict[str, Path] = {}
-for ext in ("*.mp4", "*.MP4"):
-    for video_path in ROOT_DIR.rglob(ext):
-        if video_path.is_file():
-            _VIDEO_CACHE[video_path.name] = video_path
-print(f"Video cache built: {len(_VIDEO_CACHE)} videos")
+# basename -> [every matching file].  190 basenames exist in more than one pool
+# of final_dataset, so the old basename -> single Path cache silently ran the
+# tools on the wrong copy; video_resolve.get_absolute_path resolves against the
+# item the worker thread is currently on.  See video_resolve.py.
+_VIDEO_CACHE = configure_resolver(ROOT_DIR)
+_n_ambiguous = sum(1 for v in _VIDEO_CACHE.values() if len(v) > 1)
+print(f"Video cache built: {len(_VIDEO_CACHE)} videos ({_n_ambiguous} ambiguous basenames)")
 
 
-def get_absolute_path(identifier):
-    # Fix legacy paths
-    identifier = identifier.replace("/mnt/vita/scratch/vita-students", "/mnt/vita/vita-students")
-    if Path(identifier).exists() and Path(identifier).is_file():
-        return Path(identifier)
-    if '/' in identifier or '\\' in identifier:
-        video_path = ROOT_DIR / identifier
-        if video_path.is_file():
-            return video_path
-    if identifier in _VIDEO_CACHE:
-        return _VIDEO_CACHE[identifier]
-    raise FileNotFoundError(f"Video '{identifier}' not found in {ROOT_DIR}")
+def _extract_history(responses, max_output_chars: int = 4000) -> List[Dict[str, Any]]:
+    """Tool-call trace: [{name, arguments, output}] from the qwen-agent messages.
+
+    Pairs every assistant ``function_call`` with the ``role == 'function'``
+    message that carries its result.  ``src/analysis/answer_analysis_agent.py``
+    expects this key on every record.
+    """
+    history: List[Dict[str, Any]] = []
+    pending = None
+    for msg in responses:
+        role = msg.get('role') if hasattr(msg, 'get') else None
+        if role == 'assistant':
+            fc = msg.get('function_call')
+            if fc:
+                name = fc.get('name') if hasattr(fc, 'get') else getattr(fc, 'name', '')
+                args = fc.get('arguments') if hasattr(fc, 'get') else getattr(fc, 'arguments', '')
+                pending = {"name": name or "", "arguments": args or "", "output": None}
+                history.append(pending)
+        elif role == 'function':
+            content = msg.get('content')
+            if not isinstance(content, str):
+                content = str(content)
+            content = content[:max_output_chars]
+            if pending is not None and pending["output"] is None:
+                pending["output"] = content
+                pending = None
+            else:
+                history.append({"name": msg.get('name') or "", "arguments": "", "output": content})
+    return history
 
 
 ###############################
@@ -179,7 +212,12 @@ class GetFrequencyAnalysis(BaseTool):
 
         if 'error' in result:
             return result['error']
-        return result.get('interpretation', 'FFT analysis completed.')
+        text = result.get('interpretation', 'FFT analysis completed.')
+        if _FFT_LATTICE:
+            aniso = ((result.get('summary') or {}).get('anisotropy') or {}).get('mean')
+            if aniso is not None:
+                text += lattice_block(video_path, float(aniso), output_dir, _LATTICE_INTERCEPT)
+        return text
 
 
 ###############################
@@ -365,6 +403,11 @@ def process_single_item(item: Dict[str, Any], llm_cfg: Dict) -> Dict[str, Any]:
     video_path = video_path.replace("/mnt/vita/scratch/vita-students", "/mnt/vita/vita-students")
     question = text_item["text"]
 
+    # Provenance: pin this worker thread to the item's own clip so that the bare
+    # filename the VLM hands to the tools can never resolve to a same-named clip
+    # in another dataset pool (see video_resolve.py).
+    set_current_item(video_path)
+
     # Inject hint questions (INS paradigm)
     question_with_hints = _inject_hints(question)
 
@@ -389,13 +432,18 @@ def process_single_item(item: Dict[str, Any], llm_cfg: Dict) -> Dict[str, Any]:
         import traceback
         err_msg = f"ERROR: {str(e)}\n{traceback.format_exc()}"
         print(f"[ERROR] {video_path}: {err_msg[:200]}", flush=True)
-        return {
+        clear_current_item()
+        record = {
             "video": video_path, "question": question,
             "evaluation": err_msg[:500], "answer": "ERROR",
             "time_seconds": round(time.time() - t_start, 2)
         }
+        if _SAVE_HISTORY:
+            record["history"] = _extract_history(responses)
+        return record
 
     t_elapsed = time.time() - t_start
+    clear_current_item()
 
     # Read answer from temp file
     evaluation = ""
@@ -423,13 +471,16 @@ def process_single_item(item: Dict[str, Any], llm_cfg: Dict) -> Dict[str, Any]:
         evaluation = f"final_answer not called. Raw output: {raw_output}" if raw_output else "final_answer tool was not called (no output)"
         answer = "MISSING"
 
-    return {
+    record = {
         "video": video_path,
         "question": question,
         "evaluation": evaluation,
         "answer": answer,
         "time_seconds": round(t_elapsed, 2)
     }
+    if _SAVE_HISTORY:
+        record["history"] = _extract_history(responses)
+    return record
 
 
 ###############################
@@ -447,7 +498,22 @@ def main():
     parser.add_argument("--ins", action="store_true", help="Enable INS hint questions")
     parser.add_argument("--num_workers", type=int, default=4,
                         help="Number of parallel threads")
+    parser.add_argument("--save-history", action=argparse.BooleanOptionalAction, default=True,
+                        help="Store the tool-call trace in each result record")
+    parser.add_argument("--fft-lattice", action="store_true",
+                        help="FFT tool also reports the lattice score and the combined verdict")
+    parser.add_argument("--lattice-intercept", type=float, default=None,
+                        help="override the combined rule intercept (threshold sweep)")
     args = parser.parse_args()
+
+    global _SAVE_HISTORY
+    _SAVE_HISTORY = args.save_history
+    global _FFT_LATTICE, _LATTICE_INTERCEPT, SYSTEM_PROMPT
+    _FFT_LATTICE = args.fft_lattice
+    _LATTICE_INTERCEPT = args.lattice_intercept
+    if _FFT_LATTICE:
+        SYSTEM_PROMPT = SYSTEM_PROMPT + LATTICE_PROMPT_NOTE
+        GetFrequencyAnalysis.description = GetFrequencyAnalysis.description.rstrip() + LATTICE_DESC_NOTE
 
     # Load INS hint questions if enabled
     global _HINT_MAPPING

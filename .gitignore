@@ -21,6 +21,13 @@ venv/
 # ─────────────────────────────────────────────────────────────
 dataset*/
 plots/
+# …except the two ground-truth files, which the data-prep and analysis scripts read from here
+!/dataset/
+/dataset/*
+!/dataset/dataset_final/
+/dataset/dataset_final/*
+!/dataset/dataset_final/questions_cosmos-drive-dreams.json
+!/dataset/dataset_final/questions_cosmos-predict1.json
 
 # Cluster-specific infra (Docker image + RunAI launchers) — kept local, not in the public repo
 cluster/
@@ -48,8 +55,21 @@ report/*.parquet
 report/failures_by_model_category/
 **/*_enriched.parquet
 
+# FFT robustness study: the perturbed clips live under dataset/fft_conditions/
+# (already covered by dataset*/ above); the feature tables are regenerable via
+# src/fft/extract_features.py.  results/fft/manifest.parquet stays tracked --
+# it is ~60 KB and pins the exact clip set the study ran on.
+results/fft/features_*.parquet
+results/fft/*.parquet.tmp
+
 # ─────────────────────────────────────────────────────────────
 #  OS / editor noise
 # ─────────────────────────────────────────────────────────────
 .DS_Store
 *.swp
+report/reviews/
+results/annotation/faithfulness_frames/*.jpg
+results/annotation/faithfulness_spotcheck.html
+results/annotation/faithfulness_frames8/*.jpg
+results/annotation/faithfulness_sheets/*.jpg
+results/annotation/faithfulness_full/sheets/

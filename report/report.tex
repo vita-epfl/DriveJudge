@@ -12,6 +12,7 @@
 \hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue}
 \usepackage{xcolor}
 \usepackage{graphicx}
+\graphicspath{{figures/}}
 \usepackage{amsmath}
 \usepackage{enumitem}
 \setlist{nosep,leftmargin=*}
@@ -34,7 +35,7 @@ configurations on the DriveJudgeBench driving-video benchmark
 (\num{7371} (video, question) pairs, six categories, five JPEG frames at
 1\,fps per clip). Eight new systems are added: six open-source baselines
 (Cosmos-Reason, InternVL3.5-8B/30B, LLaVA-OneVision, Qwen3-VL,
-Qwen2.5-Omni) and two agentic Qwen3-VL configurations (with and without
+Qwen3-Omni) and two agentic Qwen3-VL configurations (with and without
 hint scaffolding). Overall accuracy ranges from \pct{21.9} (Qwen3-VL) to
 \pct{64.0} (Gemini~3~Flash). Open-source baselines cluster between
 \pct{22} and \pct{31}; the bare agent (v4o) is at \pct{60.1} and the
@@ -144,7 +145,7 @@ Qwen3-VL                         & 7371 & \pct{21.92} \\
 LLaVA-OneVision                  & 7371 & \pct{23.85} \\
 InternVL3.5-8B                   & 7371 & \pct{25.61} \\
 Cosmos-Reason                    & 7371 & \pct{26.54} \\
-Qwen2.5-Omni                     & 7371 & \pct{27.43} \\
+Qwen3-Omni                     & 7371 & \pct{27.43} \\
 InternVL3.5-30B                  & 7371 & \pct{30.93} \\
 GPT-5.4-mini\,$^\dagger$         & 7282 & \pct{39.12} \\
 Qwen3-VL\,+\,agent\,+\,hints (v4p) & 7371 & \pct{50.93} \\
@@ -171,7 +172,7 @@ Qwen3-VL                & 90.5 & 57.2 & 15.3 & 39.9 &  3.5 &  9.8 \\
 LLaVA-OneVision         & 52.3 & 13.0 & 25.2 & 33.4 & 20.1 &  1.5 \\
 InternVL3.5-8B          & 90.5 & 56.6 & 20.1 & 35.4 & 15.6 &  2.0 \\
 Cosmos-Reason           & 94.1 & 42.5 & 17.5 & 32.6 & 17.0 & 23.0 \\
-Qwen2.5-Omni            & 94.1 & 56.6 & 13.1 & 42.7 & 15.1 &  7.1 \\
+Qwen3-Omni            & 94.1 & 56.6 & 13.1 & 42.7 & 15.1 &  7.1 \\
 InternVL3.5-30B         & 95.1 & 54.9 & 13.6 & 30.3 & 31.6 &  7.2 \\
 GPT-5.4-mini            & 95.7 & 69.0 & 50.9 & 36.3 & 33.5 & 20.8 \\
 v4p (agent + hints)     & 91.4 & 60.8 & 46.8 & 50.2 & 42.8 & \textbf{73.1} \\
@@ -220,7 +221,7 @@ ten configurations. Cosmos-Reason, InternVL3.5-30B, InternVL3.5-8B and
 LLaVA-OneVision each emit ``2'' on $\geq$\,\pct{81} of all safety-Likert
 items (Cosmos: 970/1082; InternVL-30B: 1011/1082); since the safety GT
 is dominated by the extremes (485 GT~$=$~1, 597 GT~$=$~3), a constant-2
-strategy floors them at \pct{8}--\pct{13}. Qwen3-VL and Qwen2.5-Omni
+strategy floors them at \pct{8}--\pct{13}. Qwen3-VL and Qwen3-Omni
 collapse onto \{2,3\} but never emit ``1''. GPT-5.4-mini emits ``1'' zero
 times on the safety Likert. Gemini emits ``2'' essentially never (31
 GT~$=$~2 cases out of 1553 makes the middle class nearly untestable, but
@@ -235,13 +236,13 @@ ones (\S\ref{sec:hints}).
 car following the traffic rules?} (n~$=$~512, GT~$=$~No in 510), the
 six baselines answer Yes between \pct{82} and \pct{100} of the time on
 GT~$=$~No clips: LLaVA-OneVision 655/655 (recall on No is exactly~0),
-InternVL3.5-8B 652/665, Qwen2.5-Omni 618/655, InternVL3.5-30B 617/655,
+InternVL3.5-8B 652/665, Qwen3-Omni 618/655, InternVL3.5-30B 617/655,
 Qwen3-VL 600/655, Cosmos-Reason 503/645. GPT-5.4-mini and Gemini show
 the same direction at lower magnitude (\pct{82.2} and \pct{52.4}
 FP-on-No respectively). The mechanism is a templated checklist
 (``safe distance / within lane / following traffic flow'') reached by
 absence-of-evidence reasoning: \emph{``no visible signs of
-reckless driving''} (Qwen2.5-Omni, \code{agg\_tk\_017\_Night.mp4}). The
+reckless driving''} (Qwen3-Omni, \code{agg\_tk\_017\_Night.mp4}). The
 violation vocabulary is restricted to overt, single-frame events
 (speeding, lane change, red-light, stop sign), so trajectory-encoded
 violations (cut-offs, tailgating, shoulder driving, rolling stops) never
@@ -250,7 +251,7 @@ trigger a~No.
 \paragraph{(M4) Continuous-motion attribution on artefacts.} On
 \emph{Does any object appear or disappear without continuous motion?},
 the phrase \emph{``continuous motion''} appears in \pct{33}--\pct{41} of
-every base-model failure file (Qwen2.5-Omni 257/632, LLaVA 231/544,
+every base-model failure file (Qwen3-Omni 257/632, LLaVA 231/544,
 Cosmos-Reason 239/600). Steady forward camera flow is read as a license
 to deny any inter-frame discontinuity: \emph{``all objects \dots\ are
 visible throughout the sequence without sudden appearances or

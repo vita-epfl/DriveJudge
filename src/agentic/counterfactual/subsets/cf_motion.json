@@ -1,0 +1,3902 @@
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_017_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_012_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_019_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_041_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_054_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_059_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_025_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_004_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_036_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_038_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_046_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_035_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_011_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_035_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_022_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_033_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_036_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_045_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_027_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_031_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_010_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_004_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_058_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_002_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_026_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_040_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_022_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_040_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_037_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_025_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_017_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_045_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_030_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_002_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_031_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_010_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_025_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_025_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_026_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_036_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_042_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_054_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_060_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_003_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_038_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_033_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_030_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_034_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_014_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_040_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_039_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_037_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_052_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_009_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_032_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_035_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_004_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_038_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_019_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_037_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_034_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_055_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_038_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_007_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_037_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_026_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_027_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_052_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_005_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_027_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_009_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_056_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_036_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_007_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_039_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_029_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_005_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_035_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_038_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_038_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_034_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_015_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_011_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_001_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_019_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_021_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_047_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_011_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_026_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_007_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_022_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_037_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_021_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_024_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_025_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_037_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_015_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_056_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_056_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_024_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_017_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_039_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_032_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_035_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_036_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_033_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_007_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_008_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_011_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_044_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_004_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_020_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_033_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_031_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_013_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_044_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_022_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_014_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_034_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_017_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_053_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_041_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_003_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_009_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_041_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_060_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_041_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_002_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_038_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_057_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_037_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_006_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_031_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_004_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_055_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_017_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_027_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_025_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_035_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_032_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_025_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_006_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_060_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_003_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_036_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_046_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_053_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_034_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_008_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_038_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_004_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_043_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_040_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_004_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_037_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_035_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_047_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_055_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_002_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_020_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_038_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_012_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_038_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_055_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_048_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_027_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_005_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_026_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_040_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_058_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_053_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_019_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_046_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_034_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_046_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_006_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_041_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_045_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_020_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_056_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_018_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_058_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_052_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_022_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_012_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_047_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_042_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_033_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_030_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_029_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_026_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_003_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_005_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_044_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_006_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_033_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_021_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_043_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_018_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_035_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_003_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_054_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_052_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_025_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_015_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_053_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_022_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_036_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_028_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_028_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_030_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_042_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_021_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_027_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_025_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_029_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_017_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_011_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_044_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_041_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_054_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_056_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_059_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_037_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_011_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_027_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_008_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_012_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_023_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_028_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_020_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_028_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_015_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_004_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_010_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_011_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_005_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_007_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_006_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_037_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_002_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_036_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_009_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_034_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_033_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_007_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_013_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_025_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_014_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_005_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_004_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_025_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_017_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_032_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_017_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_035_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_014_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_039_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_003_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_020_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_006_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_031_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_034_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_013_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_027_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_037_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_003_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_023_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_010_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_015_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_024_Snowy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_032_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_016_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_011_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_001_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_001_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_038_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_026_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_036_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_024_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_009_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_022_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_030_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_018_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_026_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_031_Golden hour.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_033_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_035_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_030_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_012_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_002_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_029_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_038_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_029_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "On which side is the ego car overtaking ?\n    The answer is one of the following : Left Right It's not overtaking \n    "
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_045_Night.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Has the ego car stopped ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_036_Foggy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_020_Sunny.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_stop/cross_stop_060_Morning.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is it a safe way of driving for the ego car ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/aggressive_takeover/agg_tk_012_Rainy.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "video",
+        "video": "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/cosmos-drive-dreams/crossing_red_lights/cross_red_014_Original.mp4"
+      },
+      {
+        "type": "text",
+        "text": "Is the ego car following the traffic rules ?"
+      }
+    ]
+  }
+]

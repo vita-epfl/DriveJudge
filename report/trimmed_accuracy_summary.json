@@ -153,7 +153,7 @@
         }
       ]
     },
-    "Qwen2.5-Omni": {
+    "Qwen3-Omni": {
       "n_kept": 7282,
       "n_dropped": 89,
       "accuracy_trimmed": 0.2721779730843175,

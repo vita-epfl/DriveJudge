@@ -1,0 +1,3022 @@
+[
+  {
+    "video": "negative/481bc71f-417c-46c2-be50-e6cc3ee5ec54_582246400000_582266400000_1_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/a823962c-4c31-489d-81d4-0671f8b30815_131482900000_131502900000_1_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_036_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_028_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/9ba3bd13-a5d7-433e-aa45-fed78f7d267b_13589285100000_13589305100000_0_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/e255e893-5bab-4628-ad86-c60beb168cc7_866348700000_866368700000_0_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_006_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/70dab13a-88fc-480f-aabb-ddf572b67d0a_13742810899000_13742830899000_1_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_033_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/8625b5bb-fa35-46e2-ac5a-f7a3dc93f4c3_639109199000_639129199000_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/3d656470-754a-493f-87e1-0b4b887e648d_4051491299000_4051511299000_0_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_016_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_007_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_037_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_037_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/46c2da3a-2a4a-402e-aed1-f9ac85a00953_37923399000_37943399000_1_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/0a48e742-ba77-4c78-af76-d792d2d42aea_869030499000_869050499000_0_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_009_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_033_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/0c8e48f7-7792-4b7c-b6df-266ca0cbe2c4_3728425300000_3728445300000_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_018_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/c42a7f94-229d-426f-b6bc-4e750c925a31_645293299000_645313299000_0_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_041_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_056_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/f059738a-727b-42db-a36e-c72088c067aa_1784570399000_1784590399000_1_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_010_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/ebe1f268-9ad8-4f3e-80e8-234630efe50f_518768799000_518788799000_1_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_059_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_023_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "On which side is the ego car overtaking ?",
+        "type": "MCQ",
+        "answer": "Left",
+        "category": "Spatial-temporal understanding",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "It's not overtaking"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/07b2e448-3e55-41f5-ba38-e859bbdfcc42_685230399000_685250399000_1_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_042_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_036_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/0a48e742-ba77-4c78-af76-d792d2d42aea_869030499000_869050499000_1_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_015_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "On which side is the ego car overtaking ?",
+        "type": "MCQ",
+        "answer": "Right",
+        "category": "Spatial-temporal understanding",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "It's not overtaking"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/8625b5bb-fa35-46e2-ac5a-f7a3dc93f4c3_639109199000_639129199000_1_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_027_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "On which side is the ego car overtaking ?",
+        "type": "MCQ",
+        "answer": "Right",
+        "category": "Spatial-temporal understanding",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "It's not overtaking"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/f059738a-727b-42db-a36e-c72088c067aa_1784570399000_1784590399000_0_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/d8f8dd45-cef9-4f45-8f86-526d59d5cbfd_5953452900000_5953472900000_1_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/3d656470-754a-493f-87e1-0b4b887e648d_4051491299000_4051511299000_1_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/524703b8-453d-4d24-af1d-44bc468cbc09_2228953500000_2228973500000_0_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/e255e893-5bab-4628-ad86-c60beb168cc7_866348700000_866368700000_1_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/08bc010a-2a60-472c-adaa-cb81727e0c42_3859383799000_3859403799000_1_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/a823962c-4c31-489d-81d4-0671f8b30815_131482900000_131502900000_0_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_030_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "On which side is the ego car overtaking ?",
+        "type": "MCQ",
+        "answer": "Right",
+        "category": "Spatial-temporal understanding",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "It's not overtaking"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_006_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "On which side is the ego car overtaking ?",
+        "type": "MCQ",
+        "answer": "Right",
+        "category": "Spatial-temporal understanding",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "It's not overtaking"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_002_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "On which side is the ego car overtaking ?",
+        "type": "MCQ",
+        "answer": "Right",
+        "category": "Spatial-temporal understanding",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "It's not overtaking"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/ea5bf423-b4ec-4913-8b74-a333380f2910_629979600000_629999600000_1_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/4d1bb8f2-6d74-4714-acc9-162a22053d7c_934694100000_934714100000_1_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_046_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_060_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_018_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_004_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "On which side is the ego car overtaking ?",
+        "type": "MCQ",
+        "answer": "Left",
+        "category": "Spatial-temporal understanding",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "It's not overtaking"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/d37cb6d5-3af1-4a20-be29-964ba9d66343_571685400000_571705400000_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/bae0f34e-6703-4ce7-b4e1-0cebcd4df7c7_2058302100000_2058322100000_0_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/71f79f06-99d3-4faf-97c9-41b65719a20d_609157799000_609177799000_0_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_021_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_025_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/9ba3bd13-a5d7-433e-aa45-fed78f7d267b_13589285100000_13589305100000_1_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/71f79f06-99d3-4faf-97c9-41b65719a20d_609157799000_609177799000_1_Original.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_stop/cross_stop_026_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "crossing_red_lights/cross_red_035_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/ea5bf423-b4ec-4913-8b74-a333380f2910_629979600000_629999600000_0_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/7a69e535-7ed0-4f1f-adc5-4cbda118a057_633646999000_633666999000_1_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/46c2da3a-2a4a-402e-aed1-f9ac85a00953_37923399000_37943399000_0_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_012_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "On which side is the ego car overtaking ?",
+        "type": "MCQ",
+        "answer": "Left",
+        "category": "Spatial-temporal understanding",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "It's not overtaking"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/d8f8dd45-cef9-4f45-8f86-526d59d5cbfd_5953452900000_5953472900000_0_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/ef67afc5-c0d7-4c81-9866-1d59d28eca86_40259100000_40279100000_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "negative/70005997-9c36-452a-bfb6-98c1be0bef72_2893553499000_2893573499000_1_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "aggressive_takeover/agg_tk_029_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Is the ego car following the traffic rules ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Traffic laws understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "On which side is the ego car overtaking ?",
+        "type": "MCQ",
+        "answer": "Right",
+        "category": "Spatial-temporal understanding",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "It's not overtaking"
+        ]
+      },
+      {
+        "question": "Is it a safe way of driving for the ego car ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Safety understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  }
+]

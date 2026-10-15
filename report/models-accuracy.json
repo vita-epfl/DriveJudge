@@ -2,18 +2,13 @@
   "title": "Accuracy of the models",
   "models": [
     {
-      "name": "Qwen-Omni",
-      "accuracy": 10.4,
-      "highlight": false
-    },
-    {
-      "name": "Qwen3-VL",
+      "name": "Qwen3-VL-30B",
       "accuracy": 21.9,
       "highlight": false
     },
     {
       "name": "LLaVA-OneVision",
-      "accuracy": 23.1,
+      "accuracy": 23.9,
       "highlight": false
     },
     {
@@ -23,12 +18,17 @@
     },
     {
       "name": "Cosmos-Reason",
-      "accuracy": 25.7,
+      "accuracy": 26.5,
+      "highlight": false
+    },
+    {
+      "name": "Qwen3-Omni-30B",
+      "accuracy": 27.4,
       "highlight": false
     },
     {
       "name": "InternVL3.5-30B",
-      "accuracy": 30.8,
+      "accuracy": 30.9,
       "highlight": false
     },
     {
@@ -44,6 +44,11 @@
     {
       "name": "Agent v4o",
       "accuracy": 60.1,
+      "highlight": false
+    },
+    {
+      "name": "Gemini-3-Flash",
+      "accuracy": 64.0,
       "highlight": false
     }
   ]

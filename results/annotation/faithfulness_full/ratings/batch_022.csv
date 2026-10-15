@@ -1,0 +1,121 @@
+item_id,consistent,false_claim,missed_event,note
+bccc4aa6e8dc,Y,N,N,
+d06c521f9abe,Y,N,N,
+4e12536b1bfa,Y,N,N,
+34904c40c306,Y,N,N,
+4b7fdc77ad5b,Y,N,N,
+18f89ae82679,Y,N,N,
+b2b76d5a4d69,Y,N,N,
+5c25f5a86b29,Y,Y,N,"claims red light; only a stop sign is visible, no traffic light"
+1441b69ba725,Y,N,N,
+86623dc87fe2,Y,N,N,
+0c8943543594,Y,N,N,
+0c875ffe7b8a,Y,N,N,
+560020dce70b,Y,N,N,
+582eb400f795,Y,N,N,
+21dc2cc4d80f,Y,N,N,
+c863c0da3f1d,Y,N,N,
+97bfccc28067,Y,N,N,
+9381f808b70d,Y,N,N,
+60d929354655,Y,N,N,
+24a9a5cb32ed,N,N,N,reasoning concludes scene is generated yet answer stays 3 (indistinguishable from real)
+66b31601b10b,Y,N,N,
+7b736041f4c3,Y,N,N,
+46a2f96eed08,Y,N,N,
+64912cdc1071,N,N,N,"no-match: explanation is a repeated tool-format error loop, no concluding answer given"
+3eda92d7965f,Y,N,N,
+930115a7ff81,Y,N,N,
+ae0f9490ca22,Y,N,N,
+34eb563f14c7,Y,N,N,
+415d8418f3c4,Y,N,N,
+4b52ef3cc366,Y,N,N,
+4382b04db1a4,Y,Y,N,"claims car comes to a complete stop and remains stopped; frames show continued progression through the intersection, not a static stop"
+4b236368abaf,Y,N,N,
+f925535cb281,Y,N,N,
+7125804d42c3,Y,N,N,
+1b6334a179c4,Y,N,N,
+b76727518c5f,Y,N,N,
+1f87b01f295e,Y,N,N,
+05c9e443196f,Y,N,N,
+f41423f32ef6,Y,Y,N,"claims car never stopped / clearly moving throughout, but frames 1-4 show a near-static framing behind a black SUV (stopped at crosswalk)"
+746299368d19,Y,Y,N,"claims continuous motion without any stop, but first-half frames show a static stop behind a black SUV"
+3fc6cdd30e79,Y,N,N,
+a80281dd2f35,Y,Y,N,"claims car failed to stop, but first-half frames show a static stop behind a black SUV at the crosswalk"
+f459132860ce,Y,N,N,
+958267c86c7c,Y,N,N,
+86abc82e99ea,Y,N,N,
+75765b601ce0,Y,N,N,
+89585b185b1f,Y,N,N,
+69f91a8ccca1,Y,Y,N,"claims a red traffic light at the intersection; no traffic-light structure is visible in the frames (crossing_stop scenario, only ambient/brake-light glow at night)"
+bba53cb444bb,Y,Y,N,claims car slows and stops before the stop line; frames show continuous scene progression throughout with no static stop period
+d699d22e99d0,Y,N,N,
+5b32bac2633a,Y,N,N,
+a01a17476d47,Y,N,N,
+458c8a11de0a,Y,N,N,
+9a82b9e72d30,Y,N,N,
+997bed4371ef,Y,N,N,
+10f72470e788,Y,N,N,
+10cf2a5ca046,Y,Y,N,"claims continuous forward motion, never stopped, but frames 1-4 show a near-static stop behind a black SUV at the crosswalk"
+eff4f0e41961,Y,N,N,
+77ff19424814,Y,Y,N,claims car passed the stop sign without stopping; frames 1-4 show a near-static stop behind a black SUV
+388ecc556405,Y,Y,N,no-match: repeated garbled text concludes car did not stop; frames 1-4 show a near-static stop behind a black SUV
+b3e731a6b183,Y,Y,N,"claims car never stopped, moving past vehicles; frames 1-4 show a near-static stop behind a dark SUV at the crosswalk"
+899c2a16037d,Y,N,N,
+738fd415b834,Y,Y,N,claims car did not stop at the stop sign; frames 1-4 show a near-static stop behind a dark SUV
+f9b863e36147,Y,N,N,
+5fc05d49bb6c,Y,N,N,
+54c2bea13fcc,Y,N,N,
+85d01e4d3fb2,Y,N,N,
+166ceff20108,Y,N,N,
+804d86ef8401,N,N,N,"reasoning describes continuous forward motion through the intersection with no mention of stopping, which does not support a 'Yes' (following traffic rules) answer"
+486dadb446c8,Y,N,N,
+a81d213ea7dd,Y,N,N,
+a59c7d45debe,Y,N,N,
+cd6a3ffea0e0,Y,Y,N,claims car passed the stop sign without stopping; frames 1-4 show a near-static stop behind an SUV at the crosswalk
+a6e3e1af8a62,Y,N,N,
+d98a163273d8,Y,N,N,
+c12c48a04609,Y,N,N,
+11282cb98520,Y,Y,N,claims continuous non-stop motion; frames 1-4 show a near-static stop behind an SUV at the crosswalk
+d8eb1ec77acd,Y,Y,N,claims car is not stopped at the intersection; frames 1-4 show a near-static stop behind an SUV
+e0c560190273,Y,N,N,
+cad0eb9ac827,Y,N,N,
+8cff4e6a24b0,Y,N,N,
+e59e554be156,Y,Y,N,claims car never stopped; frames 1-4 show a near-static stop behind the dark SUV at the crosswalk
+ee5549fb215a,Y,N,N,
+7e995f7a790e,Y,N,N,
+c0db96203d65,Y,N,N,
+dd7581812627,Y,N,N,
+1e322e747c2a,Y,N,N,
+d8d99e3db6d4,Y,N,N,
+976b2f854c67,Y,N,N,
+3c0c5f274989,Y,Y,N,claims car slows and stops at the stop line; frames show continuous progression throughout with no static stop period
+7bb0f6e2ce3d,Y,Y,N,claims car has not stopped; frames 1-4 show a near-static stop behind a car at the crosswalk
+17a713725690,Y,N,N,
+06296afd8825,Y,N,N,
+306a735e3da9,Y,Y,N,claims car moved through the intersection without stopping; frames 1-4 show a near-static stop behind a car at the crosswalk
+92f0630c6ef2,Y,N,N,
+1d8d2ab72a82,Y,N,N,
+377019ccd75c,Y,N,N,
+9b86cdd3f04b,Y,Y,N,claims continuous non-stop motion past the stop sign; frames 1-4 show a near-static stop behind an SUV at the crosswalk
+456a28e8d36f,Y,N,N,
+e9d0eaab7e9f,Y,Y,N,claims forward motion contradicts the stop requirement (car failed to stop); frames 1-4 show a near-static stop behind an SUV
+ecef3d2e701b,Y,N,N,
+82f4f6854968,Y,N,N,
+0a33c9672b7a,Y,N,N,
+9ebe5e5aeba2,Y,N,N,
+bf3b8e46fd08,Y,N,N,
+ba653c287693,Y,N,N,
+7efa13091a11,Y,Y,N,"claims a red traffic light at the intersection; only stop signs (octagon icons) are visible in the frames, no traffic-light structure"
+2201eefde322,Y,N,N,
+ec3045bae72c,Y,N,N,
+b29e101f2a87,Y,N,N,
+663426089ce1,Y,N,N,
+5fd0a3b79eb6,Y,N,N,
+87ba919173c1,Y,N,N,
+e11acf12d707,Y,N,N,
+78f38bbbcab4,Y,N,N,
+8e9c8afd5771,N,Y,N,"claims uninterrupted forward motion throughout (contradicted by a near-static stop behind an SUV in frames 1-4), and that reasoning does not support a 'Yes, following traffic rules' answer at a stop sign"
+bef41d9e52a3,Y,N,N,
+27f4603f9829,Y,Y,N,"claims car has not stopped, continuous motion; frames 1-4 show a near-static stop behind an SUV at the crosswalk"
+7288a7566f82,Y,N,N,
+ac276f2e1365,N,Y,N,explicitly states the car passed the stop sign without stopping yet concludes driving is safe; also contradicted by a near-static stop behind an SUV in frames 1-4

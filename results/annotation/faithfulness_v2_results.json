@@ -1,0 +1,113 @@
+{
+  "n": 100,
+  "columns": {
+    "consistent": {
+      "opus_Y": 96,
+      "sonnet_Y": 94,
+      "both_Y": 94,
+      "either_Y": 96,
+      "kappa": 0.79,
+      "kappa_ci": [
+        0.322,
+        1.0
+      ]
+    },
+    "false_claim": {
+      "opus_Y": 20,
+      "sonnet_Y": 17,
+      "both_Y": 12,
+      "either_Y": 25,
+      "kappa": 0.57,
+      "kappa_ci": [
+        0.338,
+        0.757
+      ]
+    },
+    "missed_event": {
+      "opus_Y": 3,
+      "sonnet_Y": 1,
+      "both_Y": 1,
+      "either_Y": 3,
+      "kappa": 0.492,
+      "kappa_ci": [
+        0.0,
+        1.0
+      ]
+    },
+    "hallucination_opus": {
+      "Y": 23,
+      "rate": 0.23,
+      "wilson95": [
+        0.158,
+        0.322
+      ]
+    },
+    "hallucination_sonnet": {
+      "Y": 18,
+      "rate": 0.18,
+      "wilson95": [
+        0.117,
+        0.267
+      ]
+    }
+  },
+  "by_group": {
+    "forensic_opus": {
+      "n": 50,
+      "hallucination_Y": 7,
+      "wilson95": [
+        0.07,
+        0.262
+      ]
+    },
+    "forensic_sonnet": {
+      "n": 50,
+      "hallucination_Y": 7,
+      "wilson95": [
+        0.07,
+        0.262
+      ]
+    },
+    "behaviour_opus": {
+      "n": 50,
+      "hallucination_Y": 16,
+      "wilson95": [
+        0.208,
+        0.458
+      ]
+    },
+    "behaviour_sonnet": {
+      "n": 50,
+      "hallucination_Y": 11,
+      "wilson95": [
+        0.128,
+        0.352
+      ]
+    }
+  },
+  "kappa_between_graders": {
+    "hallucination": [
+      0.542,
+      0.325,
+      0.724
+    ]
+  },
+  "human_vs_graders_20": {
+    "opus": {
+      "agreement": 0.65,
+      "kappa": 0.34,
+      "ci": [
+        -0.034,
+        0.706
+      ]
+    },
+    "sonnet": {
+      "agreement": 0.75,
+      "kappa": 0.528,
+      "ci": [
+        0.237,
+        0.875
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+item_id,consistent,false_claim,missed_event,note
+acb28030611c,Y,N,N,
+2fa91619d4a7,Y,N,N,
+2a798c90d004,Y,N,N,
+08b73b11e22f,Y,N,N,
+d8ca1f467c7a,Y,Y,N,"claims SAM found 4 cars, road looks empty"
+3de09f7416a5,Y,N,N,
+ddd498623b03,Y,N,N,
+f5fa4bab7eda,Y,N,N,
+2191b8aec24c,Y,N,N,
+07f5dff95ee8,Y,N,N,
+2163b5ec4b60,Y,N,N,
+b6855c97b75d,Y,N,N,
+3cab88860084,Y,N,N,
+9d030d796e67,Y,N,N,
+3b9d15d6acc2,Y,N,N,
+f8aa59752b1a,Y,N,Y,"heavy fog reduces visibility, not mentioned"
+aadf9d97e815,Y,N,N,
+9788676da8fc,Y,Y,N,"claims 4 objects, only ~1 car visible in frames"
+f23e46056920,Y,Y,N,"claims 4 cars, only ~1 car visible in frames"
+59828907ac80,Y,N,N,
+8c3f69c3dc29,Y,N,N,
+68e77354baf8,Y,N,N,
+b435a461c0f7,Y,Y,N,"claims 4 objects, only ~1 car visible in frames"
+3c3189a10ee7,Y,N,N,
+3e4a7fa59e96,Y,N,N,
+a7ddb70f57fc,Y,N,N,
+fe6e7867c363,Y,Y,N,"claims high-confidence verdict, actual is moderate confidence"
+d7f6d20d5dfb,Y,N,N,
+a53fb44e4b25,Y,N,N,
+ad9dcc0346c1,Y,N,N,
+ee48063ebb97,Y,N,N,
+418fd30407ac,Y,N,N,
+a01a974d856e,Y,N,N,
+d9526955b18d,Y,N,N,
+5219479b6ee8,Y,N,N,
+0dacd531d9a6,Y,N,N,
+98962401f507,Y,N,N,
+9674ab74329c,Y,N,N,
+e58592d14f55,Y,N,N,
+16a508622807,N,N,N,"reasoning concludes evidence favors real, but answer is Generated"
+f4bda79d1131,Y,N,N,
+557646d6169a,Y,N,N,
+2ee16db62673,Y,N,N,
+63404652328b,Y,N,N,
+6127c16e992f,Y,N,Y,"ego car following an SUV very closely ahead in fog, not mentioned"
+e65a188def68,Y,N,N,
+fcb5da4bf247,Y,N,N,
+ebfd130b1407,Y,Y,Y,"claims safe following distance, but SUV is very close ahead"
+7a92c3241bc2,N,N,N,"reasoning finds no issues at all yet answer is 2 not 3, unexplained"
+21e0e1d4b340,Y,N,N,
+4058a5d0ea7a,Y,N,N,
+7daecf61cd56,Y,N,N,
+7f05c5e1d910,Y,N,N,
+a2deca0f0956,Y,N,N,
+ea74c855c37c,Y,N,N,
+3aec22e42748,Y,N,N,
+8b16056e9bde,Y,N,N,
+f8c64c90e2c2,Y,N,Y,"a car crosses/merges near ego path from the left, not mentioned"
+a3f98f363623,Y,N,N,
+0125a34d34b2,Y,N,Y,"a car crosses/merges near ego path from the left, not mentioned"
+09fae4c42be8,Y,N,N,
+8c42398c8655,Y,N,N,
+4e9b6797390e,Y,N,N,
+d9c4f880e47e,Y,N,N,
+53de924ac48c,Y,N,N,
+cc69da19f5a2,N,N,N,text notes wet road as a minor hazard yet scores perfectly safe (3)
+04455d49ae80,Y,N,N,
+36775f9d45c2,Y,N,Y,wet/rainy road conditions visible but not considered for safety
+13d9e6ef4d1a,Y,N,N,
+170fe5116298,Y,N,N,
+9d8d185f9e96,Y,Y,N,"claims road ahead is clear, but a car with brake lights is directly ahead"
+c5a5aadcc83d,Y,N,N,
+e4110c620410,Y,N,N,
+ea7f5d0a3f8d,Y,N,N,
+c5ac7af40859,Y,N,N,
+c827fe345e48,Y,N,N,
+d7762621fe8c,Y,N,N,
+11e456758f5e,Y,N,N,
+bd2bbffb576f,Y,N,Y,"very dense fog severely limits visibility, not mentioned"
+3b34cf70492e,Y,N,N,

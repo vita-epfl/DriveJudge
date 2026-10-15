@@ -1,0 +1,65 @@
+item_id,consistent,false_claim,missed_event,note
+61f25fccd1ac,Y,N,Y,abrupt dawn/fog-to-night lighting shift across clip not mentioned
+721467448cbe,Y,N,N,
+715ad96c05c0,Y,N,N,
+c73ee3b794b3,Y,N,N,
+78c8bf7e334a,Y,Y,N,quotes anisotropy 0.0425 vs actual 0.0627 (GENERATED high conf)
+7c0768acc165,Y,Y,N,quotes anisotropy 0.0425 vs actual 0.0627 (GENERATED high conf)
+e5363e33fada,Y,Y,N,quotes anisotropy 0.0425 vs actual 0.0627 (GENERATED high conf)
+d1b24e020570,Y,Y,N,quotes anisotropy 0.0425 vs actual 0.0627 (GENERATED high conf)
+2dc7326138d0,Y,Y,N,quotes anisotropy 0.0385 vs actual 0.0544 (GENERATED moderate)
+e2be6eeee1a0,Y,Y,N,quotes anisotropy 0.0385 vs actual 0.0544 (GENERATED moderate)
+9b0c56bae076,Y,Y,N,quotes anisotropy 0.0385 vs actual 0.0544 (GENERATED moderate)
+70352d449845,Y,Y,N,quotes anisotropy 0.0385 vs actual 0.0544 (GENERATED moderate)
+e018da543248,Y,Y,N,quotes anisotropy 0.0405 vs actual 0.0587 (GENERATED high conf)
+8299a0c1952b,Y,Y,N,quotes anisotropy 0.0405 vs actual 0.0587 (GENERATED high conf)
+b2b6c3209b89,Y,Y,N,quotes anisotropy 0.0405 vs actual 0.0587 (GENERATED high conf)
+7f3cb3ad9b48,Y,Y,N,quotes anisotropy 0.0405 vs actual 0.0587 (GENERATED high conf)
+357dd68ff07f,Y,N,N,
+d17aca415b23,N,N,N,"reasoning states no appear/disappear evidence, yet answer is Yes"
+2c3c14eee410,Y,N,N,
+23ae1fe3c4ec,Y,N,N,
+b5c90c11b0af,Y,Y,N,quotes anisotropy 0.0379 vs actual 0.0503 (GENERATED moderate)
+a4ac21388557,Y,Y,N,quotes anisotropy 0.0379 vs actual 0.0503 (GENERATED moderate)
+e0e810c0c2cc,Y,Y,N,quotes anisotropy 0.0379 vs actual 0.0503 (GENERATED moderate)
+5d8e2855bd6c,Y,N,Y,"snow-covered ground early on becomes green lawn grass later, unmentioned"
+f107c7754715,Y,N,N,
+c5a7481d7310,Y,N,N,
+ba4c023b34cd,Y,N,Y,"snow-covered ground early on becomes green lawn grass later, unmentioned"
+5336e71b0ae0,Y,N,N,
+f5b60ec1e0ce,Y,N,N,
+a282327d29a0,Y,N,Y,"snow-covered ground early on becomes green lawn grass later, unmentioned"
+104f24ef1465,Y,N,N,
+3277543e6aa3,N,N,N,"reasoning states no appear/disappear in segmented clips, yet answer is Yes"
+0ba88cdcd3f4,Y,Y,N,quotes anisotropy 0.0443 vs actual 0.0577 (GENERATED high conf)
+b01ee53c8822,Y,Y,N,quotes anisotropy 0.0443 vs actual 0.0577 (GENERATED high conf)
+d9d775803668,Y,Y,N,quotes anisotropy 0.0443 vs actual 0.0577 (GENERATED high conf)
+8c007a313a83,Y,Y,N,quotes anisotropy 0.0443 vs actual 0.0577 (GENERATED high conf)
+2f3a2dea69b1,Y,N,N,
+23adcc2e932a,Y,N,N,
+f8d2c89d70ae,Y,N,N,
+12643fd97d2e,Y,N,N,
+bb3d1a1e48d2,Y,Y,N,quotes anisotropy 0.0407 vs actual 0.0610 (GENERATED high conf)
+0cf84358cda5,Y,Y,N,quotes anisotropy 0.0407 vs actual 0.0610 (GENERATED high conf)
+1f2e842fd53a,Y,Y,N,"claims no clear artifacts, but parked car visibly changes shape/color across frames"
+21210cd66e21,Y,Y,N,"claims SAM shows no obvious morphing, but parked car visibly changes shape/color"
+d0175e57ba2f,Y,Y,N,"claims no rigidity violations, but parked car visibly changes shape/color"
+608805da97eb,Y,N,N,
+378a0f1760cc,Y,N,N,
+3e4b2a5a5bf9,Y,N,N,
+9d75c034533f,Y,N,N,
+0a7463a2e2ac,Y,Y,N,quotes anisotropy 0.0315 vs actual 0.0619 (GENERATED high conf)
+d5e30e8d2a01,Y,Y,N,quotes anisotropy 0.0315 vs actual 0.0619 (GENERATED high conf)
+078ee0f54372,Y,Y,N,quotes anisotropy 0.0315 vs actual 0.0619 (GENERATED high conf)
+fe9fb63a1285,Y,N,Y,"pedestrian walking t1-3 vanishes by t4, unmentioned in realism assessment"
+f892dae72066,Y,N,N,
+a59dbee6663a,Y,N,N,
+123b37d598af,Y,Y,N,"claims no appear/disappear, but pedestrian visible t1-3 vanishes by t4"
+a08f6eb38772,Y,Y,N,quotes anisotropy 0.0433 vs actual 0.0641 (GENERATED high conf)
+9bdd2b8538e2,Y,Y,N,quotes anisotropy 0.0433 vs actual 0.0641 (GENERATED high conf)
+40befaf9f844,Y,Y,N,quotes anisotropy 0.0433 vs actual 0.0641 (GENERATED high conf)
+e114039740ce,Y,Y,N,quotes anisotropy 0.0433 vs actual 0.0641 (GENERATED high conf)
+44c0533eb277,Y,N,N,
+913fda1e4daf,Y,N,N,
+57e3a2d4764c,N,N,N,"reasoning states no appear/disappear evidence, yet answer is Yes"
+e79dc9823a51,Y,N,N,

@@ -1,0 +1,135 @@
+item_id,consistent,false_claim,missed_event,note
+d3b1599202cd,Y,N,N,
+b0441ce833c7,Y,N,N,
+1684bd746f76,Y,N,N,
+5dd31a95ca20,Y,N,N,
+b5a845414132,Y,N,N,
+ea27c2b0fc81,Y,N,N,
+ac81b7c3caac,Y,N,N,
+a50ce7294d4d,Y,N,N,
+d4a53e989054,Y,N,N,
+32840f12ef23,Y,N,N,
+8f037c8dfbec,Y,Y,N,claims ego moving through intersection; frames show it stationary at the red light
+cc2c80ef7ed5,Y,N,N,
+42467a744096,Y,Y,N,"claims ego crossing on red; frames show it stationary, never entering the intersection"
+9601751c25a3,Y,N,N,
+22a9d0640dce,Y,Y,N,claims ego moving through red light; frames show car stationary throughout
+c7febc1d1876,Y,N,N,
+1d457bd473d9,Y,Y,N,claims car moving through red light; frames show it stationary at the intersection
+24498e09f50e,Y,N,N,
+a9810a2f2021,Y,Y,N,"claims car proceeding through red light; frames show it stationary, not entering intersection"
+dc5d4835c579,Y,N,N,
+d7e143b032a1,Y,Y,N,claims car moving through intersection; frames show it stationary at the red light
+041d77e79d4c,Y,Y,N,claims car moving through intersection on red; frames show it stationary throughout
+140ee2de09f4,Y,N,N,
+7d6eb1be63b6,Y,Y,N,claims car moving through red light; frames show it stationary at the intersection
+25109b1d5229,Y,Y,N,claims vehicle moving through red light; frames show it stationary at the intersection
+4fdee61aca32,Y,N,N,
+0b2681af4dc6,Y,Y,N,claims car running the red light; frames show it stationary at intersection throughout
+54bd2087a8d2,Y,Y,N,claims car moving through intersection on red; frames show it stationary throughout
+41f3bd9e5f0b,Y,Y,N,claims car crossing intersection on red; frames show it stationary throughout
+0e4e3d694717,Y,Y,N,"claims car moving through red light; frames show it stationary, actually consistent with red"
+e283d87ac2fa,Y,N,N,
+5413c11e1502,Y,N,N,
+51a72e46fc05,Y,Y,N,claims car proceeding through red light; frames show it stationary at intersection
+523059dad17d,Y,N,N,
+ea4913217010,Y,Y,N,claims car moving through red light; frames show it stationary at intersection
+67a8aa8204db,Y,Y,N,"claims car moving through red light; frames show it stationary, not crossing"
+4af91dead81c,Y,Y,N,claims car crossing intersection on red; frames show it stationary throughout
+42d31b15189b,Y,N,N,
+46fa5c163e01,Y,N,N,
+447eab90b24f,Y,Y,N,"claims car not stopped, moving through red light; frames show it stationary"
+1f4e80b65e40,Y,Y,N,claims car moving through red light; frames show it stationary at intersection
+e957c3fac6dc,Y,Y,N,claims car moving forward through red light; frames show it stationary
+a115048efe5d,Y,N,N,
+28f7ec67f2fa,Y,Y,N,claims car running red light; frames show it stationary at the intersection
+4a7d59e0d28c,Y,Y,N,claims car proceeded through red light; frames show it stationary at intersection
+5d526d0ec923,Y,Y,N,"quotes anisotropy 0.0601 as generated; actual FFT is 0.0464, verdict REAL (moderate)"
+1059c8a4186e,Y,N,N,
+c68b8291e517,Y,N,N,
+251316b98a5b,Y,N,N,
+ecfd49e73649,Y,Y,N,claims car proceeding through red light; frames show it stationary at intersection
+224ae9bb5baa,Y,Y,N,"quotes anisotropy 0.0601 as generated; actual FFT is 0.0464, verdict REAL (moderate)"
+234da42537d6,Y,Y,N,"claims ego proceeding through red light; frames show ego stationary, only cross traffic moves"
+b16337c3aba6,Y,N,N,
+4cc71bcd7220,Y,N,N,
+a60fe6b3734e,Y,Y,N,claims ego moving forward through red light; frames show it stationary at intersection
+8168e36cb7f1,Y,Y,N,"claims ego proceeds through red light; frames show it stationary, cross traffic moving instead"
+16c6b85bbf81,Y,N,N,
+d68edb239c1b,N,N,N,"no-match: explanation never reaches a conclusion, stuck in tool-call error loop"
+f94883e7894b,Y,Y,N,claims vehicle stopped at red light; frames show it driving continuously through intersection
+018370d3f487,Y,Y,N,quotes anisotropy 0.0512; actual FFT is 0.0552 (still GENERATED high confidence)
+1489eaf44dc7,Y,Y,N,claims car stopped/waited at red light; frames show it driving straight through intersection
+42ec0314e127,Y,N,N,
+e21beb8a34c5,Y,N,N,
+d634a8d4f2a2,Y,Y,N,quotes anisotropy 0.0512; actual FFT is 0.0552 (still GENERATED high confidence)
+12f578897c7a,Y,N,N,
+5a359fcf8977,Y,N,N,
+faa04347abd9,Y,N,N,
+c3039cc134c8,Y,N,N,
+c3fab372c888,Y,N,N,
+367def13a55b,Y,N,N,
+056895444861,Y,N,N,
+5474525a917c,Y,N,N,
+9c41e3bd43c9,Y,N,N,
+720e36331a09,Y,Y,N,"claims vehicle stopped, no forward motion; frames show it driving continuously through intersection"
+e4aca8f985e6,Y,N,N,
+bd8932cec76a,Y,N,N,
+0aa29aeb3ae8,Y,N,N,
+0326d3d37906,Y,N,N,
+2a3bab2ed396,Y,N,N,
+e0b303492d92,Y,Y,N,quotes anisotropy 0.0526; actual FFT is 0.0725 (still GENERATED high confidence)
+83850f3889d3,Y,N,N,
+b0fdaf474890,Y,N,N,
+fcbaaa3dc4ed,Y,N,N,
+90fba053cfcd,Y,N,N,
+fbab1996dd9b,Y,Y,N,quotes anisotropy 0.0526; actual FFT is 0.0725 (still GENERATED high confidence)
+33d1905c7d12,Y,Y,N,claims visual evidence shows car stopped at red light; frames show continuous motion through intersection
+4a21b211dfda,Y,N,N,
+7c24e788bc9e,Y,N,N,
+c3efe1608b77,Y,N,N,
+716b0a21d43c,Y,N,N,
+be65cd200a38,Y,N,N,
+86a88d8d17bb,Y,N,N,
+e1fd03db2925,Y,N,N,
+dbde706b2ff5,Y,N,N,
+24be5324d88b,Y,N,N,
+21f2ef414a1b,Y,N,N,
+3d114048266f,Y,N,N,
+a67f6cc4fce5,Y,N,N,
+fc8a8f295d2c,Y,N,N,
+0847ed4dfd31,Y,N,N,
+b3d85be48f5a,Y,Y,N,claims car proceeding through red light; frames show ego stationary behind braking van throughout
+ea90c0ab30a4,Y,N,N,
+4e69d5e3d324,Y,Y,N,claims ego moving forward despite own admission it's stopped; frames confirm ego stationary throughout
+a5fd63f04c9a,Y,N,N,
+95f29de4be32,Y,N,N,
+d873bf543320,Y,Y,N,claims car moving through intersection; frames show ego stationary behind a braking van
+11fa57981139,Y,Y,N,claims car moving forward through intersection; frames show ego stationary throughout
+e7933e8a7664,Y,N,N,
+a9086bc7a30c,Y,N,N,
+85b188b8a0bd,Y,N,N,
+b27244eb3e73,Y,N,N,
+bcfa403039b8,Y,N,N,
+1cc93bd348ec,Y,N,N,
+562f9a523b42,Y,N,N,
+c70055ec2473,Y,N,N,
+97c637753a42,Y,Y,N,quotes anisotropy 0.0544; actual FFT is 0.0584 (still GENERATED high confidence)
+800a79313677,Y,N,N,
+611a453e0772,Y,N,N,
+6b86e39f8375,Y,Y,N,quotes anisotropy 0.0544; actual FFT is 0.0584 (still GENERATED high confidence)
+fc0547da6067,Y,N,N,
+e925c2f86fe5,Y,Y,N,quotes anisotropy 0.0532; actual FFT is 0.0505 (still GENERATED moderate confidence)
+b9778cefcd56,Y,N,N,
+a2cee5798005,Y,N,N,
+5668be93496e,Y,N,N,
+1f3fab6ad5b2,Y,N,N,
+1a69a5451d36,Y,Y,N,quotes anisotropy 0.0532; actual FFT is 0.0505 (still GENERATED moderate confidence)
+65c9a7906523,Y,N,N,
+58b035dee8e6,Y,N,N,
+3e7e1d012507,Y,N,N,
+310e60e6e9ab,Y,N,N,
+e2480c5543ba,Y,N,N,
+6e586dfbc14f,Y,N,N,
+93b52dd161a4,Y,N,N,
+539b07882f6b,Y,N,N,

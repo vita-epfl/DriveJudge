@@ -1,0 +1,68 @@
+item_id,consistent,false_claim,missed_event,note
+a23e4ffcb753,Y,N,N,
+6232689f70dc,Y,N,N,
+c520bd6d205e,Y,N,N,
+992b61c73080,Y,N,N,
+17c3d74ba029,Y,N,N,
+2a0a322b68b9,Y,N,N,
+02fe4d4bfa84,Y,N,N,
+1343c7e0ac16,Y,N,N,
+f9997644d76c,Y,N,N,
+7ede00c27e3f,Y,N,N,
+e4c96cacf514,Y,N,N,
+7feff9231995,Y,Y,N,"quotes anisotropy 0.0362, actual is 0.0535"
+d90a08369045,Y,Y,N,"quotes anisotropy 0.0362, actual is 0.0535"
+fb1c34e503dc,Y,Y,N,"quotes anisotropy 0.0362, actual is 0.0535"
+171a3b00dfb8,Y,Y,N,"quotes anisotropy 0.0362, actual is 0.0535"
+1874e72a902e,Y,N,Y,misses huge dark shape morphing over windshield
+114936776ce9,Y,N,Y,"misses obvious morphing shape, direct AI-gen evidence"
+5ad0cc277ba8,Y,N,Y,"misses giant object appearing abruptly, exactly the event asked"
+60414f524f29,Y,Y,N,claims no visible morphing; huge shape clearly morphs onscreen
+96952c1df4ef,Y,N,N,
+bc87ec666a90,Y,N,N,
+541f00ffd5fa,N,N,N,"own text says no appear/disappear observed, yet answers Yes"
+3603662ea3a8,Y,N,N,
+69c19fae19d0,Y,N,N,
+0aebc7a725d0,Y,N,N,
+9a31e3fa7fa6,Y,N,N,
+c27f63c249ab,Y,N,N,
+4522fbff7ac3,Y,N,N,
+c832eb6908a4,Y,N,N,
+b661a67a24f7,Y,Y,N,"quotes anisotropy 0.0337, actual is 0.0529"
+04bdcbb7c2ac,Y,Y,N,"quotes anisotropy 0.0337, actual is 0.0529"
+5069ddbc7d1f,Y,N,N,
+c95465307bb4,Y,N,N,
+da73af7d7c7e,N,N,N,"no-match; own reasoning says no shape change, yet concludes Yes"
+985c97f023bb,Y,N,N,
+4ebe86ab8a18,Y,N,N,
+66a35f5c68fb,Y,N,N,
+367a96ec3b4f,Y,Y,N,"quotes anisotropy 0.0436, actual is 0.0640"
+f52710ae8345,Y,Y,N,"quotes anisotropy 0.0436, actual is 0.0640"
+7cb49bc55d81,Y,Y,N,"quotes anisotropy 0.0436, actual is 0.0640"
+ff00486f51a3,Y,Y,N,"quotes anisotropy 0.0421, actual is 0.0655"
+cc9893f37a6a,Y,Y,N,"quotes anisotropy 0.0421, actual is 0.0655"
+be5853e052ba,Y,N,N,
+8be82550851c,Y,N,N,
+1cd75881b449,Y,N,N,
+3af56abe864f,Y,N,N,
+8416d47fd497,Y,Y,N,anisotropy 0.0367 vs actual 0.0554; denies artifacts despite visible pink streak glitch
+d50979c06ce0,Y,Y,N,anisotropy 0.0367 vs actual 0.0554; denies AI artifacts despite visible pink streak glitch
+26c486354d19,Y,Y,N,anisotropy 0.0367 vs actual 0.0554; denies artifacts despite visible pink streak glitch
+bbf3d4e6b55a,Y,N,Y,misses obvious pink/magenta streak artifact across road
+32f21ee40baa,Y,N,Y,misses obvious pink/magenta streak artifact across road
+6848f4fd8523,Y,N,Y,"misses pink streak appearing/vanishing, directly relevant here"
+2f2c22571b97,Y,N,Y,misses obvious pink/magenta streak artifact near car
+ecbb89dd0d4f,Y,N,Y,misses obvious pink/magenta streak artifact near car
+d09e56f3fae4,Y,N,Y,"misses visible pink streak artifact, cites unverifiable roof/window morph instead"
+8193e58bb94b,Y,N,Y,"misses gibberish/garbled storefront text, an AI-gen artifact"
+c638c4ea77f4,Y,N,Y,"misses gibberish storefront text, relevant appearance artifact"
+94ab6caa632f,Y,N,Y,"misses gibberish storefront text, direct AI-gen evidence"
+de207d822e66,Y,N,N,
+1ef34acddb25,Y,Y,N,"quotes anisotropy 0.0407, actual is 0.0663"
+4cd36ee96680,Y,Y,N,"quotes anisotropy 0.0407, actual is 0.0663"
+0d40f7b1415e,Y,Y,N,"quotes anisotropy 0.0407, actual is 0.0663"
+f1e76f63f123,Y,Y,N,"quotes anisotropy 0.0407, actual is 0.0663"
+b0219f165d37,Y,N,N,
+22f161857bbc,Y,N,N,
+0cb15dafb291,Y,N,N,
+e0e953d0c0a2,Y,N,N,

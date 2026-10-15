@@ -1,0 +1,196 @@
+{
+  "seed": 0,
+  "pool_mode": "leakfree",
+  "test_fraction": 0.3,
+  "scenario_overlaps": {
+    "holdout": 0,
+    "e6_test": 0,
+    "extra_gen": 0,
+    "calib18": 0,
+    "e6_sibling": 0,
+    "holdout~e6_test": 0,
+    "holdout~extra_gen": 0,
+    "holdout~calib18": 0,
+    "unused": 0
+  },
+  "manifest": "results/fft/manifest.parquet",
+  "e6_json": "src/real_vs_generated/v2/groundtruth_realgen_v2.json",
+  "e6": {
+    "records": 2000,
+    "unique_clip_ids": 2000,
+    "clip_id_field_disagreements": 0,
+    "n_real": 1000,
+    "n_generated": 1000,
+    "matched_in_manifest": 2000,
+    "unmatched": []
+  },
+  "e6_in_calib18": 9,
+  "e6_ids_file": "results/fft/e6_clip_ids.txt",
+  "e6_ids_file_status": "matches (2000 ids)",
+  "splits": [
+    {
+      "split": "calib18",
+      "n": 36,
+      "n_real": 18,
+      "n_gen": 18,
+      "n_scenarios": 24,
+      "dd": 18,
+      "p1": 0,
+      "real_per_gen": 1.0
+    },
+    {
+      "split": "calib",
+      "n": 1589,
+      "n_real": 1392,
+      "n_gen": 197,
+      "n_scenarios": 1422,
+      "dd": 184,
+      "p1": 13,
+      "real_per_gen": 7.066
+    },
+    {
+      "split": "holdout",
+      "n": 675,
+      "n_real": 597,
+      "n_gen": 78,
+      "n_scenarios": 610,
+      "dd": 73,
+      "p1": 5,
+      "real_per_gen": 7.654
+    },
+    {
+      "split": "e6_test",
+      "n": 1991,
+      "n_real": 993,
+      "n_gen": 998,
+      "n_scenarios": 1409,
+      "dd": 564,
+      "p1": 434,
+      "real_per_gen": 0.995
+    },
+    {
+      "split": "e6_sibling",
+      "n": 584,
+      "n_real": 0,
+      "n_gen": 584,
+      "n_scenarios": 193,
+      "dd": 524,
+      "p1": 60,
+      "real_per_gen": 0.0
+    },
+    {
+      "split": "extra_gen",
+      "n": 635,
+      "n_real": 0,
+      "n_gen": 635,
+      "n_scenarios": 199,
+      "dd": 567,
+      "p1": 68,
+      "real_per_gen": 0.0
+    }
+  ],
+  "per_generator": [
+    {
+      "split": "calib",
+      "pool_generator": "dd",
+      "n": 4,
+      "n_scenarios": 3
+    },
+    {
+      "split": "calib",
+      "pool_generator": "dd_unlabelled",
+      "n": 180,
+      "n_scenarios": 23
+    },
+    {
+      "split": "calib",
+      "pool_generator": "p1_unlabelled",
+      "n": 13,
+      "n_scenarios": 7
+    },
+    {
+      "split": "calib",
+      "pool_generator": "real",
+      "n": 1392,
+      "n_scenarios": 1392
+    },
+    {
+      "split": "calib18",
+      "pool_generator": "dd",
+      "n": 8,
+      "n_scenarios": 3
+    },
+    {
+      "split": "calib18",
+      "pool_generator": "dd_unlabelled",
+      "n": 10,
+      "n_scenarios": 5
+    },
+    {
+      "split": "calib18",
+      "pool_generator": "real",
+      "n": 18,
+      "n_scenarios": 18
+    },
+    {
+      "split": "e6_sibling",
+      "pool_generator": "dd",
+      "n": 524,
+      "n_scenarios": 158
+    },
+    {
+      "split": "e6_sibling",
+      "pool_generator": "p1",
+      "n": 60,
+      "n_scenarios": 35
+    },
+    {
+      "split": "e6_test",
+      "pool_generator": "dd",
+      "n": 564,
+      "n_scenarios": 214
+    },
+    {
+      "split": "e6_test",
+      "pool_generator": "p1",
+      "n": 434,
+      "n_scenarios": 202
+    },
+    {
+      "split": "e6_test",
+      "pool_generator": "real",
+      "n": 993,
+      "n_scenarios": 993
+    },
+    {
+      "split": "extra_gen",
+      "pool_generator": "dd_unlabelled",
+      "n": 567,
+      "n_scenarios": 143
+    },
+    {
+      "split": "extra_gen",
+      "pool_generator": "p1_unlabelled",
+      "n": 68,
+      "n_scenarios": 56
+    },
+    {
+      "split": "holdout",
+      "pool_generator": "dd_unlabelled",
+      "n": 73,
+      "n_scenarios": 10
+    },
+    {
+      "split": "holdout",
+      "pool_generator": "p1_unlabelled",
+      "n": 5,
+      "n_scenarios": 3
+    },
+    {
+      "split": "holdout",
+      "pool_generator": "real",
+      "n": 597,
+      "n_scenarios": 597
+    }
+  ]
+}

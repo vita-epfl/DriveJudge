@@ -23,7 +23,11 @@ from typing import Any
 
 from dotenv import load_dotenv
 
+from gpt_helpers import output_stem
+
 _HERE = Path(__file__).resolve().parent
+DEFAULT_MODEL = "gemini-3-flash-preview"
+DEFAULT_STEM = "gemini"
 
 _TERMINAL_STATES = {
     "JOB_STATE_SUCCEEDED",
@@ -91,10 +95,22 @@ def _parse_jsonl_text(content: bytes | str) -> list[dict[str, Any]]:
     return [json.loads(line) for line in content.splitlines() if line.strip()]
 
 
+def _attach_reflection(rec: dict[str, Any], meta: dict[str, Any]) -> dict[str, Any]:
+    """Add the round-1 columns when the batch was a `--reflect` round."""
+    if "answer_r1" not in meta:
+        return rec
+    rec["evaluation_r1"] = meta.get("evaluation_r1", "")
+    rec["answer_r1"] = meta.get("answer_r1", "")
+    rec["changed"] = rec.get("answer") != rec["answer_r1"]
+    round1 = meta.get("round1")
+    rec["history"] = [round1] if round1 else []
+    return rec
+
+
 def _result_from_jsonl_line(line: dict[str, Any], meta: dict[str, Any]) -> dict[str, Any]:
     cid = line.get("key") or line.get("custom_id") or ""
     if "error" in line and line["error"]:
-        return {
+        return _attach_reflection({
             "video": meta.get("video"),
             "question": meta.get("question"),
             "evaluation": "",
@@ -103,7 +119,7 @@ def _result_from_jsonl_line(line: dict[str, Any], meta: dict[str, Any]) -> dict[
             "error": line["error"],
             "custom_id": cid,
             "model": meta.get("model"),
-        }
+        }, meta)
 
     response = line.get("response") or {}
     # Pull text from candidates -> content -> parts -> text.
@@ -137,7 +153,7 @@ def _result_from_jsonl_line(line: dict[str, Any], meta: dict[str, Any]) -> dict[
         ),
     }
 
-    return {
+    return _attach_reflection({
         "video": meta.get("video"),
         "question": meta.get("question"),
         "evaluation": parsed.get("evaluation", ""),
@@ -146,7 +162,7 @@ def _result_from_jsonl_line(line: dict[str, Any], meta: dict[str, Any]) -> dict[
         "usage": usage,
         "model": meta.get("model"),
         "custom_id": cid,
-    }
+    }, meta)
 
 
 def _result_from_inline(idx: int, inlined, mapping: dict[str, dict[str, Any]],
@@ -155,7 +171,7 @@ def _result_from_inline(idx: int, inlined, mapping: dict[str, dict[str, Any]],
     meta = mapping.get(cid, {})
     err = getattr(inlined, "error", None)
     if err is not None:
-        return {
+        return _attach_reflection({
             "video": meta.get("video"),
             "question": meta.get("question"),
             "evaluation": "",
@@ -164,14 +180,14 @@ def _result_from_inline(idx: int, inlined, mapping: dict[str, dict[str, Any]],
             "error": str(err),
             "custom_id": cid,
             "model": meta.get("model"),
-        }
+        }, meta)
     response = getattr(inlined, "response", None)
     text = _extract_text(response) if response else ""
     try:
         parsed = json.loads(text) if text else {}
     except json.JSONDecodeError:
         parsed = {"evaluation": text, "answer": ""}
-    return {
+    return _attach_reflection({
         "video": meta.get("video"),
         "question": meta.get("question"),
         "evaluation": parsed.get("evaluation", ""),
@@ -181,7 +197,7 @@ def _result_from_inline(idx: int, inlined, mapping: dict[str, dict[str, Any]],
                  {"input_tokens": 0, "cached_input_tokens": 0, "output_tokens": 0},
         "model": meta.get("model"),
         "custom_id": cid,
-    }
+    }, meta)
 
 
 def _collect_results_for_batch(client, batch, mapping: dict[str, dict[str, Any]]
@@ -221,10 +237,13 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--state", type=Path,
                     default=_HERE / "batches" / "batch_state.json")
-    ap.add_argument("--output", type=Path,
-                    default=_HERE / "results" / "gemini_batch_results.json",
-                    help="Result JSON path. If it exists, new results are "
-                         "merged in (latest wins per custom_id).")
+    ap.add_argument("--output", type=Path, default=None,
+                    help="Result JSON path. Defaults to "
+                         "results/<stem>_batch_results.json, where <stem> is "
+                         "`gemini` for the default model and the sanitised "
+                         "model id (read from the state file) otherwise. If it "
+                         "exists, new results are merged in (latest wins per "
+                         "custom_id).")
     ap.add_argument("--wait", action="store_true",
                     help="Poll every 60s until every batch reaches a terminal state.")
     args = ap.parse_args()
@@ -236,8 +255,15 @@ def main() -> None:
     state = _load_state(args.state)
     mapping: dict[str, dict[str, Any]] = state.get("mapping", {})
     batch_names: list[str] = [b["batch_name"] for b in state.get("batches", [])]
+
+    if args.output is None:
+        stem = output_stem(state.get("model", DEFAULT_MODEL),
+                           default_model=DEFAULT_MODEL, default_stem=DEFAULT_STEM)
+        suffix = "_r2" if any("answer_r1" in m for m in mapping.values()) else ""
+        args.output = _HERE / "results" / f"{stem}_batch_results{suffix}.json"
+
     n = len(batch_names)
-    print(f"Tracking {n} batch(es) from {args.state}.")
+    print(f"Tracking {n} batch(es) from {args.state} -> {args.output}.")
 
     while True:
         print(f"[{time.strftime('%H:%M:%S')}] polling...")

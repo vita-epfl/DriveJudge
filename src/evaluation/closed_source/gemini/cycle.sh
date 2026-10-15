@@ -8,20 +8,20 @@
 # batches/batch_state.json is in a terminal state.
 #
 # Usage (run from anywhere; the script cds to its own folder):
-#   bash closed_source_evaluation/gemini/cycle.sh                 # 180s default
-#   bash closed_source_evaluation/gemini/cycle.sh 60              # custom interval
+#   bash src/evaluation/closed_source/gemini/cycle.sh                 # 180s default
+#   bash src/evaluation/closed_source/gemini/cycle.sh 60              # custom interval
 #
 # Background it so you don't have to keep a terminal open:
-#   nohup bash closed_source_evaluation/gemini/cycle.sh \
-#       > closed_source_evaluation/gemini/cycle.log 2>&1 &
-#   tail -f closed_source_evaluation/gemini/cycle.log
+#   nohup bash src/evaluation/closed_source/gemini/cycle.sh \
+#       > src/evaluation/closed_source/gemini/cycle.log 2>&1 &
+#   tail -f src/evaluation/closed_source/gemini/cycle.log
 #
 # Ctrl+C / kill at any time — rerun and it resumes where it left off.
 
 set -u
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
 cd "$REPO_ROOT"
 
 PYTHON="uv run python"

@@ -1,0 +1,382 @@
+[
+ {
+  "item_id": "0be58d4db797",
+  "clip": "cosmos-drive-dreams/crossing_red_lights/cross_red_007_Snowy.mp4",
+  "question": "Is the ego car following the traffic rules ?",
+  "model_answer": "Yes",
+  "explanation": "The optical flow analysis shows forward motion (pink/magenta) of the ego car, confirming it is moving towards the intersection. However, the visual evidence from the original video shows the car is stopped before the stop line at a red light. The optical flow confirms the car's motion, but the visual evidence shows it is not running the red light. Therefore, the ego car is following the traffic rules.",
+  "fft_anisotropy_actual": "0.0536",
+  "fft_verdict_actual": "GENERATED (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/0be58d4db797_0.jpg",
+   "results/annotation/faithfulness_frames8/0be58d4db797_1.jpg",
+   "results/annotation/faithfulness_frames8/0be58d4db797_2.jpg",
+   "results/annotation/faithfulness_frames8/0be58d4db797_3.jpg",
+   "results/annotation/faithfulness_frames8/0be58d4db797_4.jpg",
+   "results/annotation/faithfulness_frames8/0be58d4db797_5.jpg",
+   "results/annotation/faithfulness_frames8/0be58d4db797_6.jpg",
+   "results/annotation/faithfulness_frames8/0be58d4db797_7.jpg"
+  ]
+ },
+ {
+  "item_id": "5411eab9c1d0",
+  "clip": "cosmos-drive-dreams/crossing_red_lights/cross_red_022_Sunny.mp4",
+  "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+  "model_answer": "3",
+  "explanation": "The optical flow video shows consistent pink/magenta motion, indicating the ego car is moving forward safely through the intersection. There are no signs of erratic driving, swerving, or running a red light. The motion is smooth and controlled, confirming safe driving behavior.",
+  "fft_anisotropy_actual": "0.0609",
+  "fft_verdict_actual": "GENERATED (high confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/5411eab9c1d0_0.jpg",
+   "results/annotation/faithfulness_frames8/5411eab9c1d0_1.jpg",
+   "results/annotation/faithfulness_frames8/5411eab9c1d0_2.jpg",
+   "results/annotation/faithfulness_frames8/5411eab9c1d0_3.jpg",
+   "results/annotation/faithfulness_frames8/5411eab9c1d0_4.jpg",
+   "results/annotation/faithfulness_frames8/5411eab9c1d0_5.jpg",
+   "results/annotation/faithfulness_frames8/5411eab9c1d0_6.jpg",
+   "results/annotation/faithfulness_frames8/5411eab9c1d0_7.jpg"
+  ]
+ },
+ {
+  "item_id": "5742666860f6",
+  "clip": "cosmos-drive-dreams/crossing_red_lights/cross_red_026_Original.mp4",
+  "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+  "model_answer": "Yes",
+  "explanation": "The optical flow video shows a strong pink/magenta pattern, indicating forward motion of the ego car. This is consistent with the visual evidence of the car approaching the intersection. The traffic lights are red, and the car stops before the stop line, which is the correct behavior. Therefore, the ego car's behavior is consistent with the visible cues of the traffic lights.",
+  "fft_anisotropy_actual": "0.0461",
+  "fft_verdict_actual": "REAL (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/5742666860f6_0.jpg",
+   "results/annotation/faithfulness_frames8/5742666860f6_1.jpg",
+   "results/annotation/faithfulness_frames8/5742666860f6_2.jpg",
+   "results/annotation/faithfulness_frames8/5742666860f6_3.jpg",
+   "results/annotation/faithfulness_frames8/5742666860f6_4.jpg",
+   "results/annotation/faithfulness_frames8/5742666860f6_5.jpg",
+   "results/annotation/faithfulness_frames8/5742666860f6_6.jpg",
+   "results/annotation/faithfulness_frames8/5742666860f6_7.jpg"
+  ]
+ },
+ {
+  "item_id": "ba2fd7bccf19",
+  "clip": "cosmos-drive-dreams/crossing_red_lights/cross_red_031_Night.mp4",
+  "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+  "model_answer": "No",
+  "explanation": "The optical flow video shows prominent pink/magenta patterns, indicating that the ego car is moving forward. This is consistent with the visual evidence in the original video, where the car is seen advancing through the intersection while the traffic lights are red. The forward motion of the ego car is therefore consistent with the visible cues of the traffic lights, as the car is proceeding through the intersection on a red light.",
+  "fft_anisotropy_actual": "0.0600",
+  "fft_verdict_actual": "GENERATED (high confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/ba2fd7bccf19_0.jpg",
+   "results/annotation/faithfulness_frames8/ba2fd7bccf19_1.jpg",
+   "results/annotation/faithfulness_frames8/ba2fd7bccf19_2.jpg",
+   "results/annotation/faithfulness_frames8/ba2fd7bccf19_3.jpg",
+   "results/annotation/faithfulness_frames8/ba2fd7bccf19_4.jpg",
+   "results/annotation/faithfulness_frames8/ba2fd7bccf19_5.jpg",
+   "results/annotation/faithfulness_frames8/ba2fd7bccf19_6.jpg",
+   "results/annotation/faithfulness_frames8/ba2fd7bccf19_7.jpg"
+  ]
+ },
+ {
+  "item_id": "bea90b452eea",
+  "clip": "cosmos-drive-dreams/crossing_red_lights/cross_red_037_Foggy.mp4",
+  "question": "Is it a safe way of driving for the ego car ?",
+  "model_answer": "Yes",
+  "explanation": "The optical flow video shows dominant pink and magenta colors, indicating forward motion of the ego car. The car is stopped at a red light behind the stop line, which is a safe and correct action. The surrounding fog reduces visibility, but the car maintains a safe distance from other vehicles and shows no erratic behavior. The forward motion detected by the optical flow is consistent with the original video, confirming safe driving.",
+  "fft_anisotropy_actual": "0.0561",
+  "fft_verdict_actual": "GENERATED (high confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/bea90b452eea_0.jpg",
+   "results/annotation/faithfulness_frames8/bea90b452eea_1.jpg",
+   "results/annotation/faithfulness_frames8/bea90b452eea_2.jpg",
+   "results/annotation/faithfulness_frames8/bea90b452eea_3.jpg",
+   "results/annotation/faithfulness_frames8/bea90b452eea_4.jpg",
+   "results/annotation/faithfulness_frames8/bea90b452eea_5.jpg",
+   "results/annotation/faithfulness_frames8/bea90b452eea_6.jpg",
+   "results/annotation/faithfulness_frames8/bea90b452eea_7.jpg"
+  ]
+ },
+ {
+  "item_id": "2f52ab2a7f27",
+  "clip": "cosmos-drive-dreams/crossing_red_lights/cross_red_038_Rainy.mp4",
+  "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+  "model_answer": "Yes",
+  "explanation": "The optical flow video shows dominant pink/magenta patterns, indicating forward motion of the ego car. The car approaches the intersection and stops, which is consistent with the red traffic light visible in the scene. The motion analysis confirms the car is moving forward and then stopping, aligning with the traffic signal.",
+  "fft_anisotropy_actual": "0.0581",
+  "fft_verdict_actual": "GENERATED (high confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/2f52ab2a7f27_0.jpg",
+   "results/annotation/faithfulness_frames8/2f52ab2a7f27_1.jpg",
+   "results/annotation/faithfulness_frames8/2f52ab2a7f27_2.jpg",
+   "results/annotation/faithfulness_frames8/2f52ab2a7f27_3.jpg",
+   "results/annotation/faithfulness_frames8/2f52ab2a7f27_4.jpg",
+   "results/annotation/faithfulness_frames8/2f52ab2a7f27_5.jpg",
+   "results/annotation/faithfulness_frames8/2f52ab2a7f27_6.jpg",
+   "results/annotation/faithfulness_frames8/2f52ab2a7f27_7.jpg"
+  ]
+ },
+ {
+  "item_id": "356d45aeca9a",
+  "clip": "cosmos-drive-dreams/crossing_stop/cross_stop_035_Golden hour.mp4",
+  "question": "Is it a safe way of driving for the ego car ?",
+  "model_answer": "Yes",
+  "explanation": "The optical flow video shows strong pink/magenta patterns, indicating forward motion of the ego car. This is consistent with the visual evidence from the original video, where the car is seen moving through the intersection. The car is not stopped at the stop line, and the traffic light appears to be green. Therefore, the car is not violating any traffic rules and is driving safely.",
+  "fft_anisotropy_actual": "0.0550",
+  "fft_verdict_actual": "GENERATED (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/356d45aeca9a_0.jpg",
+   "results/annotation/faithfulness_frames8/356d45aeca9a_1.jpg",
+   "results/annotation/faithfulness_frames8/356d45aeca9a_2.jpg",
+   "results/annotation/faithfulness_frames8/356d45aeca9a_3.jpg",
+   "results/annotation/faithfulness_frames8/356d45aeca9a_4.jpg",
+   "results/annotation/faithfulness_frames8/356d45aeca9a_5.jpg",
+   "results/annotation/faithfulness_frames8/356d45aeca9a_6.jpg",
+   "results/annotation/faithfulness_frames8/356d45aeca9a_7.jpg"
+  ]
+ },
+ {
+  "item_id": "bba53cb444bb",
+  "clip": "cosmos-drive-dreams/crossing_stop/cross_stop_041_Original.mp4",
+  "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+  "model_answer": "3",
+  "explanation": "The optical flow video shows strong pink/magenta patterns, indicating the ego car is moving forward. The car approaches a stop line and a stop sign, and the flow analysis confirms it is moving towards the intersection. The car slows down and stops before the stop line, which is a safe and correct action. There are no signs of erratic or dangerous driving behavior. The motion is consistent with safe driving practices.",
+  "fft_anisotropy_actual": "0.0485",
+  "fft_verdict_actual": "GENERATED (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/bba53cb444bb_0.jpg",
+   "results/annotation/faithfulness_frames8/bba53cb444bb_1.jpg",
+   "results/annotation/faithfulness_frames8/bba53cb444bb_2.jpg",
+   "results/annotation/faithfulness_frames8/bba53cb444bb_3.jpg",
+   "results/annotation/faithfulness_frames8/bba53cb444bb_4.jpg",
+   "results/annotation/faithfulness_frames8/bba53cb444bb_5.jpg",
+   "results/annotation/faithfulness_frames8/bba53cb444bb_6.jpg",
+   "results/annotation/faithfulness_frames8/bba53cb444bb_7.jpg"
+  ]
+ },
+ {
+  "item_id": "b0340b61222e",
+  "clip": "cosmos-drive-dreams/negative/3d656470-754a-493f-87e1-0b4b887e648d_4051491299000_4051511299000_1_Sunny.mp4",
+  "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+  "model_answer": "3",
+  "explanation": "The FFT analysis shows an anisotropy score of 0.0451, which is below the 0.048 threshold for generated content, indicating a real scene. The SAM segmentation reveals no artifacts such as rigidity violations, texture swimming, or morphing in the isolated objects. The lighting, shadows, motion blur, and road markings are all consistent with a real-world driving environment. The overall scene is highly plausible and indistinguishable from reality.",
+  "fft_anisotropy_actual": "0.0451",
+  "fft_verdict_actual": "REAL (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/b0340b61222e_0.jpg",
+   "results/annotation/faithfulness_frames8/b0340b61222e_1.jpg",
+   "results/annotation/faithfulness_frames8/b0340b61222e_2.jpg",
+   "results/annotation/faithfulness_frames8/b0340b61222e_3.jpg",
+   "results/annotation/faithfulness_frames8/b0340b61222e_4.jpg",
+   "results/annotation/faithfulness_frames8/b0340b61222e_5.jpg",
+   "results/annotation/faithfulness_frames8/b0340b61222e_6.jpg",
+   "results/annotation/faithfulness_frames8/b0340b61222e_7.jpg"
+  ]
+ },
+ {
+  "item_id": "91925d09b4bc",
+  "clip": "cosmos-drive-dreams/negative/71ae0d63-ba64-4517-b3f1-90d446abc67d_1869020100000_1869040100000_Golden hour.mp4",
+  "question": "Is it a real video or generated ?",
+  "model_answer": "Real",
+  "explanation": "The FFT analysis shows an anisotropy score of 0.0483, slightly above the 0.048 threshold, suggesting a moderate likelihood of AI generation. However, the SAM segmentation analysis reveals no visual artifacts such as rigidity violations, texture swimming, or component morphing in the car objects. The car shapes remain stable and consistent, with no signs of deformation. While the FFT score leans toward generated, the clean visual evidence from the masks suggests the video is likely real. The combined analysis indicates a slight lean toward real footage due to the lack of physical impossibilities in the object segments.",
+  "fft_anisotropy_actual": "0.0483",
+  "fft_verdict_actual": "GENERATED (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/91925d09b4bc_0.jpg",
+   "results/annotation/faithfulness_frames8/91925d09b4bc_1.jpg",
+   "results/annotation/faithfulness_frames8/91925d09b4bc_2.jpg",
+   "results/annotation/faithfulness_frames8/91925d09b4bc_3.jpg",
+   "results/annotation/faithfulness_frames8/91925d09b4bc_4.jpg",
+   "results/annotation/faithfulness_frames8/91925d09b4bc_5.jpg",
+   "results/annotation/faithfulness_frames8/91925d09b4bc_6.jpg",
+   "results/annotation/faithfulness_frames8/91925d09b4bc_7.jpg"
+  ]
+ },
+ {
+  "item_id": "f72c35527de4",
+  "clip": "cosmos-predict1/artifacts/car_brake_004.mp4",
+  "question": "Do some objects change shape or appearance ?",
+  "model_answer": "No",
+  "explanation": "The FFT analysis shows an anisotropy score of 0.0455, which is below the 0.048 threshold for AI-generated content, indicating the footage is likely real. The segmentation tool isolated four cars, and none of the objects exhibit rigidity violations, texture swimming, or component morphing. The cars maintain their structural integrity throughout the sequence, with no evidence of melting, wobbling, or shape changes.",
+  "fft_anisotropy_actual": "0.0455",
+  "fft_verdict_actual": "REAL (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/f72c35527de4_0.jpg",
+   "results/annotation/faithfulness_frames8/f72c35527de4_1.jpg",
+   "results/annotation/faithfulness_frames8/f72c35527de4_2.jpg",
+   "results/annotation/faithfulness_frames8/f72c35527de4_3.jpg",
+   "results/annotation/faithfulness_frames8/f72c35527de4_4.jpg",
+   "results/annotation/faithfulness_frames8/f72c35527de4_5.jpg",
+   "results/annotation/faithfulness_frames8/f72c35527de4_6.jpg",
+   "results/annotation/faithfulness_frames8/f72c35527de4_7.jpg"
+  ]
+ },
+ {
+  "item_id": "68c2af616fe1",
+  "clip": "cosmos-predict1/artifacts/cross_stop_012_Foggy.mp4",
+  "question": "Does any object appear or disappear without continuous motion ?",
+  "model_answer": "Yes",
+  "explanation": "The FFT analysis returned an anisotropy score of 0.0540, which exceeds the 0.048 threshold for real footage, indicating the video is likely AI-generated. While the segmentation masks show no obvious rigidity violations, AI-generated videos often exhibit unnatural object behavior, such as appearing or disappearing without continuous motion. The high anisotropy score provides strong evidence of synthetic content, where such artifacts are common.",
+  "fft_anisotropy_actual": "0.0540",
+  "fft_verdict_actual": "GENERATED (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/68c2af616fe1_0.jpg",
+   "results/annotation/faithfulness_frames8/68c2af616fe1_1.jpg",
+   "results/annotation/faithfulness_frames8/68c2af616fe1_2.jpg",
+   "results/annotation/faithfulness_frames8/68c2af616fe1_3.jpg",
+   "results/annotation/faithfulness_frames8/68c2af616fe1_4.jpg",
+   "results/annotation/faithfulness_frames8/68c2af616fe1_5.jpg",
+   "results/annotation/faithfulness_frames8/68c2af616fe1_6.jpg",
+   "results/annotation/faithfulness_frames8/68c2af616fe1_7.jpg"
+  ]
+ },
+ {
+  "item_id": "6db403f64708",
+  "clip": "cosmos-predict1/artifacts/j4qcANjnLxc_13824_14b.mp4",
+  "question": "Does any object appear or disappear without continuous motion ?",
+  "model_answer": "Yes",
+  "explanation": "The FFT analysis returned an anisotropy score of 0.0608, which exceeds the 0.048 threshold for real footage, indicating the video is likely AI-generated. The `get_masks` tool isolated four cars, and visual inspection of the clips showed no obvious rigidity violations or texture swimming. However, the high anisotropy score is a strong indicator of AI generation, where artifacts such as objects appearing or disappearing without continuous motion are common. Therefore, the video is likely generated, and such artifacts are expected.",
+  "fft_anisotropy_actual": "0.0608",
+  "fft_verdict_actual": "GENERATED (high confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/6db403f64708_0.jpg",
+   "results/annotation/faithfulness_frames8/6db403f64708_1.jpg",
+   "results/annotation/faithfulness_frames8/6db403f64708_2.jpg",
+   "results/annotation/faithfulness_frames8/6db403f64708_3.jpg",
+   "results/annotation/faithfulness_frames8/6db403f64708_4.jpg",
+   "results/annotation/faithfulness_frames8/6db403f64708_5.jpg",
+   "results/annotation/faithfulness_frames8/6db403f64708_6.jpg",
+   "results/annotation/faithfulness_frames8/6db403f64708_7.jpg"
+  ]
+ },
+ {
+  "item_id": "311d2896e72c",
+  "clip": "cosmos-predict1/artifacts/uvRaCzWpFrQ_50448_14b.mp4",
+  "question": "Do some objects change shape or appearance ?",
+  "model_answer": "Yes",
+  "explanation": "The FFT analysis indicates an anisotropy score of 0.0591, which is above the 0.048 threshold for real footage, suggesting the video is likely AI-generated. While the segmentation masks show no obvious rigidity violations or morphing in the isolated objects, the high anisotropy score implies the presence of AI-generated artifacts. These artifacts could include subtle changes in shape or appearance that are not visible in the isolated clips, indicating that objects may indeed change shape or appearance due to the AI generation process.",
+  "fft_anisotropy_actual": "0.0591",
+  "fft_verdict_actual": "GENERATED (high confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/311d2896e72c_0.jpg",
+   "results/annotation/faithfulness_frames8/311d2896e72c_1.jpg",
+   "results/annotation/faithfulness_frames8/311d2896e72c_2.jpg",
+   "results/annotation/faithfulness_frames8/311d2896e72c_3.jpg",
+   "results/annotation/faithfulness_frames8/311d2896e72c_4.jpg",
+   "results/annotation/faithfulness_frames8/311d2896e72c_5.jpg",
+   "results/annotation/faithfulness_frames8/311d2896e72c_6.jpg",
+   "results/annotation/faithfulness_frames8/311d2896e72c_7.jpg"
+  ]
+ },
+ {
+  "item_id": "cb04fdb470f7",
+  "clip": "cosmos-predict1/artifacts/jKrJezTsVUk_29664_14b.mp4",
+  "question": "Do some objects change shape or appearance ?",
+  "model_answer": "No",
+  "explanation": "The FFT analysis returned an anisotropy score of 0.0453, which is below the 0.048 threshold for generated content, indicating the video is likely real. The segmentation analysis of the car shows no rigidity violations, texture swimming, or morphing; the vehicle maintains a consistent shape and structure throughout the clip. Therefore, no objects change shape or appearance.",
+  "fft_anisotropy_actual": "0.0453",
+  "fft_verdict_actual": "REAL (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/cb04fdb470f7_0.jpg",
+   "results/annotation/faithfulness_frames8/cb04fdb470f7_1.jpg",
+   "results/annotation/faithfulness_frames8/cb04fdb470f7_2.jpg",
+   "results/annotation/faithfulness_frames8/cb04fdb470f7_3.jpg",
+   "results/annotation/faithfulness_frames8/cb04fdb470f7_4.jpg",
+   "results/annotation/faithfulness_frames8/cb04fdb470f7_5.jpg",
+   "results/annotation/faithfulness_frames8/cb04fdb470f7_6.jpg",
+   "results/annotation/faithfulness_frames8/cb04fdb470f7_7.jpg"
+  ]
+ },
+ {
+  "item_id": "6e60eadedaec",
+  "clip": "cosmos-predict1/artifacts/SJsssmcq8U4_31440_14b.mp4",
+  "question": "Does any object appear or disappear without continuous motion ?",
+  "model_answer": "Yes",
+  "explanation": "The FFT analysis returned an anisotropy score of 0.0653, which exceeds the 0.048 threshold for real footage, indicating the video is likely AI-generated. The segmentation analysis of the cars revealed significant artifacts, including sudden changes in shape and position, such as a white van appearing to 'melt' into the background. This behavior is inconsistent with continuous motion and is a hallmark of AI-generated content. Therefore, objects do appear or disappear without continuous motion.",
+  "fft_anisotropy_actual": "0.0653",
+  "fft_verdict_actual": "GENERATED (high confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/6e60eadedaec_0.jpg",
+   "results/annotation/faithfulness_frames8/6e60eadedaec_1.jpg",
+   "results/annotation/faithfulness_frames8/6e60eadedaec_2.jpg",
+   "results/annotation/faithfulness_frames8/6e60eadedaec_3.jpg",
+   "results/annotation/faithfulness_frames8/6e60eadedaec_4.jpg",
+   "results/annotation/faithfulness_frames8/6e60eadedaec_5.jpg",
+   "results/annotation/faithfulness_frames8/6e60eadedaec_6.jpg",
+   "results/annotation/faithfulness_frames8/6e60eadedaec_7.jpg"
+  ]
+ },
+ {
+  "item_id": "3878d9d641dd",
+  "clip": "cosmos-drive-dreams/crossing_stop/cross_stop_060_Night.mp4",
+  "question": "Is it a safe way of driving for the ego car ?",
+  "model_answer": "No",
+  "explanation": "The optical flow analysis shows strong pink/magenta patterns, indicating the ego car is moving forward. The visual evidence confirms the car is in motion and passes the stop sign without stopping. This failure to stop at a designated stop sign is a violation of traffic rules and constitutes unsafe driving.",
+  "fft_anisotropy_actual": "0.0549",
+  "fft_verdict_actual": "GENERATED (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/3878d9d641dd_0.jpg",
+   "results/annotation/faithfulness_frames8/3878d9d641dd_1.jpg",
+   "results/annotation/faithfulness_frames8/3878d9d641dd_2.jpg",
+   "results/annotation/faithfulness_frames8/3878d9d641dd_3.jpg",
+   "results/annotation/faithfulness_frames8/3878d9d641dd_4.jpg",
+   "results/annotation/faithfulness_frames8/3878d9d641dd_5.jpg",
+   "results/annotation/faithfulness_frames8/3878d9d641dd_6.jpg",
+   "results/annotation/faithfulness_frames8/3878d9d641dd_7.jpg"
+  ]
+ },
+ {
+  "item_id": "5a339d965dfc",
+  "clip": "cosmos-drive-dreams/aggressive_takeover/agg_tk_030_Sunny.mp4",
+  "question": "Is the ego car following the traffic rules ?",
+  "model_answer": "Yes",
+  "explanation": "The optical flow analysis shows consistent pink/magenta patterns, indicating continuous forward motion of the ego car. There are no signs of backward movement or stopping. The car is moving through an underpass and continues forward in a manner consistent with normal traffic flow. The visual evidence from the original video supports this, showing no violations such as stopping at a red light or making an illegal turn. Therefore, the ego car is following traffic rules.",
+  "fft_anisotropy_actual": "0.0567",
+  "fft_verdict_actual": "GENERATED (high confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/5a339d965dfc_0.jpg",
+   "results/annotation/faithfulness_frames8/5a339d965dfc_1.jpg",
+   "results/annotation/faithfulness_frames8/5a339d965dfc_2.jpg",
+   "results/annotation/faithfulness_frames8/5a339d965dfc_3.jpg",
+   "results/annotation/faithfulness_frames8/5a339d965dfc_4.jpg",
+   "results/annotation/faithfulness_frames8/5a339d965dfc_5.jpg",
+   "results/annotation/faithfulness_frames8/5a339d965dfc_6.jpg",
+   "results/annotation/faithfulness_frames8/5a339d965dfc_7.jpg"
+  ]
+ },
+ {
+  "item_id": "5fa6c4a9d96a",
+  "clip": "cosmos-predict1/artifacts/pedestrians_006_Snowy.mp4",
+  "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+  "model_answer": "2",
+  "explanation": "The FFT analysis returned an anisotropy score of 0.0547, which is above the 0.048 threshold for real footage, indicating the video is likely generated. While the SAM masks show no obvious artifacts in the isolated objects, the primary FFT evidence suggests AI generation. Therefore, the scene is mostly realistic with minor issues.",
+  "fft_anisotropy_actual": "0.0547",
+  "fft_verdict_actual": "GENERATED (moderate confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/5fa6c4a9d96a_0.jpg",
+   "results/annotation/faithfulness_frames8/5fa6c4a9d96a_1.jpg",
+   "results/annotation/faithfulness_frames8/5fa6c4a9d96a_2.jpg",
+   "results/annotation/faithfulness_frames8/5fa6c4a9d96a_3.jpg",
+   "results/annotation/faithfulness_frames8/5fa6c4a9d96a_4.jpg",
+   "results/annotation/faithfulness_frames8/5fa6c4a9d96a_5.jpg",
+   "results/annotation/faithfulness_frames8/5fa6c4a9d96a_6.jpg",
+   "results/annotation/faithfulness_frames8/5fa6c4a9d96a_7.jpg"
+  ]
+ },
+ {
+  "item_id": "df91a92abe60",
+  "clip": "cosmos-drive-dreams/crossing_red_lights/cross_red_032_Foggy.mp4",
+  "question": "Is it a safe way of driving for the ego car ?",
+  "model_answer": "No",
+  "explanation": "The optical flow analysis shows dominant pink and magenta colors, indicating forward motion of the ego car. This is consistent with the visual evidence of the car moving through the intersection. However, the traffic light is red, and the car is proceeding against the signal. This is a violation of traffic rules and constitutes unsafe driving.",
+  "fft_anisotropy_actual": "0.0666",
+  "fft_verdict_actual": "GENERATED (high confidence)",
+  "frames": [
+   "results/annotation/faithfulness_frames8/df91a92abe60_0.jpg",
+   "results/annotation/faithfulness_frames8/df91a92abe60_1.jpg",
+   "results/annotation/faithfulness_frames8/df91a92abe60_2.jpg",
+   "results/annotation/faithfulness_frames8/df91a92abe60_3.jpg",
+   "results/annotation/faithfulness_frames8/df91a92abe60_4.jpg",
+   "results/annotation/faithfulness_frames8/df91a92abe60_5.jpg",
+   "results/annotation/faithfulness_frames8/df91a92abe60_6.jpg",
+   "results/annotation/faithfulness_frames8/df91a92abe60_7.jpg"
+  ]
+ }
+]

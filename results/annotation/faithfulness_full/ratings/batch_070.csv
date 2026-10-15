@@ -1,0 +1,72 @@
+item_id,consistent,false_claim,missed_event,note
+4638137c9740,Y,Y,N,"cars in frames look normal, no melting rooflines/morphing wheels visible"
+14440958a9e9,Y,Y,N,no dark spherical object visible on road in frames
+895e6cb13c46,Y,Y,N,"cars in frames look normal, no texture swimming/morphing visible"
+1b6149e69693,Y,Y,N,"cars in frames look normal, no wobbling roofs/windows visible"
+9266665a1ed6,Y,N,N,
+a2d8d78e2913,Y,N,N,
+c7777252f7a3,Y,Y,N,"no dark gray car on the right; car there is light SUV, not deforming"
+590b1410e042,Y,N,N,
+93e94219d3be,Y,N,N,
+10b7132745b0,Y,N,N,
+ea4b25bc5e1a,Y,N,N,
+4080b4c4c337,Y,N,N,
+48b55393fca8,Y,N,N,
+9906e1fb79be,Y,N,N,
+d8306d27e518,Y,N,N,
+ea31e8cd79a6,Y,N,N,
+cb04fdb470f7,Y,N,N,
+7654886e1ab2,Y,N,N,
+76d8db74be1b,Y,N,N,
+09a69d8283f4,Y,N,N,
+8e8d923b9fd4,Y,N,N,
+6a3161a70d47,N,N,N,reasoning finds no shape change but answers Yes
+bfc7a9b9a069,Y,N,N,
+0cd2af2b1685,Y,N,N,
+2c0e3f0d5df9,Y,Y,N,"car in frames looks normal, no melting roof or warped wheels visible"
+a23caaa03678,Y,N,N,
+205689c7b3b1,N,Y,N,"silver wagon in frames looks normal, no morphing/texture swimming visible"
+09b95acb0e05,Y,N,N,
+7fbfea691891,N,Y,N,"cars in frames look normal, no morphing visible"
+4636012a05b8,Y,N,N,
+79f1f7fe303d,Y,N,N,
+e1467b358929,N,N,N,wobbling-roof evidence cited doesn't address appear/disappear question
+aa3d7b197665,Y,N,N,
+c10d53c10e02,Y,N,N,"no-match: explanation concludes no such event observed, despite hedging"
+be109cf3f9a4,Y,N,N,
+4ebb29a132ea,Y,N,N,
+2ef21ea6ac57,Y,Y,N,"black car in frames looks normal, no wobbling roofline/morphing visible"
+82736e75bc9d,Y,Y,Y,"warped car-like glitch merging into dust on roadside, not mentioned"
+27a34ab91315,Y,N,N,
+34b83cffdcbe,Y,Y,Y,"warped car-like glitch merging into dust on roadside, not mentioned"
+f9d20d32617b,Y,Y,Y,"warped car-like glitch merging into dust on roadside, not mentioned"
+0698042dfb6a,Y,N,N,
+877137462b80,Y,N,N,
+45b17f3d05e5,Y,N,N,
+645d6ee804ad,Y,N,N,no-match: explanation concludes Yes
+a118cec86862,Y,N,N,
+a79979ba0ad4,Y,N,N,
+5a49c5a623fb,Y,N,N,
+8c9a676e05d3,Y,N,N,
+54ca45b1702d,N,N,N,reasoning finds no artifacts but answers Yes to shape change
+124858495d21,Y,N,N,
+b795c812f092,Y,Y,N,"red car roof/window look normal, no wobbling or texture swimming visible"
+af825bde2317,Y,Y,N,"red car edges look normal, no morphing visible"
+3e9ac408a3e1,Y,N,N,
+db659460d500,Y,N,N,
+848f8eed18b7,Y,N,N,
+28f7572854af,Y,N,N,
+489c6c50e420,Y,N,N,
+ca74b2e84e4f,Y,N,N,
+66ae891d18d5,Y,N,N,
+7b261a0e0c5a,Y,N,N,
+7a7e925e3b84,Y,N,N,
+415d3f0a3965,Y,N,N,
+ed345dd2c595,Y,N,N,
+c3da668bcb04,Y,N,N,
+d5f9954213f2,Y,N,N,
+363b7c6db247,Y,N,N,
+562f0c2c0561,Y,N,N,
+c7cb179aa7d4,Y,N,N,
+781087a8d361,Y,N,N,
+9e5762d3bf0d,Y,Y,N,"pickup truck in frames looks normal, no wobbling roof/windows visible"

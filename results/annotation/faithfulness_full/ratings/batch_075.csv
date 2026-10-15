@@ -1,0 +1,67 @@
+item_id,consistent,false_claim,missed_event,note
+20e78a893c12,Y,N,N,
+f3699d8c4639,Y,N,N,
+d38608d81b83,Y,N,N,
+7e42dd623d80,Y,Y,N,"Pedestrian walks continuously behind SUV, not sudden vanish; cited timestamps exceed 5s clip"
+7ca9e870b4f1,Y,N,N,
+c6330a315d29,Y,N,N,
+94e86883af9e,Y,N,N,
+ef9448537b61,Y,N,N,
+ad52cf3d9052,Y,Y,N,"Quoted anisotropy 0.0401 vs actual 0.0621 (GENERATED high conf), mismatch"
+4f4a59625ce1,Y,Y,N,"Quoted anisotropy 0.0401 vs actual 0.0621 (GENERATED high conf), mismatch"
+7bd127df20be,Y,N,N,
+75038aabbfaa,Y,N,N,
+fb542ac8d30a,Y,N,N,
+b28804aed4c3,Y,N,N,
+20494a0a62aa,Y,N,N,
+1dda02ebca9b,N,N,N,"Own evidence: stable, no sudden appear/disappear; concludes generated, not Yes to the actual question"
+18a21034974e,Y,N,N,
+2d4bd9a96f1d,Y,N,N,
+f5fe435d3845,Y,Y,Y,"Frame 3 shows a large warped car blob appear then vanish by frame 4; contradicts 'rigid, no shape change' claim"
+cb1cfa02535c,Y,N,N,
+69c942975577,Y,Y,N,"Quoted anisotropy 0.0425 vs actual 0.0571 (GENERATED high conf), mismatch"
+2ec65f28f27b,Y,Y,N,"Quoted anisotropy 0.0425 vs actual 0.0571 (GENERATED high conf), mismatch"
+d791b2436304,Y,Y,N,"Quoted anisotropy 0.0425 vs actual 0.0571 (GENERATED high conf), mismatch"
+477e610d70c8,Y,Y,N,"Quoted anisotropy 0.0500 vs actual 0.0710 (GENERATED high conf), mismatch"
+a7a1a77f611c,Y,Y,N,"Quoted anisotropy 0.0500 vs actual 0.0710 (GENERATED high conf), mismatch"
+f8b0c12aa155,Y,Y,N,"Quoted anisotropy 0.0500 vs actual 0.0710 (GENERATED high conf), mismatch"
+eceaae94db8d,Y,N,N,
+0eb7efe52144,Y,N,N,
+1226e7712354,Y,N,N,
+55ef639cbf9a,Y,N,N,
+5d04f41d163b,Y,N,N,
+db9042b151b7,Y,N,N,
+08ef1b4caa5a,Y,N,N,
+92198f6f1529,Y,N,N,
+7f9fbe2a41c5,Y,N,N,
+a1f3e457cf47,N,N,N,"Reasoning concludes video is generated, never addresses the appear/disappear question itself"
+6f06765de018,Y,N,N,
+e0b122901984,Y,N,N,
+45f6441dda14,Y,N,N,
+8bdc0677660b,Y,Y,N,"Quoted anisotropy 0.0434 vs actual 0.0610 (GENERATED high conf), mismatch"
+17c246a9a916,Y,Y,N,"Quoted anisotropy 0.0434 vs actual 0.0610 (GENERATED high conf), mismatch"
+0b26eb015172,Y,Y,N,"Quoted anisotropy 0.0434 vs actual 0.0610 (GENERATED high conf), mismatch"
+a24fc07ab27c,Y,Y,N,"Quoted anisotropy 0.0434 vs actual 0.0610 (GENERATED high conf), mismatch"
+029e7a34d664,Y,N,N,
+d6a4b2acd580,Y,N,N,
+306563c60c81,Y,N,N,
+0746fb70e5a5,Y,N,N,
+166365e741f2,Y,N,N,
+9f82f6d8ae2d,Y,N,N,
+49ae70cc3dcc,Y,Y,Y,"Quoted FFT 0.0382 vs actual 0.0606; frame 7 shows a car front clearly melted/warped, contradicting score 3"
+f2cc809b9656,Y,Y,N,"Quoted anisotropy 0.0382 vs actual 0.0606 (GENERATED high conf), mismatch"
+a39c4879ed38,Y,Y,N,"Quoted FFT 0.0382 vs actual 0.0606; frame 7 also shows a car front visibly melted, contradicting 'stable structure'"
+45babc80c11f,Y,Y,Y,"Frame 7 shows a parked car's front clearly melted/warped; contradicts 'no shape change, structural integrity' claim"
+e051d1ff324f,Y,N,N,
+d14cb49bcfa2,Y,N,N,
+258ffaed964b,Y,N,N,
+fae1a62ac566,Y,N,N,
+62fdcead38a4,Y,Y,N,"Quoted anisotropy 0.0414 vs actual 0.0592 (GENERATED high conf), mismatch"
+1e9e2f04921c,Y,Y,N,"Quoted anisotropy 0.0414 vs actual 0.0592 (GENERATED high conf), mismatch"
+95a4cf50008e,Y,N,N,
+4f0f8258bbed,Y,N,N,
+5945cdc2b8b4,Y,N,N,
+acbc9aae6b82,Y,N,N,
+ee8bc9837211,Y,N,N,
+4868c713bacd,Y,N,N,
+c923148e24d5,Y,N,N,

@@ -1,0 +1,69 @@
+item_id,consistent,false_claim,missed_event,note
+83e1e8f3aad4,Y,N,N,
+94390800ab89,Y,N,N,
+563f52d13d4c,Y,N,N,
+379a902e8e75,Y,Y,N,cars/truck present every frame; no appear/disappear seen
+79017db22898,Y,N,N,
+7338b4c651c1,Y,N,N,
+00f14e69d8f1,Y,N,N,
+0b8980464448,Y,N,N,
+3319b16eead6,Y,Y,N,quoted anisotropy 0.0304 vs actual 0.0508 mismatch
+0107b8d4dad2,Y,Y,N,quoted anisotropy 0.0304 vs actual 0.0508 mismatch
+627c24dc96eb,Y,N,N,
+987b5554b86e,Y,Y,N,"cars stable in frames, no wobbling; building morphs not cars"
+0571597721bb,Y,N,N,
+09eb0b2b2f01,Y,N,N,
+89b8e1ceaa8e,Y,N,N,
+d5d536211cd0,Y,N,N,
+2ee250e563b1,Y,Y,N,cars stable across frames; no melting/warping/texture swimming seen
+258325af385d,Y,N,N,
+4f5b83ef4101,Y,Y,N,quoted anisotropy 0.0362 vs actual 0.0584 mismatch
+7b55f148c681,Y,Y,N,quoted anisotropy 0.0362 vs actual 0.0584 mismatch
+bc3c2c932f82,Y,Y,N,quoted anisotropy 0.0362 vs actual 0.0584 mismatch
+a34e0481c3e2,Y,Y,N,quoted anisotropy 0.0362 vs actual 0.0584 mismatch
+34421e83aafd,Y,N,N,
+93e172db9b68,Y,N,N,
+6a241ab96a0f,Y,N,N,
+a9f7b9638c75,Y,N,N,
+1a0328842f1f,Y,N,N,
+33fc767cbbfd,Y,Y,N,quoted anisotropy 0.0443 vs actual 0.0674 mismatch
+1b37a81aef11,Y,Y,N,quoted anisotropy 0.0443 vs actual 0.0674 mismatch
+d6c52dd6bc92,Y,Y,N,quoted anisotropy 0.0443 vs actual 0.0674 mismatch
+63ee576e1740,Y,Y,N,quoted anisotropy 0.0443 vs actual 0.0674 mismatch
+922b6f7f1019,Y,N,N,
+209cadf06066,Y,N,N,
+807d6c12a1fb,Y,Y,N,quoted anisotropy 0.0395 vs actual 0.0536 mismatch
+b4963992e387,Y,Y,N,quoted anisotropy 0.0395 vs actual 0.0536 mismatch
+134a4be1988a,Y,Y,N,quoted anisotropy 0.0395 vs actual 0.0536 mismatch
+63c6c737abd8,Y,Y,N,quoted anisotropy 0.0395 vs actual 0.0536 mismatch
+17fce600e68a,Y,N,N,
+793c185447f6,Y,N,N,
+c99fc6d81e63,Y,N,N,
+451a1458e1eb,Y,N,N,
+dce5d0173193,Y,N,N,
+c0df34f23f1c,Y,N,N,
+cd53a9787885,Y,N,N,
+02b6e0669792,Y,N,N,
+545e68470910,Y,Y,N,quoted anisotropy 0.0493 vs actual 0.0638 mismatch
+5b74923900a9,Y,Y,N,quoted anisotropy 0.0493 vs actual 0.0638 mismatch
+936f6c237bc3,Y,Y,N,quoted anisotropy 0.0493 vs actual 0.0638 mismatch
+5627854880f6,Y,N,N,
+c1c4a9e19635,Y,N,N,
+b4c7dbe70984,Y,Y,N,denies morphing but vehicle changes color/shape black to orange across frames
+0f70078537c2,Y,Y,Y,"vehicle changes color/shape black to orange across frames; missed, contradicts no-morph claim"
+8f5a15d9bbfc,Y,N,N,
+7cd5ecd74468,Y,N,N,
+feac9fa34901,Y,Y,N,"Jeep roof looks stable, no melting visible across frames"
+10bcbac9becd,Y,N,N,
+8d29945f5d24,Y,N,N,
+024702864c79,Y,N,Y,"vehicle drastically changes color/shape, gibberish signage omitted; would justify score 1"
+f9e3e3e94ab9,Y,N,N,
+f0bd63f8fa76,Y,N,N,
+fae98400abf5,Y,N,N,
+8965a5d6cddd,Y,N,N,
+8cbea69d1642,Y,N,N,
+e85f99c94f0b,Y,N,N,
+7b3aa7a3b941,Y,Y,N,quoted anisotropy 0.0361 vs actual 0.0595 mismatch
+3032199d7088,Y,Y,N,quoted anisotropy 0.0361 vs actual 0.0595 mismatch
+8ad4ebda126f,Y,Y,N,quoted anisotropy 0.0361 vs actual 0.0595 mismatch
+c902f884d49a,Y,Y,N,quoted anisotropy 0.0361 vs actual 0.0595 mismatch

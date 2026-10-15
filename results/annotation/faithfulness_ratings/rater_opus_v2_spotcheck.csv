@@ -1,0 +1,21 @@
+item_id,consistent,false_claim,missed_event,note
+0be58d4db797,Y,Y,N,Claims car stopped at red; frames show it crossing intersection on red
+5411eab9c1d0,Y,Y,N,Says no red-light running; ego crosses under red signal heads
+5742666860f6,Y,N,N,Red lights correct; ego visibly decelerating on approach
+ba2fd7bccf19,N,N,N,Text concludes behavior IS consistent but answer given is No
+bea90b452eea,Y,N,N,Stopping at red in fog matches frames
+2f52ab2a7f27,Y,Y,N,Claims stop; ego passes directly under red signal head
+356d45aeca9a,Y,Y,N,Invents green traffic light; scene is a stop-sign intersection
+bba53cb444bb,Y,Y,N,Claims stop at stop line; ego drives over STOP marking at speed
+b0340b61222e,Y,Y,N,Road text garbled (SNTAGD); claims markings fully realistic
+91925d09b4bc,Y,N,N,FFT value quoted correctly; no artifacts visible in frames
+f72c35527de4,Y,Y,N,Parked cars visibly melted into blobs; claims no shape change
+68c2af616fe1,Y,N,N,FFT quote matches; answer inferred from generation verdict
+6db403f64708,Y,N,N,FFT quote matches; answer inferred from generation verdict
+311d2896e72c,Y,N,N,FFT quote matches; yellow van morphs but answer unaffected
+cb04fdb470f7,Y,Y,N,Lead car smears and deforms in last frame; claims stable shape
+6e60eadedaec,Y,N,N,Melting van and warping match frames; FFT quote correct
+3878d9d641dd,Y,N,N,Ego passes stop sign without stopping as described
+5a339d965dfc,Y,N,Y,Omits ego overtaking blue car on the right at speed
+5fa6c4a9d96a,Y,N,N,FFT quote correct; score 2 inferred from generated verdict
+df91a92abe60,Y,N,N,Red light and forward motion toward intersection match frames

@@ -3,14 +3,7 @@
   "yLabel": "Accuracy (%)",
   "points": [
     {
-      "name": "Qwen-Omni",
-      "time": 5.76,
-      "accuracy": 10.4,
-      "category": "base",
-      "highlight": false
-    },
-    {
-      "name": "Qwen3-VL",
+      "name": "Qwen3-VL-30B",
       "time": 0.33,
       "accuracy": 21.9,
       "category": "base",
@@ -19,7 +12,7 @@
     {
       "name": "LLaVA-OneVision",
       "time": 0.55,
-      "accuracy": 23.1,
+      "accuracy": 23.9,
       "category": "base",
       "highlight": false
     },
@@ -33,14 +26,21 @@
     {
       "name": "Cosmos-Reason",
       "time": 1.26,
-      "accuracy": 25.7,
+      "accuracy": 26.5,
+      "category": "base",
+      "highlight": false
+    },
+    {
+      "name": "Qwen3-Omni-30B",
+      "time": 5.76,
+      "accuracy": 27.4,
       "category": "base",
       "highlight": false
     },
     {
       "name": "InternVL3.5-30B",
       "time": 1.46,
-      "accuracy": 30.8,
+      "accuracy": 30.9,
       "category": "base",
       "highlight": false
     },

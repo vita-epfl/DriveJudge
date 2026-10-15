@@ -1,0 +1,71 @@
+item_id,consistent,false_claim,missed_event,note
+267f63f6c173,Y,N,N,
+1133e18b2148,Y,N,N,
+e59151a7f434,Y,N,N,
+26290b544b2c,Y,N,N,
+5f9f67bee1b5,Y,Y,N,"quotes anisotropy 0.0434, actual 0.0565"
+3203b7a992c9,Y,Y,N,"quotes anisotropy 0.0434, actual 0.0565"
+e22d6d2a5c57,Y,Y,N,"quotes anisotropy 0.0434, actual 0.0565"
+be722bd0a963,Y,N,N,
+281d8379234f,Y,N,N,
+f1fe20e18e0e,Y,N,N,
+c1d6f0a56757,Y,N,N,
+5c7f2f2350d8,Y,N,N,
+2ba9d4355cdb,Y,N,N,
+ff7fdebb32f5,Y,N,N,
+e3209d0bfefb,Y,N,N,
+a38ae1dae4a3,Y,N,N,
+0bf44ae0bf85,Y,N,N,
+e537e7019c1e,Y,N,N,
+e426a8a20fb6,Y,N,N,
+a26cfd32dcaa,Y,N,N,
+5b9a72275afb,Y,N,N,
+33f1e98ef0f6,Y,N,N,
+b05d853ccf8d,Y,N,N,
+a1b1b729155a,Y,N,N,
+17bcf70f4407,Y,N,N,
+538def92288e,Y,Y,N,"quotes anisotropy 0.0413, actual 0.0549"
+4313c6143229,Y,Y,N,"quotes anisotropy 0.0413, actual 0.0549"
+ee69528e34e4,Y,Y,N,"quotes anisotropy 0.0413, actual 0.0549"
+1f7795853ff7,Y,N,N,
+5144d9f53304,Y,Y,N,claims texture swimming/morphing; car shape stable in frames
+c896f11788bb,Y,N,N,
+1b2d7c5cbeb1,Y,N,N,
+577dc2e0e16d,Y,N,N,
+ba2487e93cab,Y,N,N,
+f3f26549f6f8,Y,N,N,
+fbdfad91e10e,Y,N,N,
+2b5f96b90835,Y,N,N,
+b3734fd3a548,Y,Y,N,claims van roof wobble/texture swim/merge; van shape stable in frames
+f6ee92deb4ca,Y,Y,N,"quotes anisotropy 0.0464, actual 0.0654"
+348c827f5ade,Y,Y,N,"quotes anisotropy 0.0464, actual 0.0654"
+5667795c74b6,Y,Y,N,"quotes anisotropy 0.0464, actual 0.0654"
+1af8eac7c692,Y,N,N,
+c7a19c38e071,Y,Y,N,claims significant car morphing; shapes stable across frames
+df6b544fbc1a,Y,N,N,
+83b96e38e105,Y,Y,N,"quotes anisotropy 0.0416, actual 0.0592"
+4723f8a668aa,Y,Y,N,"quotes anisotropy 0.0416, actual 0.0592"
+f4ae5feae709,Y,Y,N,"quotes anisotropy 0.0416, actual 0.0592"
+23b47d00c748,Y,Y,N,"quotes anisotropy 0.0415, actual 0.0657"
+64c185438008,Y,Y,N,"quotes anisotropy 0.0415, actual 0.0657"
+4e398580ed28,Y,Y,N,"quotes anisotropy 0.0415, actual 0.0657"
+312cfc4d6a90,Y,Y,N,"quotes anisotropy 0.0415, actual 0.0657"
+c0d8152063b6,Y,Y,N,claims severe roof/window wobbling; not visible in frames
+f5b54b79551e,Y,N,N,
+60cd566defe3,Y,N,N,
+c2b88bf7fa1a,Y,N,N,
+ecbf9a694bf0,Y,N,N,
+72e8a3acba93,Y,N,N,
+564727c43216,Y,N,N,
+c7afdc0cc110,Y,Y,N,"quotes anisotropy 0.0375, actual 0.0562"
+473f2d65e8f0,Y,Y,N,"quotes anisotropy 0.0375, actual 0.0562"
+13739c58e558,Y,Y,N,"quotes anisotropy 0.0375, actual 0.0562"
+a034aa19822a,Y,Y,N,"quotes anisotropy 0.0375, actual 0.0562"
+1a71363467c1,Y,N,N,
+9cdf67b52586,Y,N,N,
+fe495db0016b,Y,N,N,
+67134560c37b,Y,N,N,
+befc6ceed84d,Y,N,N,
+2d43fd02c3af,Y,N,N,
+6bd14520e95b,Y,N,N,
+6f223564059b,Y,N,N,

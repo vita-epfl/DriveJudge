@@ -1,0 +1,101 @@
+item_id,cites_tool,citation_matches_output,conclusion_follows,hallucination,note
+9c1694c1f788,Y,Y,2,N,smooth flow over-reaches to safety verdict
+c3b3b1b46566,Y,Y,2,N,smooth flow does not establish safe driving
+f1f051d51342,Y,Y,2,N,forward flow only and safety claim over-reaches
+bbd47e308efe,Y,Y,3,N,green light confirmed in frames
+54754ddb5982,Y,Y,2,N,no signals on highway so only partial rule evidence
+952750777abb,Y,Y,2,N,flow smoothness cannot establish perfectly safe
+bba863cabc35,Y,Y,2,N,frames suggest ego passes left-lane traffic
+15ebe23c9aa7,Y,Y,2,N,flow prominence on right is weak side evidence
+152c2ad91c78,Y,Y,2,N,forward motion only for rule compliance
+beb6eb6e3334,Y,Y,2,N,close following behind truck not addressed
+ba58849ed6c7,Y,Y,2,N,frames show rapid passing of left-lane traffic
+5a339d965dfc,Y,Y,2,N,underpass confirmed but rule evidence partial
+e0354245e881,Y,Y,2,N,smooth flow cannot support perfectly safe
+66de8228fb77,Y,Y,2,N,flow smoothness over-reaches to score 3
+012df2dc6a06,Y,Y,2,N,forward flow only used for safety score
+b5a845414132,Y,Y,2,N,very close pass of semi not addressed
+67a8aa8204db,Y,Y,3,N,red lights and forward motion confirmed
+bd8932cec76a,Y,Y,3,N,red light crossing confirmed in frames
+0be58d4db797,Y,Y,1,Y,claims stop at red but frames show crossing
+ff7114196baa,Y,Y,3,N,red lights confirmed and ego crosses
+507f635eee17,Y,Y,3,N,red lights and crossing confirmed
+752bd8ab6fe8,Y,Y,3,N,red lights confirmed ahead of moving ego
+7e66bc21aa5c,Y,Y,3,N,red lights confirmed in fog
+df40704a52bf,Y,Y,3,N,red lights confirmed at night intersection
+237b7fa68b3e,Y,Y,3,N,red lights confirmed while ego proceeds
+5411eab9c1d0,Y,Y,2,N,ego signal appears green so claim not contradicted
+5742666860f6,Y,Y,3,N,frames cannot contradict claimed stop at red
+ba2fd7bccf19,Y,Y,1,N,reasoning says consistent yet answer is No
+df91a92abe60,Y,Y,3,N,red light and forward motion confirmed
+a80d873b5863,Y,Y,3,N,red lights confirmed in snowy night scene
+064d9ca176a4,Y,Y,3,N,red light and crossing visible in frames
+bea90b452eea,Y,Y,1,Y,claims stopped but frames show ego crossing at red
+2f52ab2a7f27,Y,Y,1,Y,claims stop but ego crosses intersection at red
+06a46a736257,Y,Y,3,N,red lights and crossing confirmed
+d46760bf92d4,Y,Y,3,N,stop sign and forward motion confirmed
+56710399814b,Y,Y,2,N,claims stop yet cites continuous forward flow
+cc9e57cf5d01,Y,Y,3,N,ego passes stop line and continues
+be0fa34583b8,Y,Y,3,N,forward motion past stop line confirmed
+749a2cb4f5e8,Y,Y,3,N,ego moves through intersection in frames
+f99d831d9d3c,Y,Y,3,N,stop sign visible and ego proceeds
+2494a83aac7d,Y,Y,2,N,says car comes to a stop yet answers not stopped
+356d45aeca9a,Y,Y,1,Y,invents a green light at a stop-sign junction
+bbadb31e5d35,Y,Y,3,N,claimed stop unverifiable but narrative coherent
+e6b0268ba9c3,Y,Y,3,N,stop sign visible and ego proceeds
+bba53cb444bb,Y,Y,3,Y,no stop sign or stop line visible in frames
+a243d95f8d23,Y,Y,3,N,stop sign visible and ego continues
+9777c9f55568,Y,Y,3,N,claimed stop not verifiable from frames
+f20c038d0b41,Y,Y,3,N,forward motion confirmed through intersection
+7244e4ef7ec3,Y,Y,3,N,claimed stop plausible between frames
+3878d9d641dd,Y,Y,3,N,stop sign visible and ego proceeds
+1df94daaa60d,Y,Y,3,N,FFT value and REAL verdict match tool output
+18a9776812ce,Y,Y,3,N,FFT value and verdict match
+673d6eb75a51,Y,Y,3,N,FFT value and verdict match
+24d9581e5c46,Y,Y,3,N,FFT matches and SAM melting claim unverifiable
+dcbddc716a43,Y,Y,3,N,quoted 0.0508 vs actual 0.0506 within tolerance
+e88745be3662,Y,Y,3,N,FFT value and verdict match
+f7e66283ffef,Y,Y,3,N,FFT value and verdict match
+1af19f6cee47,Y,Y,3,N,FFT matches and realism score coherent
+fe2061b24c9a,Y,Y,3,N,FFT matches and score 2 explained
+07bc4674be57,Y,Y,3,N,FFT value and verdict match
+bccc4aa6e8dc,Y,Y,2,N,jumps from generated verdict to clearly impossible score
+4df30600ec75,Y,Y,3,N,FFT value and verdict match
+9afd1df0efeb,Y,Y,3,N,FFT value and verdict match
+0d5bb3772a9a,Y,Y,3,N,FFT value and verdict match
+84f18ce364fe,Y,Y,2,N,score 1 unsupported by the clean visual evidence
+89a40ff422a3,Y,Y,3,N,FFT value and verdict match
+8568ace0fad0,Y,Y,3,N,FFT value and verdict match
+b0340b61222e,Y,Y,3,Y,garbled road text contradicts realism claim
+2a6030d65479,Y,Y,3,N,FFT value and REAL verdict match
+91925d09b4bc,Y,Y,2,N,overrides above-threshold FFT with absence of artifacts
+b4fed0ea2cc4,Y,Y,3,N,FFT value and verdict match
+6e5878697549,Y,Y,3,N,FFT matches and realism score coherent
+b8b70102deb2,Y,Y,3,N,FFT value and REAL verdict match
+1b324ca65468,Y,Y,3,N,frames show no visible artifacts
+e44f7a94b5b7,Y,Y,3,N,FFT value and verdict match
+e26414e94f78,Y,Y,3,N,FFT value and verdict match
+b7013a42e72f,Y,Y,3,N,FFT matches and warped facades visible
+6e60eadedaec,Y,Y,3,N,FFT matches and frames show artifacts
+d5be56fb619c,Y,Y,2,N,score 1 unsupported by clean visual evidence
+037d6286ba68,Y,Y,3,N,FFT value and REAL verdict match
+69fb26cadb4b,Y,Y,3,N,FFT matches and no clear artifact in frames
+f72c35527de4,Y,Y,3,Y,middle frame shows a visibly melted car
+5268ca8660bf,Y,Y,3,N,FFT value and verdict match
+98830bc54c57,Y,Y,3,N,FFT matches and score 2 coherent
+fe9fb63a1285,Y,Y,3,N,FFT value and verdict match
+e3e44ce86111,Y,Y,3,N,FFT value and verdict match
+68c2af616fe1,Y,Y,1,N,answer rests on generic prior not observed evidence
+6db403f64708,Y,Y,1,N,artifacts assumed from FFT rather than observed
+1a40bf67d642,Y,Y,2,N,score 1 unsupported by clean visual evidence
+cb04fdb470f7,Y,Y,3,N,FFT matches and no clear shape change seen
+44142f04b2ec,Y,Y,3,N,FFT matches and wobble claim not refutable
+96fa67cde006,Y,Y,3,N,FFT value and verdict match
+5fa6c4a9d96a,Y,Y,3,N,FFT value and verdict match
+fc927a25197e,Y,Y,3,N,FFT value and verdict match
+ba66a4850834,Y,Y,3,N,FFT value and verdict match
+26a84d311702,Y,Y,3,N,no clear appearance or disappearance in frames
+23b5dd7bedcc,Y,Y,3,N,FFT matches and objects consistent across frames
+2286b87c4d51,Y,Y,3,N,night blur prevents confirming shape change
+311d2896e72c,Y,Y,1,N,answer inferred from FFT despite clean masks
+d218a7063cc7,Y,Y,3,N,FFT value and verdict match

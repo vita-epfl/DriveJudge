@@ -1,26 +1,71 @@
 """Analysis pipeline for GPT-5.4-mini batch results.
 
-Mirrors `analysis/answer_analysis_agent.py` (same cleaning + GT-join logic,
+Mirrors `src/analysis/answer_analysis_agent.py` (same cleaning + GT-join logic,
 the GPT shape already matches the agent shape) but wraps the whole thing
 in a single-model entry point and emits the extra artifacts needed for the
 LaTeX report: accuracy tables (overall / per-source / per-category /
 per-question) and a per-category JSON dump of failures for subagents.
 """
 
+import argparse
 import json
 import os
 import re
 import sys
 from collections import Counter
+from pathlib import Path
 
 import polars as pl
 
-ROOT = "/home/matthieu/Documents/Projet de master/VLM-eval-rcp"
-RESULTS_PATH = f"{ROOT}/closed_source_evaluation/gpt/results/gpt_all_results.json"
-QUESTIONS_DD = f"{ROOT}/dataset/dataset_final/questions_cosmos-drive-dreams.json"
-QUESTIONS_P1 = f"{ROOT}/dataset/dataset_final/questions_cosmos-predict1.json"
-OUT_DIR = f"{ROOT}/closed_source_evaluation/gpt/analysis"
+_HERE = Path(__file__).resolve().parent
+ROOT = _HERE.parents[4]
+QUESTIONS_DD = ROOT / "dataset/dataset_final/questions_cosmos-drive-dreams.json"
+QUESTIONS_P1 = ROOT / "dataset/dataset_final/questions_cosmos-predict1.json"
+OUT_DIR = _HERE
 CLUSTER_PREFIX = "/mnt/vita/scratch/vita-students/users/scharffe/VLM-eval/final_dataset/"
+
+DEFAULT_MODEL = "gpt-5.4-mini"
+DEFAULT_STEM = "gpt"
+# Repo-level analyzed parquet name for the default model (unchanged history).
+DEFAULT_DISPLAY = "GPT-5.4-mini"
+RESULTS_PATH = _HERE.parent / "results" / f"{DEFAULT_STEM}_all_results.json"
+
+_UNSAFE = re.compile(r"[^A-Za-z0-9._-]+")
+
+
+def sanitise(name: str) -> str:
+    return _UNSAFE.sub("_", (name or "").strip()).strip("._-") or "model"
+
+
+def parse_args(argv=None):
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--model", default=DEFAULT_MODEL,
+                    help="Model id; drives the default output names.")
+    ap.add_argument("--results", type=Path, default=None,
+                    help=f"Results JSON (default {RESULTS_PATH.name} for the "
+                         "default model, <model>_all_results.json otherwise).")
+    ap.add_argument("--out-name", default=None,
+                    help="Prefix for the local artifacts (default `gpt` for the "
+                         "default model, the sanitised model id otherwise).")
+    ap.add_argument("--out-dir", type=Path, default=OUT_DIR)
+    ap.add_argument("--analyzed-out", type=Path, default=None,
+                    help="Repo-level analyzed parquet "
+                         "(default results/<Model>_analyzed.parquet). Only "
+                         "written when it does not exist yet, or with --overwrite.")
+    ap.add_argument("--overwrite", action="store_true",
+                    help="Allow --analyzed-out to replace an existing parquet.")
+    args = ap.parse_args(argv)
+
+    is_default = args.model == DEFAULT_MODEL
+    stem = DEFAULT_STEM if is_default else sanitise(args.model)
+    if args.out_name is None:
+        args.out_name = stem
+    if args.results is None:
+        args.results = _HERE.parent / "results" / f"{stem}_all_results.json"
+    if args.analyzed_out is None:
+        display = DEFAULT_DISPLAY if is_default else sanitise(args.model)
+        args.analyzed_out = ROOT / "results" / f"{display}_analyzed.parquet"
+    return args
 
 
 def clean_records(raw):
@@ -121,8 +166,10 @@ def table(df: pl.DataFrame, group: list[str]) -> pl.DataFrame:
     )
 
 
-def main():
-    with open(RESULTS_PATH) as f:
+def main(argv=None):
+    args = parse_args(argv)
+
+    with open(args.results) as f:
         raw = json.load(f)
     with open(QUESTIONS_DD) as f:
         qdd = json.load(f)
@@ -133,9 +180,17 @@ def main():
     enriched, missing = enrich(cleaned, build_lookup(qdd), build_lookup(qp1))
     df = to_df(enriched)
 
+    OUT_DIR = args.out_dir
     os.makedirs(OUT_DIR, exist_ok=True)
-    df.write_parquet(f"{OUT_DIR}/gpt_results_enriched.parquet")
-    df.write_csv(f"{OUT_DIR}/gpt_results_enriched.csv")
+    df.write_parquet(f"{OUT_DIR}/{args.out_name}_results_enriched.parquet")
+    df.write_csv(f"{OUT_DIR}/{args.out_name}_results_enriched.csv")
+
+    if args.analyzed_out.exists() and not args.overwrite:
+        print(f"[skip] {args.analyzed_out} already exists — pass --overwrite to replace.")
+    else:
+        args.analyzed_out.parent.mkdir(parents=True, exist_ok=True)
+        df.write_parquet(args.analyzed_out)
+        print(f"Wrote {args.analyzed_out} ({df.shape[0]} rows x {df.shape[1]} cols).")
 
     overall_acc = df["correct"].mean()
     by_source = table(df, ["source"])
@@ -163,6 +218,8 @@ def main():
             json.dump(wrong_records, fp, indent=2, ensure_ascii=False)
 
     summary = {
+        "model": args.model,
+        "results_path": str(args.results),
         "n_records_raw": len(raw),
         "n_records_cleaned": len(cleaned),
         "n_missing_gt": missing,
@@ -174,7 +231,7 @@ def main():
         "per_question": by_q.to_dicts(),
         "per_category_failure_counts": per_cat_counts,
     }
-    with open(f"{OUT_DIR}/gpt_accuracy_summary.json", "w") as f:
+    with open(f"{OUT_DIR}/{args.out_name}_accuracy_summary.json", "w") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
     # ---- stdout report ----

@@ -1,0 +1,69 @@
+item_id,consistent,false_claim,missed_event,note
+cf4b761d04ea,Y,N,N,
+cc640b84c7d7,Y,N,N,
+77426a56c503,Y,N,N,
+e348207b39d3,N,N,N,"Reasoning only concludes 'generated'; no morphing seen argues against shape-change Yes, no bridge given"
+7ff705bdcac3,Y,N,N,
+157da67d8f59,Y,N,N,
+6919dda5f632,Y,N,N,
+2c0ad8473023,Y,Y,N,Quotes anisotropy 0.0492; actual is 0.0546
+206c9d2d61a2,Y,Y,N,Quotes anisotropy 0.0492; actual is 0.0546
+04cff8b6068a,Y,Y,N,"Quotes anisotropy 0.0448 (real); actual is 0.0649, GENERATED high confidence"
+d565016f0b0e,Y,Y,N,"Quotes anisotropy 0.0448 (real); actual is 0.0649, GENERATED high confidence"
+db6b541307f2,Y,Y,N,"Quotes anisotropy 0.0448 (real); actual is 0.0649, GENERATED high confidence"
+cc34cb56e90a,Y,N,N,
+7670b496e651,Y,N,N,
+06ab02c3bda7,Y,N,N,
+90d2cd082710,Y,N,N,
+ba73568689d0,Y,N,N,
+5dbd81ebc866,Y,N,N,
+2414d018abe6,Y,N,N,
+673dddea9e5d,Y,Y,N,Claims 'no detectable anomalies' but road text is gibberish; anisotropy quoted wrong too
+d9d46aac0961,Y,Y,N,Claims no texture distortion but road text is gibberish; anisotropy also misquoted
+4fcf67120621,Y,Y,N,Quotes anisotropy 0.0391; actual is 0.0587 (generated)
+e4280479febe,Y,Y,Y,Quotes anisotropy 0.0391 (real); actual 0.0587 generated; omits gibberish road text
+76929bb6799c,Y,Y,N,Quotes anisotropy 0.0456; actual is 0.0619
+d1d88d5df725,Y,Y,N,Quotes anisotropy 0.0456; actual is 0.0619
+9a97b498daa4,Y,Y,N,"Quotes anisotropy 0.0456 (real); actual 0.0619, GENERATED high confidence"
+0a1d4c89fb8b,Y,N,N,
+19d392a009e0,Y,N,N,
+ad865ae87bcf,N,N,N,"Own evidence says segmentation found no appear/disappear, yet answers Yes without bridging reason"
+a2aeb6c2cfc5,Y,N,N,
+5a7540049877,Y,N,N,
+e81997a2d260,Y,N,N,
+dccadc8aa7c9,Y,N,N,
+b56660350b61,Y,N,N,
+1021ccf803fb,Y,N,N,
+61b6a8c4e825,Y,N,N,
+357c3f8a67f8,Y,N,N,
+3f3d07f56505,Y,N,N,
+f98f2ed0cefb,Y,N,N,
+d3c7dc8187d4,Y,N,N,
+9e023414d33b,Y,N,N,
+cda225874ab6,Y,N,N,
+e4f07d4e9695,Y,N,N,
+34580eedca4a,Y,N,N,
+10670fc7d092,Y,N,N,
+09ad1aaeefaf,Y,N,N,
+edcb03bdf600,Y,N,N,
+bf8069aefc5b,Y,N,N,
+31981787aca0,Y,N,N,
+4bd0058b7965,Y,N,N,
+6f6bc402c6b6,Y,N,N,
+61699e4267f4,Y,N,N,
+866654c672df,Y,N,N,
+ebe7a7f5888a,Y,N,N,
+dcfa53255626,Y,N,N,
+f6890944a5c9,Y,N,N,
+6db403f64708,Y,N,N,
+0f4abe0df3fb,Y,N,N,
+c2efa06607a3,Y,N,N,
+b41a84927e7a,Y,N,N,
+5cea20b80af1,Y,N,N,
+566840b4edd7,Y,N,N,
+f9d8c440063b,Y,N,N,
+dbd81369fadb,Y,N,N,
+1a40bf67d642,Y,N,N,
+dc6209d1c20b,Y,N,N,
+3c7dc3ce6879,N,N,N,"Clips show no shape change per own text; concludes 'generated', not shape-change Yes"
+4e82a1a18885,Y,N,N,

@@ -9,14 +9,14 @@
 #   - Ctrl+C → clean exit; rerun to resume exactly where you left off
 #
 # Usage:
-#   bash closed_source_evaluation/gpt/cycle.sh              # one cycle
-#   bash closed_source_evaluation/gpt/cycle.sh --loop       # keep going (3 min default)
-#   bash closed_source_evaluation/gpt/cycle.sh --loop 300   # custom interval (seconds)
+#   bash src/evaluation/closed_source/gpt/cycle.sh              # one cycle
+#   bash src/evaluation/closed_source/gpt/cycle.sh --loop       # keep going (3 min default)
+#   bash src/evaluation/closed_source/gpt/cycle.sh --loop 300   # custom interval (seconds)
 #
 # Run from the repo root with the venv activated.
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
 cd "$REPO_ROOT"
 
 # Use uv to run python with the correct environment.

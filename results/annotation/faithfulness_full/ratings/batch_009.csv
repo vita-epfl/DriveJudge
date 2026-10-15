@@ -1,0 +1,141 @@
+item_id,consistent,false_claim,missed_event,note
+1d0737c78966,Y,Y,N,quotes aniso 0.0577 vs actual 0.0497
+0030524fd41d,Y,N,N,
+34011868774f,Y,N,N,
+bf94df0f768f,Y,Y,N,"claims driving ""controlled and not dangerous""; black car crosses close in intersection"
+d8d973d00ab7,Y,N,N,
+fffccc46362a,Y,Y,N,quotes aniso 0.0577 vs actual 0.0497
+4a88c3da0408,Y,N,N,
+b70549ae1707,Y,N,N,
+c751474b1d89,Y,N,N,
+3d3e70cf0bba,Y,N,N,
+d3a37437fcd4,Y,N,N,
+84945224c995,Y,N,N,
+bae3143aba9c,Y,N,N,
+e3d7ffb5bee7,Y,N,N,
+7afeeaf85bb3,Y,N,N,
+39cb2ebcd44c,Y,N,N,
+6a06c61b9007,Y,Y,N,claims car stationary; frames show it driving through intersection
+63d0e04ab519,Y,N,N,
+6703321f9fe9,Y,N,N,
+6b79357ffbf4,Y,N,N,
+d725ae582d28,Y,N,N,
+c592ac198c6c,Y,N,N,
+1d7a6f011a14,Y,Y,N,claims car stops before crosswalk; frames show it driving through
+0d4f9fb69d80,Y,N,N,
+36d29ab2aec3,Y,N,N,
+975519a4fd3d,Y,N,N,
+0be58d4db797,Y,Y,N,claims car stopped at line; frames show it proceeding through
+979bc13b32c8,Y,N,N,
+b676514b8760,Y,N,N,
+2bc9929f6962,Y,N,N,
+bfc5204e506e,Y,N,N,
+886000774452,Y,N,N,
+e81a4413bc79,Y,N,N,
+3ee9d0f4e559,Y,N,N,
+d734c8afdb5b,Y,N,N,
+6a1580a6b8c3,Y,N,N,
+9cc8cbc61870,Y,Y,N,claims roof/window wobbling+melting not visible in frames
+3d5f63f542cd,Y,N,N,
+201fbca42e16,Y,N,N,
+e88745be3662,Y,N,N,
+ebfae784d459,Y,N,N,
+16f9b3f3a790,Y,Y,N,"no-match; claims vehicle stopped, frames show it driving through"
+24142e91bd6a,Y,N,N,
+8b86acdf6b9a,Y,N,N,
+6e5367c4f4d2,Y,N,N,
+9fe74e9217ee,Y,Y,N,claims car stops before stop line; frames show it drives through
+0a28e08ac0a6,Y,N,N,
+180500c12fe6,Y,N,N,
+c1e0996b2ab5,Y,N,N,
+3f85f31c0cf3,Y,Y,N,claims no immediate collisions/hazards; frames show blue SUV crossing very close ahead
+531ce625434d,Y,N,N,
+5ab4cc0ee128,Y,Y,N,no-match; claims car stayed stationary until light change; frames show it proceeding through
+15dcdeb20c83,Y,N,N,
+dd2e75827b04,Y,N,N,
+aacced9b467b,Y,N,N,
+8f15898afe69,Y,N,N,
+ebc50981cb57,Y,N,N,
+b10908effd95,Y,N,N,
+b2549242be3c,Y,N,N,
+e1a2ce798341,Y,N,N,
+c51234d5f4d8,Y,N,N,
+8d818d94d537,Y,N,N,
+ff7114196baa,Y,N,N,
+e17bb69b0684,Y,Y,N,no-match; claims vehicle stayed stationary until light change; frames show it proceeding through
+8aaba7552681,Y,N,N,
+cae1c2ef8a46,Y,N,N,
+489dee309b3d,Y,N,N,
+a30a86eef09e,Y,N,N,
+af2970c3bb41,Y,N,N,
+53cec10e2208,Y,N,N,
+dedaf3d67a48,Y,N,N,
+8e9173fb4a71,Y,N,N,
+69e6e44842e5,Y,Y,N,claims vehicle stationary at light; frames show continuous forward motion through
+7f8885ab1f1c,Y,N,N,
+28d717e2337c,Y,Y,N,"claims car stopped at line and waited for green; frames show no stop, continuous motion through"
+20ba87ec8c5d,Y,N,N,
+8f98145f8bdc,Y,N,N,
+7fb4f5fdc54f,Y,N,N,
+151a84a9b719,Y,N,N,
+afea24f10e52,Y,N,N,
+d48022a772f1,Y,N,N,
+9b86c34a78d3,Y,N,N,
+1fd6fa4fa3e8,Y,N,N,
+df5184137501,Y,N,N,
+6ce80717e925,Y,Y,N,quotes aniso 0.0484 vs actual 0.0551
+1d2fd29f6615,Y,Y,N,claims vehicle stopped at red light; frames show continuous forward motion through
+3c387d760290,Y,Y,N,"claims car proceeds after light turns green; frames show light stays red throughout, no green shown"
+211243f33a08,Y,N,N,
+82e6b985e561,Y,Y,N,quotes aniso 0.0484 vs actual 0.0551
+cad33c6ccab9,Y,N,N,
+98cc3219b0bf,Y,N,N,
+91b7a3735581,Y,N,N,
+3f0b8ef2ee68,Y,N,N,
+1f94163ec0d1,Y,N,N,
+1209227e0458,Y,N,N,
+97948b6e27a9,Y,N,N,
+f38317978394,Y,N,N,
+a2d38fde96db,Y,N,N,
+333d30cf2d95,Y,Y,N,"quotes aniso 0.0545 vs actual 0.0596; also claims no artifacts, but light floats with no pole"
+82dd77fe1249,Y,N,N,
+76e6de0974b1,Y,N,N,
+0e06e23b00b8,Y,N,N,
+40672c4d9694,Y,N,N,
+95fa25e9d866,Y,Y,N,quotes aniso 0.0545 vs actual 0.0596
+d6580739e14f,Y,N,N,
+36260e047770,Y,N,N,
+08c70a4920df,Y,Y,N,claims roof/window wobbling+texture swimming not visible in frames
+c42ccb5e4587,Y,N,N,
+187dd73f35a4,Y,N,N,
+6e5449cb1b05,Y,N,N,
+d647a30db9e3,Y,N,N,
+ab1027b0c84e,Y,N,N,
+08209f6a4dc9,Y,N,N,
+4be804378f18,Y,N,N,
+b739d18207ef,Y,N,N,
+95919948aeb0,Y,N,N,
+e242fa6b62ef,Y,N,N,
+6849ced100a9,Y,N,N,
+ffcf468ec55c,Y,N,N,
+3570f30b9a69,Y,N,N,
+e627a60b758e,Y,N,N,
+8495a6b6f9a7,Y,N,N,
+a4b73fd335be,Y,Y,N,claims vehicle stationary/stopped; frames show it driving through intersection
+6f68c1217a92,Y,N,N,
+438410ec806e,Y,N,N,
+026a6b76d6db,Y,N,N,
+6384e3b86339,Y,Y,N,"claims light causes car to stop; frames show continuous forward motion, no stop"
+bf6f7f2a9b64,Y,Y,N,claims clean visual appearance; road paint text is garbled/gibberish
+fbe7c2462a15,Y,N,N,
+7b06f2e4c06a,Y,N,N,
+3cc81fcc0157,Y,N,N,
+425aaefc2baf,Y,Y,N,claims car stops at line; frames show continuous forward motion through
+98f1220988e0,N,Y,N,"calls stopping 'a violation' (illogical); also claims car stopped, frames show it driving through"
+6e4dc6efeb6a,Y,N,N,
+02505d45715e,Y,N,N,
+c909f5a69a6e,Y,N,N,
+d737ad99f95b,Y,N,N,
+948a0352039e,Y,N,N,
+0299de9a37a8,Y,N,N,
+f13b15aad2f8,Y,N,N,

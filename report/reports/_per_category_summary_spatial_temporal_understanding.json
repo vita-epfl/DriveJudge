@@ -24,7 +24,7 @@
       "n_correct": 194,
       "accuracy": 0.5722713864306784
     },
-    "Qwen2.5-Omni": {
+    "Qwen3-Omni": {
       "category": "Spatial-temporal understanding",
       "n": 339,
       "n_correct": 192,
@@ -466,7 +466,7 @@
         "accuracy": 0.26709796672828096
       }
     ],
-    "Qwen2.5-Omni": [
+    "Qwen3-Omni": [
       {
         "question": "Are the traffic lights red ?",
         "n": 144,
@@ -1096,7 +1096,7 @@
         "n": 2
       }
     ],
-    "Qwen2.5-Omni": [
+    "Qwen3-Omni": [
       {
         "category": "Spatial-temporal understanding",
         "ground_truth": "No",

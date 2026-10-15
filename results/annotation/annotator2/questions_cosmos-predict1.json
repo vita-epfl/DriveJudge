@@ -1,0 +1,1108 @@
+[
+  {
+    "video": "artifacts/scB_bYG27yI_86256_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_014.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/j4qcANjnLxc_2304_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_002_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_013_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_007_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_027.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_020_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/scB_bYG27yI_101952_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/JS0gJxhFFJ8_7344_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/MXxot9M4-iE_58800_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/nOP1blfMCTg_44928_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_003.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_crash_017_Foggy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_008_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_brake_002_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_brake_006.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/lT4AML9VU2Q_67344_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/lT4AML9VU2Q_45120_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_016_Night.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_006_Golden hour.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/uvRaCzWpFrQ_56544_7b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/jKrJezTsVUk_65520_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_018_Snowy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/G45uV97Bkcc_47184_14b.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_005.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_017_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/pedestrians_007_Morning.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/car_brake_005_Sunny.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "1",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_stop_017.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "3",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "No",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  },
+  {
+    "video": "artifacts/cross_red_018_Rainy.mp4",
+    "qa_pairs": [
+      {
+        "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+        "type": "MCQ",
+        "answer": "2",
+        "category": "Reality understanding",
+        "possible_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "question": "Does any object appear or disappear without continuous motion ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "question": "Do some objects change shape or appearance ?",
+        "type": "Closed",
+        "answer": "Yes",
+        "category": "Artifacts understanding",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ]
+      }
+    ]
+  }
+]

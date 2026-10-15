@@ -34,12 +34,19 @@ from typing import Any
 
 from dotenv import load_dotenv
 
-from gpt_helpers import QuestionItem, extract_frames, load_questions, schema_for
+from gpt_helpers import (
+    QuestionItem,
+    extract_frames,
+    load_questions,
+    output_stem,
+    schema_for,
+)
 from gemini_request import batch_jsonl_line, build_request_body
 
 _HERE = Path(__file__).resolve().parent
 DEFAULT_QUESTIONS = Path("./dataset/dataset_final/Questions_raw.json")
 DEFAULT_MODEL = "gemini-3-flash-preview"
+DEFAULT_STEM = "gemini"
 
 # Gemini's batch input file cap is 2 GB; we stay well below that to avoid
 # accidental rejects on borderline files.
@@ -78,6 +85,17 @@ def _load_done_custom_ids(path: Path) -> set[str]:
     return done
 
 
+def _load_round1(path: Path) -> dict[str, dict[str, Any]]:
+    """custom_id -> round-1 record (successful answers only), for --reflect."""
+    with open(path, "r", encoding="utf-8") as f:
+        items = json.load(f)
+    return {
+        it["custom_id"]: it
+        for it in items
+        if it.get("custom_id") and it.get("answer") and not it.get("error")
+    }
+
+
 def _write_jsonl_chunks(
     items: list[QuestionItem],
     *,
@@ -85,6 +103,7 @@ def _write_jsonl_chunks(
     jsonl_dir: Path,
     max_bytes_per_file: int,
     model: str,
+    round1: dict[str, dict[str, Any]] | None = None,
 ) -> tuple[list[Path], dict[str, dict[str, Any]]]:
     """Write batch input parts. Returns (paths, custom_id -> meta mapping)."""
     jsonl_dir.mkdir(parents=True, exist_ok=True)
@@ -109,15 +128,23 @@ def _write_jsonl_chunks(
 
     _rotate()
     skipped = 0
+    no_round1 = 0
     try:
         for idx, item in enumerate(items):
-            cid = _custom_id(item, idx)
+            base_cid = _custom_id(item, idx)
+            prev = None
+            if round1 is not None:
+                prev = round1.get(base_cid)
+                if prev is None:
+                    no_round1 += 1
+                    continue
+            cid = f"{base_cid}_r2" if round1 is not None else base_cid
             if cid in skip_cids:
                 skipped += 1
                 continue
             frames = extract_frames(item.local_path)
             schema = schema_for(item.question)
-            body = build_request_body(frames, item.question, schema)
+            body = build_request_body(frames, item.question, schema, reflection=prev)
             line_obj = batch_jsonl_line(cid, body)
             line = json.dumps(line_obj, ensure_ascii=False) + "\n"
             line_bytes = len(line.encode("utf-8"))
@@ -139,6 +166,10 @@ def _write_jsonl_chunks(
                 "schema": schema.__name__,
                 "model": model,
             }
+            if prev is not None:
+                mapping[cid]["evaluation_r1"] = prev.get("evaluation", "")
+                mapping[cid]["answer_r1"] = prev.get("answer", "")
+                mapping[cid]["round1"] = prev
     finally:
         if fh is not None:
             fh.close()
@@ -149,6 +180,8 @@ def _write_jsonl_chunks(
 
     if skipped:
         print(f"Skipped {skipped} already-answered request(s) (--skip-existing).")
+    if no_round1:
+        print(f"Skipped {no_round1} item(s) with no successful round-1 answer.")
     return paths, mapping
 
 
@@ -160,6 +193,7 @@ def run_batch_submit(
     jsonl_dir: Path,
     skip_existing: Path | None,
     max_bytes_per_file: int = MAX_BYTES_PER_BATCH_FILE,
+    round1: dict[str, dict[str, Any]] | None = None,
 ) -> None:
     from google import genai
     from google.genai import types
@@ -177,6 +211,7 @@ def run_batch_submit(
         jsonl_dir=jsonl_dir,
         max_bytes_per_file=max_bytes_per_file,
         model=model,
+        round1=round1,
     )
     if not paths:
         print("Nothing new to submit.")
@@ -243,22 +278,48 @@ def main() -> None:
     ap.add_argument("--skip-existing", type=Path, default=None,
                     help="Path to a results JSON whose successful custom_ids "
                          "should be skipped.")
-    ap.add_argument("--state", type=Path,
-                    default=_HERE / "batches" / "batch_state.json",
-                    help="Where to save the submission state.")
-    ap.add_argument("--jsonl-dir", type=Path,
-                    default=_HERE / "batches" / "jsonl",
+    ap.add_argument("--out-name", default=None,
+                    help="Filename stem for the run's artifacts. Defaults to "
+                         "`gemini` for the default model and to the sanitised "
+                         "model id for any other, so two models never collide.")
+    ap.add_argument("--reflect", action="store_true",
+                    help="Round-2 self-reflection pass; requires --from.")
+    ap.add_argument("--from", dest="from_results", type=Path, default=None,
+                    help="[--reflect] Round-1 results JSON to re-examine.")
+    ap.add_argument("--state", type=Path, default=None,
+                    help="Where to save the submission state "
+                         "(default batches/batch_state.json for the default model).")
+    ap.add_argument("--jsonl-dir", type=Path, default=None,
                     help="Directory for batch input JSONL parts.")
     ap.add_argument("--max-bytes-per-file", type=int,
                     default=MAX_BYTES_PER_BATCH_FILE,
                     help="Per-part JSONL size cap in bytes.")
     args = ap.parse_args()
 
+    if args.reflect and args.from_results is None:
+        sys.exit("--reflect needs --from <round-1 results json>.")
+    if args.from_results is not None and not args.reflect:
+        sys.exit("--from only makes sense together with --reflect.")
+
+    stem = args.out_name or output_stem(
+        args.model, default_model=DEFAULT_MODEL, default_stem=DEFAULT_STEM)
+    suffix = "_r2" if args.reflect else ""
+    if args.state is None:
+        name = "batch_state" if stem == DEFAULT_STEM else f"batch_state_{stem}"
+        args.state = _HERE / "batches" / f"{name}{suffix}.json"
+    if args.jsonl_dir is None:
+        name = "jsonl" if stem == DEFAULT_STEM else f"jsonl_{stem}"
+        args.jsonl_dir = _HERE / "batches" / f"{name}{suffix}"
+
     _load_env()
     items = load_questions(args.questions)
     if args.limit:
         items = items[: args.limit]
-    print(f"Processing {len(items)} (video, question) pairs with model={args.model}.")
+    round1 = _load_round1(args.from_results) if args.reflect else None
+    if round1 is not None:
+        print(f"Loaded {len(round1)} round-1 answer(s) from {args.from_results}.")
+    print(f"Processing {len(items)} (video, question) pairs with model={args.model}"
+          f"{', reflect' if args.reflect else ''}.")
 
     run_batch_submit(
         items,
@@ -267,6 +328,7 @@ def main() -> None:
         jsonl_dir=args.jsonl_dir,
         skip_existing=args.skip_existing,
         max_bytes_per_file=args.max_bytes_per_file,
+        round1=round1,
     )
 
 

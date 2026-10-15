@@ -24,7 +24,7 @@
       "n_correct": 65,
       "accuracy": 0.09774436090225563
     },
-    "Qwen2.5-Omni": {
+    "Qwen3-Omni": {
       "category": "Traffic laws understanding",
       "n": 665,
       "n_correct": 47,
@@ -466,7 +466,7 @@
         "accuracy": 0.26709796672828096
       }
     ],
-    "Qwen2.5-Omni": [
+    "Qwen3-Omni": [
       {
         "question": "Are the traffic lights red ?",
         "n": 144,
@@ -988,7 +988,7 @@
         "n": 10
       }
     ],
-    "Qwen2.5-Omni": [
+    "Qwen3-Omni": [
       {
         "category": "Traffic laws understanding",
         "ground_truth": "No",

@@ -1,0 +1,239 @@
+{
+  "task": "faithfulness",
+  "annotators": [
+    "opus",
+    "sonnet"
+  ],
+  "include_reality": false,
+  "bootstrap": {
+    "b": 2000,
+    "seed": 0
+  },
+  "coverage": {
+    "joined": 400,
+    "only_annotator1": 0,
+    "only_annotator2": 0
+  },
+  "removed_by_annotator2": [],
+  "overall": {
+    "n": 400,
+    "n_videos": 100,
+    "ordinal": false,
+    "categories": [
+      "1",
+      "2",
+      "3",
+      "N",
+      "NA",
+      "Y"
+    ],
+    "percent_agreement": {
+      "point": 0.84,
+      "lo": 0.805,
+      "hi": 0.8725,
+      "b": 2000
+    },
+    "cohen_kappa": {
+      "point": 0.7628355968946285,
+      "lo": 0.713927460177402,
+      "hi": 0.8085369974096183,
+      "b": 2000
+    },
+    "krippendorff_alpha_nominal": {
+      "point": 0.761663730342944,
+      "lo": 0.7113439306358381,
+      "hi": 0.8079073407123867,
+      "b": 2000
+    }
+  },
+  "per_question": {
+    "citation_matches_output": {
+      "n": 100,
+      "n_videos": 100,
+      "ordinal": false,
+      "categories": [
+        "N",
+        "NA",
+        "Y"
+      ],
+      "percent_agreement": {
+        "point": 0.7,
+        "lo": 0.61,
+        "hi": 0.78,
+        "b": 2000
+      },
+      "cohen_kappa": {
+        "point": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "b": 2000
+      },
+      "krippendorff_alpha_nominal": {
+        "point": -0.14258373205741615,
+        "lo": -0.2005543779553236,
+        "hi": -0.09422644338915287,
+        "b": 2000
+      }
+    },
+    "cites_tool": {
+      "n": 100,
+      "n_videos": 100,
+      "ordinal": false,
+      "categories": [
+        "Y"
+      ],
+      "percent_agreement": {
+        "point": 1.0,
+        "lo": 1.0,
+        "hi": 1.0,
+        "b": 2000
+      },
+      "cohen_kappa": {
+        "point": null,
+        "lo": null,
+        "hi": null,
+        "b": 0
+      },
+      "krippendorff_alpha_nominal": {
+        "point": null,
+        "lo": null,
+        "hi": null,
+        "b": 0
+      }
+    },
+    "conclusion_follows": {
+      "n": 100,
+      "n_videos": 100,
+      "ordinal": true,
+      "categories": [
+        "1",
+        "2",
+        "3"
+      ],
+      "percent_agreement": {
+        "point": 0.72,
+        "lo": 0.63,
+        "hi": 0.8,
+        "b": 2000
+      },
+      "cohen_kappa": {
+        "point": 0.1923853475627343,
+        "lo": 0.06367041198501865,
+        "hi": 0.34674679905931527,
+        "b": 2000
+      },
+      "krippendorff_alpha_nominal": {
+        "point": 0.13652564698589797,
+        "lo": -0.042737841820861266,
+        "hi": 0.3247561148027711,
+        "b": 2000
+      },
+      "cohen_kappa_linear_weighted": {
+        "point": 0.29832503395201465,
+        "lo": 0.11917098445595868,
+        "hi": 0.47916666666666674,
+        "b": 2000
+      },
+      "krippendorff_alpha_ordinal": {
+        "point": 0.27085578429052715,
+        "lo": 0.02163154069767448,
+        "hi": 0.49299981627567835,
+        "b": 2000
+      }
+    },
+    "hallucination": {
+      "n": 100,
+      "n_videos": 100,
+      "ordinal": false,
+      "categories": [
+        "N",
+        "Y"
+      ],
+      "percent_agreement": {
+        "point": 0.94,
+        "lo": 0.89,
+        "hi": 0.98,
+        "b": 2000
+      },
+      "cohen_kappa": {
+        "point": 0.4690265486725674,
+        "lo": -0.013513513513511993,
+        "hi": 0.7950819672131144,
+        "b": 2000
+      },
+      "krippendorff_alpha_nominal": {
+        "point": 0.4707446808510639,
+        "lo": -0.015306122448979664,
+        "hi": 0.7958974358974359,
+        "b": 2000
+      }
+    }
+  },
+  "per_category": {
+    "Faithfulness": {
+      "n": 400,
+      "n_videos": 100,
+      "ordinal": false,
+      "categories": [
+        "1",
+        "2",
+        "3",
+        "N",
+        "NA",
+        "Y"
+      ],
+      "percent_agreement": {
+        "point": 0.84,
+        "lo": 0.805,
+        "hi": 0.8725,
+        "b": 2000
+      },
+      "cohen_kappa": {
+        "point": 0.7628355968946285,
+        "lo": 0.713927460177402,
+        "hi": 0.8085369974096183,
+        "b": 2000
+      },
+      "krippendorff_alpha_nominal": {
+        "point": 0.761663730342944,
+        "lo": 0.7113439306358381,
+        "hi": 0.8079073407123867,
+        "b": 2000
+      }
+    }
+  },
+  "per_folder": {
+    "faithfulness": {
+      "n": 400,
+      "n_videos": 100,
+      "ordinal": false,
+      "categories": [
+        "1",
+        "2",
+        "3",
+        "N",
+        "NA",
+        "Y"
+      ],
+      "percent_agreement": {
+        "point": 0.84,
+        "lo": 0.805,
+        "hi": 0.8725,
+        "b": 2000
+      },
+      "cohen_kappa": {
+        "point": 0.7628355968946285,
+        "lo": 0.713927460177402,
+        "hi": 0.8085369974096183,
+        "b": 2000
+      },
+      "krippendorff_alpha_nominal": {
+        "point": 0.761663730342944,
+        "lo": 0.7113439306358381,
+        "hi": 0.8079073407123867,
+        "b": 2000
+      }
+    }
+  },
+  "n_disagreements": 64
+}

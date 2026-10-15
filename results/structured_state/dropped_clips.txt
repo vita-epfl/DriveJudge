@@ -1,0 +1,21 @@
+# Dropped 2026-09-11 after the structured-state review (results/structured_state/summary.md §4):
+# scenarios cross_red_025 / cross_red_029 show no red-light violation although filed under crossing_red_lights/.
+# Author decision: drop (not relabel). The negative/ copies of the same scenarios are kept (labels correct there).
+# Applied to the local dataset/dataset_final/questions_cosmos-drive-dreams.json (backup *.bak_before_drop_2026-09-11);
+# the PVC copy must be patched the same way, and final tables must exclude these clips.
+cosmos-drive-dreams/crossing_red_lights/cross_red_025_Morning.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_025_Sunny.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_029_Morning.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_025_Foggy.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_029_Sunny.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_025_Rainy.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_029_Foggy.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_029_Night.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_025_Original.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_025_Golden hour.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_029_Golden hour.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_025_Snowy.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_029_Original.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_025_Night.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_029_Rainy.mp4
+cosmos-drive-dreams/crossing_red_lights/cross_red_029_Snowy.mp4

@@ -1,0 +1,98 @@
+[
+  {
+    "Structured state - traffic light": [
+      {
+        "question": "Is a traffic light visible?",
+        "question_type": "Closed",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ],
+        "asked": "crossing_red_lights"
+      },
+      {
+        "question": "Is the light red when the ego car reaches the stop line?",
+        "question_type": "MCQ",
+        "possible_answers": [
+          "Yes",
+          "No",
+          "Unclear"
+        ],
+        "asked": "crossing_red_lights"
+      },
+      {
+        "question": "Does the ego car cross the stop line while the light is red?",
+        "question_type": "Closed",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ],
+        "asked": "crossing_red_lights"
+      }
+    ]
+  },
+  {
+    "Structured state - stop sign": [
+      {
+        "question": "Is a stop sign visible?",
+        "question_type": "Closed",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ],
+        "asked": "crossing_stop"
+      },
+      {
+        "question": "Does the ego car come to a full stop?",
+        "question_type": "Closed",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ],
+        "asked": "crossing_stop"
+      },
+      {
+        "question": "Does it stop before the line?",
+        "question_type": "Closed",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ],
+        "asked": "crossing_stop"
+      }
+    ]
+  },
+  {
+    "Structured state - overtaking": [
+      {
+        "question": "Does the ego car pass another vehicle?",
+        "question_type": "Closed",
+        "possible_answers": [
+          "Yes",
+          "No"
+        ],
+        "asked": "aggressive_takeover"
+      },
+      {
+        "question": "On which side of the ego car is the overtaken vehicle?",
+        "question_type": "MCQ",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "None"
+        ],
+        "asked": "aggressive_takeover"
+      },
+      {
+        "question": "In which direction does the ego car change lane?",
+        "question_type": "MCQ",
+        "possible_answers": [
+          "Left",
+          "Right",
+          "None"
+        ],
+        "asked": "aggressive_takeover"
+      }
+    ]
+  }
+]

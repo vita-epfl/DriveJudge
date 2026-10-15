@@ -24,7 +24,7 @@
       "n_correct": 275,
       "accuracy": 0.9046052631578947
     },
-    "Qwen2.5-Omni": {
+    "Qwen3-Omni": {
       "category": "Visual understanding",
       "n": 304,
       "n_correct": 286,
@@ -466,7 +466,7 @@
         "accuracy": 0.26709796672828096
       }
     ],
-    "Qwen2.5-Omni": [
+    "Qwen3-Omni": [
       {
         "question": "Are the traffic lights red ?",
         "n": 144,
@@ -994,7 +994,7 @@
         "n": 11
       }
     ],
-    "Qwen2.5-Omni": [
+    "Qwen3-Omni": [
       {
         "category": "Visual understanding",
         "ground_truth": "Yes",

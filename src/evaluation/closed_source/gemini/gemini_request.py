@@ -29,7 +29,13 @@ from __future__ import annotations
 import base64
 from typing import Any
 
-from gpt_helpers import Frame, _Base, allowed_answers
+from gpt_helpers import (
+    REFLECTION_PROMPT,
+    Frame,
+    _Base,
+    allowed_answers,
+    round1_assistant_text,
+)
 
 SYSTEM_PROMPT = (
     "You are an expert video analyst specialised in driving scenes and "
@@ -55,7 +61,16 @@ def build_request_body(
     frames: list[Frame],
     question: str,
     schema_cls: type[_Base],
+    *,
+    reflection: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
+    """Build one Gemini request body.
+
+    `reflection` (optional) switches to the round-2 self-reflection prompt:
+    pass the round-1 result record (needs `evaluation` / `answer`) and
+    `contents` becomes
+        user(images + question), model(round-1 JSON), user(re-examine)
+    """
     options = allowed_answers(schema_cls)
     schema_json = schema_cls.model_json_schema()
     # Strict structured output requires `additionalProperties: false` on every
@@ -71,9 +86,19 @@ def build_request_body(
     parts: list[dict[str, Any]] = [_frame_to_inline_part(f) for f in frames]
     parts.append({"text": question_text})
 
+    contents: list[dict[str, Any]] = [{"role": "user", "parts": parts}]
+    if reflection is not None:
+        contents.append({
+            "role": "model",
+            "parts": [{"text": round1_assistant_text(
+                reflection.get("evaluation", ""), reflection.get("answer", "")
+            )}],
+        })
+        contents.append({"role": "user", "parts": [{"text": REFLECTION_PROMPT}]})
+
     return {
         "system_instruction": {"parts": [{"text": SYSTEM_PROMPT}]},
-        "contents": [{"role": "user", "parts": parts}],
+        "contents": contents,
         "generation_config": {
             "response_mime_type": "application/json",
             "response_json_schema": schema_json,

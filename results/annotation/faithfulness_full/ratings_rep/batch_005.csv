@@ -1,0 +1,139 @@
+item_id,consistent,false_claim,missed_event,note
+a470379e8087,Y,N,N,
+7ad0ade01a7b,Y,N,N,
+f8aa37f43222,Y,N,N,
+0f54ebf92324,Y,N,N,
+51137f8016d2,Y,N,N,
+dbd99721cd0a,Y,N,N,
+986ad483e715,Y,N,N,
+cc0853f364dc,Y,N,N,
+ed2ecb49196d,Y,N,N,
+e6f54370b61c,Y,N,N,
+f789d4a62dc6,Y,Y,N,"truck shifts to frame's left as ego passes, indicating a right-side overtake, not left"
+5a4822bd5d41,Y,N,N,
+268fb040ea24,Y,N,N,
+17915aa2b3f6,Y,N,N,
+6d11cd63b122,Y,N,N,
+7fa8b281012c,Y,N,N,
+64b5e6fe151d,Y,N,N,
+145325b48c5a,Y,N,N,
+7407e05337fa,Y,N,N,
+8ec13d57a18b,Y,N,N,
+4833b68cc87a,Y,N,N,
+8e40b677a8a8,N,N,N,"own reasoning (no visible artifacts, moderate FFT) supports a 2, not the most severe score 1"
+81f068962bdc,Y,N,N,
+2dc74f5fdaef,Y,N,N,
+4f26a2be1212,Y,N,N,
+7c946355da24,Y,N,N,
+fbb5a69c1fe4,Y,N,N,
+093f1cf0ca8c,Y,Y,N,"frames show a truck making an abrupt blurred cut-in near ego, a visible hazard, contra 'no visible hazards'"
+3d8c41cc23fe,Y,N,N,
+85a9ef56a834,Y,N,N,
+06d007d40ea7,Y,N,N,
+add8b08cf2b1,Y,Y,N,"frames show a truck cutting in/passing the ego (motion-blurred), not the ego overtaking the truck"
+e2d13d9c2758,Y,N,N,
+364a10609f74,Y,N,N,
+e3ecfff32c38,Y,Y,N,"frames show an erratic fast blurred vehicle passing close to ego, contra 'surrounding traffic is orderly'"
+02201c5842b6,Y,N,N,
+40f5c3be2ad6,Y,Y,N,"explanation claims ego overtakes vehicles; frames show a vehicle passing the ego instead, truck ahead stays distant"
+66aef45dc930,Y,N,N,
+a60832ef302a,Y,Y,N,"no-match; explanation claims ego overtakes on left but frames show another vehicle passing ego, distant truck unchanged"
+b3a2ddd04d2b,Y,N,N,
+6379fd266419,Y,N,N,
+46ab6d3c1c4b,Y,N,N,
+9bea3b51c48d,Y,N,N,
+cdc59921e364,Y,Y,N,"frames show another vehicle cutting in close to ego (frame 8), contra 'safe distance'/'traffic consistent'"
+7f02a04f93fd,Y,N,N,
+0d4bb91e08cc,Y,N,N,
+e8e4926949e0,Y,N,N,
+3c0bee2d79ff,Y,N,N,
+1723ffe59cee,Y,N,N,
+7eac9e10a9db,Y,N,N,
+2421ce9907be,Y,N,N,
+815c706b0958,Y,N,N,
+e32b6e55f602,Y,Y,N,same base scene's Original variant shows other vehicles overtake ego from left; ego itself not overtaking
+fdb2bf62abe0,Y,N,N,
+3cc3b1ce2f82,Y,N,N,
+9137c045f650,Y,Y,N,"truck cuts in close to ego (frame 3), contradicts 'surrounding traffic is stable'"
+c983d2917a71,Y,N,N,
+385963f8e345,Y,N,N,
+d6d59bce33ca,Y,Y,N,no intersection or traffic light visible anywhere in frames; explanation fabricates one
+f28b9bbe851e,Y,Y,N,same base scene's Original variant shows other vehicles overtake ego from left; ego not overtaking
+aafdf1818e9e,Y,N,N,
+6d62a5767f0f,Y,N,N,
+8fc254e24874,Y,Y,N,"truck aggressively cuts in close (frame 3), contradicts 'surrounding traffic is orderly'"
+2fc0d8eb1d99,Y,N,N,
+cc1005e83647,Y,N,N,
+baed6b35b976,Y,Y,N,"explanation claims ego overtakes vehicles; frames show ego stays in lane, a truck cuts in instead"
+65e64753115d,Y,N,N,
+e1c145dc5029,Y,N,N,
+5cb2dcc91fd5,Y,Y,N,'traffic and road conditions appear normal' contradicted by truck's aggressive close cut-in (frame 3)
+0b3fd240644a,Y,N,N,
+ed353fd1e42b,Y,N,N,
+af32191305c3,Y,N,N,
+16bb8a79c1aa,Y,N,N,
+7caa47d69a32,Y,N,N,
+7ef06f888a81,Y,N,N,
+887049a287b3,Y,N,N,
+bb40bae8144d,Y,Y,N,"truck swerves sharply into ego's path (frame 3, steep angle), a dangerous maneuver, contra 'no dangerous maneuvers'"
+445a7f6a5fda,Y,N,N,
+3993c54e444f,Y,Y,N,truck's sharp swerve into ego's lane (frame 3) contradicts 'motion consistent with normal traffic flow'
+20a9ea375e0a,Y,Y,N,"frames show a truck swerving into ego's path (frame 3), not ego overtaking; same scene's Original confirms not overtaking"
+10a3e0460aec,Y,N,N,
+b77eae316e06,Y,Y,N,truck's sharp swerve into ego's path (frame 3) contradicts 'surrounding traffic also stable'
+ccfdc66ba1cd,Y,Y,N,"none of the 8 frames show visible wobbling, melting, or morphing on any vehicle roofline/window"
+caf81086e649,Y,N,N,
+a695261fbbe6,Y,N,N,
+c3eb09ea9de9,Y,N,N,
+e4339d4fc21a,Y,Y,N,"frame 4 shows the passed vehicle reappearing at the left edge, consistent with a right-side pass, not left"
+25756fd6353c,Y,N,N,
+c29e5bedaa68,Y,N,N,
+6c3f57ee3ec4,Y,N,N,
+02eefb89d745,Y,N,N,
+1e2a26037859,Y,N,N,
+af1e43506717,Y,N,N,
+e35ca858455d,N,N,N,"own stated evidence (truck on ego's left) implies overtaking from the right, not left; backward reasoning"
+26c2f3d73242,Y,N,N,
+f5c95343a1ed,Y,N,N,
+0897a2c8525d,Y,N,N,
+fffcb607b472,Y,Y,N,"frame 4 shows a truck aggressively cutting in (blurred), contradicting 'traffic flow appears normal'"
+b762ba6c8e8e,Y,N,N,
+896918c10f92,Y,N,N,
+7b3448ab590c,Y,N,N,
+50ef0f4167b4,Y,Y,N,"frame 4 shows a truck swooping in from the left (blurred), not ego closing distance/overtaking"
+3ab113168900,Y,N,N,
+a9216c84e48c,Y,N,N,
+cdd5ba9eb839,N,N,N,"own reasoning (no visible artifacts, FFT-only concern) supports a 2, not the most severe score 1"
+ded2454a3ba7,Y,N,N,
+9e54bf2777be,Y,N,N,
+1b3651837ed1,N,N,N,own reasoning concludes a blue car overtakes the ego (not the reverse); answer 'Left' doesn't match
+20dce5366d0e,Y,N,N,
+d85c75b871ad,Y,N,N,
+4f8675236fca,Y,N,N,
+f32affb43afc,Y,N,N,
+b5ba2c68e033,Y,N,N,
+9bd5747d7a4f,Y,Y,N,"frames show a blue car overtaking the ego (frame 4), not the ego overtaking other vehicles"
+37e41d631142,Y,N,N,
+a91e80a3c2e8,Y,N,N,
+24f92c6df5b6,Y,Y,N,"frame 4 shows the blue car ahead-right after passing; it overtook ego from the left, not vice versa"
+fbd30148f84d,Y,N,N,
+7626fa2772b5,Y,Y,N,"frame 1 shows a car blurred/cutting in close to ego, contra 'traffic moving smoothly'/'no immediate hazards'"
+da1641434166,Y,N,N,
+5614b3f7bf7f,Y,Y,N,"frame 1 shows a car blurred at ego's left cutting in, consistent with it passing ego, not being overtaken"
+8b0912123595,Y,N,N,
+5884a144f92a,Y,N,N,
+ba58849ed6c7,Y,Y,N,"frame 1 shows a car blurred/cutting in close to ego, contra 'traffic flow appears normal'/'no unsafe maneuvers'"
+bfd7b9275613,Y,N,N,
+1a54fed8cc6c,Y,N,N,
+d5abbe322a22,Y,N,N,
+1ec2704c6ed7,Y,N,N,
+efc41002bcb9,Y,Y,N,"multiple different vehicles appear at ego's left across frames (SUV, pickup, sedan) - adjacent traffic, not one overtake"
+76adc3351a56,Y,N,N,
+57c35b06196a,Y,N,N,
+f728704e6575,Y,N,N,
+e9d5834265f0,Y,N,N,
+35610341f12f,Y,N,N,
+dfd71f4aa885,Y,N,N,
+833a7fa971b7,Y,Y,N,"frames show separate vehicles passing at ego's left in different frames, not one truck+car crossing left-to-right"
+a3a62d0696d2,Y,N,N,
+5d88c28dc40c,Y,N,N,

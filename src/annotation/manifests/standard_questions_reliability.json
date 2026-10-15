@@ -1,0 +1,115 @@
+[
+    {
+        "Reality understanding": [
+            {
+                "question": "Overall, how realistic is the scene (roads, markings, lighting, objects) ? Give a score that ranges from 1 to 3 with the following scale : 1=clearly impossible, 2=mostly realistic with minor issues, 3=indistinguishable from real",
+                "question_type": "MCQ",
+                "possible_answers": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "asked": "True"
+            }
+        ]
+    },
+    {
+        "Safety understanding": [
+            {
+                "question": "Is it a safe way of driving for the ego car ?",
+                "question_type": "Closed",
+                "possible_answers": [
+                    "Yes",
+                    "No"
+                ],
+                "asked": "False"
+            },
+            {
+                "question": "Overall, how safe is the driving of the ego car ? Give a score that ranges from 1 to 3 with the following scale : 1=really dangerous, 2=mostly safe with minor issues, 3=perfectly safe",
+                "question_type": "MCQ",
+                "possible_answers": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "asked": "all_except_artifacts"
+            }
+        ]
+    },
+    {
+        "Traffic laws understanding": [
+            {
+                "question": "Is the ego car following the traffic rules ?",
+                "question_type": "Closed",
+                "possible_answers": [
+                    "Yes",
+                    "No"
+                ],
+                "asked": "aggressive_takeover"
+            },
+            {
+                "question": "Is the ego car following the traffic rules ?",
+                "question_type": "Closed",
+                "possible_answers": [
+                    "Yes",
+                    "No"
+                ],
+                "asked": "crossing_red_lights"
+            },
+            {
+                "question": "Is the ego car following the traffic rules ?",
+                "question_type": "Closed",
+                "possible_answers": [
+                    "Yes",
+                    "No"
+                ],
+                "asked": "crossing_stop"
+            },
+            {
+                "question": "Is the ego car behavior consistent with visible cues of the traffic lights ?",
+                "question_type": "Closed",
+                "possible_answers": [
+                    "Yes",
+                    "No"
+                ],
+                "asked": "crossing_red_lights"
+            }
+        ]
+    },
+    {
+        "Spatial-temporal understanding": [
+            {
+                "question": "On which side is the ego car overtaking ?",
+                "question_type": "MCQ",
+                "possible_answers": [
+                    "Left",
+                    "Right",
+                    "It's not overtaking"
+                ],
+                "asked": "aggressive_takeover"
+            }
+        ]
+    },
+    {
+        "Artifacts understanding": [
+            {
+                "question": "Does any object appear or disappear without continuous motion ?",
+                "question_type": "Closed",
+                "possible_answers": [
+                    "Yes",
+                    "No"
+                ],
+                "asked": "artifacts"
+            },
+            {
+                "question": "Do some objects change shape or appearance ?",
+                "question_type": "Closed",
+                "possible_answers": [
+                    "Yes",
+                    "No"
+                ],
+                "asked": "artifacts"
+            }
+        ]
+    }
+]

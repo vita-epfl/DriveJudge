@@ -1,0 +1,31 @@
+# DriveJudge agent (src/agentic/). Runs in its own venv, next to a vLLM server
+# started from the GPU environment: SAM 3 needs a newer transformers than vLLM
+# accepts.
+#
+#   python3.12 -m venv .venv-agent
+#   .venv-agent/bin/pip install -r requirements-agent.txt
+#
+# docker/Dockerfile does this in /opt/agent-venv.
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# Standalone on purpose (no -r requirements.txt): transformers 5 needs
+# huggingface-hub>=1.3, the core environment pins 0.35.
+torch==2.9.1
+torchvision==0.24.1          # RAFT optical flow (weights download on first use)
+transformers==5.0.0         # first release with SAM 3 (Sam3VideoModel); we ran a
+                            # pre-5.0 build from main, see the README
+kernels==0.11.5
+qwen-agent==0.0.31          # tool-calling loop, talks to vLLM on :8000
+decord==0.6.0
+av==15.1.0
+imageio[ffmpeg]
+soundfile==0.13.1
+filelock
+python-dateutil
+numpy==2.2.6
+polars==1.33.1
+matplotlib==3.10.7
+opencv-python==4.13.0.92
+pillow==11.3.0
+tqdm==4.67.1

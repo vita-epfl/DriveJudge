@@ -1,0 +1,78 @@
+item_id,consistent,false_claim,missed_event,note
+edaf3a87564a,Y,Y,N,"frames show cars stationary/queued, no forward progress into intersection"
+add3c3e77f43,Y,N,N,
+b2f572b2a7e2,Y,Y,N,"no-match; frames show cars stationary/queued, not moving through intersection"
+3b142e2ae335,Y,N,N,
+116d66816974,Y,N,N,
+bf126f55fadf,Y,N,N,
+2e4cc86a8bea,Y,N,N,
+93706dc3b32c,Y,N,N,
+703974b00397,Y,N,N,
+fcbd56c8298e,Y,Y,N,"green light visible in frames, not red; car looks stationary/queued not moving through"
+9a32401b6fa5,N,Y,N,reasoning entirely positive w/o stated issue despite score 2; light in frames looks green not red
+3f427fa89165,Y,N,N,
+f3b4fd6ed538,Y,N,N,
+b661e4741ad7,Y,N,N,
+5cafcd5cea93,Y,N,N,
+1e272db895fe,Y,N,N,
+0bbc9bb5e67c,Y,N,N,
+fc95e76fcc4f,Y,N,N,
+3b803b2da68f,Y,N,N,
+fa846d4ae444,Y,N,N,
+86ca44d4d5b2,Y,N,N,
+baa5d71ca4c3,Y,N,N,
+b412612163b2,Y,N,Y,"white car crosses intersection ahead of ego in later frames, not mentioned"
+4ff2eaa29f46,Y,N,Y,"white car crosses intersection ahead of ego in later frames, not mentioned"
+9049dba9a1d4,Y,N,N,
+65b432d408e3,Y,N,N,
+cd7a40fac0b0,Y,N,Y,"white car crosses intersection near ego's path, not mentioned"
+62969f12859f,Y,N,Y,"white car crosses intersection near ego's path, not mentioned"
+5f93d0faefb5,Y,N,N,
+6e5878697549,Y,N,N,
+948d4977e964,Y,N,N,
+47eaf9a52cbc,Y,N,Y,white car crossing near ego's path (noted in sibling item) not mentioned here
+23e4b2ddaf55,Y,N,N,
+2f3093000246,Y,N,N,
+f39d438a8edf,Y,N,N,
+11391400a157,Y,N,Y,"red car crosses intersection near ego's path, not mentioned"
+015661ad3da2,Y,N,Y,"red car crosses intersection near ego's path, not mentioned"
+b23784c5e517,Y,N,N,
+1c9109d792ba,Y,Y,N,claims road is clear but a car is visible crossing the intersection later
+6871dfea5675,Y,N,N,
+116328122598,Y,N,N,
+9fe407f6798d,Y,N,N,
+ebb3236249d8,Y,N,N,
+5927e9b69190,Y,N,N,
+89653de41598,Y,N,N,
+90ccf2626eae,Y,Y,N,no traffic light visible in any frame; residential street only
+3bba858f6c3c,Y,Y,N,no stop sign visible in frames; car doesn't appear to stop
+24b8fec51733,Y,N,N,
+544c49e059d8,Y,N,N,
+025250f61040,Y,Y,N,no stop sign visible in frames
+aaf09c5332d3,Y,N,N,
+3521999b0f61,Y,N,N,
+37238159de80,Y,Y,N,no stop sign visible in frames
+7b954bcb7897,Y,Y,N,no traffic light visible in frames
+d5114be7e274,Y,N,N,
+a31c16ac553e,Y,N,N,
+24357e096cc7,Y,Y,N,no traffic light or stop line visible in frames
+c249cc7e0a39,Y,N,N,
+baef41688ac3,Y,N,N,
+d5a23b2ff566,Y,N,N,
+eed1fd1cf536,Y,Y,N,no stop sign visible in frames
+d847bbf2d3ee,Y,N,N,
+d37534ae9116,Y,Y,N,no traffic light visible in frames
+1f9d937ac866,Y,N,N,
+77069e119f87,Y,Y,N,no car ahead visible in frames to be following
+a60041340cdf,Y,N,N,
+d4209a77c1c4,Y,Y,N,no intersection or stop line visible in frames
+b97f00f92980,Y,N,N,
+dcf39fb6cbf7,Y,Y,N,"no intersection, light, or speed-limit sign visible in frames"
+825c2408263f,Y,N,N,
+de2c102d8e1d,Y,N,N,
+54111794f7d2,Y,N,N,
+375044239e13,Y,N,N,
+c879f12e3e9c,Y,N,N,
+a37babdcb224,Y,N,N,
+94070df2b2ff,Y,N,N,
+d8f9518fe4d8,Y,N,N,

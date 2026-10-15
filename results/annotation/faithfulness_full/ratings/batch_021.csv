@@ -1,0 +1,121 @@
+item_id,consistent,false_claim,missed_event,note
+bbadb31e5d35,Y,Y,N,"claims car stopped at stop sign; frames show continuous motion through intersection"
+337c26f39875,Y,N,N,
+a23ef7071f4d,Y,N,N,
+37bda9cd76f5,Y,N,N,
+4565deb3349a,Y,N,N,
+c90ca80492e5,Y,N,Y,omits car running stop sign without stopping
+207316ab9b22,Y,Y,N,"claims car makes complete stop; frames show continuous forward motion, no stop"
+6189375213a4,Y,N,N,
+b04e383b8691,Y,Y,N,"claims car stops fully at stop sign; frames show continuous motion, no stop"
+0fd761ab4487,Y,N,N,
+1e6380645d96,Y,N,N,
+7288d0c1a710,Y,N,N,
+2876f06bb06b,Y,Y,N,"claims car stops at stop line; frames show continuous forward motion, no stop"
+8165d71be000,Y,N,N,
+72ae28f298c9,Y,N,N,
+5aad74ca52d9,Y,N,N,
+6e5774c38592,Y,N,N,
+b92a1ae6fedf,Y,N,N,
+ec45b3e4e151,Y,N,N,
+3703b7782b6d,Y,N,N,
+6b1f108f9273,Y,N,N,
+d5dc74120994,Y,Y,N,"claims car turns right at stop sign; frames show it continuing straight, no turn"
+ea4abed5c6de,Y,N,N,
+88e9ae9bbd25,Y,Y,N,"claims car stopped at stop sign; frames show continuous motion, no stop"
+768d37c38e6b,Y,N,N,
+6ded4633a319,Y,Y,N,"claims car stops completely at stop sign; frames show continuous motion, no stop"
+dcf33730f185,Y,N,N,
+bdd793059f2c,Y,N,N,
+4947c6c67f01,Y,N,N,
+485810180788,Y,N,Y,omits car running stop sign without stopping
+05c3cfc4f259,Y,N,N,
+d9af28b3c0c2,Y,N,N,
+1f504213a14d,Y,Y,N,"claims car stopped at a red light; frames show only a stop sign, no stop"
+78ae855b56ce,Y,N,N,
+25bf0e520386,Y,N,N,
+747c68a69c1d,Y,Y,N,"claims a red traffic light exists; frames show only a stop sign, no traffic light"
+b217f30c1b5e,Y,N,N,
+58842385488a,Y,Y,N,"claims car stopped at stop sign; frames show continuous motion, no stop"
+3292f33fee46,Y,N,N,
+4d3ad407d24a,Y,N,N,
+85a1c9310341,Y,Y,N,"claims car is turning at intersection; frames show it continuing straight, no turn"
+602c4e20dfe1,Y,Y,N,"claims car stops at stop sign before proceeding; frames show continuous motion, no stop"
+0bc2dfb43f56,Y,N,N,
+4319be0420e3,Y,N,N,
+04621d78004e,Y,Y,N,"claims continuous forward motion overriding stop; frames show a genuine stop before proceeding"
+4face6c90f13,Y,Y,N,"claims car never stopped; frames show it stationary at intersection before proceeding"
+f19a7f88a3cf,Y,N,N,
+ef790259538b,Y,N,N,
+a574b4e16fc9,Y,Y,N,"claims car never stops; frames show it stationary before proceeding through intersection"
+c319dcf9d330,Y,N,N,
+d78afcdb13f0,Y,N,N,
+ab98e57eaf89,Y,Y,N,"claims car has not stopped; frames show it stationary before moving through intersection"
+1b950435a15a,Y,N,N,
+8965a9ad1e29,Y,Y,N,"claims car fails to stop at stop sign; frames show it stationary before proceeding"
+fd00c367a0d4,Y,Y,N,"claims continuous motion, no stop; frames show car stationary before proceeding through intersection"
+a424f1c76e81,Y,N,N,
+d8f7d49da595,Y,N,N,
+3d91058489a7,Y,N,N,
+6a978eaaeddb,Y,Y,N,"claims car has not stopped; frames show it stationary before proceeding through intersection"
+94e479031362,Y,N,N,
+36a14252eec8,Y,N,N,
+5f12bb0e9b85,Y,N,N,
+b966f72a8566,Y,N,N,
+2a09a2977022,Y,Y,N,"claims car has not stopped; frames show it stationary throughout the entire clip"
+c6b4c8deb3f2,Y,N,N,
+ba120f341511,Y,N,N,
+f953021cb569,Y,Y,N,"claims car has not yet stopped; frames show it stationary before proceeding through intersection"
+7f3ed9b4187c,Y,Y,N,"claims car is not stopped at stop sign; frames show it stationary before proceeding"
+280ccee8589b,Y,Y,N,"claims car did not stop at stop sign; frames show it stationary before proceeding"
+7d16b344a514,Y,N,N,
+4ed9b6a768cf,Y,N,N,
+0278521809a6,Y,N,N,
+c1955323ef01,Y,N,N,
+992f94d4c6d4,Y,N,N,
+a125a7c3d58e,Y,N,N,
+bb2f79164cc3,Y,Y,N,"claims car moving without stopping, overriding visual evidence; frames show it stationary before proceeding"
+a6bc74733bbf,Y,N,N,
+da120fb47b31,Y,Y,N,"claims car is not stopped at stop sign; frames show it stationary before proceeding"
+c0a95e675b89,Y,N,N,
+97550424e919,Y,N,N,
+e6b0268ba9c3,Y,Y,N,"claims car proceeds without stopping; frames show it stationary before proceeding through intersection"
+bb60bb1678b5,Y,Y,N,"claims car has not stopped; frames show it stationary before proceeding through intersection"
+cce5a488eac8,Y,N,N,
+716822b852f9,Y,N,N,
+aecc4ca26aa2,Y,N,N,
+4f29331943e6,Y,Y,N,"claims car moves through intersection without stopping; frames show it stationary throughout"
+3ff3a649ba03,Y,N,N,
+c1399fb98e34,Y,N,N,
+e340dd981ba5,Y,Y,N,"claims car moving forward through intersection; frames show it stationary the entire clip"
+0f92c62f7166,Y,N,N,
+38f7193b45e8,Y,Y,N,"claims continuous forward motion throughout; frames show car stationary the entire clip"
+3b6528e2e428,Y,N,N,
+4aac21668cce,Y,Y,N,"claims car has not stopped, moving through intersection; frames show it stationary throughout"
+3c952a68b9cb,Y,Y,N,"claims car has not stopped; frames show it stationary throughout the entire clip"
+32d7f791d53a,Y,N,N,
+e10ae0484748,Y,Y,N,"claims steady forward motion, car still approaching sign; frames show it stationary throughout"
+4a7d18b4889d,Y,N,N,
+415fc4d73dce,Y,Y,N,"claims car still approaching stop line, moving slowly; frames show it stationary throughout"
+44b04b54e318,Y,N,N,
+f5b24e54e169,Y,Y,N,"claims car has not stopped; frames show it stationary throughout the entire clip"
+9d4013d84148,Y,N,N,
+113e74314b2d,Y,Y,N,"claims car moving forward towards stop sign; frames show it stationary throughout"
+3388d5174bf9,Y,Y,N,"claims car maintains steady speed/forward motion; frames show it stationary throughout"
+b802787f325c,Y,N,N,
+3e821f02b3b7,Y,Y,N,"claims car passes stop sign without stopping; frames show it stationary throughout the clip"
+af0fdfc1f5c8,Y,Y,N,"claims car has not stopped, moving through intersection; frames show it stationary throughout"
+1891a60a37df,Y,N,N,
+663dea7e2b33,Y,Y,N,"claims car moving steadily towards stop sign; frames show it stationary throughout"
+99bb19ad34ca,Y,Y,N,"claims car proceeds through intersection after stopping; frames show it stationary throughout"
+38154b210f3f,Y,N,N,
+03210af430b8,Y,Y,N,"claims car passes stop sign without stopping; frames show it stationary throughout the clip"
+5f6addc8aafa,Y,Y,N,"claims car has not stopped, moving through intersection; frames show it stationary throughout"
+ea3d6b2201b1,Y,N,N,
+7cc70021bdc7,N,Y,N,"no-match; repetitive/degenerate output never reaches conclusion; claims forward motion, frames show stationary car"
+07a4bc3d7ec5,Y,N,N,
+9bbd590246ca,Y,Y,N,"claims car moves through intersection without stopping; frames show it stationary throughout"
+c3615506f43e,Y,Y,N,"claims car moves with steady/consistent speed; frames show it stationary throughout the clip"
+94e4b2f6b820,Y,Y,N,"claims car has not stopped; frames show it stationary throughout the entire clip"
+52969ed126a8,Y,N,N,
+6e9d03cd05e1,Y,Y,N,"claims car passing the stop sign, moving forward; frames show it stationary throughout"

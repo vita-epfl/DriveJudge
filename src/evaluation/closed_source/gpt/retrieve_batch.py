@@ -26,7 +26,11 @@ from typing import Any
 
 from dotenv import load_dotenv
 
+from naming import output_stem
+
 _HERE = Path(__file__).resolve().parent
+DEFAULT_MODEL = "gpt-5.4-mini"
+DEFAULT_STEM = "gpt"
 
 
 def _load_env() -> None:
@@ -49,6 +53,18 @@ def _parse_output_file(client, output_file_id: str) -> list[dict[str, Any]]:
     return [json.loads(line) for line in lines if line.strip()]
 
 
+def _attach_reflection(rec: dict[str, Any], meta: dict[str, Any]) -> dict[str, Any]:
+    """Add the round-1 columns when the batch was a `--reflect` round."""
+    if "answer_r1" not in meta:
+        return rec
+    rec["evaluation_r1"] = meta.get("evaluation_r1", "")
+    rec["answer_r1"] = meta.get("answer_r1", "")
+    rec["changed"] = rec.get("answer") != rec["answer_r1"]
+    round1 = meta.get("round1")
+    rec["history"] = [round1] if round1 else []
+    return rec
+
+
 def _to_result_item(
     line: dict[str, Any],
     mapping: dict[str, dict[str, Any]],
@@ -56,7 +72,7 @@ def _to_result_item(
     cid = line["custom_id"]
     meta = mapping.get(cid, {})
     if line.get("error") or line.get("response", {}).get("status_code", 0) >= 400:
-        return {
+        return _attach_reflection({
             "video": meta.get("video"),
             "question": meta.get("question"),
             "evaluation": "",
@@ -66,7 +82,7 @@ def _to_result_item(
             "custom_id": cid,
             "model": meta.get("model"),
             "image_detail": meta.get("image_detail"),
-        }
+        }, meta)
     body = line["response"]["body"]
     choice = body["choices"][0]["message"]
     # Structured output can land either as parsed JSON in `content` or as a
@@ -80,7 +96,7 @@ def _to_result_item(
     usage = body.get("usage", {}) or {}
     cached = (usage.get("prompt_tokens_details") or {}).get("cached_tokens", 0)
 
-    return {
+    return _attach_reflection({
         "video": meta.get("video"),
         "question": meta.get("question"),
         "evaluation": parsed.get("evaluation", ""),
@@ -94,7 +110,7 @@ def _to_result_item(
         "model": meta.get("model"),
         "image_detail": meta.get("image_detail"),
         "custom_id": cid,
-    }
+    }, meta)
 
 
 _TERMINAL_STATUSES = {"completed", "failed", "expired", "cancelled"}
@@ -113,8 +129,11 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--state", type=Path,
                     default=_HERE / "batches" / "batch_state.json")
-    ap.add_argument("--output", type=Path,
-                    default=_HERE / "results" / "gpt_batch_results.json")
+    ap.add_argument("--output", type=Path, default=None,
+                    help="Result JSON path. Defaults to "
+                         "results/<stem>_batch_results.json, where <stem> is "
+                         "`gpt` for the default model and the sanitised model "
+                         "id (read from the state file) otherwise.")
     ap.add_argument("--wait", action="store_true",
                     help="Poll every 60s until every batch reaches a terminal status.")
     args = ap.parse_args()
@@ -125,6 +144,13 @@ def main() -> None:
 
     state = _load_state(args.state)
     mapping: dict[str, Any] = state.get("mapping", {})
+
+    if args.output is None:
+        stem = output_stem(state.get("model", DEFAULT_MODEL),
+                           default_model=DEFAULT_MODEL, default_stem=DEFAULT_STEM)
+        suffix = "_r2" if any("answer_r1" in m for m in mapping.values()) else ""
+        args.output = _HERE / "results" / f"{stem}_batch_results{suffix}.json"
+    print(f"Writing results to {args.output}")
 
     # Accept both the current chunked schema (`state["batches"]` is a list)
     # and the pre-chunking schema (`state["batch_id"]` at the top level).

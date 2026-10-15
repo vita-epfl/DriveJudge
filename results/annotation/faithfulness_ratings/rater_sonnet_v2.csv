@@ -1,0 +1,101 @@
+item_id,consistent,false_claim,missed_event,note
+9c1694c1f788,Y,N,N,Calm steady highway driving matches safety claim; no incidents observed.
+c3b3b1b46566,Y,N,N,Steady driving in snow matches claim; no FFT numbers quoted to mismatch.
+f1f051d51342,Y,N,N,Stable night highway driving matches claim of no erratic movement.
+bbd47e308efe,Y,Y,N,Signals appear red not green; cars braking near intersection contradicts green-light claim.
+54754ddb5982,Y,N,N,No traffic light/stop sign visible matches claim; warped sign artifact irrelevant to Q.
+952750777abb,Y,N,N,Calm steady overtake of truck matches perfectly-safe rating.
+bba863cabc35,Y,Y,N,Left car shifts from ahead to behind ego suggesting overtake contradicts no-lateral-motion claim.
+15ebe23c9aa7,Y,N,N,Dark SUV on right is passed and drops from view consistent with right overtake claim.
+152c2ad91c78,Y,N,N,No traffic signals or stop signs visible on highway matches claim.
+beb6eb6e3334,Y,N,N,Steady driving; truck ahead oddly vanishes but unrelated to ego safety claim.
+ba58849ed6c7,Y,N,N,Calm steady highway driving matches safe-driving claim.
+5a339d965dfc,Y,N,N,No traffic light visible at underpass interchange matches claim.
+e0354245e881,Y,N,N,Steady calm snowy driving matches perfectly-safe rating.
+66de8228fb77,Y,N,N,Steady night highway driving matches rating; gibberish sign artifact irrelevant to Q.
+012df2dc6a06,Y,N,N,Steady calm driving matches perfectly-safe rating.
+b5a845414132,Y,N,Y,Ego appears to pass truck through cone-marked curvy zone not mentioned could affect safety claim.
+67a8aa8204db,Y,N,N,Red light clearly visible while ego proceeds through intersection matches claim.
+bd8932cec76a,Y,N,N,Red light clearly visible while ego drives through matches claim.
+0be58d4db797,Y,Y,N,Light stays red throughout; ego appears past the intersection by last frame contradicting stopped claim.
+ff7114196baa,Y,N,N,Red lights visible while ego proceeds through and past intersection matches claim.
+507f635eee17,Y,N,N,Red lights visible while ego dark SUV crosses intersection matches claim.
+752bd8ab6fe8,Y,N,N,Approach to red light shown; crossing itself not fully visible in 8 frames but plausible.
+7e66bc21aa5c,Y,N,N,Red lights visible while ego clearly drives past and beyond intersection matches claim.
+df40704a52bf,Y,N,N,Red lights visible while ego crosses and ends up past intersection matches claim.
+237b7fa68b3e,Y,N,N,Approach to red light shown; crossing itself not fully visible in 8 frames but plausible.
+5411eab9c1d0,Y,Y,N,Red light visible while ego crosses through busy intersection with cross traffic contradicting no-red-light claim.
+5742666860f6,Y,N,N,Red light visible while ego approaches; no clear contradiction of stop claim in the 8 frames.
+ba2fd7bccf19,N,N,N,Explanation literally concludes behavior is consistent but model_answer is No self-contradictory.
+df91a92abe60,Y,N,N,Fog obscures clear view; red light visible near queued traffic consistent with claim.
+a80d873b5863,Y,N,N,Red lights visible while ego passes through and ends up beyond intersection matches claim.
+064d9ca176a4,Y,N,N,Red light visible while ego drives through and ends up beyond intersection matches claim.
+bea90b452eea,Y,N,N,Ego stationary at red light with cross traffic passing matches stopped claim.
+2f52ab2a7f27,Y,N,N,Ego stationary near red light matches approach-then-stop claim.
+06a46a736257,Y,N,N,Red light visible while ego crosses and passes through intersection matches claim.
+d46760bf92d4,Y,N,N,Ego continuously approaches stop sign without stopping in the 8 frames matches not-stopped claim.
+56710399814b,Y,Y,N,Ego shows continuous smooth motion past stop sign with no visible stop contradicting complete-stop claim.
+cc9e57cf5d01,Y,N,N,Ego continues past stop sign intersection without stopping matches claim.
+be0fa34583b8,Y,N,N,Ego drives over STOP pavement marking without stopping matches not-stopped claim.
+749a2cb4f5e8,Y,N,N,Ego passes stop sign and continues down road matches not-stopped claim.
+f99d831d9d3c,Y,N,N,Ego passes stop sign without stopping matches traffic-rule-violation claim.
+2494a83aac7d,N,N,N,Text says car comes to a stop then contradicts itself saying not stationary while answer is No.
+356d45aeca9a,Y,Y,N,No traffic light exists in scene only a stop sign explanation falsely invents a green light.
+bbadb31e5d35,Y,N,N,Ego proceeds smoothly through foggy intersection consistent with claim.
+e6b0268ba9c3,Y,Y,N,Scene is nearly static across all 8 frames contradicting claim car proceeds through intersection.
+bba53cb444bb,Y,Y,N,Ego shows continuous unbroken motion over STOP marking with no deceleration contradicting stop claim.
+a243d95f8d23,Y,N,N,Ego proceeds continuously past stop sign without stopping matches claim.
+9777c9f55568,Y,Y,N,Ego passes STOP marking and sign with continuous motion no evidence of a complete stop.
+f20c038d0b41,Y,N,N,Ego continues past stop sign intersection without stopping matches claim.
+7244e4ef7ec3,Y,Y,N,Ego shows continuous forward progress past STOP marking with no visible deceleration contradicting stop claim.
+3878d9d641dd,Y,N,N,Ego passes stop sign steadily without stopping matches claim.
+1df94daaa60d,Y,Y,N,FFT number matches but odd floating orange glow near barrier contradicts all-natural claim.
+18a9776812ce,Y,N,N,FFT number matches quoted value no contradicting visual evidence found.
+673d6eb75a51,Y,N,N,FFT number matches quoted value no contradicting visual evidence found.
+24d9581e5c46,Y,N,N,FFT number matches and gibberish highway sign text supports unrealistic score.
+dcbddc716a43,Y,Y,N,Quoted FFT 0.0508 does not match fft_anisotropy_actual 0.0506.
+e88745be3662,Y,N,N,FFT number matches quoted value no contradicting visual evidence found.
+f7e66283ffef,Y,N,N,FFT number matches quoted value no contradicting visual evidence found.
+1af19f6cee47,Y,N,N,FFT number matches quoted value no contradicting visual evidence found.
+fe2061b24c9a,Y,N,N,FFT number matches quoted value no contradicting visual evidence found.
+07bc4674be57,Y,N,N,FFT number matches and gibberish STOPP road text supports minor-issues score.
+bccc4aa6e8dc,N,N,N,Reasoning concedes no visible artifacts yet jumps to score 1 clearly impossible unsupported leap.
+4df30600ec75,Y,N,N,FFT matches and subtle bent pole supports minor-issues score.
+9afd1df0efeb,Y,N,N,FFT matches and slightly distorted wires support generated verdict.
+0d5bb3772a9a,Y,N,N,FFT matches and bent stop-sign pole supports generated verdict.
+84f18ce364fe,Y,N,N,FFT matches and garbled STOP text plus melted stop sign support clearly-impossible score.
+89a40ff422a3,Y,N,N,FFT matches and scene looks clean consistent with moderate-confidence generated call.
+8568ace0fad0,Y,N,N,FFT matches and floating disconnected light pole supports generated verdict.
+b0340b61222e,Y,Y,N,FFT matches but pavement text is garbled mirrored contradicting consistent-with-real-world claim.
+2a6030d65479,Y,N,N,FFT matches and no visible artifacts consistent with real verdict.
+91925d09b4bc,Y,N,N,FFT matches and no visible artifacts reasoning explains why final call leans real despite FFT.
+b4fed0ea2cc4,Y,N,N,FFT matches quoted value no contradicting visual evidence found.
+6e5878697549,Y,N,N,FFT matches quoted value no contradicting visual evidence found.
+b8b70102deb2,Y,N,N,FFT matches and scene looks clean consistent with real verdict.
+1b324ca65468,Y,N,N,FFT matches and scene looks clean consistent with indistinguishable-from-real score.
+e44f7a94b5b7,Y,N,N,FFT matches quoted value no contradicting visual evidence found.
+e26414e94f78,Y,N,N,FFT matches and gibberish highway sign supports not-fully-realistic score.
+b7013a42e72f,Y,N,N,FFT matches and building facade visibly melts into glass tower confirming claimed artifact.
+6e60eadedaec,Y,N,N,White van present in early frames vanishes amid a dramatic warp confirming claimed melt artifact.
+d5be56fb619c,N,N,N,Reasoning concedes no visible artifacts and cites a real/generated SOP yet still jumps to score 1.
+037d6286ba68,Y,N,N,All four cars remain visible throughout with no appearance or disappearance matching claim.
+69fb26cadb4b,Y,Y,N,NO STOPPING digital sign text visibly glitches and disappears across frames contradicting consistent-markings claim.
+f72c35527de4,Y,Y,N,A parked black vehicle shows a distorted melting shape in later frames contradicting no-shape-change claim.
+5268ca8660bf,Y,N,N,FFT matches quoted value no contradicting visual evidence found.
+98830bc54c57,Y,N,N,FFT matches and no obvious visual artifacts consistent with minor-issues score.
+fe9fb63a1285,Y,N,N,FFT matches quoted value no clearly contradicting visual evidence found.
+e3e44ce86111,Y,N,N,FFT matches quoted value no contradicting visual evidence found.
+68c2af616fe1,Y,N,N,Reasoning is generic but a parked black truck visibly vanishes by last frame matching the Yes answer.
+6db403f64708,N,N,N,Reasoning is purely generic AI-pattern inference not tied to any observed event in these frames.
+1a40bf67d642,N,N,N,Reasoning concedes no visible artifacts yet still jumps to score 1 clearly impossible unsupported leap.
+cb04fdb470f7,Y,Y,N,Car ahead visibly morphs into an elongated blob shape in the last frame contradicting no-shape-change claim.
+44142f04b2ec,Y,N,N,Red car too small and distant to verify claimed roof wobbling no contradiction found.
+96fa67cde006,Y,N,N,Roadside flags visibly dissolve into wispy ribbon shapes supporting minor-issues realism score.
+5fa6c4a9d96a,Y,N,N,Road worker not visible after early frames but plausibly just walked out of view no clear artifact.
+fc927a25197e,Y,N,N,FFT matches quoted value no contradicting visual evidence found.
+ba66a4850834,Y,N,N,FFT matches quoted value no contradicting visual evidence found.
+26a84d311702,Y,N,N,Van shape changes are ambiguous plausibly a new vehicle entering frame not a clear contradiction.
+23b5dd7bedcc,Y,Y,N,Pedestrian group visible at right in frames 0 to 1 vanishes in later frames while scene is otherwise static.
+2286b87c4d51,Y,N,N,Dark night scene makes artifacts hard to verify no clear contradiction found.
+311d2896e72c,Y,N,N,Yellow van shows a visibly distorted underside in frame 2 supporting the shape-change claim despite hedged wording.
+d218a7063cc7,Y,N,N,FFT matches quoted value no contradicting visual evidence found.

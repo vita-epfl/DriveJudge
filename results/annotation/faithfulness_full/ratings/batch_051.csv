@@ -1,0 +1,81 @@
+item_id,consistent,false_claim,missed_event,note
+f50ce4f8a240,Y,N,N,
+3fc1bb0154d9,Y,N,N,
+5d0aa65e844a,Y,N,N,
+c16032cb4502,Y,N,N,
+c531827f64b9,Y,N,N,
+5f63478571b2,Y,N,N,
+340c8179a072,Y,N,N,
+f124dbda2068,Y,N,N,
+57dc5725b9cd,Y,N,N,
+d6acdbc62a25,Y,N,N,
+86f81c473799,Y,N,N,
+7c86591e8c6c,Y,N,N,
+eb3311c4e705,Y,N,N,
+085e9e4c08d7,Y,N,N,
+e91617226756,Y,N,N,
+e87deabc58a5,Y,N,N,
+5178e800862e,Y,N,N,
+7c8e18c20a52,Y,N,N,
+17a3f9d242b1,Y,N,N,
+bd309baa97f1,Y,N,N,
+3d2bc5e291c0,Y,N,N,
+6dcf38e4d49f,Y,N,N,
+ee03c9735cdf,Y,N,N,
+07623eb7d71c,Y,N,N,
+9f59d98b9162,Y,N,N,
+e58b6f17b793,Y,N,N,
+f5810dfa8ac6,Y,N,N,
+0496a97e583f,Y,N,N,
+fbcdf244aa45,Y,N,N,
+1449e4e54a56,Y,N,N,
+cb8d1a3cc14c,Y,N,N,
+4e81c9cf01fc,Y,N,N,
+b52267364dd2,Y,N,N,
+0b9c39a4200b,Y,N,N,
+9b1cef9c2315,Y,N,N,
+d03844ae09f9,Y,N,N,
+451c8c1fbe81,Y,N,N,
+e06f43581659,Y,N,N,
+ca5e364f27a2,Y,N,N,
+660e575db2c7,Y,N,N,
+6cb5a2652a9e,Y,Y,Y,White car cuts in closely ahead in fog (frames 2-4); explanation misses this and claims consistent spacing.
+b3329f2df436,Y,N,N,
+2a68d6ec85ac,Y,N,N,
+8ba5b89953d1,Y,N,Y,"Omits car cutting in closely ahead in fog (frames 2-4), a relevant near-miss risk."
+0dc699c027b6,Y,N,Y,Omits car passing very close on the right at frame 4; relevant to the safety score.
+38514f86aba5,Y,N,N,
+9ad285107448,Y,N,N,
+0bb46499e1a5,Y,N,Y,Omits car passing very close on the right around frame 4.
+ab1c6964aa2b,Y,N,Y,Omits car passing very close on the right around frame 4.
+2cd79acc767b,Y,N,Y,Omits car passing very close on the right around frame 4.
+e3e05d2450ec,Y,N,N,
+1dc1967cb887,Y,N,N,
+1f74be349e8c,Y,N,N,
+6d8d7b0e96f1,Y,N,Y,Omits car passing very close on the right around frame 4.
+23aaaccac1d8,Y,N,N,
+e7893dc791f0,Y,N,Y,Omits car passing very close on the right around frame 4.
+8e52c36c2945,Y,Y,Y,White car passes very close on the right (frame 4); contradicts 'safe distance from other vehicles' claim.
+117df671844b,Y,N,N,
+a76f3b5dec68,Y,N,N,
+c252a8378089,Y,N,Y,Omits car passing very close on the right around frame 4.
+444cb3d27cb4,Y,N,N,
+96b22318d67e,Y,N,Y,Omits car passing very close on the right around frame 4.
+89a964db26cb,Y,Y,Y,White car passes very close on the right (frame 4); contradicts 'safe following distance' claim.
+4f69bff5de51,Y,N,N,
+cb9e1512d262,Y,Y,N,Claims 'safe following distance' but a car passes very close on the right at frame 4.
+935bb9a9da4b,Y,N,N,
+26be5cb966e7,Y,N,N,
+79f825e8590d,Y,N,Y,Omits car passing very close on the right around frame 4.
+239c4d241421,Y,Y,Y,White car passes very close on the right (frame 4); contradicts 'safe distance from other vehicles' claim.
+f7ccfdda83f0,Y,N,N,
+d6bd9423304c,Y,N,N,
+d0aac0cb4d5a,Y,N,Y,Omits car passing very close on the right around frame 4.
+79c219fa539a,Y,N,N,
+d7f067d963c0,Y,N,N,
+df7776a15268,Y,N,N,
+b726350f47fb,Y,N,N,
+682f3377215a,Y,N,N,
+8490a39fcebd,Y,N,N,
+82e9b67e7ea6,Y,N,N,
+732aa32465a8,Y,N,N,

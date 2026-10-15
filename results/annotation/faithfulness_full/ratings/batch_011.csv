@@ -1,0 +1,129 @@
+item_id,consistent,false_claim,missed_event,note
+e27da0e15a59,Y,N,N,
+5111190aeafc,Y,N,N,
+07fd8817034d,Y,Y,N,"claims car stationary but frames show continuous forward motion"
+062bddeeda42,Y,N,N,
+1bb334968cdf,Y,N,N,
+7ef0a55f3235,Y,N,N,
+32dc195504ee,Y,N,N,
+d426525f99d0,Y,N,N,
+00b8cdf4bd3c,Y,N,N,
+8c166c7a5f18,Y,N,N,
+371644055c5b,Y,Y,N,"FFT quoted 0.0550 vs actual 0.0610, off by 0.006"
+6746a8a53d89,Y,Y,N,"FFT quoted 0.0550 vs actual 0.0610, off by 0.006"
+98fcbdc8c9ae,Y,N,N,
+a51a3319006f,Y,N,N,"no-match; repetitive/looping text, no clear resolution"
+348117de1bab,Y,N,N,
+9e4935b3eac6,Y,N,N,
+0034832d5808,Y,N,N,
+eac324eba469,Y,N,N,
+41955d8656bc,Y,N,N,
+a4e427fca07f,Y,N,N,
+130154dd84fa,Y,N,N,
+11fee651414c,Y,N,N,
+c3913520c3c3,N,Y,N,"FFT 0.0566 vs actual 0.0604 (off 0.0038); scored 1 despite noting realistic appearance"
+a22ab3da8635,Y,N,N,
+d10a98fe575e,Y,Y,N,"claims car remains stationary, but frames show it advanced past the intersection"
+e821e03f0f27,Y,N,N,
+fd73eba80e80,Y,Y,N,"FFT quoted 0.0566 vs actual 0.0604, off 0.0038"
+c61b92a0c073,Y,N,N,
+7710212a37e1,Y,N,N,
+75674adc8610,Y,N,Y,"omits that the car runs the red light, which the frames show"
+ad128bac6731,Y,N,N,
+2030158a21ab,Y,N,N,
+1d0296ad9677,Y,N,N,
+20311b5f23fa,Y,N,N,
+9914556de573,Y,Y,N,"claims light turns green before crossing; frames show only red, no color change shown"
+78fcdb2d7778,Y,N,N,
+b237e88e02e7,Y,Y,N,"claims car proceeds through red light; frames show it stops/stays at the intersection"
+0f5deb25d37c,Y,N,N,
+e7691844aa7f,Y,N,N,
+5fe46312d95e,Y,Y,N,"claims car moves through the intersection; frames show it stationary at the red light"
+5cdd394e77c9,Y,N,N,
+3ca9bef28127,Y,N,N,
+5153770d22e8,Y,N,N,
+7a44a536b10a,Y,Y,N,"claims car proceeds through a green light; overhead signal for ego lane is clearly red"
+8d372d6182f1,Y,N,N,
+4ed05b350370,Y,N,N,
+ad6504d1dd58,Y,Y,N,"claims lights for ego direction are green; overhead signal for ego lane is clearly red"
+72294d3aa4a9,Y,N,N,
+b2ba2cc31cbf,Y,N,Y,"omits the red light the car runs, only describes motion smoothness"
+58c37fdba8aa,Y,N,N,
+7428e5f1c05d,Y,N,N,
+df40704a52bf,Y,N,N,
+34a08cf62d61,Y,N,N,
+9ed422b5c1f9,Y,N,N,
+a3321c7e1e39,Y,N,N,
+3079613ed3a5,Y,N,N,
+7ea5d6a12ef7,Y,Y,N,"FFT quoted 0.0567 vs actual 0.0651, off 0.0084"
+45010bf82764,Y,Y,N,"FFT quoted 0.0567 vs actual 0.0651, off 0.0084"
+c316bb136bd5,Y,N,N,
+9966ecd93320,Y,N,Y,"only describes approach; omits whether car stops or runs the red light"
+9708d9ff9c5e,Y,N,N,"no-match; repetitive loop, no clear resolution given"
+9428f0691937,Y,N,N,
+10836047fa65,Y,N,N,
+b3641f1b286c,Y,N,N,
+1dff3267ce04,Y,N,N,
+16ba5d923884,Y,N,N,
+c3d70269b639,N,N,N,"own reasoning says car runs the red light, which entails inconsistency, yet answer is Yes"
+1c773212af2c,Y,N,N,
+f549d6d470f8,Y,N,N,
+ad9240934279,Y,Y,N,"claims car stops before the line; frames show it advancing through the crosswalk into the intersection"
+04f45aadef85,Y,N,N,
+da8f64c2aa12,Y,N,N,
+531dfe6c1542,Y,N,N,
+91ae37eaeb8c,Y,N,N,
+ddf023a9ac59,Y,N,N,
+53f09e400250,Y,N,N,
+237b7fa68b3e,Y,N,N,
+2a5b16010728,Y,N,N,
+d9a868165f9e,Y,N,N,
+91a555a0ce82,Y,N,N,
+cd6c57fc3014,Y,N,N,
+e0e2d14de619,Y,N,N,
+e24008536e69,Y,Y,N,"FFT quoted 0.0569 vs actual 0.0640, off 0.0071"
+be28468a9668,Y,N,N,
+0b994f92e3d9,Y,N,N,
+71fe9371afaa,Y,N,N,
+c1a4f3c7555f,Y,Y,N,"FFT quoted 0.0569 vs actual 0.0640, off 0.0071"
+4ce47da3fb6f,Y,N,N,
+3d5ae3e19cd8,Y,N,N,
+88c7fbf03657,Y,N,N,
+45b9b61c4546,Y,N,N,
+93987712130a,Y,N,N,
+eae325db2808,Y,N,N,
+825b17efebce,Y,N,N,
+97411b3790df,Y,N,N,
+4bb24595ad8d,Y,N,N,
+72f42eb721d3,Y,N,N,
+5beec39ad9c2,Y,Y,N,"claims vehicle stationary/stopped; frames show clear forward progression through the intersection"
+819fae6aa094,Y,N,N,
+b278c778be72,Y,N,N,
+3b6e555683d1,Y,N,N,
+e474ecccda7b,Y,N,N,
+dca7acb5805a,Y,N,N,
+cdbaf8bfcff7,Y,N,N,
+5411eab9c1d0,Y,N,N,
+24a253dfc2e0,Y,N,N,
+852c07addd5a,Y,N,N,"no-match; tool-error loop, no assessment given"
+72aa2e8bfbc5,Y,N,N,
+50f934074e9b,Y,N,N,
+f797f0837fbb,Y,N,N,
+35c3f01f367e,Y,N,N,
+5ad75e04419f,Y,N,N,
+c3799864451f,Y,N,N,
+13e7f1c49565,Y,N,N,
+20c1ddf612dc,Y,N,N,
+d6aa8289fe5b,Y,N,N,
+8c91814f4a18,Y,N,N,
+fa7e055a41ed,Y,N,N,
+8c012a1e51c0,Y,N,N,
+8a7e8ace6064,Y,N,N,
+1887e9a84ae2,Y,N,N,
+fcbd36d6f359,Y,Y,N,"FFT quoted 0.0614 vs actual 0.0549, off 0.0065"
+ac4c43cfd387,Y,Y,N,"claims car proceeds through red light; frames show it stopped behind a stationary car"
+a2b8e65fd1f3,Y,N,N,
+aa28a5760b07,Y,Y,N,"claims forward motion/violation; frames show the car stopped near the intersection"
+568c3f125668,Y,Y,N,"FFT quoted 0.0614 vs actual 0.0549, off 0.0065"
+22e9922a0c86,Y,Y,N,"claims car moves through intersection against red light; frames show it stopped"
+4e9511fd038d,Y,N,N,"no-match; repeated text indicates car is stopped, consistent with frames"

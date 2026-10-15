@@ -1,0 +1,165 @@
+# =============================================================================
+# E10 counterfactual harness + the provenance-bug re-run  — pod commands.
+# Same conventions as cluster/commands_to_run.txt: vLLM serves Qwen3-VL on
+# :8000 first, the agent then runs against it with --num_workers 4.
+# Everything below is copy-pasteable inside `runai bash <job>`.
+#
+# Total: 7172 agent items  ~=  10 h wall  (~50 GPU-h on a 5-GPU pod).
+# See HANDOFF.md for the run order and the expected outputs.
+# =============================================================================
+
+export STORAGE=/mnt/vita/vita-students/users/scharffe/VLM-eval
+export ROOT=$STORAGE/final_dataset
+export CF=$STORAGE/code/src/agentic/counterfactual        # where you copied the repo
+export CFROOT=$ROOT/counterfactual                        # counterfactual artefacts
+export OUT=$STORAGE/results/counterfactual                # result JSONs
+mkdir -p "$CFROOT" "$OUT"
+
+# The canonical agent expects /mnt/vita/vita-students while Questions_raw.json
+# stores /mnt/vita/scratch/vita-students; startup_v4.sh already makes the
+# symlink, keep it:
+mkdir -p /mnt/vita/scratch 2>/dev/null || true
+ln -sf /mnt/vita/vita-students /mnt/vita/scratch/vita-students 2>/dev/null || true
+
+
+# ── 0. one-off: the counterfactual video artefacts (CPU only, ~5 min) ────────
+# raft_reverse/<source>/<folder>/flow_<stem>.mp4  (hue=h=180 -> pink<->green)
+# raft_corrupt/static_gray_flow.mp4               (no motion at all)
+# sam_corrupt/object_{1..4}_clean.mp4             (4 black 512x512 clips)
+python "$CF/make_cf_videos.py" --raft-cache "$ROOT/raft" --out "$CFROOT" --workers 4
+
+
+# ── 1. serve Qwen3-VL on GPUs 0-3 (identical to the v4o serve command) ───────
+CUDA_VISIBLE_DEVICES=0,1,2,3 vllm serve "$STORAGE/models/Qwen3-VL-30B-A3B-Instruct" \
+      --tensor-parallel-size 4 \
+      --mm-encoder-tp-mode data \
+      --enable-expert-parallel \
+      --max-model-len 32768 \
+      --gpu-memory-utilization 0.90 \
+      --async-scheduling \
+      --media-io-kwargs '{"video": {"num_frames": -1}}' \
+      --mm-processor-kwargs '{"fps": 24.0}' \
+      --host 0.0.0.0 --port 8000 --trust-remote-code \
+      --limit-mm-per-prompt '{"video": 1}' &
+# wait for :8000 (startup_v4.sh has the polling loop)
+
+
+# ── 2. agent venv (same package list as cluster/startup_v4.sh) ───────────────
+cd "$STORAGE/code/src/agentic" && python -m venv ./venv && source ./venv/bin/activate && \
+  pip install decord qwen-agent python-dateutil imageio[ffmpeg] av filelock opencv-python soundfile \
+      git+https://github.com/huggingface/transformers && \
+  pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+#  A. Provenance re-run: the 736 items whose tools may have seen the wrong clip
+#     (188 clips whose mp4 basename exists in >1 pool of final_dataset).
+#     Uses the FIXED canonical agent, not the counterfactual copy.
+#     v4o = no hints, v4p = the same file plus --ins.   736 items each.
+# ═════════════════════════════════════════════════════════════════════════════
+cd "$STORAGE/code/src/agentic"
+
+CUDA_VISIBLE_DEVICES=4 python main_multi_tools_v4.py \
+    --num_workers 4 --temperature 0.3 \
+    --questions_file "$CF/rerun_collisions.json" \
+    --output_file_path "$OUT/v4o_rerun_collisions.json"
+
+CUDA_VISIBLE_DEVICES=4 python main_multi_tools_v4.py \
+    --num_workers 4 --temperature 0.3 --ins \
+    --questions_file "$CF/rerun_collisions.json" \
+    --output_file_path "$OUT/v4p_rerun_collisions.json"
+
+# NOTE: an absolute --questions_file works unchanged (os.path.join drops the
+# --storage_path prefix when the second component is absolute).
+# NOTE: these two runs may have to (re)compute RAFT/SAM/FFT for up to 188 clips
+# whose canonical cache was written against the wrong file — budget up to ~9 h
+# of serialised GPU-4 tool time on a cold cache, ~30 min on a warm one.
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+#  B. E10 counterfactual runs (main_counterfactual.py)
+#     cwd MUST be src/agentic/counterfactual so `import cf_tools` resolves.
+# ═════════════════════════════════════════════════════════════════════════════
+cd "$CF"
+export FOR="$CF/subsets/cf_forensic.json"     # 600 items (SOP-B: FFT + SAM)
+export MOT="$CF/subsets/cf_motion.json"       # 300 items (SOP-C: RAFT)
+COMMON="--num_workers 4 --temperature 0.3 --cf-seed 0 --cf-root $CFROOT"
+
+# ---- B.1  baseline x2 (all tools real, two independent runs) ----------------
+#      The second run measures the agent's own sampling noise at T=0.3; it is
+#      the floor every counterfactual flip rate is compared against.
+for RUN in 1 2; do
+  CUDA_VISIBLE_DEVICES=4 python main_counterfactual.py $COMMON \
+      --questions_file "$FOR" --run-label "baseline_run$RUN" \
+      --out "$OUT/baseline_run$RUN.json"
+  CUDA_VISIBLE_DEVICES=4 python main_counterfactual.py $COMMON \
+      --questions_file "$MOT" --run-label "baseline_run$RUN" \
+      --out "$OUT/baseline_run$RUN.json"          # appends, same --run-label
+done
+
+# ---- B.2  FFT interventions on the forensic subset (600 items each) ---------
+for MODE in none corrupt reverse; do
+  CUDA_VISIBLE_DEVICES=4 python main_counterfactual.py $COMMON \
+      --questions_file "$FOR" --fft-mode $MODE \
+      --run-label "fft-$MODE" --out "$OUT/fft-$MODE.json"
+done
+
+# ---- B.3  SAM interventions on the forensic subset (600 items each) ---------
+for MODE in none corrupt; do
+  CUDA_VISIBLE_DEVICES=4 python main_counterfactual.py $COMMON \
+      --questions_file "$FOR" --sam-mode $MODE \
+      --run-label "sam-$MODE" --out "$OUT/sam-$MODE.json"
+done
+# optional 3rd SAM arm: --sam-mode mismatch (clips of a different clip of the
+# same pool); it needs SAM for the donor clips, so budget extra GPU time.
+
+# ---- B.4  RAFT interventions on the motion subset (300 items each) ----------
+for MODE in none corrupt reverse; do
+  CUDA_VISIBLE_DEVICES=4 python main_counterfactual.py $COMMON \
+      --questions_file "$MOT" --raft-mode $MODE \
+      --run-label "raft-$MODE" --out "$OUT/raft-$MODE.json"
+done
+
+# ---- B.5  optional: recalibrated FFT threshold (no extra intervention) ------
+# CUDA_VISIBLE_DEVICES=4 python main_counterfactual.py $COMMON \
+#     --questions_file "$FOR" --fft-threshold 0.052 \
+#     --run-label "fft-thr0052" --out "$OUT/fft-thr0052.json"
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+#  C. Analysis (laptop or pod, CPU only — needs polars + matplotlib)
+# ═════════════════════════════════════════════════════════════════════════════
+# copy $OUT/*.json back into results/counterfactual/ of the repo, then:
+#
+#   .venv/bin/python src/agentic/counterfactual/analyze_cf.py \
+#       --runs-dir results/counterfactual --n-boot 2000 --seed 0
+#
+# -> results/counterfactual/cf_metrics.parquet
+#    results/counterfactual/cf_summary.json
+#    results/counterfactual/cf_table.tex
+#    report/figures/fig_counterfactual_flips.{pdf,png}
+#
+# and, for the provenance re-run, the usual agent post-processing:
+#
+#   python src/agentic/postprocess_missing.py $OUT/v4o_rerun_collisions.json
+#   python src/analysis/answer_analysis_agent.py     # (agent result shape)
+
+
+# =============================================================================
+# Item / time budget (measured v4o rate: ~20 s per item, 4 workers -> ~5 s wall)
+#
+#   baseline x2 (forensic 600 + motion 300)      1800 items    2.5 h
+#   FFT  {none, corrupt, reverse} x 600          1800 items    2.5 h
+#   SAM  {none, corrupt}          x 600          1200 items    1.7 h
+#   RAFT {none, corrupt, reverse} x 300           900 items    1.25 h
+#   rerun_collisions v4o + v4p    x 736          1472 items    2.0 h
+#   ----------------------------------------------------------------
+#   total                                        7172 items   ~10 h wall
+#                                                             ~50 GPU-h
+#                                                             (4 vLLM + 1 tools)
+#
+# + up to ~9 h of serialised GPU-4 tool time for section A on a cold cache
+#   (188 clips x SAM ~90 s + RAFT ~60 s + FFT ~20 s).  Section B runs on the
+#   warm v4o caches: the FFT counterfactuals are pure arithmetic on the cached
+#   summaries, and the RAFT ones are pre-rendered in step 0.
+# =============================================================================

@@ -1,0 +1,101 @@
+item_id,consistent,false_claim,missed_event,note
+9c1694c1f788,Y,Y,N,Claims no lane changes; ego clearly changes lane right and passes two cars
+c3b3b1b46566,Y,N,N,Snowy highway pass; nothing in frames contradicts stated stable forward motion
+f1f051d51342,Y,N,N,Night highway; lateral move ambiguous from frames, no clear contradiction
+bbd47e308efe,Y,N,N,Green signal ahead confirmed in frames; claim supported
+54754ddb5982,Y,N,Y,Ego overtakes yellow truck on the right (Europe); rules question, unmentioned
+952750777abb,Y,N,N,Normal highway passes on the left; no contradiction visible
+bba863cabc35,Y,Y,N,Says left-lane cars keep pace; frames show ego passing them on the right
+15ebe23c9aa7,Y,Y,N,Dark SUV visibly pulls away ahead, not being passed as claimed
+152c2ad91c78,Y,N,N,Highway, no signals visible; consistent with frames
+beb6eb6e3334,Y,N,Y,Ego tailgates truck very closely then swerves past it; unmentioned safety event
+ba58849ed6c7,Y,N,N,Steady highway lane; passing vehicles appear across median, nothing contradicted
+5a339d965dfc,Y,N,N,Highway under overpasses, no signals; passing on right is legal there
+e0354245e881,Y,N,N,Snowy highway, ego passes cars on right but nothing stated is contradicted
+66de8228fb77,Y,N,N,Dense night traffic, steady lane keeping; no contradiction in frames
+012df2dc6a06,Y,N,N,Golden-hour highway, routine passes; claims not contradicted
+b5a845414132,Y,N,Y,Ego passes semis on right inside coned work zone, barrels nearly clipped
+67a8aa8204db,Y,Y,N,Frames show ego stationary at the line while cross traffic passes, not moving
+bd8932cec76a,Y,N,N,Ego does advance through intersection with red signals visible
+0be58d4db797,Y,Y,N,Claims car stopped before stop line; frames show it driving straight through red
+ff7114196baa,Y,N,N,Red lights visible and ego proceeds through intersection as described
+507f635eee17,Y,N,N,Red signals face ego and it drives through the intersection as described
+752bd8ab6fe8,Y,N,N,Ego proceeds through intersection with red signals ahead; description matches
+7e66bc21aa5c,Y,N,N,Foggy intersection, clear red lights, ego proceeds through them
+df40704a52bf,Y,N,N,Near mast-arm signals red facing ego while it advances; green is next block
+237b7fa68b3e,Y,N,N,Same red-light run visible; explanation matches frames
+5411eab9c1d0,Y,Y,N,Says no red-light running; red lamps lit on signals facing ego as it crosses
+5742666860f6,Y,N,N,Red light ahead correct; stop not visible but clip ends before stop line
+ba2fd7bccf19,N,N,N,Last sentence says motion IS consistent with lights, yet answer is No
+df91a92abe60,Y,N,N,Foggy red-light approach and entry matches the stated evidence
+a80d873b5863,Y,N,N,Ego enters intersection on red while cross traffic passes, as described
+064d9ca176a4,Y,N,N,Ego drives on through red signals at successive intersections as stated
+bea90b452eea,Y,N,N,Foggy queue; ego advances then appears stopped near line at red, as claimed
+2f52ab2a7f27,Y,N,N,Ego approaches and comes to rest at the rainy intersection with red signals
+06a46a736257,Y,N,N,Ego crosses wide junction with red signals facing it and cross traffic moving
+d46760bf92d4,Y,N,N,Continuous forward motion past STOP marking; no stop visible, matches answer
+56710399814b,Y,Y,N,Claims complete stop before the line; frames show it rolling straight through
+cc9e57cf5d01,Y,N,N,Ego passes STOP marking without stopping, as the explanation states
+be0fa34583b8,Y,N,N,Steady forward motion past stop line in rain; matches stated evidence
+749a2cb4f5e8,Y,N,N,Ego drives past stop sign and continues; no stop in any frame
+f99d831d9d3c,Y,N,N,Stop sign and STOP marking visible, ego rolls through without stopping
+2494a83aac7d,N,Y,N,Text says car comes to a stop yet answer is No; frames show no stop
+356d45aeca9a,Y,Y,N,Claims a green traffic light; intersection is stop-sign controlled, no signal exists
+bbadb31e5d35,Y,Y,N,Claims it stopped at the stop sign; frames show continuous roll through fog
+e6b0268ba9c3,Y,N,N,Ego passes the stop sign without stopping, as the explanation says
+bba53cb444bb,Y,Y,N,Claims it slows and stops before the line; ego passes STOP marking at speed
+a243d95f8d23,Y,N,N,Foggy stop sign rolled through without stopping, matching the explanation
+9777c9f55568,Y,Y,N,Claims complete stop and waiting at sign; ego drives straight over the marking
+f20c038d0b41,Y,N,N,Continuous motion toward and through intersection; no stop in frames
+7244e4ef7ec3,Y,Y,N,Claims car stops at the stop line; frames show it rolling through snowy stop
+3878d9d641dd,Y,N,N,Ego passes stop sign and marking without stopping, as stated
+1df94daaa60d,Y,N,N,FFT value quoted correctly; dark night highway shows no blatant artifact
+18a9776812ce,Y,N,N,FFT 0.0569 matches tool; claims restricted to SAM car crops
+673d6eb75a51,Y,N,N,FFT 0.0529 matches; dark snowy frames show nothing contradicting
+24d9581e5c46,Y,N,N,FFT matches; gibberish overhead sign text supports the score-1 answer
+dcbddc716a43,Y,Y,N,Quotes anisotropy 0.0508 but the tool actually returned 0.0506
+e88745be3662,Y,N,N,FFT 0.0536 matches tool output; frames contradict nothing
+f7e66283ffef,Y,N,N,FFT 0.0578 matches; rainy frames show no contradicting detail
+1af19f6cee47,Y,N,N,FFT matches; garbled road text present but score 2 already concedes issues
+fe2061b24c9a,Y,N,N,FFT 0.0536 matches tool; nothing in frames contradicts the text
+07bc4674be57,Y,N,N,FFT matches; garbled STOPP marking visible but score 2 concedes issues
+bccc4aa6e8dc,Y,N,N,FFT 0.0578 matches; claim limited to car crops, frames contradict nothing
+4df30600ec75,Y,N,N,FFT 0.0654 matches tool output; garbled STOP text but score 2 given
+9afd1df0efeb,Y,N,N,FFT 0.0700 matches; garbled road marking supports the Generated answer
+0d5bb3772a9a,Y,N,N,FFT 0.0563 matches; garbled STOP marking consistent with Generated
+84f18ce364fe,Y,N,N,FFT matches; melted stop sign and gibberish text support the score-1 answer
+89a40ff422a3,Y,N,N,FFT 0.0481 correctly quoted as just above threshold; frames unremarkable
+8568ace0fad0,Y,N,N,FFT 0.0506 matches; bent floating light pole consistent with Generated
+b0340b61222e,Y,Y,N,Says road markings natural and indistinguishable from real; lane text is gibberish
+2a6030d65479,Y,N,N,FFT 0.0438 matches; nothing in frames contradicts the clean-artifact claim
+91925d09b4bc,Y,N,N,FFT 0.0483 correctly reported as slightly above threshold; no visible artifact
+b4fed0ea2cc4,Y,N,N,FFT 0.0525 quoted correctly; night frames show no clear contradiction
+6e5878697549,Y,N,N,FFT 0.0531 correct; score 2 follows; lane text slightly odd but not decisive
+b8b70102deb2,Y,N,N,FFT 0.0421 correct; freeway frames show stable vehicles as claimed
+1b324ca65468,Y,N,N,FFT 0.0456 correct; skyline slightly smeared but not clearly artifactual
+e44f7a94b5b7,Y,N,N,FFT 0.0513 correct; blue car persists across frames as implied
+e26414e94f78,Y,N,N,FFT 0.0498 correct; gantry sign text gibberish but claim scoped to cars
+b7013a42e72f,Y,N,N,FFT 0.0587 correct; melted facade and wavy glass visible as described
+6e60eadedaec,Y,N,N,FFT 0.0653 correct; heavy morphing and vanishing white van visible
+d5be56fb619c,N,N,N,Says no visible artifacts yet scores 1 clearly impossible; evidence supports 2
+037d6286ba68,Y,N,N,FFT 0.0476 correct; gibberish gantry text unmentioned but answer unaffected
+69fb26cadb4b,Y,Y,N,Claims markings plausible and scores 3; overhead sign reads NO STOPPINS gibberish
+f72c35527de4,Y,Y,N,Says no shape change; frames 5-6 show smeared warped vehicles beside ego
+5268ca8660bf,Y,Y,N,Says no obvious artifacts; taxi door text gibberish and roof sign morphs
+98830bc54c57,Y,N,N,FFT 0.0529 correct; score 2 follows; nothing in frames flatly contradicted
+fe9fb63a1285,Y,N,N,FFT 0.0484 correct; claim scoped to car clips; frames not clearly contradictory
+e3e44ce86111,Y,Y,N,Says no wobbling/morphing; white minivan visibly deformed and ghosted at t=7-8
+68c2af616fe1,Y,N,N,FFT 0.0540 correct; generated-therefore-likely reasoning; truck exit explainable by ego motion
+6db403f64708,Y,N,N,FFT 0.0608 correct; frames clean; prior-based Yes is internally coherent
+1a40bf67d642,N,N,N,States no visible artifacts yet scores 1 clearly impossible; own evidence supports 2
+cb04fdb470f7,Y,N,N,FFT 0.0453 correct; lead car stable across frames as claimed
+44142f04b2ec,Y,N,N,FFT 0.0630 correct; cars too distant in sheet to check the claimed roof wobble
+96fa67cde006,Y,N,N,FFT 0.0529 correct; melting banners at t=6-7 unmentioned but claim scoped to cars
+5fa6c4a9d96a,Y,Y,N,Says no obvious artifacts; roadworker melts into a shapeless blob and barriers warp
+fc927a25197e,Y,N,N,FFT 0.0584 correct; storefront text garbled but claim limited to car masks
+ba66a4850834,Y,N,N,FFT 0.0689 correct; pedestrian overlap ambiguous; answer 2 follows from stated evidence
+26a84d311702,Y,N,N,FFT 0.0670 correct; passing vehicles change identity but forward traffic explains it
+23b5dd7bedcc,Y,N,N,FFT 0.0390 correct; sidewalk pedestrians plausibly exit frame under ego motion
+2286b87c4d51,Y,N,N,FFT 0.0449 correct; night taxis stay coherent across frames as claimed
+311d2896e72c,Y,N,N,FFT 0.0591 correct; generated-therefore-likely reasoning; smearing is motion blur
+d218a7063cc7,Y,N,N,FFT 0.0541 correct; parked-car street frames clean; no contradiction visible

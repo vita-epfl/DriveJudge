@@ -1,0 +1,74 @@
+item_id,consistent,false_claim,missed_event,note
+62e3a6b9f144,Y,N,N,
+83cf7a386c50,Y,N,N,
+44e6ba10e523,Y,N,N,
+ae60cfb0d0d6,Y,Y,Y,FFT mismatch 0.0477 vs actual 0.0556 gen; hand/red blob frames3-4 unmentioned
+fc64c0472dca,Y,Y,N,"FFT mismatch; hand/red-white object flashes frames3-4, contradicts 'no appear/disappear'"
+7f13970d51cb,Y,Y,Y,FFT mismatch 0.0477 vs actual 0.0556 gen; blob artifact frames3-4 omitted
+6ddfd80a41ae,Y,N,N,
+186b7cc36de9,Y,N,N,
+838fc2cac22c,Y,N,N,
+7f750aac8356,Y,N,N,
+1f1f07ecee97,Y,N,N,
+90c3bcc0434d,Y,N,N,
+159bbff8e056,Y,N,N,
+750852c291a7,Y,N,N,
+5ff39a6ccc02,Y,N,N,
+e64167ae1f97,Y,N,N,
+23b5dd7bedcc,Y,N,N,
+5133d54ac77f,Y,N,N,
+66ec39f9577b,Y,N,N,
+484b36a10322,Y,N,N,
+66574bba8411,Y,Y,N,FFT mismatch quoted 0.0396 vs actual 0.0553 (generated)
+98b284b4f622,Y,Y,N,FFT mismatch quoted 0.0396 vs actual 0.0553 (generated)
+a355b90364c1,Y,Y,N,FFT mismatch quoted 0.0396 vs actual 0.0553 (generated)
+2f805e2da62d,Y,N,N,
+d38eb577ba8d,Y,N,N,
+07f063882f92,Y,N,N,
+aa1b7d59a99f,Y,Y,N,"door opens smoothly (person exiting), not a rigidity violation/impossible event"
+0505132c437d,Y,N,N,
+2f0f58801b7b,Y,N,N,
+13b275b75cdb,Y,N,N,
+3fc7648f2244,Y,N,N,
+3c1426119b50,Y,Y,N,FFT mismatch quoted 0.0380 vs actual 0.0549 (generated)
+13eda8a9def6,Y,Y,N,FFT mismatch quoted 0.0380 vs actual 0.0549 (generated)
+28461d93b01e,Y,Y,N,FFT mismatch quoted 0.0380 vs actual 0.0549 (generated)
+05f0e6e6d8fb,Y,Y,N,FFT mismatch quoted 0.0380 vs actual 0.0549 (generated)
+c555097bafc1,Y,N,N,
+240911cd0d06,Y,Y,N,"claims red car 'appears on left' but it's on right, grows gradually not suddenly"
+def6f5a8d6e8,Y,N,N,
+286746f8d670,Y,N,N,
+67ad1cd4a720,Y,N,N,
+ba497980394a,Y,N,N,
+f332876e1b6d,N,N,N,own text says 'indistinguishable from real' (=3) but answer given is 2
+5a57082e194c,Y,N,N,
+df16812335ec,Y,N,N,
+df87284c8f66,Y,N,N,
+4bd557f4409d,Y,N,N,
+699ce8dfda8a,Y,Y,N,taxi grotesquely oversized/warped frames3-4; pod-shaped car frames5-8; contradicts 'no artifacts'
+c9e73167fe74,Y,Y,N,"taxi visibly warped/oversized frames3-4, contradicts 'no obvious artifacts'"
+42610cccf3f4,Y,N,N,
+958a02000cfc,Y,Y,N,"taxi fills frame then vanishes entirely by frame5, contradicts 'no object disappears'"
+5457137ab679,Y,N,N,
+12fa91188542,N,N,N,reasoning concludes 'no direct shape changes observed' yet answers Yes
+3cf2ce3e26db,Y,N,N,
+db367b37c1bf,N,N,N,reasoning says 'no evidence of sudden appearance/disappearance' yet answers Yes
+25c71865811d,Y,N,N,
+f02c132fc1fd,Y,N,N,
+e93575f9eb95,Y,N,N,
+bc52905e047f,Y,N,N,
+4abd9acbb6eb,Y,N,Y,"unexplained gibberish-text black box flashes frame1 only; unmentioned, could lower score"
+f6033284a58a,Y,N,N,
+f8b63a43143c,Y,N,N,
+1fa02719ef1c,N,Y,N,text says 'no objects appear/disappear' yet answers Yes; frame1 box glitch appears/vanishes
+16502e45d4d8,Y,Y,N,"FFT mismatch quoted 0.0442 vs actual 0.0578 (generated, high conf)"
+162413e72d49,Y,Y,N,"FFT mismatch quoted 0.0442 vs actual 0.0578 (generated, high conf)"
+ffbf15513f94,Y,Y,N,"FFT mismatch quoted 0.0442 vs actual 0.0578 (generated, high conf)"
+cafc2dd298fc,Y,Y,N,"FFT mismatch quoted 0.0442 vs actual 0.0578 (generated, high conf)"
+be57de608399,Y,N,N,
+545d0f28ac94,Y,N,N,
+b19a1d5d6052,Y,N,N,
+fb520af136e6,Y,N,N,
+7d54c1be4f35,Y,N,Y,"abrupt overcast-to-sun lighting flip (frames6-8) unmentioned, relevant to realism"
+02768da7b66e,Y,N,N,
+926e16939967,N,N,N,"reasoning only describes shape/rigidity violations, doesn't address appear/disappear question"

@@ -1,0 +1,121 @@
+item_id,consistent,false_claim,missed_event,note
+aa6699b07ad3,Y,N,N,
+47df8a0d8d43,Y,N,N,
+781835a0e822,Y,Y,N,"frames show apparent pause near STOP line before proceeding, not continuous run-through"
+8c0a105cb36f,Y,Y,N,"frames show apparent pause near STOP line, contra claim car never stopped"
+1acb2f412796,Y,N,N,
+76d434acdb79,Y,N,N,
+02d4d1c4ec7b,Y,Y,N,"frames show continued approach to STOP marking through last frame, no completed stop shown"
+4c613ec99aaf,Y,N,N,
+a06f2d21e985,Y,N,N,
+b13cbbd3c7b3,Y,N,N,
+102fe275b941,Y,N,N,
+bb80f97c2740,Y,N,N,
+25ba779e22bb,Y,Y,N,"frames show continuous approach to STOP line, no discrete full stop visible"
+00497e750d97,Y,N,N,
+8508618bec37,Y,N,N,
+04039ebf47db,Y,N,N,
+846fa48009bd,Y,N,N,
+41af51e91636,Y,Y,N,"frames show continuous approach through STOP line, no stop shown before proceeding"
+5a3a01d69ae3,Y,Y,N,"frames 1-4 show near-static framing consistent with a pause/stop, contra continuous run-through claim"
+d1fbea4b7720,Y,N,N,
+fe5a29964013,Y,Y,N,"claims a red light is present; no traffic light visible in any frame, only a stop sign"
+1044815960aa,Y,N,N,
+18fb456ec5db,Y,N,N,
+8a793fa020eb,Y,N,N,
+42d744c0d258,Y,N,N,
+33602b77d202,Y,Y,N,"quotes anisotropy 0.0548, actual is 0.0522"
+ed39ec38b5fc,Y,N,N,
+267644633b3b,Y,Y,N,"quotes anisotropy 0.0548, actual is 0.0522"
+418011ed8d97,Y,N,N,
+e506e517e9be,Y,N,N,
+33f40c1294f7,Y,N,N,
+753bb283c9dd,Y,N,N,
+a2b4b3664be3,Y,Y,N,"frames 1-4 show near-static framing consistent with a pause/stop, contra claim car clearly never stopped"
+cc9e57cf5d01,Y,Y,N,"frames 1-4 show near-static framing consistent with a pause/stop, contra continuous run-through claim"
+7d390542a2d9,Y,N,N,
+7e3d0e03abae,Y,N,N,
+55340ac80d02,Y,N,N,
+469b25caf09e,Y,Y,N,"frames 1-4 show near-static framing consistent with a pause/stop, contra claim of no stop"
+3b4bc6b66577,Y,N,N,
+337e6c912492,Y,Y,N,"frames 1-4 show near-static framing consistent with a pause/stop, contra claim car has not stopped"
+6c2651df622f,Y,N,N,
+c585d2bc319c,Y,N,N,
+f1f540576f13,Y,N,N,
+5d5d4f4db14c,Y,Y,N,"STOP marking stays near-constant size/position across all frames, suggesting car stayed at line rather than passing through"
+ac21ece0e67e,Y,N,N,
+bd0e67409f22,Y,Y,N,"STOP marking stays near-constant size/position across all frames, contra claim car did not stop"
+ee6d64cb3962,Y,N,N,
+1c4aa125842e,Y,N,N,
+2f2b0815df67,Y,Y,N,"frames show continuous approach/crossing of STOP line, no discrete full stop visible"
+7d70d00f8d9e,Y,N,N,
+54caf7607cf4,Y,N,N,
+dbbc7f565652,Y,N,N,
+dfe9a72d4ca8,Y,N,N,
+bce62fef96a9,Y,Y,N,"frames show continuous crossing of STOP line, no evidence of a complete stop before it"
+ebf6191c5146,Y,N,N,
+baf8f1ee67ae,Y,N,N,
+2caf21238986,Y,N,N,
+71831dab826e,Y,N,N,
+3d2ca63ce870,Y,N,N,
+a5b1c537e483,Y,N,N,
+2d3f507f7be2,Y,N,N,
+2c75a6bc9942,Y,N,N,
+d42ff586cd7b,Y,N,N,
+dde27018147e,Y,N,N,
+be0fa34583b8,Y,N,N,
+11d5197fe440,Y,Y,N,"frames show continuous progression through the STOP line, no evidence car actually stopped at the sign"
+3f9c044dd986,Y,N,N,
+6ee1b436cd8f,Y,N,N,
+54191532349f,Y,Y,N,"frames show continuous progression through STOP line, no evidence of the car stopping"
+76c8f6eedeb2,Y,N,N,
+449f43052288,Y,N,N,
+733ed066d72b,Y,Y,N,claims original video shows car stationary; frames instead show continuous progression through the STOP line
+0575f62bf2e0,Y,N,N,
+be885b311f2e,Y,Y,N,frames show continuous zoom onto STOP sign with no visible pause before it
+4afd278de080,Y,Y,N,"frames show continuous approach to STOP sign, no visible complete stop before proceeding"
+85d43e9f4f82,Y,N,N,
+621fdd54dc08,Y,N,N,
+1e968afd7488,Y,N,N,
+6dc74bf7fde9,Y,Y,N,claims severe rigidity violations/melting on cars; visible cars in frames show no such distortion
+8c895f03183f,Y,N,N,
+cab1a9893f97,Y,N,N,
+8403045d11fd,Y,N,N,
+eea9f203446d,Y,N,N,
+45af77d22ab8,Y,N,N,
+c5e943d6adde,Y,N,N,
+13190c805415,Y,N,N,
+67e68562e20d,Y,Y,N,"frames show rapid continuous approach and passing of STOP sign, no visible pause/stop"
+c3b143c628bd,Y,N,N,
+af422254ea05,Y,N,N,
+1fd5ddd25dd6,Y,N,N,
+e819c91600b9,Y,N,Y,"road STOP marking is misspelled 'STTOP' in frame 1, a clear artifact not mentioned"
+181ca55e5379,Y,Y,N,"STOP sign grows rapidly close within 2 frames with no plateau, no evidence of stopping"
+d7d537d03751,Y,N,N,
+fc50e098fc14,Y,N,N,
+a9146cefc07f,Y,N,N,
+78980fd6592e,Y,Y,N,claims car proceeds after stopping; frames show rapid continuous approach with no visible stop
+42a27493f46c,Y,Y,N,"frames show rapid continuous approach to STOP sign, no evidence of a complete stop"
+a632e79a1b43,Y,N,N,
+d38e183fbfe0,Y,N,N,
+0bb1a320a3da,Y,N,N,
+c9ee1da092d0,Y,N,N,
+8980b2d2d207,Y,Y,N,"frames show rapid continuous approach to STOP line, no evidence of a complete stop"
+51572a8a2f55,Y,N,N,
+69daa91e0670,Y,Y,N,"frames show rapid continuous approach/pass of STOP sign, no evidence of stopping"
+162f06b62806,Y,N,N,
+749a2cb4f5e8,Y,N,N,
+c68b357e118b,Y,N,N,
+ae50030e9853,Y,N,N,
+b766e0d0509d,Y,Y,N,"claims a traffic light turns green; no traffic light visible in any frame, only a stop sign; no visible stop either"
+0aecb44b54f2,Y,N,N,
+57b6a3dfacc4,Y,N,N,
+5e6a6efd4eaf,Y,N,N,
+9a8232cf677a,Y,N,N,
+afcb064d012c,Y,Y,N,"frames show continuous approach/pass of STOP line, no evidence car stopped"
+fe2dd7e0f9f9,Y,N,N,
+87bf85e45c52,Y,N,N,
+0fcd6ec00328,Y,N,N,
+bbf3369975c3,Y,N,N,
+e20dc1b62628,Y,Y,N,"claims warping/distortion of the blue van; van appears normal in frames, no visible warping"
+913375123504,Y,Y,N,"frames show rapid continuous approach/pass of STOP sign, no evidence of stopping"

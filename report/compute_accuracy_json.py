@@ -1,63 +1,52 @@
 """Compute per-model accuracy + mean inference time and emit two JSON files.
 
-- models-accuracy.json: all timed models + GPT-5.4-mini
-- accuracy-vs-time.json: all timed models (GPT excluded)
+- report/models-accuracy.json:  all 10 evaluated systems (8 in-house + GPT-5.4-mini + Gemini-3-Flash)
+- report/accuracy-vs-time.json: the 8 in-house systems, which are the only ones
+  with a measured `inference_time` (the closed-source runs go through batch APIs)
 
-For the base-model timing parquets, `vlm_answer` still contains the full raw
-"Feedback:::...Answer: X" output — we extract the answer the same way
-analysis/answer_analysis.py does before comparing to `ground_truth`.
-Agent parquets (v4o, v4p) already store a clean vlm_answer, and GPT's parquet
-already has a `correct` column.
+Everything is read straight from `results/*_analyzed.parquet`; the `correct`
+column there is authoritative (regenerate it with `report/run_analysis.py`,
+which re-extracts `vlm_answer` from `raw_output` and writes it back). No answer
+re-parsing happens here.
 """
 import json
-import re
 from pathlib import Path
 
 import polars as pl
 
-RESULTS_DIR = Path("/home/matthieu/Documents/Projet de master/VLM-eval-rcp/to_be_copied/results")
-OUT_DIR = Path("/home/matthieu/Documents/Projet de master/VLM-eval-rcp")
+ROOT = Path(__file__).resolve().parents[1]
+RESULTS_DIR = ROOT / "results"
+OUT_DIR = ROOT / "report"
 
-# file stem -> (display name, category, needs_answer_extraction)
-MODEL_MAP = {
-    "Qwen3VL_analyzed":          ("Qwen3-VL",         "base",  True),
-    "Qwen_omni_analyzed":        ("Qwen-Omni",        "base",  True),
-    "llava_onevision_analyzed":  ("LLaVA-OneVision",  "base",  True),
-    "Cosmos_Reason_analyzed":    ("Cosmos-Reason",    "base",  True),
-    "InternVL3_5-8B_analyzed":   ("InternVL3.5-8B",   "base",  True),
-    "InternVL3_5-30B_analyzed":  ("InternVL3.5-30B",  "base",  True),
-    "v4o_analyzed":              ("Agent v4o",        "agent", False),
-    "v4p_analyzed":              ("Agent v4p",        "agent", False),
+# In-house, timed models. file stem -> (display name, category)
+# Display names follow the HF checkpoints actually evaluated, see
+# src/evaluation/open_source/eval_*.py.
+TIMED_MODELS = {
+    "Qwen3VL_analyzed":          ("Qwen3-VL-30B",     "base"),   # Qwen3-VL-30B-A3B-Instruct
+    "Qwen_omni_analyzed":        ("Qwen3-Omni-30B",   "base"),   # Qwen3-Omni-30B-A3B-Instruct
+    "llava_onevision_analyzed":  ("LLaVA-OneVision",  "base"),
+    "Cosmos_Reason_analyzed":    ("Cosmos-Reason",    "base"),
+    "InternVL3_5-8B_analyzed":   ("InternVL3.5-8B",   "base"),
+    "InternVL3_5-30B_analyzed":  ("InternVL3.5-30B",  "base"),
+    "v4o_analyzed":              ("Agent v4o",        "agent"),
+    "v4p_analyzed":              ("Agent v4p",        "agent"),
 }
 
-ANSWER_RE = re.compile(r"Answer:\s*(.*?)(?:\s*<\|im_end\|>|$|\n)", re.DOTALL)
-
-
-def extract_answer(raw: str) -> str:
-    if raw is None:
-        return ""
-    m = ANSWER_RE.search(raw)
-    return m.group(1).strip().capitalize() if m else ""
+# Closed-source models: accuracy only, no comparable wall-clock time.
+CLOSED_MODELS = {
+    "GPT-5.4-mini_analyzed": "GPT-5.4-mini",
+    "Gemini_analyzed":       "Gemini-3-Flash",
+}
 
 
 accuracy_entries = []
 point_entries = []
 
-for stem, (display_name, category, needs_extract) in MODEL_MAP.items():
+for stem, (display_name, category) in TIMED_MODELS.items():
     df = pl.read_parquet(RESULTS_DIR / f"{stem}.parquet")
 
-    if needs_extract:
-        parsed = [extract_answer(x) for x in df["vlm_answer"].to_list()]
-        gt = df["ground_truth"].to_list()
-        correct_list = [p == g for p, g in zip(parsed, gt)]
-        acc = sum(correct_list) / len(correct_list) * 100
-    else:
-        acc = df["correct"].cast(pl.Int64).mean() * 100
-
-    mean_time = df["inference_time"].mean()
-
-    accuracy = round(acc, 1)
-    time_s = round(mean_time, 2)
+    accuracy = round(df["correct"].cast(pl.Int64).mean() * 100, 1)
+    time_s = round(df["inference_time"].mean(), 2)
 
     accuracy_entries.append({"name": display_name, "accuracy": accuracy, "highlight": False})
     point_entries.append({
@@ -68,9 +57,10 @@ for stem, (display_name, category, needs_extract) in MODEL_MAP.items():
         "highlight": False,
     })
 
-gpt = pl.read_parquet(RESULTS_DIR / "gpt_results_enriched.parquet")
-gpt_acc = round(gpt["correct"].cast(pl.Int64).mean() * 100, 1)
-accuracy_entries.append({"name": "GPT-5.4-mini", "accuracy": gpt_acc, "highlight": False})
+for stem, display_name in CLOSED_MODELS.items():
+    df = pl.read_parquet(RESULTS_DIR / f"{stem}.parquet")
+    accuracy = round(df["correct"].cast(pl.Int64).mean() * 100, 1)
+    accuracy_entries.append({"name": display_name, "accuracy": accuracy, "highlight": False})
 
 accuracy_entries.sort(key=lambda e: e["accuracy"])
 point_entries.sort(key=lambda e: e["accuracy"])
