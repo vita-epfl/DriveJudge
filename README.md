@@ -45,11 +45,8 @@ To address this, we propose **DriveJudge**, a training-free tool-augmented VLM j
 | LLaVA-OneVision-7B | 23.9 % |
 | Qwen3-VL-30B | 21.9 % |
 
-*Overall accuracy on the 7,371 video–question pairs. 🔒 = closed-source API model (scored on the
-7,240–7,282 pairs their APIs answered); 🤖 = our tool-augmented judge. Per-model outputs are in
+*Overall accuracy on the 7,371 video–question pairs. 🔒 = closed-source API model; 🤖 = our tool-augmented judge. Per-model outputs are in
 [`results/`](results/); see [`analysis_notebooks/`](analysis_notebooks/) for the breakdowns.
-The DriveJudge row comes from a rerun with a corrected system prompt; `results/v4o_analyzed.parquet`
-is the original run (60.1 %).*
 
 </div>
 
